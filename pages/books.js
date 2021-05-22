@@ -11,7 +11,7 @@ export default function About() {
     </Head>
     <section className={utilStyles.headingMd}>
     <h1 className={utilStyles.headingXl}>Books I've Written</h1>
-      <p>Writing is a passion of mine, here are my published books. Most are co-authored with my wife, Audrey.</p>
+      <p>Writing is a passion of mine. Here are my published books. Most are co-authored with my wife, Audrey.</p>
 
       <ul className={utilStyles.list}>
         <li className={utilStyles.listItem}>
