@@ -1,0 +1,615 @@
+{"redirects": [
+        {
+          "source": "25-percent-bitcoin-sale-two-scoops-of-django.html",
+          "destination": "25-percent-bitcoin-sale-two-scoops-of-django"
+        },
+        {
+          "source": "resolutions-2018.html",
+          "destination": "resolutions-2018"
+        },
+        {
+          "source": "using-executable-code-outside-version-control.html",
+          "destination": "using-executable-code-outside-version-control"
+        },
+        {
+          "source": "hola-pycon-colombia.html",
+          "destination": "hola-pycon-colombia"
+        },
+        {
+          "source": "when-to-use-mongodb-with-django.html",
+          "destination": "when-to-use-mongodb-with-django"
+        },
+        {
+          "source": "drf-jwt-axios-vue.html",
+          "destination": "drf-jwt-axios-vue"
+        },
+        {
+          "source": "manual-schema-django-rest-framework.html",
+          "destination": "manual-schema-django-rest-framework"
+        },
+        {
+          "source": "writing-new-blog-engine.html",
+          "destination": "writing-new-blog-engine"
+        },
+        {
+          "source": "two-scoops-of-django-3.x-released.html",
+          "destination": "2020-05-11-two-scoops-of-django-3.x"
+        },
+        {
+          "source": "its-the-weekend-lets-code-a-python-project.html",
+          "destination": "2020-08-20-practical-python-projects"
+        },
+        {
+          "source": "improving-audio-recording-with-streamlabs.html",
+          "destination": "2020-08-12-improving-audio-recording-with-streamlabs"
+        },
+        {
+          "source": "thoughts-on-go.html",
+          "destination": "2020-10-20-thoughts-on-go"
+        },
+        {
+          "source": "live-instruction-django-crash-course-july-2020.html",
+          "destination": "2020-07-02-live-instruction-django-crash-course-july-2020"
+        },
+        {
+          "source": "feed-generator.html",
+          "destination": "2020-01-30-feed-generator"
+        },
+        {
+          "source": "adding-metadata-to-pdfs.html",
+          "destination": "2020-02-28-adding-metadata-to-pdfs"
+        },
+        {
+          "source": "2019-recap-2020-resolutions.html",
+          "destination": "2020-01-09-recap-2019-resolutions-2020"
+        },
+        {
+          "source": "eulogy-for-my-father-ted-greenfeld.html",
+          "destination": "2020-05-16-eulogy-for-my-father-ted-greenfeld"
+        },
+        {
+          "source": "django-slug-and-id-url-design.html",
+          "destination": "2020-05-19-django-slug-and-id-url-design"
+        },
+        {
+          "source": "crash-into-django.html",
+          "destination": "2020-02-10-crash-into-django"
+        },
+        {
+          "source": "august-2020-courses.html",
+          "destination": "2020-08-11-august-2020-courses"
+        },
+        {
+          "source": "pretty-formatting-json-django-admin.html",
+          "destination": "pretty-formatting-json-django-admin"
+        },
+        {
+          "source": "code-code-code.html",
+          "destination": "code-code-code"
+        },
+        {
+          "source": "using-python-and-google-docs-to-build-books.html",
+          "destination": "using-python-and-google-docs-to-build-books"
+        },
+        {
+          "source": "two-scoops-of-django-1-11-printed.html",
+          "destination": "two-scoops-of-django-1-11-printed"
+        },
+        {
+          "source": "two-scoops-of-django-birthday-giveaway.html",
+          "destination": "two-scoops-of-django-birthday-giveaway"
+        },
+        {
+          "source": "python-f-strings-are-fun.html",
+          "destination": "python-f-strings-are-fun"
+        },
+        {
+          "source": "two-scoops-of-django-1-11.html",
+          "destination": "two-scoops-of-django-1-11"
+        },
+        {
+          "source": "git-cheatsheet.html",
+          "destination": "2021-03-01-git-cheatsheet"
+        },
+        {
+          "source": "recap-2020-resolutions-2021.html",
+          "destination": "2021-01-26-recap-2020-resolutions-2021"
+        },
+        {
+          "source": "git-cheatsheet.html",
+          "destination": "2021-03-26-frontend-dev-resources"
+        },
+        {
+          "source": "git-cheatsheet.html",
+          "destination": "2021-04-09-switching-vscode-terminals"
+        },
+        {
+          "source": "meeting-python-devs-in-cancun.html",
+          "destination": "meeting-python-devs-in-cancun"
+        },
+        {
+          "source": "moving-to-vuepress.html",
+          "destination": "moving-to-vuepress"
+        },
+        {
+          "source": "my-markdown-code-snippet-tester.html",
+          "destination": "my-markdown-code-snippet-tester"
+        },
+        {
+          "source": "ten-years-ago-today.html",
+          "destination": "ten-years-ago-today"
+        },
+        {
+          "source": "thoughts-on-kotlin.html",
+          "destination": "thoughts-on-kotlin"
+        },
+        {
+          "source": "resolution-summary.html",
+          "destination": "resolution-summary"
+        },
+        {
+          "source": "thoughts-on-my-stack.html",
+          "destination": "thoughts-on-my-stack"
+        },
+        {
+          "source": "you-should-heroku.html",
+          "destination": "you-should-heroku"
+        },
+        {
+          "source": "i-use-this.html",
+          "destination": "i-use-this"
+        },
+        {
+          "source": "announcing-pycon-philippines.html",
+          "destination": "announcing-pycon-philippines"
+        },
+        {
+          "source": "django-update-view-no-slug.html",
+          "destination": "django-update-view-no-slug"
+        },
+        {
+          "source": "python-dictionary-vs-javascript-object.html",
+          "destination": "python-dictionary-vs-javascript-object"
+        },
+        {
+          "source": "july-la-open-source-recap.html",
+          "destination": "july-la-open-source-recap"
+        },
+        {
+          "source": "curiosity-has-landed.html",
+          "destination": "curiosity-has-landed"
+        },
+        {
+          "source": "django-email-form-recaptcha.html",
+          "destination": "django-email-form-recaptcha"
+        },
+        {
+          "source": "parsing-mongodb-uri.html",
+          "destination": "parsing-mongodb-uri"
+        },
+        {
+          "source": "launching-our-api-at-pycon-2012.html",
+          "destination": "launching-our-api-at-pycon-2012"
+        },
+        {
+          "source": "may-la-open-source-recap.html",
+          "destination": "may-la-open-source-recap"
+        },
+        {
+          "source": "new-years-python-meme.html",
+          "destination": "new-years-python-meme"
+        },
+        {
+          "source": "simple-basic-auth-wall.html",
+          "destination": "simple-basic-auth-wall"
+        },
+        {
+          "source": "pycon-philippines-day-1.html",
+          "destination": "pycon-philippines-day-1"
+        },
+        {
+          "source": "css-hacking.html",
+          "destination": "css-hacking"
+        },
+        {
+          "source": "choosing-api-framework-for-django.html",
+          "destination": "choosing-api-framework-for-django"
+        },
+        {
+          "source": "developer-time.html",
+          "destination": "developer-time"
+        },
+        {
+          "source": "deadline-for-djangocon-financial-aid-request.html",
+          "destination": "deadline-for-djangocon-financial-aid-request"
+        },
+        {
+          "source": "la-open-source-5.html",
+          "destination": "la-open-source-5"
+        },
+        {
+          "source": "casestudy-urls.html",
+          "destination": "casestudy-urls"
+        },
+        {
+          "source": "djangocon-europe.html",
+          "destination": "djangocon-europe"
+        },
+        {
+          "source": "my-pycon-2012-schedule.html",
+          "destination": "my-pycon-2012-schedule"
+        },
+        {
+          "source": "2013-resolutions.html",
+          "destination": "2013-resolutions"
+        },
+        {
+          "source": "two-years-ago-today.html",
+          "destination": "two-years-ago-today"
+        },
+        {
+          "source": "calendar-about-nothing.html",
+          "destination": "calendar-about-nothing"
+        },
+        {
+          "source": "pycon-australia-2011-review.html",
+          "destination": "pycon-australia-2011-review"
+        },
+        {
+          "source": "django-reqs.html",
+          "destination": "django-reqs"
+        },
+        {
+          "source": "thoughts-on-ranting.html",
+          "destination": "thoughts-on-ranting"
+        },
+        {
+          "source": "get-or-create-view.html",
+          "destination": "get-or-create-view"
+        },
+        {
+          "source": "choosing-a-new-blog-engine.html",
+          "destination": "choosing-a-new-blog-engine"
+        },
+        {
+          "source": "10-reasons-djangocon-europe.html",
+          "destination": "10-reasons-djangocon-europe"
+        },
+        {
+          "source": "installing-pycairo-on-mac-osx.html",
+          "destination": "installing-pycairo-on-mac-osx"
+        },
+        {
+          "source": "sorry-state-python-oauth-providers.html",
+          "destination": "sorry-state-python-oauth-providers"
+        },
+        {
+          "source": "pycon-philippines-day-2.html",
+          "destination": "pycon-philippines-day-2"
+        },
+        {
+          "source": "selected-for-pycon-startup-row.html",
+          "destination": "selected-for-pycon-startup-row"
+        },
+        {
+          "source": "public-service-message.html",
+          "destination": "public-service-message"
+        },
+        {
+          "source": "la-migrahack-charts.html",
+          "destination": "la-migrahack-charts"
+        },
+        {
+          "source": "need-more-pycon-submissions.html",
+          "destination": "need-more-pycon-submissions"
+        },
+        {
+          "source": "stay-with-cbv-defaults.html",
+          "destination": "stay-with-cbv-defaults"
+        },
+        {
+          "source": "django-uni-form-end-of-life.html",
+          "destination": "django-uni-form-end-of-life"
+        },
+        {
+          "source": "python-dictionary-as-class.html",
+          "destination": "python-dictionary-as-class"
+        },
+        {
+          "source": "attaching-custom-exceptions-to-functions-and-classes.html",
+          "destination": "attaching-custom-exceptions-to-functions-and-classes"
+        },
+        {
+          "source": "pycon-2013-talks-tutorials-i-want-to-see.html",
+          "destination": "pycon-2013-talks-tutorials-i-want-to-see"
+        },
+        {
+          "source": "django-reqs-redux.html",
+          "destination": "django-reqs-redux"
+        },
+        {
+          "source": "los-angeles-sprint.html",
+          "destination": "los-angeles-sprint"
+        },
+        {
+          "source": "tried-out-jekyll.html",
+          "destination": "tried-out-jekyll"
+        },
+        {
+          "source": "simple-django-email-form.html",
+          "destination": "simple-django-email-form"
+        },
+        {
+          "source": "phasing-out-django-packages-apiv1-apiv2.html",
+          "destination": "phasing-out-django-packages-apiv1-apiv2"
+        },
+        {
+          "source": "markup-language-faceoff-lists.html",
+          "destination": "markup-language-faceoff-lists"
+        },
+        {
+          "source": "why-doesnt-python-have-switch-case.html",
+          "destination": "why-doesnt-python-have-switch-case"
+        },
+        {
+          "source": "setting-up-latex-on-mac-os-x.html",
+          "destination": "setting-up-latex-on-mac-os-x"
+        },
+        {
+          "source": "building-conda-packages-for-multiple-operating-systems.html",
+          "destination": "building-conda-packages-for-multiple-operating-systems"
+        },
+        {
+          "source": "how-to-create-installable-django-packages.html",
+          "destination": "how-to-create-installable-django-packages"
+        },
+        {
+          "source": "two-scoops-of-django-1-8.html",
+          "destination": "two-scoops-of-django-1-8"
+        },
+        {
+          "source": "punchline.html",
+          "destination": "punchline"
+        },
+        {
+          "source": "titlecasing-markdown-headers-with-python.html",
+          "destination": "titlecasing-markdown-headers-with-python"
+        },
+        {
+          "source": "python-decorator-cheatsheet.html",
+          "destination": "python-decorator-cheatsheet"
+        },
+        {
+          "source": "django-girls-ensenada-2015.html",
+          "destination": "django-girls-ensenada-2015"
+        },
+        {
+          "source": "intensive-django-training-us-air-force.html",
+          "destination": "intensive-django-training-us-air-force"
+        },
+        {
+          "source": "cached-property.html",
+          "destination": "cached-property"
+        },
+        {
+          "source": "two-scoops-of-goblins.html",
+          "destination": "two-scoops-of-goblins"
+        },
+        {
+          "source": "building-maintaining-scaling-projects.html",
+          "destination": "building-maintaining-scaling-projects"
+        },
+        {
+          "source": "i-married-audrey-roy.html",
+          "destination": "i-married-audrey-roy"
+        },
+        {
+          "source": "python-dot-py-tricks.html",
+          "destination": "python-dot-py-tricks"
+        },
+        {
+          "source": "barcamp-django-sf.html",
+          "destination": "barcamp-django-sf"
+        },
+        {
+          "source": "new-years-resolutions-for-2014.html",
+          "destination": "new-years-resolutions-for-2014"
+        },
+        {
+          "source": "adding-django-form-instance-attributes.html",
+          "destination": "adding-django-form-instance-attributes"
+        },
+        {
+          "source": "beginners-guide-pycon-2014.html",
+          "destination": "beginners-guide-pycon-2014"
+        },
+        {
+          "source": "awesome-slugify-human-readable-url-slugs-from-any-string-2.html",
+          "destination": "awesome-slugify-human-readable-url-slugs-from-any-string-2"
+        },
+        {
+          "source": "fiction-vs-non-fiction.html",
+          "destination": "fiction-vs-non-fiction"
+        },
+        {
+          "source": "want-to-work-for-eventbrite.html",
+          "destination": "want-to-work-for-eventbrite"
+        },
+        {
+          "source": "new-years-resolutions-2015.html",
+          "destination": "new-years-resolutions-2015"
+        },
+        {
+          "source": "awesome-slugify-human-readable-url-slugs-from-any-string.html",
+          "destination": "awesome-slugify-human-readable-url-slugs-from-any-string"
+        },
+        {
+          "source": "pytest-no-boilerplate-testing-2.html",
+          "destination": "pytest-no-boilerplate-testing-2"
+        },
+        {
+          "source": "pytest-no-boilerplate-testing-3.html",
+          "destination": "pytest-no-boilerplate-testing-3"
+        },
+        {
+          "source": "homemade-pumpkin-puree.html",
+          "destination": "homemade-pumpkin-puree"
+        },
+        {
+          "source": "surgery-in-two-days.html",
+          "destination": "surgery-in-two-days"
+        },
+        {
+          "source": "want-to-work-for-eventbrite-2.html",
+          "destination": "want-to-work-for-eventbrite-2"
+        },
+        {
+          "source": "jinja2-quick-load-function.html",
+          "destination": "jinja2-quick-load-function"
+        },
+        {
+          "source": "python-partials-are-fun.html",
+          "destination": "python-partials-are-fun"
+        },
+        {
+          "source": "docstrings-and-various-python-objects.html",
+          "destination": "docstrings-and-various-python-objects"
+        },
+        {
+          "source": "pytest-no-boilerplate-testing.html",
+          "destination": "pytest-no-boilerplate-testing"
+        },
+        {
+          "source": "announcing-two-scoops-of-django-1.6.html",
+          "destination": "announcing-two-scoops-of-django-1.6"
+        },
+        {
+          "source": "memories-of-malcolm.html",
+          "destination": "memories-of-malcolm"
+        },
+        {
+          "source": "hola-argentina.html",
+          "destination": "hola-argentina"
+        },
+        {
+          "source": "europython-django-intro.html",
+          "destination": "europython-django-intro"
+        },
+        {
+          "source": "travel-tips-for-geeks-preventing-theft.html",
+          "destination": "travel-tips-for-geeks-preventing-theft"
+        },
+        {
+          "source": "experiences-with-django-python3.html",
+          "destination": "experiences-with-django-python3"
+        },
+        {
+          "source": "filepicker-and-south.html",
+          "destination": "filepicker-and-south"
+        },
+        {
+          "source": "20130410-history-of-my-most-used-shell-commands.html",
+          "destination": "20130410-history-of-my-most-used-shell-commands"
+        },
+        {
+          "source": "cookie-project-templates-made-easy.html",
+          "destination": "cookie-project-templates-made-easy"
+        },
+        {
+          "source": "overloading-form-fields.html",
+          "destination": "overloading-form-fields"
+        },
+        {
+          "source": "fixing-pythons-string-class.html",
+          "destination": "fixing-pythons-string-class"
+        },
+        {
+          "source": "python-yields-are-fun.html",
+          "destination": "python-yields-are-fun"
+        },
+        {
+          "source": "dynow-2013-part-i.html",
+          "destination": "dynow-2013-part-i"
+        },
+        {
+          "source": "tools-we-used-to-write-2scoops.html",
+          "destination": "tools-we-used-to-write-2scoops"
+        },
+        {
+          "source": "easy-form-views-controversy.html",
+          "destination": "easy-form-views-controversy"
+        },
+        {
+          "source": "core-concepts-django-modelforms.html",
+          "destination": "core-concepts-django-modelforms"
+        },
+        {
+          "source": "beginners-guide-pycon-2013-part-2.html",
+          "destination": "beginners-guide-pycon-2013-part-2"
+        },
+        {
+          "source": "exceptions-as-decorator-arguments.html",
+          "destination": "exceptions-as-decorator-arguments"
+        },
+        {
+          "source": "beginners-guide-pycon-2013-part-3.html",
+          "destination": "beginners-guide-pycon-2013-part-3"
+        },
+        {
+          "source": "wiring-up-django-packages-pycon2013.html",
+          "destination": "wiring-up-django-packages-pycon2013"
+        },
+        {
+          "source": "our-django-book-is-launched.html",
+          "destination": "our-django-book-is-launched"
+        },
+        {
+          "source": "generating-ncx-files-with-python.html",
+          "destination": "generating-ncx-files-with-python"
+        },
+        {
+          "source": "two-scoops-of-django-is-in-print.html",
+          "destination": "two-scoops-of-django-is-in-print"
+        },
+        {
+          "source": "meme.html",
+          "destination": "meme"
+        },
+        {
+          "source": "beginners-guide-pycon-2013-part-1.html",
+          "destination": "beginners-guide-pycon-2013-part-1"
+        },
+        {
+          "source": "we-are-not-using-paypal.html",
+          "destination": "we-are-not-using-paypal"
+        },
+        {
+          "source": "python-indie-bundle-cyber-monday.html",
+          "destination": "python-indie-bundle-cyber-monday"
+        },
+        {
+          "source": "two-scoops-beta-released.html",
+          "destination": "two-scoops-beta-released"
+        },
+        {
+          "source": "off-to-europe.html",
+          "destination": "off-to-europe"
+        },
+        {
+          "source": "travel-tips-for-geeks-living-cheaply.html",
+          "destination": "travel-tips-for-geeks-living-cheaply"
+        },
+        {
+          "source": "made-up-statistics.html",
+          "destination": "made-up-statistics"
+        },
+        {
+          "source": "core-concepts-django-forms.html",
+          "destination": "core-concepts-django-forms"
+        },
+        {
+          "source": "two-scoops-django-faq-20130121.html",
+          "destination": "two-scoops-django-faq-20130121"
+        }
+      ]
+}
