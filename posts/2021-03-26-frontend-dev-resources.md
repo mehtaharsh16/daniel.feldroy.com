@@ -14,6 +14,10 @@ type: post
 
 This will grow over time as I get more recommendations from trusted sources.
 
+# Next
+
+- [https://nextjs.org/](Next home page)
+
 # Responsive Web Design
 
 Paid:
