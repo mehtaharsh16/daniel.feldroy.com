@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout'
 
 export default function About() {
   return (
