@@ -38,7 +38,7 @@ A number of my books and articles link to content tags. I'll have them up later 
 
 ### What about comments?
 
-I've had Disqus on this blog for about 11 years. It's been the biggest slowdown for years, making dozens or hundreds of external calls. Also, I never liked that I didn't own the text on my own system.
+I've had Disqus on this blog for about 9 years. It's been the biggest slowdown for years, making dozens or hundreds of external calls. Also, I never liked that I didn't own the text on my own system.
 
 Besides, I already get pinged enough in social media and email. I don't need another distraction.
 
