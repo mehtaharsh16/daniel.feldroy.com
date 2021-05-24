@@ -34,7 +34,7 @@ It was so much fun to learn these tools, especially NextJS. They were relatively
 
 ### What about tags?
 
-A number of my books and articles link to content tags. I'm working on getting them to work.
+A number of my books and articles link to content tags. I'll have them up later this week.
 
 ### What about comments?
 

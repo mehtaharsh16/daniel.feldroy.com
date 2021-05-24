@@ -35,6 +35,12 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <section>
+          Tags:
+          {postData.tags.map((tag) => (
+          <>{' '}{tag}</>
+        ))}
+        </section>
       </article>
     </Layout>
   )
