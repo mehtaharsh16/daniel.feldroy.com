@@ -72,8 +72,7 @@ Octopus Energy taps into the same forces of capitalism as its predecessors. By s
 
 That's why I work at Octopus Energy: Because they are giving me the chance to use everything I've learned in my 24+ years of professional software development to build out [Kraken, our customer focus retail energy platform](https://octopusenergy.group/kraken-technologies). They have literally given me a chance to help save the planet for my daughter and all the other kids. 
 
-To summarize: I love working for Octopus because fighting climate change makes me feel like a superhero saving the planet. 
-
+The way I look at it, Octopus Energy has turned me into a superhero.
 ## Links
 
 To learn more about what Octopus is doing to save the world, [check out Octopus Energy Group](https://octopusenergy.group/).
