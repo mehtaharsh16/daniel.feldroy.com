@@ -34,7 +34,7 @@ Yet when I think about it, the people aren't the reason I love working for Octop
 
 Speaking of people, Octopus Energy is a diversity minded company. In my team alone, we have people from four different continents with five different native languages. We can admittedly do better on the gender front, and are striving to do better on that front. For many reasons this is important to me, for I believe it's not only the right thing to do, it also increases a team's strength to have a broader set of viewpoints.
 
-Yet when I think about it, the focus on diversity isn't the reason I love working for Octopus. Diversity-focused companies are not uncommon, and many have better numbers than Octopus.
+Yet when I think about it, the focus on diversity isn't the reason I love working for Octopus. Diversity-focused companies are not uncommon, and some have better numbers than Octopus.
 
 ## The Business
 
