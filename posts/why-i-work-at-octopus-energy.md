@@ -60,7 +60,7 @@ Then one day I realized that capitalism might be the answer.
 
 ### Capitalism as the Answer to Climate Change
 
-For better or worse, for centuries capitalism has been a driving force for progress. The European conquest of the world was executed primarily by [trading companies](https://en.wikipedia.org/wiki/List_of_trading_companies). The growth of fossil fuels in the late 19th century to today was through national and multinational companies. In the past 15 years, the rise of Facebook, Amazon, and Google was driven by capitalism. While it could be argued that none of these were healthy, once cannot deny their success.
+For better or worse, for centuries capitalism has been a driving force for progress. The European conquest of the world was executed primarily by [trading companies](https://en.wikipedia.org/wiki/List_of_trading_companies). The growth of fossil fuels in the late 19th century to today was through national and multinational companies. In the past 15 years, the rise of Facebook, Amazon, and Google was driven by capitalism. While it could be argued that none of these were healthy in progress or result, one cannot deny their success.
 
 _What if the solution to climate change was through capitalism?_
 
