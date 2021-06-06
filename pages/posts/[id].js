@@ -51,7 +51,7 @@ export default function Post({ postData }) {
         <section>
           Tags:
           {postData.tags.map((tag) => (
-          <>{' '}{tag}</>
+          <span key={tag}>{' '}{tag}</span>
         ))}
         </section>
       </article>
