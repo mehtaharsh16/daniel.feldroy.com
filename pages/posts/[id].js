@@ -34,6 +34,10 @@ export default function Post({ postData }) {
             property="og:url"
             content="https://daniel.feldroy.com"
           />
+          <meta
+            name="og:description"
+            content={postData.description}
+          />          
 
           {/* Twitter card tags */}        
           <meta
