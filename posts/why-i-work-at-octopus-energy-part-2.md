@@ -9,6 +9,7 @@ tags:
   - climate-change
 time_to_read: 5
 title: Why I Work at Octopus Energy, Part 2
+description: I explain the ultimate reason I work for Octopus Energy.
 ---
 
 ## The Reason I Love Working for Octopus
@@ -42,6 +43,8 @@ Octopus Energy taps into the same forces of capitalism as its predecessors. By s
 That's why I work at Octopus Energy: Because they are giving me the chance to use everything I've learned in my 24+ years of professional software development to build out [Kraken, our customer focus retail energy platform](https://octopusenergy.group/kraken-technologies). They have literally given me a chance to help save the planet for my daughter and all the other kids.
 
 The way I look at it, Octopus Energy has turned me into a superhero.
+
+![/images/super_octo.png](/images/super_octo.png)
 
 ## Links
 

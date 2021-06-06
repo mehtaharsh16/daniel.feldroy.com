@@ -9,7 +9,7 @@ tags:
   - climate-change
 time_to_read: 5
 title: Why I Work at Octopus Energy
-description: I explain the reasons that aren't why I work at Octopus Energy.
+description: I explain the reasons I work for Octopus Energy.
 ---
 
 On November 16, 2020, I started my first day of employment at [Octopus Energy](https://octopusenergy.com/). Here's why I work there.
