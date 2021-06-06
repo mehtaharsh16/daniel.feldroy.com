@@ -30,15 +30,15 @@ export default function Layout({ children, home }) {
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>         
-            <p>Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)<br/></p>               
+            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <p>Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)<br /></p>
             <p>
               <Link href="/about">
                 <a>About</a>
               </Link>{' '}|{' '}
               <Link href="/books">
                 <a>Books</a>
-              </Link>              
+              </Link>
             </p>
           </>
         ) : (
@@ -66,7 +66,10 @@ export default function Layout({ children, home }) {
               </Link>{' '}|{' '}
               <Link href="/books">
                 <a>Books</a>
-              </Link>               
+              </Link>
+              <Link href="/feed/atom.xml">
+                <a>Feed</a>
+              </Link>
             </p>
           </>
         )}

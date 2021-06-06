@@ -5,9 +5,15 @@ import utilStyles from '../styles/utils.module.css'
 import Date from '../components/date'
 
 import { getSortedPostsData } from '../lib/posts'
+import generateRssFeed from '../lib/rss'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
+
+  // render blog posts
+  await generateRssFeed('django');
+  await generateRssFeed('python');
+  await generateRssFeed('');
   return {
     props: {
       allPostsData
