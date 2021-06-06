@@ -5,3 +5,15 @@ This is my personal site.
 - NextJS
 - React
 - Vercel
+
+## Installation
+
+```
+npm install
+```
+
+## Running the Site Locally
+
+```
+npm run dev
+```
