@@ -1,4 +1,4 @@
-This is my personal site.
+This is my personal site, live at https://daniel.feldroy.com.
 
 ## Colophon
 
