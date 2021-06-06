@@ -1,5 +1,5 @@
 ---
-date: "2021-06-07"
+date: "2021-06-07T22:20:50.52Z"
 published: true
 slug: why-i-work-at-octopus-energy
 tags:
@@ -9,6 +9,7 @@ tags:
   - climate-change
 time_to_read: 5
 title: Why I Work at Octopus Energy
+description: I explain the reasons that aren't why I work at Octopus Energy.
 ---
 
 On November 16, 2020, I started my first day of employment at [Octopus Energy](https://octopusenergy.com/). Here's why I work there.
@@ -17,8 +18,8 @@ On November 16, 2020, I started my first day of employment at [Octopus Energy](h
 
 The entire tech stack is built on things I know. Python, Django, AWS, and modern JavaScript frameworks. It's been implemented in a very solid way, managing to be both conservative in approach yet innovative in design. While my previous experience has proven useful, I've had the chance to learn new and exciting things. Examples of things I've learned:
 
-- [Hashistack on AWS](https://www.hashicorp.com/integrations/aws)
-- React & Next
+- Hashistack on AWS
+- React & Next.js
 
 Yet when I think about it, the tech stack isn't the reason I love working for Octopus. I can find the same tech stack in a thousand other organizations.
 
@@ -42,6 +43,6 @@ Octopus Energy is a fast growing company spreading its tentacles to new markets 
 
 Yet when I think about it, the business isn't the reason I work for Octopus. I can think of other companies with this kind of explosive growth, some of whom I interviewed at when Octopus reached out to me.
 
-## The Answer
+## Why do I work for Octopus Energy?
 
-TODO link to second post
+The answer is forthcoming in an article I'll be releasing on Thursday, June 10th. Stay tuned!

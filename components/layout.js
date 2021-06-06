@@ -8,6 +8,8 @@ const name = 'Daniel Feldroy'
 export const siteTitle = 'Daniel Feldroy'
 
 export default function Layout({ children, home }) {
+  const date = new Date();
+  const copyright = `All rights reserved ${date.getFullYear()}, Daniel Roy Greenfeld`
   return (
     <div className={styles.container}>
       <Head>
@@ -67,9 +69,6 @@ export default function Layout({ children, home }) {
               <Link href="/books">
                 <a>Books</a>
               </Link>
-              <Link href="/feed/atom.xml">
-                <a>Feed</a>
-              </Link>
             </p>
           </>
         )}
@@ -82,6 +81,14 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <footer className={styles.footer}>
+        <p>
+          <a href="/feeds/atom.xml">Atom Feed</a>
+        </p>
+        <p>
+          {copyright}
+        </p>
+      </footer>
     </div>
   )
 }

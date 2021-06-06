@@ -1,15 +1,14 @@
 ---
 date: "2021-01-29T23:45:00.00Z"
 published: true
-description: This is my recap of 2020, plus my resolutions for 2021.
 slug: recap-2020-resolutions-2021
 tags:
   - python
   - django
   - family
   - uma
-  - audrey 
-  - resolutions  
+  - audrey
+  - resolutions
 time_to_read: 5
 title: Recap of 2020 and Resolutions for 2021
 type: post
@@ -19,7 +18,7 @@ type: post
 
 ## I got a job saving the planet
 
-For years I've been worried about climate change. I've tried to live a mostly ecologically friendly life, and this year I dived in with making compost for the garden. However, seeing the lack of consistent political will to correct the problem has had me worried. 
+For years I've been worried about climate change. I've tried to live a mostly ecologically friendly life, and this year I dived in with making compost for the garden. However, seeing the lack of consistent political will to correct the problem has had me worried.
 
 So I was delighted that when I started to look for jobs in the autumn I was contacted by several firms attempting to address the problem. I've always thought that finance is a great motivator, albeit all-too-often the results are negative (the petroleum and coal industries are examples).
 
@@ -27,14 +26,13 @@ Ultimately I went with [Octopus Energy](https://octopus.energy/), a company that
 
 [![Octopus Logo 2019](/images/octologo.png)](https://jobs.lever.co/octoenergy)
 
-In any case, I can't begin to say how wonderful it is being part of a company whose mission is to address climate change. It's like all my skills and talents are now superpowers being used to save the world. 
+In any case, I can't begin to say how wonderful it is being part of a company whose mission is to address climate change. It's like all my skills and talents are now superpowers being used to save the world.
 
 If you live in the US, UK, Germany, Australia, or Japan and want to join me using our various skills and talents to help save the world, [here's your chance](https://jobs.lever.co/octoenergy). We've got lots of [openings](https://jobs.lever.co/octoenergy), including for those who know [Python and Django](https://jobs.lever.co/octoenergy).
 
 ## My daughter grew
 
 Uma grew in size and intellect. The photo below demonstrates the changes in her over just 8 months. Seeing her expand in awareness and understanding is a journey I never imagined. The challenges in raising her have been met with happiness by myself and Audrey. Her presence also drove me toward the new job at Octopus Energy I took on in the autumn.
-
 
 ![Uma growing](/images/uma-2020.png)
 
@@ -44,8 +42,7 @@ Audrey and I once again tried our hand at gardening. In the past, our efforts we
 
 ![Bounty for 2020](/images/bounty-2020.png)
 
-I got into [composting](https://en.wikipedia.org/wiki/Compost). The science of it is fascinating, you mix kitchen scraps and yard waste, add water, and depending on the method in anywhere from days to weeks to months you have soil that plants love. 
-
+I got into [composting](https://en.wikipedia.org/wiki/Compost). The science of it is fascinating, you mix kitchen scraps and yard waste, add water, and depending on the method in anywhere from days to weeks to months you have soil that plants love.
 
 ## I quarantined
 
@@ -85,7 +82,7 @@ Once the pandemic is over I plan to restart my journey into Brazilian Jiu-Jitsu.
 
 ## I will quarantine
 
-I don't need to travel to do my job. I can get by without sitting in a restaurant to eat. I can talk to family, friends, and co-workers via any number of communication methods. 
+I don't need to travel to do my job. I can get by without sitting in a restaurant to eat. I can talk to family, friends, and co-workers via any number of communication methods.
 
 Even after I'm vaccinated, until the pandemic is under control, I'll keep up this behavior.
 
