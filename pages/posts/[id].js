@@ -28,6 +28,19 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+          <meta property="og:title" content={postData.title} />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:url"
+            content="https://daniel.feldroy.com"
+          />
+
+          {/* Twitter card tags */}        
+          <meta
+            name="twitter:description"
+            content={postData.description}
+          />
+       
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>

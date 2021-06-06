@@ -19,7 +19,25 @@ export default function Layout({ children, home }) {
           content="Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)"
         />
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            property="og:site_name"
+            content="Daniel Feldroy"
+          />       
+
+
+            <meta
+            property="og:image"
+            content="https://daniel.feldroy.com/images/profile.jpg"
+          />          
+          {/* Twitter card tags */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Daniel Feldroy" />
+          <meta
+            name="twitter:image"
+            content="https://daniel.feldroy.com/images/profile.jpg"
+          />
+          <meta name="twitter:site" content="@pydanny" />
+          <meta name="twitter:creator" content="@pydanny" />            
       </Head>
       <header className={styles.header}>
         {home ? (
