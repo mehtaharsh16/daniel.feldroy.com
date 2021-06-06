@@ -25,8 +25,29 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
-      </Head>
+        <title>Daniel Feldroy</title>
+        <meta
+          name="description"
+          content="Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)"
+        />
+        <meta name="og:title" content="Daniel Feldroy" />
+        <meta
+            property="og:site_name"
+            content="Daniel Feldroy"
+          />       
+
+
+          <meta
+          property="og:image"
+          content="https://daniel.feldroy.com/images/profile.jpg"
+        />          
+          {/* Twitter card tags */}
+          <meta name="twitter:title" content="Daniel Feldroy" />
+          <meta
+            name="twitter:image"
+            content="https://daniel.feldroy.com/images/profile.jpg"
+          />      
+      </Head>      
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, description }) => (

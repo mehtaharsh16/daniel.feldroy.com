@@ -2,6 +2,7 @@
 date: "2021-06-07T22:20:50.52Z"
 published: true
 slug: why-i-work-at-octopus-energy
+image: /images/constantine-curious.svg
 tags:
   - python
   - django

@@ -14,30 +14,15 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)"
-        />
-        <meta name="og:title" content={siteTitle} />
+
         <meta
             property="og:site_name"
             content="Daniel Feldroy"
           />       
-
-
-            <meta
-            property="og:image"
-            content="https://daniel.feldroy.com/images/profile.jpg"
-          />          
-          {/* Twitter card tags */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Daniel Feldroy" />
-          <meta
-            name="twitter:image"
-            content="https://daniel.feldroy.com/images/profile.jpg"
-          />
-          <meta name="twitter:site" content="@pydanny" />
-          <meta name="twitter:creator" content="@pydanny" />            
+        <meta name="twitter:site" content="@pydanny" />
+        <meta name="twitter:creator" content="@pydanny" />  
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Daniel Feldroy" />                     
       </Head>
       <header className={styles.header}>
         {home ? (
