@@ -2,7 +2,7 @@
 date: "2021-06-07T22:20:50.52Z"
 published: true
 slug: why-i-work-at-octopus-energy
-image: /images/constantine-curious.svg
+image: /images/constantine-curious.png
 tags:
   - python
   - django
@@ -47,3 +47,5 @@ Yet when I think about it, the business isn't the reason I work for Octopus. I c
 ## Why do I work for Octopus Energy?
 
 The answer is forthcoming in an article I'll be releasing on Thursday, June 10th. Stay tuned!
+
+![](/images/constantine-curious.png)
