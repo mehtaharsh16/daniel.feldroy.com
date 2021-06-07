@@ -1,7 +1,7 @@
 ---
 date: "2021-06-07T22:20:50.52Z"
 published: true
-slug: why-i-work-at-octopus-energy
+slug: what-is-the-best-thing-about-working-at-octopus-energy
 image: /images/constantine-curious.png
 tags:
   - python
@@ -44,7 +44,7 @@ Octopus Energy is a fast-growing company spreading its tentacles to new markets 
 
 Yet when I think about it, the business isn't the best thing of working for Octopus. I can think of other companies with similar explosive growth, some of whom I interviewed when Octopus reached out to me.
 
-## What is the best about working for Octopus Energy?
+## What is the best thing about working for Octopus Energy?
 
 The answer is forthcoming in an article I'll be releasing on Thursday, June 10th. Stay tuned!
 
