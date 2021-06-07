@@ -34,15 +34,15 @@ Yet when I think about it, while I appreciate my co-worker, the people aren't th
 
 ## The Diversity
 
-Speaking of people, Octopus Energy is a diversity minded company. In my team alone, we have people from four different continents with five different native languages. We can admittedly do better on the gender front, and are striving to do better on that front. For many reasons this is important to me, for I believe it's not only the right thing to do, it also increases a team's strength to have a broader set of viewpoints.
+Speaking of people, Octopus Energy is a diversity-minded company. In my team alone, we have people from four different continents with five different native languages. We can admittedly do better on the gender front, and are striving to do better. For many reasons, this is important to me, for I believe it's not only the right thing to do, but it also increases a team's strength to have a broader set of viewpoints.
 
 Yet when I think about it, the focus on diversity isn't the reason I working for Octopus. Diversity-focused companies are becoming more common, and some even have better numbers than Octopus.
 
 ## The Business
 
-Octopus Energy is a fast growing company spreading its tentacles to new markets and nations. In the months and years to come we're going to disrupt the energy business. In the meantime, in the brief 8 months I've been with the firm the valuation has doubled up to 3 billion dollars. It's exciting to be part of something growing explosively.
+Octopus Energy is a fast-growing company spreading its tentacles to new markets and nations. In the months and years to come, we're going to disrupt the energy business. In the meantime, in the brief 8 months I've been with the firm the valuation has doubled up to 3 billion dollars. It's exciting to be part of something growing explosively.
 
-Yet when I think about it, the business isn't the reason I work for Octopus. I can think of other companies with similar explosive growth, some of whom I interviewed at when Octopus reached out to me.
+Yet when I think about it, the business isn't the reason I work for Octopus. I can think of other companies with similar explosive growth, some of whom I interviewed when Octopus reached out to me.
 
 ## Why do I work for Octopus Energy?
 
