@@ -48,4 +48,6 @@ Yet when I think about it, the business isn't the best thing of working for Octo
 
 The answer is forthcoming in an article I'll be releasing on Thursday, June 10th. Stay tuned!
 
-[![](/images/constantine-curious.png)](https://octopusenergy.com)
+[![Image used with permission by Octopus Energy](/images/constantine-curious.png)](https://octopusenergy.com)
+
+_Image used with permission by Octopus Energy_
