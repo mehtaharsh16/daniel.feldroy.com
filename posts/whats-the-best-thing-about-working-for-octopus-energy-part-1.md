@@ -44,7 +44,7 @@ Octopus Energy is a fast-growing company spreading its tentacles to new markets 
 
 Yet when I think about it, the business isn't the best thing of working for Octopus. I can think of other companies with similar explosive growth, some of whom I interviewed when Octopus reached out to me.
 
-## What is the best part of working for Octopus Energy?
+## What is the best about working for Octopus Energy?
 
 The answer is forthcoming in an article I'll be releasing on Thursday, June 10th. Stay tuned!
 
