@@ -9,11 +9,11 @@ tags:
   - octopus
   - climate-change
 time_to_read: 5
-title: What I love about my job at Octopus
-description: I explain the reasons I love working for Octopus Energy.
+title: What do I love most about working for Octopus Energy?
+description: An indepth discussion about my employment at Octopus Energy and why it is so important to me.
 ---
 
-On November 16, 2020, I started my first day of employment at [Octopus Energy](https://octopusenergy.com/). Here's why I work there.
+On November 16, 2020, I started my first day of employment at [Octopus Energy](https://octopusenergy.com/). Here's why I love working there.
 
 ## The Tech Stack
 
@@ -44,7 +44,7 @@ Octopus Energy is a fast-growing company spreading its tentacles to new markets 
 
 Yet when I think about it, the business isn't the reason I love working for Octopus. I can think of other companies with similar explosive growth, some of whom I interviewed when Octopus reached out to me.
 
-## Why do I work for Octopus Energy?
+## Why do I love working for Octopus Energy?
 
 The answer is forthcoming in an article I'll be releasing on Thursday, June 10th. Stay tuned!
 
