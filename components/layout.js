@@ -85,9 +85,9 @@ export default function Layout({ children, home }) {
         </div>
       )}
       <footer className={styles.footer}>
-        <p>
+        {/* <p>
           <a href="/feeds/atom.xml">Atom Feed</a>
-        </p>
+        </p> */}
         <p>
           {copyright}
         </p>
