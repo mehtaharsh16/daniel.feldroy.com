@@ -32,68 +32,68 @@ export default function Post({ postData }) {
         <meta
           name="description"
           content={postData.description}
-        />        
-          <meta property="og:title" content={postData.title} />
-          <meta property="og:type" content="website" />
-          <meta
-            property="og:url"
-            content={`https://daniel.feldroy.com/${postData.id}`}
-          />
+        />
+        <meta property="og:title" content={postData.title} />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content={`https://daniel.feldroy.com/posts/${postData.id}`}
+        />
 
-          {postData.description ?
-            (
-              <meta
+        {postData.description ?
+          (
+            <meta
               name="og:description"
               content={postData.description}
-            />     
-            ) : (
-              <meta
+            />
+          ) : (
+            <meta
               name="og:description"
               content="Inside the Head of Daniel Feldroy (aka Daniel Roy Greenfeld)"
-            />     
-            )
-          }          
-     
-   
-          {/* Twitter card tags */}
-          <meta name="twitter:title" content={postData.title} />
+            />
+          )
+        }
 
 
-          {postData.image ?
-                (
-                  <>
-                    <meta
-                    property="og:image"
-                    content={`https://daniel.feldroy.com${postData.image}`}
-                    />                 
-                    <meta
-                      name="twitter:image"
-                      content={`https://daniel.feldroy.com${postData.image}`}
-                    />
-                  </> 
-                ) : (
-                  <>
-                    <meta
-                    property="og:image"
-                    content="https://daniel.feldroy.com/images/profile.jpg"
-                    />                 
-                    <meta
-                      name="twitter:image"
-                      content="https://daniel.feldroy.com/images/profile.jpg"
-                    />
-                  </>
-                )
-              }                
+        {/* Twitter card tags */}
+        <meta name="twitter:title" content={postData.title} />
 
 
-            
+        {postData.image ?
+          (
+            <>
+              <meta
+                property="og:image"
+                content={`https://daniel.feldroy.com${postData.image}`}
+              />
+              <meta
+                name="twitter:image"
+                content={`https://daniel.feldroy.com${postData.image}`}
+              />
+            </>
+          ) : (
+            <>
+              <meta
+                property="og:image"
+                content="https://daniel.feldroy.com/images/profile.jpg"
+              />
+              <meta
+                name="twitter:image"
+                content="https://daniel.feldroy.com/images/profile.jpg"
+              />
+            </>
+          )
+        }
 
-          {/* Twitter card tags */}        
-          <meta
-            name="twitter:description"
-            content={postData.description}
-          />
-       
+
+
+
+        {/* Twitter card tags */}
+        <meta
+          name="twitter:description"
+          content={postData.description}
+        />
+
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
