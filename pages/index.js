@@ -5,9 +5,15 @@ import utilStyles from '../styles/utils.module.css'
 import Date from '../components/date'
 
 import { getSortedPostsData } from '../lib/posts'
+import generateRssFeed from '../lib/rss'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
+
+  // render blog posts
+  await generateRssFeed('django');
+  await generateRssFeed('python');
+  await generateRssFeed('');
   return {
     props: {
       allPostsData
@@ -19,16 +25,47 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
-      </Head>
+        <title>Daniel Feldroy</title>
+        <meta
+          name="description"
+          content="Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)"
+        />
+        <meta name="og:title" content="Daniel Feldroy" />
+        <meta
+            property="og:site_name"
+            content="Daniel Feldroy"
+          />       
+
+
+          <meta
+          property="og:image"
+          content="https://daniel.feldroy.com/images/profile.jpg"
+        />          
+          {/* Twitter card tags */}
+          <meta name="twitter:title" content="Daniel Feldroy" />
+          <meta
+            name="twitter:image"
+            content="https://daniel.feldroy.com/images/profile.jpg"
+          />      
+      </Head>      
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, description }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />
+              {description &&
+                (
+                <>
+                  <small className={utilStyles.lightText}>
+                    {description}
+                  </small>
+                  <br />
+                </>
+                )
+              }
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>

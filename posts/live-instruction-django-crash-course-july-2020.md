@@ -1,13 +1,12 @@
 ---
 date: "2020-07-02T17:30:00.00Z"
-description: On July 16th and 17th starting at 9AM PST (4PM UTC), I'll be running a live instruction of my beginner-friendly Django Crash Course. This is a live interactive class conducted via Zoom conferencing software. We're going to walk through the book together with students. If you get stuck, there will be at least two members of the Feldroy team available to help. 
 published: true
 slug: live-instruction-django-crash-course-july-2020
 tags:
   - python
   - django
   - cookiecutter
-  - course  
+  - course
   - tests
   - django-crash-course
 time_to_read: 3
@@ -43,7 +42,7 @@ Each course day will have two sessions each 3 hours long, as well as an hour-lon
   - Django 3.0
   - Database
   - VS Code
-- Cookiecutter for rapidly accelerating development 
+- Cookiecutter for rapidly accelerating development
 - Django
   - Forms
   - Class-Based Views
@@ -54,7 +53,7 @@ Each course day will have two sessions each 3 hours long, as well as an hour-lon
   - PyTest
   - Factories
 - Best practices per [Two Scoops of Django](https://www.feldroy.com/products/two-scoops-of-django-3-x?variant=31605362196567)
-  - Proven patterns for avoiding duplication of work ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself))  
+  - Proven patterns for avoiding duplication of work ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself))
   - Writing maintainable code
   - More secure projects
 

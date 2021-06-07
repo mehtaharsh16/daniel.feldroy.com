@@ -8,16 +8,21 @@ const name = 'Daniel Feldroy'
 export const siteTitle = 'Daniel Feldroy'
 
 export default function Layout({ children, home }) {
+  const date = new Date();
+  const copyright = `All rights reserved ${date.getFullYear()}, Daniel Roy Greenfeld`
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+
         <meta
-          name="description"
-          content="Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)"
+          property="og:site_name"
+          content="Daniel Feldroy"
         />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="twitter:site" content="@pydanny" />
+        <meta name="twitter:creator" content="@pydanny" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Daniel Feldroy" />
       </Head>
       <header className={styles.header}>
         {home ? (
@@ -30,15 +35,15 @@ export default function Layout({ children, home }) {
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>         
-            <p>Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)<br/></p>               
+            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <p>Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)<br /></p>
             <p>
               <Link href="/about">
                 <a>About</a>
               </Link>{' '}|{' '}
               <Link href="/books">
                 <a>Books</a>
-              </Link>              
+              </Link>
             </p>
           </>
         ) : (
@@ -66,7 +71,7 @@ export default function Layout({ children, home }) {
               </Link>{' '}|{' '}
               <Link href="/books">
                 <a>Books</a>
-              </Link>               
+              </Link>
             </p>
           </>
         )}
@@ -79,6 +84,14 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <footer className={styles.footer}>
+        <p>
+          <a href="/feeds/atom.xml">Atom Feed</a>
+        </p>
+        <p>
+          {copyright}
+        </p>
+      </footer>
     </div>
   )
 }

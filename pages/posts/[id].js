@@ -24,10 +24,76 @@ export async function getStaticPaths() {
 }
 
 export default function Post({ postData }) {
+  const domain = "https://daniel.feldroy.com/"
   return (
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <meta
+          name="description"
+          content={postData.description}
+        />        
+          <meta property="og:title" content={postData.title} />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:url"
+            content={`https://daniel.feldroy.com/${postData.id}`}
+          />
+
+          {postData.description ?
+            (
+              <meta
+              name="og:description"
+              content={postData.description}
+            />     
+            ) : (
+              <meta
+              name="og:description"
+              content="Inside the Head of Daniel Feldroy (aka Daniel Roy Greenfeld)"
+            />     
+            )
+          }          
+     
+   
+          {/* Twitter card tags */}
+          <meta name="twitter:title" content={postData.title} />
+
+
+          {postData.image ?
+                (
+                  <>
+                    <meta
+                    property="og:image"
+                    content={`https://daniel.feldroy.com${postData.image}`}
+                    />                 
+                    <meta
+                      name="twitter:image"
+                      content={`https://daniel.feldroy.com${postData.image}`}
+                    />
+                  </> 
+                ) : (
+                  <>
+                    <meta
+                    property="og:image"
+                    content="https://daniel.feldroy.com/images/profile.jpg"
+                    />                 
+                    <meta
+                      name="twitter:image"
+                      content="https://daniel.feldroy.com/images/profile.jpg"
+                    />
+                  </>
+                )
+              }                
+
+
+            
+
+          {/* Twitter card tags */}        
+          <meta
+            name="twitter:description"
+            content={postData.description}
+          />
+       
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
@@ -38,7 +104,7 @@ export default function Post({ postData }) {
         <section>
           Tags:
           {postData.tags.map((tag) => (
-          <>{' '}{tag}</>
+          <span key={tag}>{' '}{tag}</span>
         ))}
         </section>
       </article>
