@@ -10,7 +10,7 @@ tags:
   - climate-change
 time_to_read: 5
 title: What do I love most about working for Octopus Energy?
-description: An indepth discussion about my employment at Octopus Energy and why it is so important to me.
+description: An in-depth discussion about my employment at Octopus Energy and why it is so important to me.
 ---
 
 On November 16, 2020, I started my first day of employment at [Octopus Energy](https://octopusenergy.com/). Here's why I love working there.
