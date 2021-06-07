@@ -16,13 +16,13 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
 
         <meta
-            property="og:site_name"
-            content="Daniel Feldroy"
-          />       
+          property="og:site_name"
+          content="Daniel Feldroy"
+        />
         <meta name="twitter:site" content="@pydanny" />
-        <meta name="twitter:creator" content="@pydanny" />  
+        <meta name="twitter:creator" content="@pydanny" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Daniel Feldroy" />                     
+        <meta name="twitter:title" content="Daniel Feldroy" />
       </Head>
       <header className={styles.header}>
         {home ? (
