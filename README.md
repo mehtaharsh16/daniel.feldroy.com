@@ -19,3 +19,5 @@ npm install
 ```
 npm run dev
 ```
+
+RSS is in lib
