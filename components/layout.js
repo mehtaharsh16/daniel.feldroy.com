@@ -4,8 +4,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Daniel Feldroy'
-export const siteTitle = 'Daniel Feldroy'
+const name = 'Daniel Roy Greenfeld'
+export const siteTitle = 'Daniel Roy Greenfeld'
 
 export default function Layout({ children, home }) {
   const date = new Date();
@@ -17,12 +17,12 @@ export default function Layout({ children, home }) {
 
         <meta
           property="og:site_name"
-          content="Daniel Feldroy"
+          content="Daniel Roy Greenfeld"
         />
         <meta name="twitter:site" content="@pydanny" />
         <meta name="twitter:creator" content="@pydanny" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Daniel Feldroy" />
+        <meta name="twitter:title" content="Daniel Roy Greenfeld" />
       </Head>
       <header className={styles.header}>
         {home ? (
@@ -36,7 +36,7 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            <p>Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)<br /></p>
+            <p>Inside the head of Daniel Roy Greenfeld<br /></p>
             <p>
               <Link href="/about">
                 <a>About</a>

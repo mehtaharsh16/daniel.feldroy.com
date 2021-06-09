@@ -49,7 +49,7 @@ export default function Post({ postData }) {
           ) : (
             <meta
               name="og:description"
-              content="Inside the Head of Daniel Feldroy (aka Daniel Roy Greenfeld)"
+              content="Inside the Head of Daniel Roy Greenfeld (aka Daniel Feldroy)"
             />
           )
         }
