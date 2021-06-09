@@ -1,7 +1,7 @@
 ---
-date: "2021-06-07T22:20:50.52Z"
+date: "2021-06-08T23:59:50.52Z"
 published: true
-slug: what-is-the-best-thing-about-working-at-octopus-energy-part-1
+slug: whats-the-best-thing-about-working-for-octopus-energy-part-1
 image: /images/constantine-curious.png
 tags:
   - python
