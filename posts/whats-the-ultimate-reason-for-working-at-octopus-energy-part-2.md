@@ -15,9 +15,7 @@ title: What's the ultimate reason for working at Octopus Energy?
 description: Wherin I conclude my discussion about why I work at Octopus Energy.
 ---
 
-On November 16, 2020, I started my first day of employment at [Octopus Energy](https://octopusenergy.com/). A few days ago [I discussed reasons why I enjoy my work and colleagues](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1/).
-
-Here I explain what truly drives me. 
+On November 16, 2020, I started my first day of employment at [Octopus Energy](https://octopusenergy.com/). A few days ago [I discussed reasons why I enjoy my work and colleagues](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1/). In this article I explain the ultimate reason I work for Octopus Energy. 
 
 ## The Ultimate Reason I Work for Octopus
 
