@@ -23,7 +23,7 @@ It's all about this little girl.
 
 ![Uma and me playing in the spring sunshine](/images/uma-daniel-sun.jpg)
 
-I want to give may daughter a better planet. I her and her generation to live in the same kind of world I had. 
+I want to give may daughter a better planet. Her and her generation deserve to live in the same kind of world I had growing up. 
 
 ## Enter Octopus Energy
 
