@@ -23,15 +23,15 @@ It's all about this little girl.
 
 ![Uma and me playing in the spring sunshine](/images/uma-daniel-sun.jpg)
 
-I want to give may daughter a better planet. I don't want her and her generation to live with the effects of climate change. 
+I want to give may daughter a better planet. I her and her generation to live in the same kind of world I had. 
 
 ## Enter Octopus Energy
 
 By selling huge volumes of renewable electricity, providing services that encourage people to reduce their carbon footprint and general energy usage, Octopus is making direct impact on the issue of climate change. Furthermore, the size and income of the company means it can have a similar outsized impact on politics as do the armies of lobbyists acting on behalf of the fossil fuels industry.
 
-That's why I work at Octopus Energy: Because they are giving me the chance to use everything I've learned in my 24+ years of professional software development to build out [Kraken](https://octopusenergy.group/kraken-technologies), our customer-focused retail energy platform. They have literally given me a chance to help save the planet for my daughter and all the other kids.
+Octopus Energy is giving me the chance to use everything I've learned in my 24+ years of professional software development to build out [Kraken](https://octopusenergy.group/kraken-technologies), our customer-focused retail energy platform. They have given me the opportunity to help save the planet for my daughter and all the other kids.
 
-Ultimately, Octopus Energy has turned me into a superhero. A superhero whose mission is to save the planet for my daughter and all the other kids.
+Ultimately, Octopus Energy has turned me into a superhero.
 
 ![/images/super_octo.png](/images/super_octo.png)
 
