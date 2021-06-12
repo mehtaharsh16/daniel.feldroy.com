@@ -31,7 +31,7 @@ By selling huge volumes of renewable electricity, providing services that encour
 
 Octopus Energy is giving me the chance to use everything I've learned in my 24+ years of professional software development to build out [Kraken](https://octopusenergy.group/kraken-technologies), our customer-focused retail energy platform. They have given me the opportunity to help save the planet for my daughter and all the other kids.
 
-Ultimately, Octopus Energy has turned me into a superhero.
+To put it as simply as possible, Octopus Energy has turned me into a superhero. How awesome is that?
 
 ![/images/super_octo.png](/images/super_octo.png)
 
