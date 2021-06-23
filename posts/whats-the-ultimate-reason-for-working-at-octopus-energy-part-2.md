@@ -2,7 +2,7 @@
 date: "2021-06-11T22:20:50.52Z"
 published: true
 slug: whats-the-ultimate-reason-for-working-at-octopus-energy-part-2
-image: /images/uma-daniel-sun.jpg
+image: /images/super_octo.png
 tags:
   - python
   - django
@@ -23,7 +23,7 @@ One day in Autumn of 2020, while considering new employment, I was talking to a 
 
 They stood out because they both had a mission to address [global climate change](https://en.wikipedia.org/wiki/Climate_change).
 
-Now I realized I could use all my talents and skills to literally make the planet a better place.
+I realized I could use all my talents and skills to literally make the planet a better place.
 
 ## Concerns About Climate change
 
