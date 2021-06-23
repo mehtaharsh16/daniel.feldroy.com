@@ -46,7 +46,7 @@ Yet when I think about it, the business isn't the best thing of working for Octo
 
 ## What is the best thing about working for Octopus Energy?
 
-The answer is forthcoming in an article I'll be releasing on Monday, June 21st. Stay tuned!
+The answer is forthcoming in an article I'll be releasing on Thursday, June 24st. Stay tuned!
 
 [![Image used with permission by Octopus Energy](/images/constantine-curious.png)](https://octopusenergy.com)
 
