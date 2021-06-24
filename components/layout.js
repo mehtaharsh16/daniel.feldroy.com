@@ -86,7 +86,7 @@ export default function Layout({ children, home }) {
       )}
       <footer className={styles.footer}>
         <p>
-          <a href="https://daniel.feldroy.com/feeds/atom.xml">Atom Feed</a>
+          <a href="/feeds/atom.xml">Atom Feed</a>
         </p>
         <p>
           {copyright}

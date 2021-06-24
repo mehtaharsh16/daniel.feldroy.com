@@ -6,10 +6,12 @@ image: /images/constantine-curious.png
 tags:
   - python
   - django
+  - javascript
+  - javascript
   - octopus
   - climate-change
 time_to_read: 5
-title: What's the best thing about working for Octopus Energy?
+title: What's the Best Thing about Working for Octopus Energy?
 description: An in-depth discussion about my employment at Octopus Energy.
 ---
 
