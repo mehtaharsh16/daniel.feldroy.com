@@ -11,7 +11,7 @@ tags:
   - octopus
   - climate-change
 time_to_read: 5
-title: What's the best thing about working for Octopus Energy?
+title: What's the Best Thing about Working for Octopus Energy?
 description: An in-depth discussion about my employment at Octopus Energy.
 ---
 
@@ -47,7 +47,6 @@ Octopus Energy is a fast-growing company spreading its tentacles to new markets 
 Yet when I think about it, the business isn't the best thing of working for Octopus. I can think of other companies with similar explosive growth, some of whom I interviewed when Octopus reached out to me.
 
 ## What is the best thing about working for Octopus Energy?
-
 
 The answer is forthcoming in an article I'll be releasing on Thursday, June 24st. Stay tuned!
 
