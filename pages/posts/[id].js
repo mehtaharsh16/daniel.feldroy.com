@@ -102,6 +102,7 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         <section>
+          <hr />
           Tags:
           {postData.tags.map((tag) => (
           <span key={tag}>{' '}{tag}</span>
