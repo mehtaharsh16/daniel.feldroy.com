@@ -19,13 +19,13 @@ On November 16, 2020, I started my first day of employment at [Octopus Energy](h
 
 ## A Realization
 
-One day in Autumn of 2020, while considering new employment, I was talking to many potential employers. Several organizations stood out above all others.
+One day in autumn of 2020, while considering new employment, I was talking to many potential employers. Several organizations stood out above all others.
 
 They stood out because they both had a mission to address [global climate change](https://en.wikipedia.org/wiki/Climate_change).
 
 I realized I could use all my talents and skills to make the planet a better place.
 
-## Concerns About Climate change
+## Concerns About Climate Change
 
 For years I've been concerned about the [changing climate](https://en.wikipedia.org/wiki/Climate_change). I had been reducing my carbon footprint for years, recycling, composting, reducing unnecessary travel, and more. I preferred to vote for eco-friendly political candidates. In many other ways, I did what I could, yet always I wanted to do more.
 
