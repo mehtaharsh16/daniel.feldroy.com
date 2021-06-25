@@ -27,7 +27,7 @@ I realized I could use all my talents and skills to make the planet a better pla
 
 ## Concerns About Climate Change
 
-For years I've been concerned about the [changing climate](https://en.wikipedia.org/wiki/Climate_change). I had been reducing my carbon footprint for years, recycling, composting, reducing unnecessary travel, and more. I preferred to vote for eco-friendly political candidates. In many other ways, I did what I could, yet always I wanted to do more.
+For years I've been concerned about the [changing climate](https://en.wikipedia.org/wiki/Climate_change). I had been reducing my carbon footprint for years, composting, reducing unnecessary travel, and more. I preferred to vote for eco-friendly political candidates. In many other ways, I did what I could, yet always I wanted to do more.
 
 ## The Ultimate Reason I Work for Octopus
 
