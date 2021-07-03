@@ -28,7 +28,7 @@ Here's what we've learned:
 - Planting whole potatoes works better than cutting them 
 - Use above-ground potato pots to avoid [gophers](https://en.wikipedia.org/wiki/Botta's_pocket_gopher) 
 - Keep potato pots to a manageable size for moving around to optimize share
-- Potatoes can grow in compost, but add some dirt from fertile soil. Even if just to the top after planting. This adds worms and mycellia, both help the proliferation of tubers
+- Potatoes can grow in compost, but add some dirt from fertile soil. Even if just to the top after planting. This adds worms and promotes mycellial growth. Both help the proliferation of tubers
 - SoCal is hot. Arrange them so around 50% of the day the are in shade
 - Need watering daily, preferably by drip to keep usage down
 
