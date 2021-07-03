@@ -24,6 +24,7 @@ Here's what we've learned:
 - Plant in the right season: January
 - Pick in the right season: June or July
 - Seed potatoes do best, but have to be [ordered online](https://hosstools.com/product-category/premium-garden-seeds/potatoes/)
+- Pick fun varieties like [Kennebec](https://en.wikipedia.org/wiki/Kennebec_potato) (used with In-and-Out fries)
 - Old store-bought potatoes with growing eyes can also work
 - Planting whole potatoes works better than cutting them 
 - Use above-ground potato pots to avoid [gophers](https://en.wikipedia.org/wiki/Botta's_pocket_gopher) 
