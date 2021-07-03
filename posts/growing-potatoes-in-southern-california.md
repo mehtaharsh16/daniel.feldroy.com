@@ -7,11 +7,11 @@ tags:
   - recipe
 time_to_read: 1
 title: Growing Potatoes in Southern California
-description: What I've learned about growing and eater taters in the bright sun
+description: What I've learned about growing and eating potatoes in a hot climate.
 image: /images/potato-harvest-2021-07-03.jpg
 ---
 
-Southern California is known for it's mediterranean-style climate. That means a few chilly months with lots of rain and then months of hot, dry days. This isn't the best climate to grow potatoes, so after 18 months of research and experimentation we've finally made it work. 
+Southern California is known for it's mediterranean-style climate. That means a few chilly months with lots of rain and then months of hot, dry days. This isn't the best climate to grow potatoes. Yet after 18 months of research and experimentation we've finally made it work. 
 
 Here's what we've learned:
 
