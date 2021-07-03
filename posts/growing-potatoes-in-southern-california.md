@@ -20,9 +20,9 @@ Here's what we've learned:
 - Plant in the right season: January
 - Pick in the right season: June or July
 - Seed potatoes do best, but have to be [ordered online](https://hosstools.com/product-category/premium-garden-seeds/potatoes/)
-- Old store bought potatoes with growing eyes can also work
+- Old store-bought potatoes with growing eyes can also work
 - Planting whole potatoes works better than cutting them 
-- Use above ground potato pots to avoid [gophers](https://en.wikipedia.org/wiki/Botta's_pocket_gopher) 
+- Use above-ground potato pots to avoid [gophers](https://en.wikipedia.org/wiki/Botta's_pocket_gopher) 
 - Keep potato pots to a manageable size for moving around to optimize share
 - Potatoes can grow in compost, but add some dirt from fertile soil. Even if just to the top after planting. This adds worms and mycellia, both help the proliferation of tubers
 - SoCal is hot. Arrange them so around 50% of the day the are in shade
