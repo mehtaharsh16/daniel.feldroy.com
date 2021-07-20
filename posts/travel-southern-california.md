@@ -1,5 +1,5 @@
 ---
-date: "2021-07-29"
+date: "2021-07-20"
 published: true
 slug: travel-southern-california
 tags:
