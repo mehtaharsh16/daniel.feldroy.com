@@ -5,6 +5,13 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 
+export async function getStaticPaths() {
+  const paths = getAllPostIds()
+  return {
+    paths,
+    fallback: false
+  }
+}
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
@@ -12,14 +19,6 @@ export async function getStaticProps({ params }) {
     props: {
       postData
     }
-  }
-}
-
-export async function getStaticPaths() {
-  const paths = getAllPostIds()
-  return {
-    paths,
-    fallback: false
   }
 }
 
@@ -54,10 +53,8 @@ export default function Post({ postData }) {
           )
         }
 
-
         {/* Twitter card tags */}
         <meta name="twitter:title" content={postData.title} />
-
 
         {postData.image ?
           (
@@ -84,9 +81,6 @@ export default function Post({ postData }) {
             </>
           )
         }
-
-
-
 
         {/* Twitter card tags */}
         <meta
