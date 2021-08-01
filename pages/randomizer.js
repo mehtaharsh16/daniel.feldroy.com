@@ -5,7 +5,6 @@ import useSwr from 'swr'
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
-
 function Random() {
   const { data, error } = useSwr('/api/random', fetcher)
 
@@ -13,7 +12,6 @@ function Random() {
   if (!data) return <div>Randomizing...</div>
   return <div>{data.value}</div>  
 }
-
 
 export default function Counter() {
 
