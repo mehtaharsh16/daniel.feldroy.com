@@ -24,3 +24,12 @@ Reasons to stop:
 - In-and-Out
 - Affordable gasoline prices for the area
 - Date shakes served at [Hadley](https://hadleyfruitorchards.com/)
+
+### Things to do in Palm Springs
+
+- Palm Springs Aerial Tramway
+- Palm Springs Air Museum
+
+## Joshua Tree
+
+Lovely park, bring your own water and toilet paper. If you go hiking, bring a extra water. In the summer it gets very hot, we recommend the late afternoon for the most comfort. In other seasons pay attention to weather reports as flash floods can occur. If you see a flood, don't try to cross it, even with all wheel drive vehicles.
