@@ -5,7 +5,6 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 
-
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
   return {
@@ -54,10 +53,8 @@ export default function Post({ postData }) {
           )
         }
 
-
         {/* Twitter card tags */}
         <meta name="twitter:title" content={postData.title} />
-
 
         {postData.image ?
           (
@@ -84,9 +81,6 @@ export default function Post({ postData }) {
             </>
           )
         }
-
-
-
 
         {/* Twitter card tags */}
         <meta
