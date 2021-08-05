@@ -86,7 +86,9 @@ Read on!
 
 ``` javascript
 > let arr = [5, 10, 15, 20]
-> for (let i in arr){console.log(i)}
+> for (let i in arr){
+  console.log(i)
+}
 0
 1
 2
@@ -96,7 +98,9 @@ Read on!
 But let's change things up a bit with some prototype manipulation:
 
 ``` javascript
-> Array.prototype.icecream = function(){console.log("Ice cream!")}
+> Array.prototype.icecream = function(){
+  console.log("Ice cream!")
+}
 > let arr = [5, 10, 15, 20]
 > arr
 (4) [5, 10, 15, 20]
@@ -105,7 +109,9 @@ But let's change things up a bit with some prototype manipulation:
 The array has been proven to have four elements. Now let's iterate over the array using `for...in`:
 
 ``` javascript
-> for (let i in array){console.log(i)}
+> for (let i in array){
+  console.log(i)
+}
 0
 1
 2
