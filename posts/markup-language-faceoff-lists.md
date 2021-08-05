@@ -81,7 +81,7 @@ This blog is written in
 [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText) and
 transformed into **HTML**. Let's see the markup for this blog post:
 
-```rst
+```
 * Item A
 * Item B
 
