@@ -43,6 +43,9 @@ export default function Layout({ children, home }) {
               </Link>{' '}|{' '}
               <Link href="/books">
                 <a>Books</a>
+              </Link>{' '}|{' '}
+              <Link href="/jobs">
+                <a>Jobs</a>
               </Link>
             </p>
           </>
@@ -71,6 +74,9 @@ export default function Layout({ children, home }) {
               </Link>{' '}|{' '}
               <Link href="/books">
                 <a>Books</a>
+              </Link>{' '}|{' '}
+              <Link href="/jobs">
+                <a>Jobs</a>
               </Link>
             </p>
           </>
