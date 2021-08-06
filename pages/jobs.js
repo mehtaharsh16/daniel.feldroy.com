@@ -11,7 +11,7 @@ export default function Jobs() {
       </Head>
       <section className={utilStyles.headingMd}>
         <h1 className={utilStyles.headingXl}>Jobs</h1>
-        <p>Employers and Jobs that I have vetted.
+        <p>These are employers who I can confirm are good to work for, who take care of their people. They are lead by people with a strong sense of ethics and try to do good by the world.
       </p>
 
         <ul>
