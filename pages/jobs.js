@@ -21,7 +21,7 @@ export default function Jobs() {
           </li>
           <li>
             <a href="https://sixfeetup.com/company/careers" target="_blank">Six Feet Up</a><br />
-            A consultancy run by friends of mine, Six Feet Up.
+            A consultancy run by friends of mine. I appreciate their pledge to staff and to help the world.
 
           </li>
         </ul>
