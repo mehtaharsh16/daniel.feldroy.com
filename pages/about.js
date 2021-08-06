@@ -17,6 +17,8 @@ export default function About() {
           </Link>.
       </p>
 
+      <p>The source for this site is available on <a href="https://github.com/pydanny/daniel.feldroy.com" target="_blank">github</a>.</p>
+
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/danielfeldroy/" target="_blank">LinkedIn</a>
