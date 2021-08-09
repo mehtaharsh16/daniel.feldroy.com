@@ -18,7 +18,7 @@ I was inspired to make crusty European bread from our travels in Italy and Spain
 
 - **1 cup whole whole wheat flour**
 - **2.33 cups bread flour**: In the UK this is called "strong" flour. If necessary one can use all-purpose flour.
-- **1 cup powdered milk**: Nido is our favorite brand. Milk can be substituted but powdered milk is best.
+- **1 cup powdered milk**
 - **1.5 teaspoons of sugar**: We typically replace the sugar with an equivelent amount of applesauce.
 - **1.5 teaspoons of salt**
 - **0.25 oz yeast**
