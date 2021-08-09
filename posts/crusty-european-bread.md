@@ -32,5 +32,6 @@ I was inspired to make crusty European bread from our travels in Italy and Spain
 4. Start dough cycle
 5. When the dough cycle is complete, shape into 2 loaves
 6. Let rise for a while (30 minutes to 12 hours)
-7. For each loaf of bread, but a ramekin of hot water into the oven
-8. When the bread finishes cooking, leave in the oven to cool
+7. For each loaf of bread, put a ramekin of hot water into the oven
+7. Set oven to 425 degrees for 35 minutes
+9. When the bread finishes cooking, leave in the oven to cool
