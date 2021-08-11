@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
@@ -100,7 +101,7 @@ export default function Post({ postData }) {
           <hr />
           Tags:
           {postData.tags.map((tag) => (
-          <span key={tag}>{' '}{tag}</span>
+          <span key={tag}>{' '}<Link href={`/tags/${tag}`}>{tag}</Link></span>
         ))}
         </section>
       </article>
