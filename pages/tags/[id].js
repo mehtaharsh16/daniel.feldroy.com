@@ -40,12 +40,22 @@ export default function Home({ allTagsData, tag }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>{prettyTag} Articles  ({allTagsData.length})</h2>
         <ul className={utilStyles.list}>
-          {allTagsData.map(({ id, date, title }) => (
+          {allTagsData.map(({ id, date, title, description }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />
+              {description &&
+                (
+                  <>
+                    <small className={utilStyles.lightText}>
+                      {description}
+                    </small>
+                    <br />
+                  </>
+                )
+              }
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
