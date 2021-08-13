@@ -19,7 +19,7 @@ like it is my turn now.
 
 So without further ado, seven of my tools, specifically software.
 
-# [TextMate](https://consumernotebook.com/textmate-the-missing-editor-for-mac-os-x/4f4ad4e35a4305000d000000/)
+# TextMate
 
 > "My relationship with Textmate isn't healthy."
 >
@@ -27,11 +27,7 @@ So without further ado, seven of my tools, specifically software.
 
 I continue to use it, even though it's unsupported, has weird
 whitespace issues, and people make fun of me. I don't mean the
-EMACS/Vim people, cause they mock everyone, I mean people using [Sublime
-Text
-2](https://consumernotebook.com/sublime-text/4f4ad53a5a4305000e000000/),
-[PyCharm](https://consumernotebook.com/jetbrains-pycharm/4f4ad5b861e9e4000e000000/),
-and NotePad on Windows. I try to make a brave face of it and for the
+EMACS/Vim people, cause they mock everyone, I mean people using Sublime Text, PyCharm, and NotePad on Windows. I try to make a brave face of it and for the
 most part I succeed.
 
 Speaking of which, you know how you sometimes wish deep inside that the
@@ -43,15 +39,11 @@ stares me in the face; yet I cling to hope.
 
 Alright, sometimes I dabble in Sublime Text 2. I've played with
 PyCharm. In 2010 I even worked on a project where use of
-[PyDev](https://consumernotebook.com/pydev/4f4ad5d55a4c6f000d000000/) was
-mandatory. When I touch servers it's EMACS, Vi, or even Nano. And yet
-to TextMate I always return.
+PyDev  was mandatory. When I touch servers it's EMACS, Vi, or even Nano. And yet to TextMate I always return.
 
 Is TextMate dead? Probably. And yes, someday I'll switch over to
 something else, probably Sublime Text 2. In order to be certain I'm
-starting to [list all the Python
-editors](https://consumernotebook.com/lists/pydanny/complete-list-of-python-editors/)
-so I can review them properly before switching.
+starting to list all the python editors so I can review them properly before switching.
 
 ---
 
@@ -99,9 +91,8 @@ are Heroku moderated third-party plug-ins for their service. Finally, it
 didn't hurt that Heroku has the staff to provide 24/7 coverage of their
 servers.
 
-We decided to give it a try and the results are that [Consumer
-Notebook](https://consumernotebook.com) is hosted by Heroku. We're more
-than pleased, and I'll be blogging about the advantages of PaaS over
+We decided to give it a try and the results are that many of our 2012-2015 apps were hosted by Heroku. We're more
+than pleased, and often remarked during this time period about the advantages of PaaS over
 doing-servers-yourself in a future article.
 
 ---
@@ -118,6 +109,8 @@ relying on weird coding patterns.
 ---
 
 # [Consumer Notebook](https://consumernotebook.com)
+
+**Note: we shut this down years ago.**
 
 Yup, I eat my own dogfood. It lets me [build comparison
 grids](https://consumernotebook.com/grids/~pydanny/) or look at what

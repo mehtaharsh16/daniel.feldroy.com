@@ -20,7 +20,7 @@ Note: Anything with an asterisk (`*`) can be done with [GitHub Desktop](https://
 
 Work in the smallest, most atomic feature branches possible. It's easier for people to review smaller things, meaning you will move faster.
 
-```
+``` 
 git checkout -b my-new-branch
 ```
 

@@ -21,7 +21,7 @@ Long Answer
 ===========
 
 First off, let's get one thing out of the way. This isn't a bash on
-MongoDB. MongoDB works great with lots of things (Flask, Tornado, Node,
+MongoDB. MongoDB works great with lots of things (FastAPI, Flask, ode,
 etc), but it's a mismatch with Django. In other words, this article is
 about using the right tool for the right job.
 
@@ -116,8 +116,8 @@ to make development slower and frustrate the team. Even if your team can
 work around this issue, they'll be hampered by not being able to fully
 exploit tools within the Django ecosystem.
 
-If You Must Use MongoDB, Use Flask Instead
-==========================================
+If You Must Use MongoDB, Use FastAPI or Flask Instead
+=====================================================
 
 There's nothing wrong with MongoDB. However, it's suboptimal when used
 with Django. If you use it with correct write permissions, MongoDB
@@ -127,12 +127,11 @@ forms, easy Django REST framework use, hundreds of third-party packages,
 etc). There is quite a lot of things you are going to have to rewrite.
 
 And if you're going to have to rewrite that much of Django's
-functionality to use MongoDB, you might as well be using Flask.
-Honestly, this isn't a bad choice, as the flexibility of Flask makes it
+functionality to use MongoDB, you might as well be using FastAPI or Flask.
+Honestly, this isn't a bad choice, as the flexibility of those tools makes them
 perfect for use with non-relational databases.
 
-I know, because this is how we use Flask on the job, which is not with
-relational data. We have dozens of microservices that rely on DynamoDB.
+I know, because this is how I've both FastAPI and Flask previously, which is not with
+relational data. I've built dozens of microservices that rely on DynamoDB.
 While DynamoDB isn't MongoDB, they are similar enough that I can tell
-you this approach is delightful. Keep an eye out for my upcoming article
-about it.
+you this approach is delightful. 
