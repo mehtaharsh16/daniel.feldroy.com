@@ -21,7 +21,7 @@ Long Answer
 ===========
 
 First off, let's get one thing out of the way. This isn't a bash on
-MongoDB. MongoDB works great with lots of things (FastAPI, Flask, ode,
+MongoDB. MongoDB works great with lots of things (FastAPI, Flask, node,
 etc), but it's a mismatch with Django. In other words, this article is
 about using the right tool for the right job.
 
