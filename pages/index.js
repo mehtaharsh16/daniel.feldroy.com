@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import Date from '../components/date'
+import Listing from '../components/listing'
 
 import { getSortedPostsData } from '../lib/posts'
 import generateRssFeed from '../lib/rss'

@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import utilStyles from '../styles/utils.module.css'
-import Layout from '../components/layout'
+import utilStyles from '../../styles/utils.module.css'
+import Layout from '../../components/layout'
+import Link from 'next/link'
 
-export default function About() {
+export default function Books() {
   return (
     <Layout>
       <Head>
@@ -14,11 +15,10 @@ export default function About() {
 
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
-            <a target="_blank" href="https://www.feldroy.com/collections/two-scoops-press">Technical
-          </a>
+            <Link href="books/tech"><a>Technical</a></Link>
             <br />
             <small >
-              With Audrey, I co-write dairy-themed technical books.
+              With Audrey, I co-write dairy-themed technical books....
           </small>
           </li>
           <li className={utilStyles.listItem}>

@@ -7,6 +7,7 @@ tags:
 - python
 - django
 - mongodb
+- fastapi
 - rant
 time_to_read: 4
 title: When to Use MongoDB with Django

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://daniel.feldroy.com/</id>
+    <title>Daniel Roy Greenfeld</title>
+    <updated>2021-08-11T05:56:25.430Z</updated>
+    <generator>Next.js using Feed for Node.js</generator>
+    <author>
+        <name>Daniel Roy Greenfeld</name>
+        <email>daniel@feldroy.com</email>
+        <uri>https://daniel.feldroy.com</uri>
+    </author>
+    <link rel="alternate" href="https://daniel.feldroy.com"/>
+    <subtitle>Inside the head of Daniel Roy Greenfeld</subtitle>
+    <logo>https://daniel.feldroy.com/images/pydanny-cartwheel.png</logo>
+    <icon>https://daniel.feldroy.com/favicon.ico</icon>
+    <rights>All rights reserved 2021, Daniel Roy Greenfeld</rights>
+    <entry>
+        <title type="html"><![CDATA[Crusty European Bread]]></title>
+        <id>https://daniel.feldroy.com/posts/crusty-european-bread</id>
+        <link href="https://daniel.feldroy.com/posts/crusty-european-bread"/>
+        <updated>2021-08-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A recipe to make tasty bread with a crust.]]></summary>
+        <content type="html"><![CDATA[<p><img src="/images/crusty-european-bread.png" alt="Crusty European Bread!"></p>
+<p>I was inspired to make crusty European bread from our travels in Italy and Spain. My first attempt didn't have an enjoyable crust because I relied on butter. It turns out the secret ingredient is steam in the oven followed by letting it cool in the oven.</p>
+<h2>Ingredients</h2>
+<ul>
+<li><strong>1 cup whole whole wheat flour</strong></li>
+<li><strong>2.33 cups bread flour</strong>: In the UK this is called "strong" flour. If necessary one can use all-purpose flour.</li>
+<li><strong>1 cup powdered milk</strong></li>
+<li><strong>1.5 teaspoons of sugar</strong>: We typically replace the sugar with an equivelent amount of applesauce.</li>
+<li><strong>1.5 teaspoons of salt</strong></li>
+<li><strong>0.25 oz yeast</strong></li>
+<li><strong>1.25 cups water</strong></li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+<li>Activate yeast at 100 to 110 degrees in the water</li>
+<li>Put dry ingredients into bread machine</li>
+<li>Add water into bread machine</li>
+<li>Start dough cycle</li>
+<li>When the dough cycle is complete, shape into 2 loaves</li>
+<li>Let rise for a while (30 minutes to 12 hours)</li>
+<li>For each loaf of bread, put a ramekin of hot water into the oven</li>
+<li>Set oven to 425 degrees for 35 minutes</li>
+<li>When the bread finishes cooking, leave in the oven to cool</li>
+</ol>
+]]></content>
+        <author>
+            <name>Daniel Roy Greenfeld</name>
+            <email>daniel@feldroy.com</email>
+            <uri>https://daniel.feldroy.com</uri>
+        </author>
+        <contributor>
+            <name>Daniel Roy Greenfeld</name>
+            <email>daniel@feldroy.com</email>
+            <uri>https://daniel.feldroy.com</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript Loops Are Fun!]]></title>
+        <id>https://daniel.feldroy.com/posts/simple-javascript-loops</id>
+        <link href="https://daniel.feldroy.com/posts/simple-javascript-loops"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This tutorial is a cookbook of my favorite JavaScript looping techniques.]]></summary>
+        <content type="html"><![CDATA[<p>This tutorial is a cookbook of my favorite JavaScript looping techniques and to a lesser degree, object introspection. It should prove useful to anyone new to JavaScript, especially if you are coming from languages with <code>for...in</code> (python in particular).</p>
+<p>I'm doing this in my browser JavaScript console.</p>
+<h2>Looping for values</h2>
+<p>Looping through elements of an array is easy in JavaScript. Use <code>for...of</code>!</p>
+<pre><code class="language-javascript">> let arr = [5, 10, 15, 20]
+> for (let i of arr){
+    console.log(i)
+  }
+5
+10
+15
+20
+</code></pre>
+<p><code>for...of</code> returns the value of the loop iteration. It's the right tool for this operation.</p>
+<h1>Looping for index</h1>
+<p>If you need to track the index of a loop, do this:</p>
+<pre><code class="language-javascript">> for (let i=0; i &#x3C; arr.length; i++){
+    console.log(i)
+  }
+0
+1
+2
+3
+</code></pre>
+<p>This technique is reliable and acts predictably. I've heard that this method runs more quickly than <code>for...of</code>, but JavaScript is very fast these days. Any slowdowns your code might have is probably due to latency or other bottlenecks rather than which JavaScript looping technique you choose to implement.</p>
+<h2>What's the difference between <code>for...of</code> and <code>for...in</code>?</h2>
+<p>Let's use both techniques on the same array and see what we get. First, the <code>for...of</code> combination:</p>
+<pre><code class="language-javascript">> let arr = [5, 10, 15, 20]
+> for (let i of arr){
+    console.log(i)
+  }
+5
+10
+15
+20
+</code></pre>
+<p>Now, the <code>for...in</code> combination, <strong>which isn't recommended</strong>:</p>
+<pre><code class="language-javascript">> let arr = [5, 10, 15, 20]
+> for (let i in arr){
+    console.log(i)
+  }
+0
+1
+2
+3
+</code></pre>
+<p>It appears that <code>for...in</code> returns the index of the loop iteration, right? What's wrong with that?</p>
+<p>Read on!</p>
+<h2>Problems using <code>for...in</code> with arrays</h2>
+<p><code>for...in</code> can fool you into thinking it's the right tool for iterating over arrays for indexes instead of the more verbose approach of <code>(let i=0; i &#x3C; arr.length; i++)</code>. This appeared to work:</p>
+<pre><code class="language-javascript">> let arr = [5, 10, 15, 20]
+> for (let i in arr){
+  console.log(i)
+}
+0
+1
+2
+3
+</code></pre>
+<p>But let's change things up a bit with some prototype manipulation:</p>
+<pre><code class="language-javascript">> Array.prototype.icecream = function(){
+  console.log("Ice cream!")
+}
+> let arr = [5, 10, 15, 20]
+> arr
+(4) [5, 10, 15, 20]
+</code></pre>
+<p>The array has been proven to have four elements. Now let's iterate over the array using <code>for...in</code>:</p>
+<pre><code class="language-javascript">> for (let i in array){
+  console.log(i)
+}
+0
+1
+2
+3
+icecream
+</code></pre>
+<p>Where did the <code>icecream</code> value come from? <code>icecream</code> function wasn't in the array but <code>for...in</code> called it anyway. What just happened?!?</p>
+<p>What's going on is that the <code>for...in</code> is enumerating over the <strong>properties</strong> of the array, not the values or index. Even if you avoid using prototypes, the same cannot be said for any library installed from NPM. Finally, there is no guarantee that the elements will be returned <code>for...in</code> in numeric order.</p>
+<h2>What about <code>forEach</code> loops?</h2>
+<p>The <code>forEach</code> loop requires a callback, making it a slightly advanced enough method of writing for loops in JavaScript. I'll cover that in a future article.</p>
+<h2>Summary</h2>
+<ol>
+<li>Use <code>for...of</code> for iterating over the values of an array.</li>
+<li>Use <code>(let i=0; i &#x3C; arr.length; i++)</code> for enumerating over the index of an array.</li>
+<li>Avoid using <code>for...in</code> for iterating over arrays in any capacity.</li>
+</ol>
+]]></content>
+        <author>
+            <name>Daniel Roy Greenfeld</name>
+            <email>daniel@feldroy.com</email>
+            <uri>https://daniel.feldroy.com</uri>
+        </author>
+        <contributor>
+            <name>Daniel Roy Greenfeld</name>
+            <email>daniel@feldroy.com</email>
+            <uri>https://daniel.feldroy.com</uri>
+        </contributor>
+    </entry>
+</feed>
