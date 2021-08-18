@@ -50,4 +50,4 @@ Then politely admit you don't know the answer. Gently steer the person to others
 
 ### What if someone asks me questions and I'm too busy to answer them?
 
-Gently guide the person to others who can help them, or to online help methods. Or suggest a time when you aren't busy for them to ask for help. 
+Gently guide the person to others who can help them, or to online help methods. Or suggest a time when you will have time to answer their questions. 
