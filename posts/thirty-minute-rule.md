@@ -55,4 +55,6 @@ Then politely admit you don't know the answer. Gently steer the person to others
 
 Gently guide the person to others who can help them, or to online help methods. Or suggest a time when you will have time to answer their questions. 
 
-![Me as an adolescant at my first computer](/images/6933443849_51316a7cb7.jpg)
+![Sitting at my first computer](/images/6933443849_51316a7cb7.jpg)
+
+*Sitting at my first computer.*
