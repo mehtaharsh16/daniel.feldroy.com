@@ -7,8 +7,11 @@ tags:
   - rant
   - django
   - python
+  - tools
+  - advice
 time_to_read: 3
 title: The Thirty Minute Rule
+image: /images/6933443849_51316a7cb7.jpg
 ---
 
 When it comes to coding (or anything related to it) there's a rule I believe in with all my heart. It's the **Thirty Minute Rule**.
@@ -51,3 +54,5 @@ Then politely admit you don't know the answer. Gently steer the person to others
 ### What if someone asks me questions and I'm too busy to answer them?
 
 Gently guide the person to others who can help them, or to online help methods. Or suggest a time when you will have time to answer their questions. 
+
+![Me as an adolescant at my first computer](/images/6933443849_51316a7cb7.jpg)
