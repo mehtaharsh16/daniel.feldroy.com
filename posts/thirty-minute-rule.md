@@ -33,7 +33,7 @@ Whoever you can. Co-workers and collaborators are common. If they don't have the
 
 Then you've got a real challenge. Solving hard problems is part of our job.
 
-### Shouldn't people people figure stuff out on their own?
+### Shouldn't people figure stuff out on their own?
 
 Often, that's impossible. Many years ago I once spent several days trying to figure out how to package up something for deployment. When I finally got up the nerve to ask for help, I found out that critical details of our environment weren't in the group wiki, but handwritten in the system administrators'  notebook. While that was an admittedly insane scenario, it embodies the fact that until I asked, there was no way I was ever going to accomplish my assigned task.
 
@@ -58,3 +58,7 @@ Gently guide the person to others who can help them, or to online help methods. 
 ![Sitting at my first computer](/images/6933443849_51316a7cb7.jpg)
 
 *Sitting at my first computer.*
+
+---
+**Edits**
+- Grammar correction thanks to Vadym Khodak
