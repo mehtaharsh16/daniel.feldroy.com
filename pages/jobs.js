@@ -21,8 +21,11 @@ export default function Jobs() {
           </li>
           <li>
             <a href="https://sixfeetup.com/company/careers" target="_blank">Six Feet Up</a><br />
-            A consultancy run by friends of mine. I appreciate their pledge to staff and to help the world.
-
+            I appreciate the pledge they make to treat staff in a humane way and use their talents to help the world. Based in Indiana, USA.
+          </li>
+          <li>
+            <a href="https://labcodes.com.br/careers" target="_blank">Lab Codes</a><br />
+            Another consultancy who does right by their people and does no harm to the world. Based in Recife, Brazil. 
           </li>
         </ul>
       </section>
