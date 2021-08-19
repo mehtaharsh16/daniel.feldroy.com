@@ -94,7 +94,7 @@ let water = {
 
 "That's it!" Audrey said. "Water isn't a defined as a constant via `const`, but rather as a mutable via `let`. That means we can make any change to it we want. Let's just add a new setting just like so:
 
-```javascript{5}
+```javascript
 water = {
   amount: "Too Much",
   temperature: "cold",
