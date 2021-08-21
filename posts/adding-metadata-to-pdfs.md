@@ -74,8 +74,8 @@ After a bunch of research (googling, stack overlow-ing, and visiting forums) I f
 
 For my purposes, the two critical sections were found in Chapter 4 of PDF Explained:
 
-- https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#didentries
-- https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#dates
+- [oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#didentries](https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#didentries)
+- [oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#dates](https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#dates)
 
 Based off what I read, I established the following rules:
 
