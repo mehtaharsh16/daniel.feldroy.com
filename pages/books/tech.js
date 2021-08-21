@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Script from "next/script"
+import Link from "next/link"
 
 import Layout from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
@@ -43,6 +44,11 @@ export default function TechBooks() {
 
       </Head>
       <article>
+        <div className={utilStyles.backToHome}>
+          <Link href="/books">
+              <a>← Back to books</a>
+          </Link>
+        </div>          
         <h1 className={utilStyles.headingXl}>Tech Books I Have Co-Authored</h1>
         <p>With Audrey, I co-write dairy-themed technical books.</p>
         <ul className={utilStyles.list}>

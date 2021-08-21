@@ -24,7 +24,7 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export default function Post({ postData }) {
+export default function Story({ postData }) {
   const domain = "https://daniel.feldroy.com/"
   return (
     <Layout>
@@ -92,6 +92,12 @@ export default function Post({ postData }) {
 
       </Head>
       <article>
+        <div className={utilStyles.backToHome}>
+            <Link href="/stories">
+              <a>← Back to stories</a>
+            </Link>
+        </div>      
+
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div>
           {postData.author}
@@ -110,7 +116,10 @@ export default function Post({ postData }) {
           )
         }     
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+
+    
       </article>
+    
     </Layout>
   )
 }
