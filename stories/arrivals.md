@@ -16,7 +16,7 @@ Amra sidled through the crowd with the agility of a highly proficient warrior. W
 
 "Open that hatch or..." Amra began.
 
-"Or what?" said the burliest sailor, drawing himself to full height and lifting a belaying pin. The three other sailors also drew themselves up, but we're quite as tall or intimidating. "You want to take that back?"
+"Or what?" said the burliest sailor, drawing himself to full height and lifting a belaying pin. The three other sailors also drew themselves up, but were quite as tall or intimidating. "You want to take that back?"
 
 "Why should I?" Amra said. He put his hand on the hilt of his sword. The sword began to whisper dreadful things. And not in quiet library voice either. No, these were whispers that most people would call shouting. Compounding the volume of the whispering sword was that it was inside a steel corridor filled with scores of other people.
 
