@@ -5,8 +5,6 @@ published: true
 slug: thirty-minute-rule
 tags:
   - rant
-  - django
-  - python
   - tools
   - advice
 time_to_read: 3
@@ -35,9 +33,9 @@ Then you've got a real challenge. Solving hard problems is part of our job.
 
 ### Shouldn't people figure stuff out on their own?
 
-Often, that's impossible. Many years ago I once spent several days trying to figure out how to package up something for deployment. When I finally got up the nerve to ask for help, I found out that critical details of our environment weren't in the group wiki, but handwritten in the system administrators'  notebook. While that was an admittedly insane scenario, it embodies the fact that until I asked, there was no way I was ever going to accomplish my assigned task.
+Often, that's impossible. Many years ago I once spent several days trying to figure out how to package up something for deployment. When I finally got up the nerve to ask for help, I learned that critical details of our environment weren't in the group wiki, but handwritten in the system administrators'  notebook. While that was an admittedly insane scenario, it demonstrates that until I asked, there was no way I was ever going to accomplish my assigned task.
 
-Had I asked for help in thirty minutes, I wouldn't have save myself a lot of frustration. I wouldn't have wasted several days of work.
+Had I asked for help in thirty minutes, I wouldn't have experienced so much frustration. I wouldn't have wasted several days of work.
 
 ### I had to figure stuff out on my own, shouldn't other people?
 
