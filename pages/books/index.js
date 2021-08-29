@@ -22,7 +22,7 @@ export default function Books() {
           </small>
           </li>
           <li className={utilStyles.listItem}>
-            <a target="_blank" href="https://www.feldroy.com/collections/impossible-hero-books">Fiction
+            <a target="_blank" href="https://www.feldroy.com/fiction">Fiction
           </a>
             <br />
             <small >

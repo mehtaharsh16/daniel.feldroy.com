@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^11.1.0",
     "blog": "^1.0.0",
     "date-fns": "^2.21.3",
     "feed": "^4.2.2",

@@ -11,13 +11,13 @@ I made this with @audreyfeldroy.
 ## Installation
 
 ```
-npm install
+yarn
 ```
 
 ## Running the Site Locally
 
 ```
-npm run dev
+yarn dev
 ```
 
 RSS is in lib
