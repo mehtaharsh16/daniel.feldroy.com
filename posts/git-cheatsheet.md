@@ -20,7 +20,7 @@ Note: Anything with an asterisk (`*`) can be done with [GitHub Desktop](https://
 
 Work in the smallest, most atomic feature branches possible. It's easier for people to review smaller things, meaning you will move faster.
 
-``` 
+``` bash
 git checkout -b my-new-branch
 ```
 
@@ -30,25 +30,26 @@ Note: Don't end commit messages with punctuation. Many projects reject it. Not s
 
 Note 2: GitHub desktop makes adding long commits easy.
 
-```
+``` bash
 git commit -am "I am committing everything"
 ```
 
 # Pushing my branch up*
 
-```
+``` bash
 git push origin my-new-branch
 ```
 
-# Deleting a local branch*
+# Deleting a local branch
 
-```
+
+``` bash
 git branch -d my-new-branch
 ```
 
 # Deleting a remote branch (on GitHub, Gitlab, etc)
 
-```
+``` bash
 git branch -D my-new-branch
 ```
 
@@ -57,10 +58,26 @@ git branch -D my-new-branch
 
 Rebase is fundamental to working with Git. Yet unless I really think hard I screw them up. Therefore, I tend to just squash everything down to one commit and look good in the process. Until now, no one has known I frequently copy/pasta this series for all my PRs. Here is how I do it:
 
-```
+``` bash
 git checkout my-new-branch
 git reset $(git merge-base master my-new-branch)
 git add -A
-git commit -m "OMG I figured out everything with just one commit"
+git commit -m "OMG done in just one commit!"
 git push --force
+```
+
+# Delete all local merged branches
+
+Will delete all your local branches that have been merged. Before you do that,  verify what will be deleted 1st. 
+
+```bash
+git branch --merged | egrep -v \
+  "(^\*|master|main|dev)" | xargs git branch -d
+```
+
+
+Using this will remove deleted origin branches from your local repo also.
+
+```bash
+git fetch -p
 ```
