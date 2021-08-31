@@ -74,10 +74,3 @@ Will delete all your local branches that have been merged. Before you do that,  
 git branch --merged | egrep -v \
   "(^\*|master|main|dev)" | xargs git branch -d
 ```
-
-
-Using this will remove deleted origin branches from your local repo also.
-
-```bash
-git fetch -p
-```
