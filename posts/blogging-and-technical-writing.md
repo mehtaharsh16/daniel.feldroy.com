@@ -38,9 +38,9 @@ Cons:
 
 These days I write notes  to myself and to people I know. Sometimes it is to make a public point. Sometimes it is both.
 
-For posts to myself, I do so because I need to be able to find the content again. The fastest way for me to find a note and avoid losing is to post it on my blog. This is about 80% of my blog.
+For posts to myself, I write them because I need to be able to find the content again. The fastest way for me to find a note and avoid losing is to post it on my blog. This is about 80% of my blog.
 
-For making public points, I used to try to convince the world of my arguments and beliefs. Including why people should buy one of my books. These days I just focus on people I know. Here are several points I share often or others share on my behalf:
+For making public points, I am trying convince the world of my arguments and beliefs. Here are several points I share often or other individuals share on my behalf:
 
 - [The Thirty Minute Rule](/posts/thirty-minute-rule)
 - [When to Use MongoDB with Django](/posts/when-to-use-mongodb-with-django)
