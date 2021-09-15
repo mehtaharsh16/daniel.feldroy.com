@@ -6,9 +6,10 @@ tags:
 - blog
 time_to_read: 4
 title: Blogging and Technical Writing
+description: Answers to questions I was asked recently about technical blog writing.
 ---
 
-Recently I was asked several questions about my blogging and technical writing. Here are my answers.
+Here are answers to questions I was asked about technical blog writing.
 
 # How do I set up my blog?
 
