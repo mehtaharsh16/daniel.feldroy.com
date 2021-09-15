@@ -3,7 +3,6 @@ date: '2012-11-26'
 published: true
 slug: thoughts-on-ranting
 tags:
-- blog
 - rant
 - family
 - friends

@@ -7,7 +7,6 @@ tags:
 - python
 - capoeira
 - book
-- blog
 - django
 - resolutions
 - holidays

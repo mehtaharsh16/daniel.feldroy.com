@@ -5,14 +5,13 @@ slug: two-scoops-of-goblins
 tags:
   - python
   - django
-  - blog
   - book
   - twoscoops
 time_to_read: 1
 title: Two Scoops of Goblins
 ---
 
-While [Audrey Roy Greenfeld](https://audrey.roygreenfeld.com) and I were
+While [Audrey Roy Greenfeld](https://audrey.feldroy.com) and I were
 contemplating our next Two Scoops Press book topic, it came down to a
 decision between Pyramid, Flask, and mythical creatures. Inspired by
 Django's magical flying pony, Pyramid's scary alien dude, and even the
@@ -26,7 +25,7 @@ What that means is that the next book we publish will be fantasy. Going
 forward all the books we write will be fiction.
 
 If we ever write a new [Two Scoops of
-Django](https://roygreenfeld.com/products/two-scoops-of-django-1-11)
+Django](https://feldroy.com)
 book, it will be a fantasy about a magical flying pony who eats ice
 cream. That way we'll confuse the [already muddled Amazon.com search
 requests for

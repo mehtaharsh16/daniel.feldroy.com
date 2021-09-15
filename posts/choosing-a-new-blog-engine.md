@@ -5,6 +5,7 @@ slug: choosing-a-new-blog-engine
 tags:
   - python
   - blog
+  - ruby
 time_to_read: 4
 title: Choosing a new python based blog engine
 ---

@@ -6,7 +6,6 @@ tags:
 - python
 - django
 - rant
-- blog
 time_to_read: 3
 title: Developer Time
 ---
@@ -22,8 +21,8 @@ people.
 
 <blockquote class="twitter-tweet"><p>Developers should have 4-6 hours of uninterrupted activity each day. Each 3-5 minute interruption costs more than you can imagine.</p>&mdash; Daniel Greenfeld (@pydanny) <a href="https://twitter.com/pydanny/status/275680738773463040" data-datetime="2012-12-03T19:19:44+00:00">December 3, 2012</a></blockquote>
 <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-Why did this tweet resonate with so many people?
-================================================
+
+# Why did this tweet resonate with so many people?
 
 What I said in that tweet was not new - dozens if not hundreds of others
 have tweeted similar thoughts before and gotten many retweets. Heck,

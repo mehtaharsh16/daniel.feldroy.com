@@ -1,7 +1,6 @@
 ---
 date: "2018-03-29"
 description: Where I describe why and how I wrote a new blog engine
-published: true
 slug: writing-new-blog-engine
 tags:
   - python
