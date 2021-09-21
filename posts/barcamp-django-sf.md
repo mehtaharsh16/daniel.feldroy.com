@@ -54,10 +54,10 @@ Some attendees planning to be speakers:
     Migrations, etc)
 -   [Natalie Downe](https://twitter.com/natbat) (co-founder of
     [Lanyrd](https://lanyrd.com/))
--   [Audrey Roy Greenfeld](audrey.roygreenfeld.com)
+-   [Audrey Roy Greenfeld](audrey.feldroy.com)
     ([Cookiecutter](github.com/audreyr/cookiecutter),
     [MessageBar](https://github.com/audreyr/messagebar), [Two Scoops of
-    Django](https://roygreenfeld.com/products/two-scoops-of-django-1-6))
+    Django](https://feldroy.com/products/two-scoops-of-django-1-6))
 -   Michael Herman ([Real Python](https://twitter.com/realpython))
 -   Myself
 -   You! We especially welcome people from diverse backgrounds (race,

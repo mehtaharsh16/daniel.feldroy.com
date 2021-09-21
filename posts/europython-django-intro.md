@@ -10,7 +10,7 @@ time_to_read: 1
 title: EuroPython Intro to Django Workshop
 ---
 
-We (myself and [Audrey Roy](https://audrey.roygreenfeld.com)) have been asked to
+We (myself and [Audrey Roy](https://audrey.feldroy.com)) have been asked to
 fill in a tutorial session at EuroPython 2013 on the afternoon July 3rd!
 Therefore, it is my honor to announce our EuroPython Intro to Django
 Workshop! (see the bottom of this article for registration instructions)
@@ -19,7 +19,7 @@ Workshop Description
 ====================
 
 Bring your laptops and join the authors of [Two Scoops of
-Django](https://roygreenfeld.com/products/two-scoops-of-django-1-5) for a hands-on Django workshop.
+Django](https://www.feldroy.com/books/two-scoops-of-django-3-x) for a hands-on Django workshop.
 We'll build a real, working site from the ground up, using the upcoming
 Django 1.6 and covering Python 2.7/3.3. We'll cover as much as we can
 get through, including but not limited to:

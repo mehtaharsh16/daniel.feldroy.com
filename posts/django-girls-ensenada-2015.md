@@ -48,4 +48,4 @@ running the event.
 
 My co-author, co-presenter, co-everything wife AudreyR also blogged her
 account of it: [Our Trip to DjangoGirls Ensenada,
-Mexico](https://audrey.roygreenfeld.com2015/05/our-trip-to-djangogirls-ensenada-mexico.html).
+Mexico](https://audrey.feldroy.com/2015/05/our-trip-to-djangogirls-ensenada-mexico.html).

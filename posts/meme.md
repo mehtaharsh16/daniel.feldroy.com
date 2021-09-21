@@ -25,8 +25,8 @@ discovered:
 LaTeX
 -----
 
-That [book](dhttps://roygreenfeld.com/products/two-scoops-of-django-1-5) I co-wrote with [Audrey
-Roy](https://audreyr.com)? Written in
+That [book](https://www.feldroy.com/books/two-scoops-of-django-3-x) I co-wrote with [Audrey
+Roy](https://audrey.feldroy.com)? Written in
 [LaTeX](https://en.wikipedia.org/wiki/LaTeX). It wasn't easy to get
 started, even with Audrey as my instructor, but now that I grok it, I
 feel extremely empowered. That's because I can do all kinds of awesome,

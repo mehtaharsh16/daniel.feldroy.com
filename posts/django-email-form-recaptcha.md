@@ -147,5 +147,4 @@ Want to learn more?
 ===================
 
 Check out the Django book I co-wrote, [Two Scoops of Django: Best
-Practices for Django
-1.11](https://roygreenfeld.com/products/two-scoops-of-django-1-11)!
+Practices for Django](https://www.feldroy.com/books/two-scoops-of-django-3-x)!

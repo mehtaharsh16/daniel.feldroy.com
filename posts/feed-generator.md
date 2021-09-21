@@ -11,7 +11,7 @@ title: Feed Generator
 type: post
 ---
 
-Late last year I [changed my blog engine yet again](/moving-to-vuepress.html). I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a `python` feed, a `family` feed, and so on. As much as I love my [wife](https://audrey.roygreenfeld.com) and [daughter](/recap-2019-resolutions-2020.html#my-daughter-was-born), non-technical posts about them probably don't belong on places where this post will show up.
+Late last year I [changed my blog engine yet again](/moving-to-vuepress.html). I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a `python` feed, a `family` feed, and so on. As much as I love my [wife](https://audrey.feldroy.com) and [daughter](/recap-2019-resolutions-2020.html#my-daughter-was-born), non-technical posts about them probably don't belong on places where this post will show up.
 
 After trying to work within the framework of the blog engine (Vuepress), I got tired of fighting abstraction and gave up. My blog wouldn't have an XML feed.
 

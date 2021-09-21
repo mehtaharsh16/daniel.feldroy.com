@@ -205,12 +205,12 @@ Bootstrap](https://twitter.github.com/bootstrap/).
 We tossed around names for the project, but all of them were stupid,
 especially mine. We are both huge fans and users of
 [django-floppyforms](https://github.com/brutasse/django-floppyforms)
-(HTML5 form widget app), so my fiancee, [Audrey
-Roy](https://audrey.roygreenfeld.com), suggested django-crispy-forms. And lo, the
+(HTML5 form widget app), so my fiancee (now wife), [Audrey
+Roy](https://audrey.feldroy.com), suggested django-crispy-forms. And lo, the
 project was named.
 
 Right now
-[django-crispy-forms](https://github.com/maraujop/django-crispy-forms)
+[django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms)
 has an improved API, better performance, and supports both Twitter
 bootstrap forms 2.0 and UniForm. Adding new form layouts will be easier,
 and feature controls will be better.

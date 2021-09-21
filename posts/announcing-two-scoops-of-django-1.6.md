@@ -11,14 +11,14 @@ time_to_read: 3
 title: Announcing Two Scoops of Django 1.6!
 ---
 
-[![image](/images/two-scoops-django-co-authors-M.jpg)](https://roygreenfeld.com/products/two-scoops-of-django-1-6)
+[![image](/images/two-scoops-django-co-authors-M.jpg)](https://feldroy.com/products/two-scoops-of-django-1-6)
 
 We (Audrey Roy and I) just released the **revised**, **expanded**, and
 **slightly renamed** second edition of our book on Django. It's called
 [Two Scoops of Django: Best Practices for Django
-1.6](https://roygreenfeld.com/products/two-scoops-of-django-1-6), and
+1.6](https://feldroy.com/products/two-scoops-of-django-1-6), and
 you can buy it right now in print format on our [online
-store](https://roygreenfeld.com/products/two-scoops-of-django-1-6) or
+store](https://feldroy.com/products/two-scoops-of-django-1-6) or
 [Amazon.com](https://amzn.to/1n98duC).
 
 Two Scoops of Django: Best Practices for Django 1.6 is chock-full of
@@ -38,9 +38,9 @@ example-packed text.
 
 Why should you buy this updated version of our previous book? Well,
 it's more than a slight rename, it's been
-[revised](https://roygreenfeld.com/pages/two-scoops-of-django-1-6-change-list)
+[revised](https://feldroy.com/pages/two-scoops-of-django-1-6-change-list)
 and
-[expanded](https://roygreenfeld.com/pages/two-scoops-of-django-1-6-change-list)!
+[expanded](https://feldroy.com/pages/two-scoops-of-django-1-6-change-list)!
 
 ## It's Revised
 
@@ -81,7 +81,7 @@ In fact...
 
 ### We expanded the book so much that **3 > 4**:
 
-[![image](/images/3vs4-M.jpg)](https://roygreenfeld.com/products/two-scoops-of-django-1-6)
+[![image](/images/3vs4-M.jpg)](https://feldroy.com/products/two-scoops-of-django-1-6)
 
 This isn't to say that we padded the book. Not at all. The new material
 is packed with our loud volume of code examples and concise
@@ -101,14 +101,14 @@ In my perfect world it gets a thousand five star reviews. ;-)
 ## Order!
 
 You can purchase [Two Scoops of Django: Best Practices for Django
-1.6](https://roygreenfeld.com/products/two-scoops-of-django-1-6)
+1.6](https://feldroy.com/products/two-scoops-of-django-1-6)
 online:
 
 - [Two Scoops
-  Press](https://roygreenfeld.com/products/two-scoops-of-django-1-6)
+  Press](https://feldroy.com/products/two-scoops-of-django-1-6)
   (autographed, limited supplies available)
 - [Two Scoops Press Bulk
-  Order](https://roygreenfeld.com/products/wholesale-two-scoops-of-django-best-practices-for-django-1-6)
+  Order](https://feldroy.com/products/wholesale-two-scoops-of-django-best-practices-for-django-1-6)
   (15 book minimum, free shipping anywhere on Earth)
 - [Amazon.com](https://amzn.to/1n98duC)
 - [Amazon.com UK](https://amzn.to/1jejegF)

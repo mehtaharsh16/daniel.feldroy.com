@@ -22,9 +22,9 @@ problematic, even with a stylesheet helpfully provided by Google.
 Finally, some of the changes to the blog engine itself were beginning to
 worry me, so I started looking for alternatives.
 
-After my fiancee, [Audrey Roy](https://www.aroygreenfeld.com/), converted her blog to
+After my fiancee, [Audrey Roy](https://audrey.feldroy.com/), converted her blog to
 <https://github.com/mojombo/jekyll> at it's new location of
-aroygreenfeld.com (now at [audrey.roygreenfeld.com](https://audrey.roygreenfeld.com/)), the static file hosting seemed
+aroygreenfeld.com (now at [audrey.feldroy.com](https://audrey.feldroy.com/)), the static file hosting seemed
 so awesome I was impressed enough to [give Jekyll a
 try](/tried-out-jekyll.html). Why did Jekyll and
 static file hosting interest me so much?

@@ -15,7 +15,7 @@ title: Adding Metadata to PDFs
 type: post
 ---
 
-For both [Django Crash Course](https://www.roygreenfeld.com/collections/two-scoops-press/products/django-crash-course) and the forthcoming Two Scoops of Django 3.x, we're using a new process to render the PDFs. Unfortunately, until just a few days ago that process didn't include the cover. Instead, covers were inserted manually using Adobe Acrobat. 
+For both [our books](https://www.feldroy.com) we're using a new process to render the PDFs. Unfortunately, until just a few days ago that process didn't include the cover. Instead, covers were inserted manually using Adobe Acrobat. 
 
 While that manual process worked, [it came with predictable consequences](https://github.com/roygreenfeld/django-crash-course/issues/132).
 
