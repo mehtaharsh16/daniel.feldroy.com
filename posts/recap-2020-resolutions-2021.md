@@ -58,9 +58,9 @@ I voted on November 3rd. I believe voting should be mail-in or by the internet. 
 
 More on this in a different blog post, but here's what I got out the door:
 
-- [Two Scoops of Django 3.x](https://www.feldroy.com/products/two-scoops-of-django-3-x) - Latest edition of our Two Scoops of Django series
-- [A Wedge of Django](https://www.feldroy.com/collections/two-scoops-press/products/a-wedge-of-django) - Basic Django tutorial
-- [Necronaut](https://www.feldroy.com/collections/impossible-hero-books/products/necronaut) - Horror science fiction novelette
+- [Two Scoops of Django 3.x](https://www.feldroy.com/books/two-scoops-of-django-3-x) - Latest edition of our Two Scoops of Django series
+- [A Wedge of Django](https://www.feldroy.com/books/a-wedge-of-django) - Basic Django tutorial
+- [Necronaut](https://www.feldroy.com/books/necronaut) - Horror science fiction novelette
 
 # Resolutions for 2021
 
