@@ -10,7 +10,7 @@ type: post
 ---
 
 > ## Warning
-> Be careful with how you use bunch classes. If used in in real projects it is possible to use some of these techniques to overwrite critical methods and attributes. Please don't use these in anything important or you may regret it.
+> Be careful with how you use bunch classes. It is possible to overwrite critical methods and attributes. Please don't use these in anything important or you may regret it.
 
 Every play with a bunch class? I started using them early in my Python career, although it took four years to find out what they were called and better ways to code them.
 
