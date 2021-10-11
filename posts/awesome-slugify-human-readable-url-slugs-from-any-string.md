@@ -7,7 +7,6 @@ tags:
   - django
   - unicode
   - i18n
-  - ppoftw
 time_to_read: 5
 title: "awesome-slugify: Human-readable URL slugs from any string"
 ---

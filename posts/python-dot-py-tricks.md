@@ -4,7 +4,6 @@ published: true
 slug: python-dot-py-tricks
 tags:
   - python
-  - ppoftw
 time_to_read: 4
 title: setup.py tricks
 ---

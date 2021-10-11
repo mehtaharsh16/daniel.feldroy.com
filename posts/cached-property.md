@@ -6,7 +6,6 @@ tags:
   - python
   - django
   - flask
-  - ppoftw
   - pypi
   - pyramid
 time_to_read: 4

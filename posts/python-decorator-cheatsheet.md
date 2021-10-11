@@ -6,7 +6,6 @@ tags:
   - python
   - python3
   - cheatsheet
-  - ppoftw
 time_to_read: 2
 title: Python Decorator Cheatsheet
 ---

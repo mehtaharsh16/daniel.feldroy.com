@@ -6,7 +6,6 @@ tags:
 - python
 - django
 - testing
-- ppoftw
 time_to_read: 4
 title: 'pytest: no-boilerplate testing (part 3)'
 ---

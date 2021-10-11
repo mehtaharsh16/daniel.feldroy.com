@@ -7,7 +7,6 @@ tags:
   - python3
   - django
   - cheatsheet
-  - ppoftw
   - djangopackages
 time_to_read: 2
 title: How To Create Installable, Reusable Django Packages

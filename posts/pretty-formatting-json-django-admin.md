@@ -6,7 +6,6 @@ tags:
   - python
   - django
   - cheatsheet
-  - ppoftw
   - postgresql
 time_to_read: 2
 title: Pretty Formatting JSON in the Django Admin
