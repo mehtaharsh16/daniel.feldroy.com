@@ -2,6 +2,7 @@
 title: CIA Agent Rex Barkely
 author: Daniel Roy Greenfeld
 date: "2018-06-30"
+description: The antagonist is loosely based on a boss I had a long time ago.
 ---
 
 Early in my career I worked in CIA Headquarters in Langley, Virginia as an intelligence analyst. Not as exciting as it sounds, my day was spent day pouring over data and writing algorithms to extract meaningful data from people's personal email.

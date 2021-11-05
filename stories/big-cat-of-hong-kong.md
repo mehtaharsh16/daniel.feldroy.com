@@ -2,6 +2,7 @@
 author: Daniel Roy Greenfeld
 date: "2018-06-30"
 title: Big Cat of Hong Kong
+description: I wrote this during our short stay in Hong Kong.
 ---
 
 From his perch on the rooftop over twenty stories above the ground, the leopard looked at the buildings across the bay. At this time of night the dancing midnight lights on tall buildings attracted his eyes as if they were prey.

@@ -68,7 +68,7 @@ git push --force
 
 # Delete all local merged branches
 
-Will delete all your local branches that have been merged. Before you do that,  verify what will be deleted 1st. 
+Will delete all your local branches that have been merged. Before you do that, verify what will be deleted first. 
 
 ```bash
 git branch --merged | egrep -v \

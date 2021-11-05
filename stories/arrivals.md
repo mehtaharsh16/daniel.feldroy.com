@@ -2,6 +2,7 @@
 title: Arrivals
 author: Daniel Roy Greenfeld
 date: "2018-06-30"
+description: An Amra story that's all a matter of perspective.
 ---
 
 Amra sidled through the crowd with the agility of a highly proficient warrior. When the crowd became too tight for that, he tossed aside his agility and switched to simply pushing his way through. He returned dirty looks with fierce scowls of determination. He finally made it to the source of the crowd, where four burly sailors stood by the big steel hatch leading out of the space ship.
