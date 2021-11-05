@@ -2,6 +2,7 @@
 author: Daniel Roy Greenfeld
 date: "2014-04-27"
 title: Man of Destiny
+description: A rewrite of a parody written during my tabletop roleplaying days.
 ---
 
 “Something needs to happen.” Amra said with a sigh.
@@ -18,7 +19,7 @@ He heard someone running up to his cottage. He heard pounding on the door.
 
 “Who could that be?” Amra wondered. He slid his bare feet off the chest and stomped over to the door. He flung it open and yelled, “What?”
 
-At Amra's fierce appearance, the knocker skipped back, fear in his eyes. He was dressed like a farmer, in linen torn by claws no mortal beast would have.
+At Amra's fierce appearance, the knocker skipped back, fear in his eyes. He was dressed like a farmer, in linen torn by claws.
 
 “Well?” Amra demanded.
 

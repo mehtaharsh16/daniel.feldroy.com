@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://daniel.feldroy.com/</id>
+    <title>Daniel Roy Greenfeld</title>
+    <updated>2021-10-11T01:52:22.293Z</updated>
+    <generator>Next.js using Feed for Node.js</generator>
+    <author>
+        <name>Daniel Roy Greenfeld</name>
+        <email>daniel@feldroy.com</email>
+        <uri>https://daniel.feldroy.com</uri>
+    </author>
+    <link rel="alternate" href="https://daniel.feldroy.com"/>
+    <subtitle>Inside the head of Daniel Roy Greenfeld</subtitle>
+    <logo>https://daniel.feldroy.com/images/pydanny-cartwheel.png</logo>
+    <icon>https://daniel.feldroy.com/favicon.ico</icon>
+    <rights>All rights reserved 2021, Daniel Roy Greenfeld</rights>
+    <entry>
+        <title type="html"><![CDATA[Exploring the Bunch Class]]></title>
+        <id>https://daniel.feldroy.com/posts/exploring-the-bunch-class</id>
+        <link href="https://daniel.feldroy.com/posts/exploring-the-bunch-class"/>
+        <updated>2021-10-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bunch classes are very powerful, and with great power comes great responsibility]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<h2>Warning</h2>
+<p>Be careful with how you use bunch classes. If used in in real projects it is possible to use some of these techniques to overwrite critical methods and attributes. Please don't use these in anything important or you may regret it.</p>
+</blockquote>
+<p>Every play with a bunch class? I started using them early in my Python career, although it took four years to find out what they were called and better ways to code them.</p>
+<p>Over time I became wary of them. In large and/or sophisticated projects you want predictable code, which explains the addition of the typing controls in Python. This goes against that direction, using the mutability of Python to expedite adding functionality while introducing potential instability.</p>
+<h2>Simple Unprotected Bunch Class</h2>
+<pre><code class="language-python">class Bunch:
+    """
+    Simple unprotected Python bunch class
+    """
+
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+
+bunch = Bunch(name='Exploring the bunch class')
+print(bunch.name)
+</code></pre>
+<p>Those who don't know about the <code>Dict.update()</code> method use this technique:</p>
+<pre><code class="language-python">class VerboseBunch:
+    """
+    Simple, verbose unprotected Python bunch class
+    """
+
+    def __init__(self, **kwargs):
+        for k, v in kwargs.items():
+            self.__dict__[k] = v
+</code></pre>
+<p>We aren't limited to <code>__init__</code> methods, I've used a similar technique on  <code>update</code> and <code>save</code> functions:</p>
+<pre><code class="language-python">class Student:
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+        self.grade_history = []
+        self.current_grade = None
+
+    def update(self, **kwargs):
+        """Bunch style update!"""
+        self.__dict__.update(kwargs)
+
+    def grade(self):
+        # Determines grade of student
+        r = httpx.get(GRADING_SERVICE_URL)
+        self.update(current_grade=r.json()['grade'])        
+        self.grade_history.append(self.current_grade)
+
+student = Student(name='Daniel', age=8)
+studentgrad
+</code></pre>
+<p>Awesome, right?</p>
+<p>Wrong, it's not awesome. In fact, there's a problem.</p>
+<h2>The Problem with Bunch Classes</h2>
+<p>Yes, bunch classes and generic update methods are fun, easy-to-understand, and take advantage of Python's mutability. Unfortunately the mutability that powers Bunch classes can cause havoc. Here's an example of a Bunch class failure:</p>
+<pre><code class="language-python">student = Student(name='Daniel', age=8)
+# Overriding the grade() method by accident
+student.update(grade='A')
+</code></pre>
+<p>By updating the student's <code>grade</code>, we have overwritten the <code>grade()</code> method.</p>
+<h2>Simple protected Python bunch class</h2>
+<p>You can make protected Bunch classes, that in theory don't let pesky developers overwrite attributes, methods, and properties by accident during object instantiation.</p>
+<pre><code class="language-python">class ProtectedBunch:
+    """ 
+    Use this when you don't want to overwrite
+        existing methods and data
+    """
+
+    def __init__(self, **kwargs):
+        for k, v in kwargs.items():
+            if not hasattr(self, k):
+                setattr(self, k, v)
+
+bunch = ProtectedBunch(__str__=5)
+print(bunch)
+</code></pre>
+<p>Note that this only protects the <code>__init__</code> method. It doesn't prevent any other method using the Bunch pattern. So overwriting the <code>grade</code> method is still possible if another method uses the bunch pattern.</p>
+<h2>Protected Python bunch class that throws errors</h2>
+<p>You can write bunch classes to raise errors when a key is in <code>self.__dict__</code>. This makes overrides explicitly fail.</p>
+<pre><code class="language-python">class NotMutableAttribute(Exception):
+    pass
+
+
+class ProtectedBunchWithException:
+    """ 
+    Protected Python bunch class that throws errors
+
+    Use this when you want to inform the coder
+    they are touching protected code
+    """
+    def __init__(self, **kwargs):
+        for k, v in kwargs.items():
+            if hasattr(self, k):
+                msg = f'{k} is not mutable'
+                raise NotMutableAttribute(msg)
+            else:
+                setattr(self, k, v)
+
+bunch = ProtectedBunch(__str__=5)
+print(bunch)                
+</code></pre>
+<p>Again, this doesn't block other methods using bunch-style dict updates from overriding methods and attributes.</p>
+<h2>Avoiding bugs caused by Bunch classes and bunch-style update methods</h2>
+<p>The best way to avoid the bugs generated by bunch classes or generic update methods that can overwrite critical methods and attributes is to simply avoid using them. If a project takes this route, I recommend putting it in the standards and conventions.</p>
+<p>If you do go forward with bunch classes, don't use checks of <code>k not in self.__dict__</code> to block overriding existing methods. Methods and class attributes do not exist in the instance <code>__dict__</code>.</p>
+<h2>Historical Note</h2>
+<p>This is a modern update of a <a href="https://pydanny.blogspot.com/2011/11/loving-bunch-class.html">blog post</a> I wrote nearly ten years ago.</p>
+]]></content>
+        <author>
+            <name>Daniel Roy Greenfeld</name>
+            <email>daniel@feldroy.com</email>
+            <uri>https://daniel.feldroy.com</uri>
+        </author>
+        <contributor>
+            <name>Daniel Roy Greenfeld</name>
+            <email>daniel@feldroy.com</email>
+            <uri>https://daniel.feldroy.com</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blogging and Technical Writing]]></title>
+        <id>https://daniel.feldroy.com/posts/blogging-and-technical-writing</id>
+        <link href="https://daniel.feldroy.com/posts/blogging-and-technical-writing"/>
+        <updated>2021-09-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Answers to questions I was asked recently about technical blog writing.]]></summary>
+        <content type="html"><![CDATA[<p>Here are answers to questions I was asked about technical blog writing.</p>
+<h1>How do I set up my blog?</h1>
+<p>This site is built with React and Next.js. In May of this year (2021) I needed to learn these tools real fast so took the basic Next.js tutorial. I built enough foundations with those skills to build this site and the foundations of <a href="https://octopusenergy.com">Octopus Energy USA</a> and <a href="https://helpafamily.margaritahumanitarian.org/">MHF's help-a-family site</a>.</p>
+<p>Individual articles are written in Markdown, are rendered into HTML, and then served out on a static site.</p>
+<p>From 2008-ish to 2012 I wrote on blogger using HTML in a WYSIWYG editor - unpleasant for a coder like myself. From 2012-2018 my site was in RestructuredText (on Pelican). After that, I've been in Markdown on three engines now. You can read a loose history of my blogging efforts <a href="http://127.0.0.1:3000/tags/blog">here</a>.</p>
+<h1>What are the pros and cons of my blog?</h1>
+<p>Pros:</p>
+<ul>
+<li>Markdown is liberating as an author. For blogging, I just don't need all the features of RestructuredText. And WYSIWYG doesn't always work so well for code</li>
+<li>The clean design and high contrast is music to my eyes</li>
+<li>Creating my own platform gives me a place to hone my React and Next.js</li>
+<li>Next.js feels like early Django. Everything works just right and nothing is too complicated. The ease of rendering some things in advance can't be understated - anyone who complains about heavyweight SPA sites is interacting with older SPA tech</li>
+<li>React's giant and stable ecosystem makes up for the fact that I rolled my blog engine</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>My theme isn't based on a framework and I am not good at CSS. I may convert to a tailwind framework to make tuning the design easier</li>
+<li>Some of the code in the project is copy/pasta, serious DRF failures on my part. I should fix that one of these days</li>
+</ul>
+<h1>How do I approach my writing?</h1>
+<p>These days I write notes to myself and to people I know. Sometimes it is to make a public point. Sometimes it is both.</p>
+<p>For posts to myself, I write them because I need to be able to find the content again. The fastest way for me to find a note and avoid losing is to post it on my blog. This is about 80% of my blog.</p>
+<p>For making public points, I am trying to convince the world of my arguments and beliefs. Here are several points I share often or other individuals share on my behalf:</p>
+<ul>
+<li><a href="/posts/thirty-minute-rule">The Thirty Minute Rule</a></li>
+<li><a href="/posts/when-to-use-mongodb-with-django">When to Use MongoDB with Django</a></li>
+<li><a href="/posts/code-code-code">Code, Code, Code</a></li>
+</ul>
+<p>My workflow is that I like to write it all out in one go. Working for days or weeks on a blog post just isn't my style. Those take a lot of work and in my experience typically have meager payoff in terms of benefit to myself or others compared to the work involved. That means my posts aren't too long.</p>
+<p>My writing style is concise sentences and short paragraphs. Being an author has taught me the very useful habit of removing extraneous words.</p>
+<h1>Any tips?</h1>
+<ul>
+<li>Use whatever platform makes it easiest for you to write</li>
+<li>Just because you write a lot about Python, JavaScript, Go, etc doesn't mean your blog has to be on Python, JavaScript, Go, etc. Stick with the platform that makes you happiest as a writer</li>
+<li>If you aren't confident of your writing ability, ask friends to review drafts</li>
+<li>Grammar and spelling are critical, especially for people building their careers or online presence. Use software to catch problems before (or even after) you publish</li>
+</ul>
+]]></content>
+        <author>
+            <name>Daniel Roy Greenfeld</name>
+            <email>daniel@feldroy.com</email>
+            <uri>https://daniel.feldroy.com</uri>
+        </author>
+        <contributor>
+            <name>Daniel Roy Greenfeld</name>
+            <email>daniel@feldroy.com</email>
+            <uri>https://daniel.feldroy.com</uri>
+        </contributor>
+    </entry>
+</feed>
