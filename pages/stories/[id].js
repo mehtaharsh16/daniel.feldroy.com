@@ -50,7 +50,7 @@ export default function Story({ postData }) {
           ) : (
             <meta
               name="og:description"
-              content="Inside the Head of Daniel Roy Greenfeld (aka Daniel Feldroy)"
+              content="Inside the Head of Daniel Roy Greenfeld"
             />
           )
         }

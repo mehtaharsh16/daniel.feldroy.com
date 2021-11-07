@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
         <title>Daniel Roy Greenfeld</title>
         <meta
           name="description"
-          content="Inside the head of Daniel Roy Greenfeld (aka Daniel Feldroy)"
+          content="Inside the head of Daniel Roy Greenfeld"
         />
         <meta name="og:title" content="Daniel Roy Greenfeld" />
         <meta
@@ -43,7 +43,7 @@ export default function Home({ allPostsData }) {
           content="https://daniel.feldroy.com/images/profile.jpg"
         />
         {/* Twitter card tags */}
-        <meta name="twitter:title" content="Daniel Feldroy" />
+        <meta name="twitter:title" content="Daniel Roy Greenfeld" />
         <meta
           name="twitter:image"
           content="https://daniel.feldroy.com/images/profile.jpg"
