@@ -22,8 +22,7 @@ export default function Books() {
           </small>
           </li>
           <li className={utilStyles.listItem}>
-            <a target="_blank" href="https://www.feldroy.com/fiction">Fiction
-          </a>
+          <Link href="books/fiction"><a>Fiction</a></Link>
             <br />
             <small >
               I also write fiction, also mostly with Audrey. Dairy isn't mentioned in any of them.
