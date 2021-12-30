@@ -71,7 +71,7 @@ export default function FictionBooks() {
           </li>
           <li className={utilStyles.listItem}>
           <h2>More Fiction Books</h2>
-          <p>More of my fiction books can be found on <a target="_blank" href="https://www.feldroy.com/fiction">the main feldroy.com site</a>.</p>
+          <p>More of my efforts at writing fiction can be found on <a target="_blank" href="https://www.feldroy.com/fiction">here</a>.</p>
 
           </li>
         </ul>        
