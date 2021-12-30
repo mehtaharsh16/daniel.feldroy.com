@@ -63,6 +63,7 @@ export default function FictionBooks() {
             <p >
               Necropolis is a dystopian horror story where an undead ruler dominates the land. Against her, a rebellion has risen, people fighting against the current order willing to commit the greatest evils in their attempts to win. Thrown into this fight is a young woman named Toma, winning impossible battles thanks to a combination of courage and a destiny she does not want to serve.
             </p>
+            <p>Cover by <a target="_blank" href="https://xeroproject.com/">Jamie Kashetta</a>.</p>
             <p>This is a serialization of a 40 chapter story written in 2020. New episodes are released every Monday.</p>
             <p>
             <a target="_blank" href="https://www.amazon.com/kindle-vella/story/B09P5C9V2F" rel="nofollow">Read on Kindle Vella</a> 
