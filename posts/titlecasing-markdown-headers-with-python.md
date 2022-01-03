@@ -7,6 +7,7 @@ tags:
   - markdown
 time_to_read: 2
 title: Titlecasing Markdown Headers with Python
+image: /images/title-case.png
 ---
 
 [![Markdown](/images/title-case.png)](/images/title-case.png)

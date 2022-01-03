@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://daniel.feldroy.com/</id>
     <title>Daniel Roy Greenfeld</title>
-    <updated>2021-10-11T01:52:22.165Z</updated>
+    <updated>2022-01-03T17:37:18.931Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Daniel Roy Greenfeld</name>
@@ -13,7 +13,7 @@
     <subtitle>Inside the head of Daniel Roy Greenfeld</subtitle>
     <logo>https://daniel.feldroy.com/images/pydanny-cartwheel.png</logo>
     <icon>https://daniel.feldroy.com/favicon.ico</icon>
-    <rights>All rights reserved 2021, Daniel Roy Greenfeld</rights>
+    <rights>All rights reserved 2022, Daniel Roy Greenfeld</rights>
     <entry>
         <title type="html"><![CDATA[Exploring the Bunch Class]]></title>
         <id>https://daniel.feldroy.com/posts/exploring-the-bunch-class</id>
@@ -22,7 +22,7 @@
         <summary type="html"><![CDATA[Bunch classes are very powerful, and with great power comes great responsibility]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <h2>Warning</h2>
-<p>Be careful with how you use bunch classes. If used in in real projects it is possible to use some of these techniques to overwrite critical methods and attributes. Please don't use these in anything important or you may regret it.</p>
+<p>Be careful with how you use bunch classes. It is possible to overwrite critical methods and attributes. Please don't use these in anything important or you may regret it.</p>
 </blockquote>
 <p>Every play with a bunch class? I started using them early in my Python career, although it took four years to find out what they were called and better ways to code them.</p>
 <p>Over time I became wary of them. In large and/or sophisticated projects you want predictable code, which explains the addition of the typing controls in Python. This goes against that direction, using the mutability of Python to expedite adding functionality while introducing potential instability.</p>

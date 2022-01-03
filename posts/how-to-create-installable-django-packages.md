@@ -10,6 +10,7 @@ tags:
   - djangopackages
 time_to_read: 2
 title: How To Create Installable, Reusable Django Packages
+images: /images/django-package-470x246.png
 ---
 
 [![image](/images/django-package-470x246.png)](/how-to-create-installable-django-packages.html)

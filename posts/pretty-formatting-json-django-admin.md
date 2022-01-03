@@ -9,6 +9,7 @@ tags:
   - postgresql
 time_to_read: 2
 title: Pretty Formatting JSON in the Django Admin
+image: /images/admin-pretty-json.png
 ---
 
 Recently I was writing code to interact with a third-party API. The API
@@ -89,9 +90,9 @@ Let me know if you package this and I'll add it to this blog post.
 
 ---
 
-# See you at PyCon!
+# See you at PyCon US 2016!
 
-I'll be at PyCon with [Audrey Roy
+I'll be at PyCon US 2016 with [Audrey Roy
 Greenfeld](audrey.roygreenfeld.com). You can easily find us at the
 [Cookiecutter](https://github.com/audreyr/cookiecutter) booth during the
 main conference days or at the [Cookiecutter
