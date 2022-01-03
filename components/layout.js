@@ -38,15 +38,15 @@ export default function Layout({ children, home }) {
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
             <p>Inside the head of Daniel Roy Greenfeld<br /></p>
             <p>
+            <Link href="/news">
+                <a>News</a>
+              </Link>{' '}|{' '}                
               <Link href="/about">
                 <a>About</a>
               </Link>{' '}|{' '}
               <Link href="/books">
                 <a>Books</a>
-              </Link>{' '}|{' '}
-              <Link href="/stories">
-                <a>Stories</a>
-              </Link>{' '}|{' '}         
+              </Link>{' '}|{' '}      
               <Link href="/jobs">
                 <a>Jobs</a>
               </Link>
@@ -72,14 +72,14 @@ export default function Layout({ children, home }) {
               </Link>
             </h2>
             <p>
+            <Link href="/news">
+                <a>News</a>
+              </Link>{' '}|{' '}              
               <Link href="/about">
                 <a>About</a>
               </Link>{' '}|{' '}
               <Link href="/books">
                 <a>Books</a>
-              </Link>{' '}|{' '}
-              <Link href="/stories">
-                <a>Stories</a>
               </Link>{' '}|{' '}                
               <Link href="/jobs">
                 <a>Jobs</a>
