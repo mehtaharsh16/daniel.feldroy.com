@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-
+        <title>Daniel Roy Greenfeld</title>
         <meta
           property="og:site_name"
           content="Daniel Roy Greenfeld"
