@@ -21,7 +21,6 @@ export default function Layout({ children, home }) {
         />
         <meta name="twitter:site" content="@pydanny" />
         <meta name="twitter:creator" content="@pydanny" />
-        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Daniel Roy Greenfeld" />
       </Head>
       <header className={styles.header}>
