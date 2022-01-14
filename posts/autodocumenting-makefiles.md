@@ -48,13 +48,13 @@ Next, add concise docstrings for every `Makefile` command. Here's a trio of exam
 
 ``` Makefile
 env:  ## Activate the virtual environment
-    source venv/bin/activate
+	source venv/bin/activate
 
 test: ## Runs the test suite 
-    python manage.py test --thing=stuff
+	python manage.py test --thing=stuff
 
 run:  ## Start the dev server
-    python manage.py runserver    
+	python manage.py runserver    
 ```
 
 Notice how each command's docstring starts with two pound signs? The "##"? That's what the auto documenter code needs to find the docstring.
