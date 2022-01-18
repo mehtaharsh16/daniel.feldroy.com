@@ -13,8 +13,34 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+            href="/favicon/apple-touch-icon.png"
+            rel="apple-touch-icon"
+            sizes="180x180"
+          />
+        <link
+          href="/favicon/favicon-32x32.png"
+          rel="icon"
+          sizes="32x32"
+          type="image/png"
+        />
+        <link
+          href="/favicon/favicon-16x16.png"
+          rel="icon"
+          sizes="16x16"
+          type="image/png"
+        />
+        <link href="/favicon/site.webmanifest" rel="manifest" />
+        <link
+          color="#5bbad5"
+          href="/favicon/safari-pinned-tab.svg"
+          rel="mask-icon"
+        />
         <title>Daniel Roy Greenfeld</title>
+        <meta
+            content="Inside the head of Daniel Roy Greenfeld"
+            name="description"
+          />
         <meta
           property="og:site_name"
           content="Daniel Roy Greenfeld"
