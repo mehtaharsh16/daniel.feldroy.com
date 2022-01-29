@@ -10,4 +10,9 @@ time_to_read: 5
 title: Code highlighting on blogger
 ---
 
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2010/05/code-highlighting-on-blogger.html)*.
+
 Thanks to <a href="http://lukabloga.blogspot.com/2008/10/to-test-new-highlighting.html">Luka Marinko</a> I have code highlighting now!<br /><br /><pre class="prettyprint lang-py">def python_funct():<br />   a = a + b<br />   print "Hello Highlighted code"<br /><br />class Foo(Bar):<br />   pass<br /></pre>
+
+---
+

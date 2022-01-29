@@ -11,4 +11,9 @@ time_to_read: 5
 title: How do I deploy development code with buildout?
 ---
 
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/11/how-do-i-deploy-development-code-with.html)*.
+
 I've got a project where I want people to run a buildout of Plone 3 that adds in the development trunk into a site, and also creates the admin account and starts up Plone.  I know this can be done because p4a does it.  However, I want a much simpler version of things.<br /><br />If I can get this done, then my KSS tutorial is done.
+
+---
+

@@ -10,4 +10,9 @@ time_to_read: 5
 title: Litigating reality
 ---
 
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/02/litigating-reality.html)*.
+
 <a href="http://en.wikipedia.org/wiki/Indiana_Pi_Bill">http://en.wikipedia.org/wiki/Indiana_Pi_Bill</a><br /><br />Funny
+
+---
+

@@ -12,4 +12,9 @@ time_to_read: 5
 title: Django at Pycon
 ---
 
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/03/django-at-pycon.html)*.
+
 Pycon 2008 was notable not just because it was my first Pycon, but because the scope of the Django presence.  It was huge.  There is some talk of a spin-off convention for the Django folks.  Wow.<br /><br />Django is good stuff.  Regardless of what naysayers say, they've been moving towards a more Pythonic and WSGI compliant way of doing things.  Sure, it calls things in the MVC stack by funny names, but who really cares?  At first I was apprehensive about Django templates, but while its very rich in what you can do with filters, you are really blocked from doing logic in views.  I like the ongoing SQLAlchemy integration and the hesitancy to lock the core framework into a particular JavaScript library.<br /><br />More important is that the leadership seems on the ball.  Sure, they invented a bunch of their stuff again, but thats the way things used to be.  And they've been becoming more compliant ever since.<br /><br />I'm looking to doing some Django work.  And I'm looking for how it will fit into the various other WSGI compliant frameworks in the days/months/years to come.
+
+---
+

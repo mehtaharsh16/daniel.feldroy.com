@@ -10,4 +10,9 @@ time_to_read: 5
 title: New blog format
 ---
 
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/11/new-blog-format.html)*.
+
 I hate super narrow columns of text in blogs.  So I changed my layout.<br /><br />I'm not happy with blogger.  But until I launch some sort of professional site again, I'll just stay here.
+
+---
+

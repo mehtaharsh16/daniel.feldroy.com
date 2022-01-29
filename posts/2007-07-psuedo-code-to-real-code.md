@@ -9,4 +9,9 @@ time_to_read: 5
 title: Psuedo Code to Real Code
 ---
 
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/07/psuedo-code-to-real-code.html)*.
+
 We always say it about Python, that our hand scratch code often becomes real code.  That what other people sue to map out their thought processes is what we code in.<br /><br />Well, over last weekend I was coding away on a personal project and typed in 150 lines of code.  When I started to debug, I found I was done.<br /><br />Not bad.
+
+---
+

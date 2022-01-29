@@ -10,4 +10,9 @@ time_to_read: 5
 title: SVN Versionator is dead
 ---
 
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/02/svn-versionator-is-dead.html)*.
+
 Before I got a chance to finish this project, a sys admin needed this thing in a pinch and needed the features I hadn't finished.  No one else was around so he dissected my code and rewrote it as a shell script.  Later I helped him tweak it and now we use it to do our builds.<br /><br />Oh well.  It was fun and got me up to speed on Python's subprocess module.
+
+---
+

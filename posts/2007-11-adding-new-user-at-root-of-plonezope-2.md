@@ -11,4 +11,9 @@ time_to_read: 5
 title: Adding a new user at the root of Plone/Zope 2 programmatically
 ---
 
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/11/adding-new-user-at-root-of-plonezope-2.html)*.
+
 Sometimes you just need to do this sort of thing.<br /><pre class="prettyprint-py">>>> app.portal._addRole('MyRole')</pre>
+
+---
+
