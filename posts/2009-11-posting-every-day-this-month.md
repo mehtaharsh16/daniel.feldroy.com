@@ -1,0 +1,14 @@
+---
+date: '2009-11-01T17:00:00.005-08:00'
+description: ''
+published: true
+slug: 2009-11-posting-every-day-this-month
+tags:
+- november
+- blog
+- legacy
+time_to_read: 5
+title: Posting every day this month
+---
+
+It is customary amongst some to post something on your blog every day of November. There is at least one site for this sort of thing (<a href="http://www.nablopomo.com/">http://www.nablopomo.com</a>). I think I'm going to try out this strange custom. So that means between now and November 30th each day will see some new content added to this blog.<br /><br />If you are doing the same thing (blogging each day this month), let me know and I'll link to your blog from here.<br /><br />So here is to 29 more blog entries!

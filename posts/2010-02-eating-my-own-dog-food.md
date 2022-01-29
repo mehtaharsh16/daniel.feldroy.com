@@ -1,0 +1,16 @@
+---
+date: '2010-02-10T07:43:00.007-08:00'
+description: ''
+published: true
+slug: 2010-02-eating-my-own-dog-food
+tags:
+- django
+- python
+- pinax
+- blog
+- legacy
+time_to_read: 5
+title: Eating my own Dog Food
+---
+
+For several years now I've hosted this <a href="http://pydanny.com/">blog</a> here on <a href="http://blogger.com/">blogspot/blogger</a>. Its been both a good and bad experience. For writing out simple posts it has made things pretty easy. However, if I try to post code examples I've got to deal with the various quirks of the blog engine. How it escapes special characters and that you can't easily do color colorization has been really annoying. Yes, I know you can do some hoop jumping to make this work, but I decided a long time ago that if I had to do that then I would host my own blog.<div><br /></div><div>Speaking of which, a few months back I got called out for not <a href="http://en.wikipedia.org/wiki/Eating_one's_own_dog_food">eating my own dog food</a>. Yup, as a <a href="http://python.org/">Python</a> developer shouldn't I use something Python powered? I currently do <a href="http://djangoproject.com/">Django</a> professionally so those are in my tool chest so this should be trivial. Heck I also do some serious <a href="http://pinaxproject.com/">Pinax</a> work so why not that?</div><div><br /></div><div>Whatever I put it under, it would be a nice move. I would be able to format and control my blog to a much better degree. I could easily supply code examples. I could use the hosting to demonstrate pet projects or launch some of the things I've wanted to try for some time.</div><div><br /></div><div>So which blog to use? Roll my own?</div><div><br /></div><div>Heck no.</div><div><br /></div><div>I've got a <a href="http://nasascience.nasa.gov/">full-time job</a>, I teach 10+ hours a week, and my <a href="http://holdenweb.com/">consulting</a> <a href="http://eldarion.com/">efforts</a> eat up a chunk of my free time. So rather than use my energy to reinvent the wheel, I would rather rely on the hard work and labor of others.</div><div><br /></div><div>With that in mind, I really, really like <a href="http://github.com/montylounge/django-mingus">Django-Mingus</a>. Out of the box it does everything that I want and is a breeze to get up and running. It has a large, active community and it even uses a project that has my name attached, <a href="http://github.com/pydanny/django-wysiwyg">django-wysiwyg</a> (although <a href="http://chris.improbable.org/">Chris Adams</a> did most of the work).</div><div><br /></div><div>Some might ask the good questions as to why I'm not using Pinax for my new blog. In essence, I wanted to do something in the wild that wasn't Pinax powered and my concept projects all use Pinax. So don't worry, I'll be doing Pinax work for as long as I can foresee.</div><div><br /></div><div>So I've begun working on it during the <a href="http://www.flickr.com/photos/pydanny/sets/72157623364245346/">Blizzard of 2010</a>. I'll have it up today unless we lose power or Internet.</div>

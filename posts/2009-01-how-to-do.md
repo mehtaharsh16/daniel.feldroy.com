@@ -1,0 +1,13 @@
+---
+date: '2009-01-14T13:54:00.002-08:00'
+description: ''
+published: true
+slug: 2009-01-how-to-do
+tags:
+- rant
+- legacy
+time_to_read: 5
+title: How to do well at the job
+---
+
+This isn't just for technical folks, it is for everyone. It is amazing how frequently we forget these things.<br /><br /><span style="font-weight: bold;">Don't be a jerk</span>.<br /><ul><li>Your co-workers are not medical interns. Treat them with respect, not scorn.</li><li>Don't play unnecessary games of technical semantics.</li><li>When someone comes to you with a question be happy they trust you enough to ask you the question. If they have trouble communicating their question, help them out.</li><li>Trying to actively sabotage a boss/colleague/subordinate's job is a stupidly dangerous game to play.</li><li>Handle the successes of others publicly. Handle the mistakes of others privately.</li><li>Appreciate your system administrators and engineering staff. They only get notice when things blow up, and when the chips are down they are the people who will save your behind.</li><li>Never turn down a project without asking for at least a day to think about it.</li></ul><span style="font-weight: bold;">Be Seen</span>.<br /><ul><li>Everyone should be in IRC/Chat at all times they are working. Otherwise we think you are not.</li><li>If you lead/manage a project you have to be seen. Telecommuting is acceptable one day a week. Two days is pushing it. Three days is too much. If you can't pull off a physical presence then don't lead projects.</li><li>If you meet the customer, dress up.</li></ul><span style="font-weight: bold;">Meet your deadlines</span> <span style="font-weight: bold;">early</span>.<br /><ul><li>You'll have time for the issues that always turn up.</li><li>You'll have time to look into other things.</li></ul><span style="font-weight: bold;">Go the extra mile when it is just a yard</span>.<br /><ul><li>A little bit of interpretation can keep customers really happy.<br /></li><li>Too many people try to follow requirements to the absolute letter, fearing that they'll get some scope creep if they don't.</li><li>A tiny and shiny bit of UI you toss in is what the customer tends to notice  to the exclusion of all the other work you did.</li></ul><span style="font-weight: bold;">Stay out of the closet.</span><br /><ul><li>Never get blocked into the coder's closet. If you do Python, some some time exploring Zope, Django, Twisted, SciPy, libxml, pygame, and other things. Same goes for Java, .Net, and the rest of the programming world.</li><li>Follow the main technical blogs for your favorite tools. See where trends are going.</li></ul>

@@ -1,0 +1,15 @@
+---
+date: '2009-11-08T18:18:00.003-08:00'
+description: ''
+published: true
+slug: 2009-11-what-i-love-about-python
+tags:
+- geek celebrities
+- python
+- blog
+- legacy
+time_to_read: 5
+title: What I love about Python
+---
+
+A ways back I wrote about <a href="http://pydanny.blogspot.com/2009/05/eight-things-i-dont-like-about-python.html">eight things I don't like about python</a>. I'm in a good mood today so I'm writing about what I love about <a href="http://python.org/">python</a>.<br /><br /><span style="font-weight: bold;">Typing<br /></span>Let's<span style="font-weight: bold;"> </span>imagine I have long, blond hair<span style="font-weight: bold;"> </span>and am named Goldilocks.<span style="font-weight: bold;"><br /></span><blockquote>Goldilocks tried the first language and everything was rigid and method overloading was painful. Too static!<br /><br />Goldilocks tried the second language and everything was too loose and crazy. Evaluators could fool you into thinking different types equaled each other, causing many false positives. Too loose!<br /><br />Goldilocks tried the third language and it had some rigidity but not too much. Method overloading was so easy you did it without thinking. Evaluation gotchas were non-existent. Wonderfully dynamic and strong!<br /></blockquote><span style="font-weight: bold;">Everything is an object</span><br /><br />To be honest, most of the time we don't care that everything is an object. We just code. However, when it counts, it just makes life so wonderful.<br /><br /><span style="font-weight: bold;">Intelligently named built-in functions</span> <span style="font-weight: bold;">and keywords</span><br /><br />The functions like help(), print, list(), file(), dict(), and most other things are named elegantly and simply. Print is obvious; put, say, or echo are not.<br /><br />Um... so maybe dir() and zip() are not very clear.<br /><br /><span style="font-weight: bold;">Whitespace</span><br />I love proper indentation. When I look at other people's code in other languages, first thing I do is start fixing their indentation issues. Python makes that so much easier for me.<br /><br /><span style="font-weight: bold;">Competing web frameworks</span><br /><br />When I was first playing with Python I heard people gripe that the volume of web frameworks in Python is a bad thing. I wasn't so sure then and now I completely disagree. Competition is a good thing, and friendly competition is even better. Otherwise things go stale and the community suffers.<br /><br />Python's web framework designers tend to get along really well. While the community leaned this way I believe that <a href="http://compoundthinking.com/blog/index.php/about/">Mark Ramm</a> has been instrumental in keeping things friendly.<br /><br /><span style="font-weight: bold;">The Community</span><br />Most of the time the python community is the best. They are open minded, smart, willing to learn, and willing to teach. And no one makes too much fun of my gushing man-crush on Guido.<br /><br />23 more posts to go!

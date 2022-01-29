@@ -1,0 +1,14 @@
+---
+date: '2007-11-13T11:51:00.000-08:00'
+description: ''
+published: true
+slug: 2007-11-adding-new-user-at-root-of-plonezope-2
+tags:
+- plone
+- zope
+- legacy
+time_to_read: 5
+title: Adding a new user at the root of Plone/Zope 2 programmatically
+---
+
+Sometimes you just need to do this sort of thing.<br /><pre class="prettyprint-py">>>> app.portal._addRole('MyRole')</pre>

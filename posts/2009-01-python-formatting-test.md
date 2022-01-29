@@ -1,0 +1,12 @@
+---
+date: '2009-01-09T06:06:00.001-08:00'
+description: ''
+published: true
+slug: 2009-01-python-formatting-test
+tags:
+- legacy
+time_to_read: 5
+title: Python formatting test
+---
+
+<pre class="py" name="code"><br />def my_function(text):<br />  print text<br />  return text.lower()<br /></pre>
