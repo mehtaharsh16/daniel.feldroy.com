@@ -10,7 +10,7 @@ tags:
 - plone
 - apology
 - xml
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: The end of my Feedfeeder story
 ---

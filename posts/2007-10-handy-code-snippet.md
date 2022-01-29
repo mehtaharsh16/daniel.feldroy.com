@@ -4,7 +4,7 @@ description: ''
 published: true
 slug: 2007-10-handy-code-snippet
 tags:
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Handy code snippet
 ---

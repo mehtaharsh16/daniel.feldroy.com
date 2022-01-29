@@ -6,7 +6,7 @@ slug: 2011-03-great-pycon-ribbon-game
 tags:
 - pycon
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: The Great PyCon Ribbon Game!
 ---

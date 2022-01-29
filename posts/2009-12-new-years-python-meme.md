@@ -9,7 +9,7 @@ tags:
 - martial arts
 - pinax
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: New Year's Python meme
 ---

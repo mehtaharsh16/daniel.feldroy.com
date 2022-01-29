@@ -6,7 +6,7 @@ slug: 2011-01-january-mongo-la-conference
 tags:
 - django
 - mongodb
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: January Mongo LA conference
 ---

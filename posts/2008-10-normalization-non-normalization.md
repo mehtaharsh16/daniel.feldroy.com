@@ -6,7 +6,7 @@ slug: 2008-10-normalization-non-normalization
 tags:
 - technology
 - rant
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Normalization, Non-Normalization, Denormalization
 ---

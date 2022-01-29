@@ -5,7 +5,7 @@ published: true
 slug: 2010-02-ive-got-ribbons
 tags:
 - pycon
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I've got ribbons!
 ---

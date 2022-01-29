@@ -6,7 +6,7 @@ slug: 2007-10-what-is-real-language
 tags:
 - python
 - java
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: What is a real language?
 ---

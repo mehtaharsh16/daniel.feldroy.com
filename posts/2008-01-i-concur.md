@@ -5,7 +5,7 @@ published: true
 slug: 2008-01-i-concur
 tags:
 - technology
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I concur
 ---

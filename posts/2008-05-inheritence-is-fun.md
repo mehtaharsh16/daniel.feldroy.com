@@ -7,7 +7,7 @@ tags:
 - ruby
 - python
 - java
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Inheritence is fun!
 ---

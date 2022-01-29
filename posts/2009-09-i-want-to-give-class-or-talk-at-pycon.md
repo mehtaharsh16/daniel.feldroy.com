@@ -9,7 +9,7 @@ tags:
 - javascript
 - python
 - pinax
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I want to give a class or talk at Pycon 2010
 ---

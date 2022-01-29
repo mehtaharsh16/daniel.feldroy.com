@@ -5,7 +5,7 @@ published: true
 slug: 2011-01-what-i-want-for-django-facebook-connect
 tags:
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: What I want for Django Facebook connect
 ---

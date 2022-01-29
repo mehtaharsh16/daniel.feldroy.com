@@ -5,7 +5,7 @@ published: true
 slug: 2008-01-new-grok-site
 tags:
 - grok
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: New Grok site!
 ---

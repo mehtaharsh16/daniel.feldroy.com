@@ -5,7 +5,7 @@ published: true
 slug: 2011-07-amtrak-review
 tags:
 - review
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Amtrak Review
 ---

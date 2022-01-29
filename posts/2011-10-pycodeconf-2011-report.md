@@ -9,7 +9,7 @@ tags:
 - review
 - git
 - github
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: PyCodeConf 2011 Report
 ---

@@ -12,7 +12,7 @@ tags:
 - atom
 - rss
 - spacebook
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Show me your open source Django blog application
 ---

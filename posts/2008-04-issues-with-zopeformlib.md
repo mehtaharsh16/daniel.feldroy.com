@@ -7,7 +7,7 @@ tags:
 - django
 - interfaces
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Issues with zope.formlib
 ---

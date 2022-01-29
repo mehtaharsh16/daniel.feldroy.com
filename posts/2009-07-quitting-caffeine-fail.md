@@ -5,7 +5,7 @@ published: true
 slug: 2009-07-quitting-caffeine-fail
 tags:
 - personal
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Quitting Caffeine Fail
 ---

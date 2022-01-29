@@ -5,7 +5,7 @@ published: true
 slug: 2009-01-how-to-do
 tags:
 - rant
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: How to do well at the job
 ---

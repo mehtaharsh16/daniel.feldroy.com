@@ -6,7 +6,7 @@ slug: 2012-02-looking-to-move-off-blogger-again
 tags:
 - audrey
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Looking to move off blogger again
 ---

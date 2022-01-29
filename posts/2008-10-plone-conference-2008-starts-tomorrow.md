@@ -5,7 +5,7 @@ published: true
 slug: 2008-10-plone-conference-2008-starts-tomorrow
 tags:
 - plone conference
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Plone Conference 2008 starts tomorrow!
 ---

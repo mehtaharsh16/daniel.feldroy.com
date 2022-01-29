@@ -8,7 +8,7 @@ tags:
 - pycon
 - djangocon
 - martial arts
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: 2011 Resolution Summary
 ---

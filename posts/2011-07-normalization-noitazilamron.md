@@ -6,7 +6,7 @@ slug: 2011-07-normalization-noitazilamron
 tags:
 - mongodb
 - sql
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Normalization noitazilamroN
 ---

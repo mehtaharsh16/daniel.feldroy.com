@@ -6,7 +6,7 @@ slug: 2011-06-do-not-upload-dev-releases-at-pypi
 tags:
 - django
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Do not upload dev releases at PyPI
 ---

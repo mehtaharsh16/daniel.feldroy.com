@@ -10,7 +10,7 @@ tags:
 - python
 - graphviz
 - mac os
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I don't like Integrated Development Environments
 ---

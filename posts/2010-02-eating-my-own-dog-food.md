@@ -8,7 +8,7 @@ tags:
 - python
 - pinax
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Eating my own Dog Food
 ---

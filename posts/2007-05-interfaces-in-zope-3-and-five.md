@@ -12,7 +12,7 @@ tags:
 - five
 - atom
 - rss
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Interfaces in Zope 3 and Five
 ---

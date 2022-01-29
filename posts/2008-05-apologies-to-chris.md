@@ -5,7 +5,7 @@ published: true
 slug: 2008-05-apologies-to-chris
 tags:
 - apology
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Apologies to Chris
 ---

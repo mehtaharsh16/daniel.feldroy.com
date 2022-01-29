@@ -9,7 +9,7 @@ tags:
 - python
 - django packages
 - sprint
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Python Packages sprint on Sunday 4/10/2011
 ---

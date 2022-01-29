@@ -5,7 +5,7 @@ published: true
 slug: 2008-04-i-got-job-at-mcdonalds
 tags:
 - holidays
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I got a job at McDonalds!
 ---

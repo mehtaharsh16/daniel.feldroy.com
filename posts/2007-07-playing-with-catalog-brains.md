@@ -4,7 +4,7 @@ description: ''
 published: true
 slug: 2007-07-playing-with-catalog-brains
 tags:
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Playing with Catalog brains
 ---

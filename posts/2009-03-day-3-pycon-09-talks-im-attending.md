@@ -9,7 +9,7 @@ tags:
 - plone
 - python
 - pinax
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Day 3 Pycon-09 talks I'm attending
 ---

@@ -6,7 +6,7 @@ slug: 2008-02-i-grok-viewlets-in-plone-3
 tags:
 - plone
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I grok viewlets in Plone 3
 ---

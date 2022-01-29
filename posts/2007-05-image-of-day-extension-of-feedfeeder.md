@@ -11,7 +11,7 @@ tags:
 - five
 - atom
 - rss
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Image of the Day 'extension' of FeedFeeder experience
 ---

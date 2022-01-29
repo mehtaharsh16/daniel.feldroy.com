@@ -10,7 +10,7 @@ tags:
 - plone
 - python
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Happy Thanksgiving!
 ---

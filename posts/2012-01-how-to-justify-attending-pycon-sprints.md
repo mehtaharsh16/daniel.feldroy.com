@@ -7,7 +7,7 @@ tags:
 - pycon
 - django
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: How to justify attending PyCon sprints
 ---

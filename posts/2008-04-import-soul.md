@@ -5,7 +5,7 @@ published: true
 slug: 2008-04-import-soul
 tags:
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Import Soul
 ---

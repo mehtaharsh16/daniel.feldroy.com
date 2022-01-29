@@ -6,7 +6,7 @@ slug: 2008-03-working-from-panera-today
 tags:
 - django
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Working from Panera today
 ---

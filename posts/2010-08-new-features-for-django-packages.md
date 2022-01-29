@@ -6,7 +6,7 @@ slug: 2010-08-new-features-for-django-packages
 tags:
 - django
 - django packages
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: New features for Django Packages
 ---

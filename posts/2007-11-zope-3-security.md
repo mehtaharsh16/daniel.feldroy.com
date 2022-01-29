@@ -5,7 +5,7 @@ published: true
 slug: 2007-11-zope-3-security
 tags:
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Zope 3 Security
 ---

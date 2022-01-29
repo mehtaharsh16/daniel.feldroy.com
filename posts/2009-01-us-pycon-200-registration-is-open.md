@@ -5,7 +5,7 @@ published: true
 slug: 2009-01-us-pycon-200-registration-is-open
 tags:
 - pycon
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: US Pycon 2009 registration is open!
 ---

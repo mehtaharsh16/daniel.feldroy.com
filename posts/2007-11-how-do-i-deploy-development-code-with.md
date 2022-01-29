@@ -6,7 +6,7 @@ slug: 2007-11-how-do-i-deploy-development-code-with
 tags:
 - kss
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: How do I deploy development code with buildout?
 ---

@@ -5,7 +5,7 @@ published: true
 slug: 2007-07-lambdas-no-more
 tags:
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Lambdas no more
 ---

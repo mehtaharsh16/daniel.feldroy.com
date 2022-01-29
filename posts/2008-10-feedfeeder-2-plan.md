@@ -5,7 +5,7 @@ published: true
 slug: 2008-10-feedfeeder-2-plan
 tags:
 - feedfeeder
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: FeedFeeder 2 plan
 ---

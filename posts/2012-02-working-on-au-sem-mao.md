@@ -6,7 +6,7 @@ slug: 2012-02-working-on-au-sem-mao
 tags:
 - pycon
 - capoeira
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: "Working on the A\xFA sem M\xE3o"
 ---

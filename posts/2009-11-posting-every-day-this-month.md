@@ -6,7 +6,7 @@ slug: 2009-11-posting-every-day-this-month
 tags:
 - november
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Posting every day this month
 ---

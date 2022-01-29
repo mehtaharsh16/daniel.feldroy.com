@@ -11,7 +11,7 @@ tags:
 - australia
 - sql
 - github
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Conference Talks I want to see
 ---

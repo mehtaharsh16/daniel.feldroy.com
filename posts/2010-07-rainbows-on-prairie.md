@@ -7,7 +7,7 @@ tags:
 - martial arts
 - food
 - personal
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Rainbows on the prairie
 ---

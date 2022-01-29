@@ -8,7 +8,7 @@ tags:
 - python
 - pinax
 - cartwheel
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Los Angeles Open Source Hackathon
 ---

@@ -11,7 +11,7 @@ tags:
 - git
 - australia
 - github
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: The Story of Live-Noting
 ---

@@ -8,7 +8,7 @@ tags:
 - django
 - plone
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: 'What I would change in Plone: Templates'
 ---

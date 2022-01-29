@@ -7,7 +7,7 @@ tags:
 - plone
 - zope
 - five
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Our NASA Plone project launches
 ---

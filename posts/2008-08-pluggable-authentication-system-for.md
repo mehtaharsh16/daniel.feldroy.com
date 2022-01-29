@@ -8,7 +8,7 @@ tags:
 - plone
 - review
 - interfaces
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Pluggable Authentication System for Plone
 ---

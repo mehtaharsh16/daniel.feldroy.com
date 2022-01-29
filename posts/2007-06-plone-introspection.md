@@ -9,7 +9,7 @@ tags:
 - interfaces
 - zope
 - five
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Plone Introspection
 ---

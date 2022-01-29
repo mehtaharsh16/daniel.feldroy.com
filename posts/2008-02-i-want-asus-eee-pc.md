@@ -5,7 +5,7 @@ published: true
 slug: 2008-02-i-want-asus-eee-pc
 tags:
 - laptop
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I want an Asus eee pc
 ---

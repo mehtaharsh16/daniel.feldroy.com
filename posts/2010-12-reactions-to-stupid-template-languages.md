@@ -6,7 +6,7 @@ slug: 2010-12-reactions-to-stupid-template-languages
 tags:
 - django
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Reactions to "Stupid Template Languages"
 ---

@@ -5,7 +5,7 @@ published: true
 slug: 2008-03-django-fun
 tags:
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Django fun
 ---

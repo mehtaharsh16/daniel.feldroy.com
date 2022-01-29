@@ -6,7 +6,7 @@ slug: 2009-09-sys-admins-what-your-developers-want
 tags:
 - rant
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: 'Sys Admins: What your Developers want you to know'
 ---

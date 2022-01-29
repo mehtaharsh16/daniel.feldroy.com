@@ -6,7 +6,7 @@ slug: 2011-04-how-not-to-interview-pythonistas
 tags:
 - rant
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: How NOT to interview Pythonistas
 ---

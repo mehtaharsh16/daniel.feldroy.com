@@ -5,7 +5,7 @@ published: true
 slug: 2007-11-im-serving-out-image-and-audio-files
 tags:
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: What do you do when zope.Public refuses to be Public?
 ---

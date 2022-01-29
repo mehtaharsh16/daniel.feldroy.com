@@ -6,7 +6,7 @@ slug: 2008-10-day-2-of-2008-plone-conference
 tags:
 - plone conference
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Day 2 of the 2008 Plone Conference
 ---

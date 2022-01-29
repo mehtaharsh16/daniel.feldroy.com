@@ -8,7 +8,7 @@ tags:
 - pycon
 - python
 - australia
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I'm going to Pycon Australia!
 ---

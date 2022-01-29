@@ -6,7 +6,7 @@ slug: 2009-04-django-dash-worst-concept-contest
 tags:
 - django
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Django Dash worst concept contest
 ---

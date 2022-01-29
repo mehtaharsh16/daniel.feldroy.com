@@ -7,7 +7,7 @@ tags:
 - pycon
 - holidays
 - audrey
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Two years ago today
 ---

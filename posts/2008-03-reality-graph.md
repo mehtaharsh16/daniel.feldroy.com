@@ -6,7 +6,7 @@ slug: 2008-03-reality-graph
 tags:
 - j2ee
 - graphviz
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Reality Graph
 ---

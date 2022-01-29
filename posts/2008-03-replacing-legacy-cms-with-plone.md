@@ -5,7 +5,7 @@ published: true
 slug: 2008-03-replacing-legacy-cms-with-plone
 tags:
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Replacing a legacy CMS with Plone
 ---

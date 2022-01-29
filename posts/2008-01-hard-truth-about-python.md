@@ -5,7 +5,7 @@ published: true
 slug: 2008-01-hard-truth-about-python
 tags:
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: The hard truth about Python
 ---

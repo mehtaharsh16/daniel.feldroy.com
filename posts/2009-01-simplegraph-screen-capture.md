@@ -7,7 +7,7 @@ tags:
 - django
 - python
 - graphviz
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Simplegraph Screen Capture
 ---

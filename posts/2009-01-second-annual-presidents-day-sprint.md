@@ -7,7 +7,7 @@ tags:
 - django
 - plone
 - sprint
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Second Annual President's Day Sprint
 ---

@@ -9,7 +9,7 @@ tags:
 - ubuntu
 - python
 - solaris
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Trials and Tribulations of avoiding vi
 ---

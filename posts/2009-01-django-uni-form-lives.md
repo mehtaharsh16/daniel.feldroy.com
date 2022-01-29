@@ -6,7 +6,7 @@ slug: 2009-01-django-uni-form-lives
 tags:
 - django
 - pinax
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: django-uni-form lives!
 ---

@@ -10,7 +10,7 @@ tags:
 - python
 - NASA
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: How to sell Python panel at Pycon
 ---

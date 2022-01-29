@@ -6,7 +6,7 @@ slug: 2009-09-show-me-your-open-source-django-cms
 tags:
 - django
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Show me your open source Django CMS
 ---

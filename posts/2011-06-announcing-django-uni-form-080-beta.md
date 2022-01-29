@@ -6,7 +6,7 @@ slug: 2011-06-announcing-django-uni-form-080-beta
 tags:
 - djangocon
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Announcing django-uni-form 0.8.0 beta!
 ---

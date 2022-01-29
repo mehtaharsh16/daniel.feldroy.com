@@ -6,7 +6,7 @@ slug: 2009-11-november-django-lunch-meetup-was-fun
 tags:
 - nova-django
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: November Django Lunch Meetup was fun!
 ---

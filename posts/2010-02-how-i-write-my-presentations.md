@@ -5,7 +5,7 @@ published: true
 slug: 2010-02-how-i-write-my-presentations
 tags:
 - pycon
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: How I write my presentations
 ---

@@ -8,7 +8,7 @@ tags:
 - rant
 - family
 - food
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I hate Mac & Cheese
 ---

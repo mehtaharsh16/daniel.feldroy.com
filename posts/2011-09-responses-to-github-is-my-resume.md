@@ -6,7 +6,7 @@ slug: 2011-09-responses-to-github-is-my-resume
 tags:
 - python
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Responses to Github is my resume
 ---

@@ -9,7 +9,7 @@ tags:
 - python
 - classes
 - training
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: We won first place at Startup Camp LA!
 ---

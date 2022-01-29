@@ -12,7 +12,7 @@ tags:
 - classes
 - django packages
 - pyladies
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Python and Django class/hackathon!
 ---

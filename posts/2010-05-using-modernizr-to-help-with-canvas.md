@@ -7,7 +7,7 @@ tags:
 - canvas
 - javascript
 - HTML5
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Using modernizr to help with canvas
 ---

@@ -7,7 +7,7 @@ tags:
 - pycon
 - presentation tips
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: My tips for speaking
 ---

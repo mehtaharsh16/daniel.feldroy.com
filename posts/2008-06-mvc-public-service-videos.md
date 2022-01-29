@@ -7,7 +7,7 @@ tags:
 - technology
 - geek celebrities
 - ruby
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: MVC public service videos
 ---

@@ -6,7 +6,7 @@ slug: 2008-04-zed-shaw-yaml-python-community
 tags:
 - geek celebrities
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Zed Shaw, YAML, Python Community
 ---

@@ -8,7 +8,7 @@ tags:
 - apology
 - food
 - personal
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Apologies to Katie
 ---

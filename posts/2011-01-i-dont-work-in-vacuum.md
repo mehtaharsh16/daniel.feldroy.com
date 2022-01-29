@@ -5,7 +5,7 @@ published: true
 slug: 2011-01-i-dont-work-in-vacuum
 tags:
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I don't work in a vacuum
 ---

@@ -8,7 +8,7 @@ tags:
 - plone
 - atom
 - rss
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Oops... forgot RSS feed
 ---

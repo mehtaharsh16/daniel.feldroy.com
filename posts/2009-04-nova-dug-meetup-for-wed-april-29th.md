@@ -7,7 +7,7 @@ tags:
 - nova-django
 - pycon
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: NOVA-DUG meetup for Wed, April 29th
 ---

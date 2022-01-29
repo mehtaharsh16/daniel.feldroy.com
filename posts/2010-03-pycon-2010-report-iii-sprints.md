@@ -8,7 +8,7 @@ tags:
 - django
 - python
 - pinax
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: 'Pycon 2010 report III: Sprints'
 ---

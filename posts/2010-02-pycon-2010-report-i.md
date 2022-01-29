@@ -8,7 +8,7 @@ tags:
 - django
 - pinax
 - personal
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Pycon 2010 report I
 ---

@@ -6,7 +6,7 @@ slug: 2011-04-are-you-looking-for-python-and-django
 tags:
 - django
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Are you looking for Python and Django Work?
 ---

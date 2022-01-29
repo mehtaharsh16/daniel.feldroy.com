@@ -8,7 +8,7 @@ tags:
 - plone
 - python
 - pinax
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Sweet spots of Plone
 ---

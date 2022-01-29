@@ -11,7 +11,7 @@ tags:
 - python
 - pinax
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Heading off to Pycon 2009!
 ---

@@ -8,7 +8,7 @@ tags:
 - python
 - interfaces
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Thoughts on Python interfaces
 ---

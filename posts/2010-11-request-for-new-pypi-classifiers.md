@@ -9,7 +9,7 @@ tags:
 - python
 - django packages
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: A request for new pypi classifiers
 ---

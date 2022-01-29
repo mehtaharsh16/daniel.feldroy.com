@@ -8,7 +8,7 @@ tags:
 - grok
 - plone
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Should I write a book?
 ---

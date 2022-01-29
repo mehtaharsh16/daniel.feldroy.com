@@ -5,7 +5,7 @@ published: true
 slug: 2008-09-antipatterns-i-see-here-and-there
 tags:
 - rant
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Antipatterns I see here and there
 ---

@@ -7,7 +7,7 @@ tags:
 - djangocon
 - django
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Slides from DjangoCon 2009
 ---

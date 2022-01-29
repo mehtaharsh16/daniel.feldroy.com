@@ -6,7 +6,7 @@ slug: 2009-01-starting-new-plone-project-in-february
 tags:
 - NASA science
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Starting a new Plone project in February
 ---

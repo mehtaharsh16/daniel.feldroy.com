@@ -5,7 +5,7 @@ published: true
 slug: 2011-12-my-basemodel
 tags:
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: My BaseModel
 ---

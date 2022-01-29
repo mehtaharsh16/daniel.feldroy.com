@@ -8,7 +8,7 @@ tags:
 - review
 - graphviz
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Me Grok Smash!
 ---

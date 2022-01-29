@@ -7,7 +7,7 @@ tags:
 - python
 - ubigraph
 - graphviz
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I love graphing
 ---

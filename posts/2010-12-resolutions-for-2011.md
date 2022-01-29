@@ -9,7 +9,7 @@ tags:
 - django
 - holidays
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Resolutions for 2011
 ---

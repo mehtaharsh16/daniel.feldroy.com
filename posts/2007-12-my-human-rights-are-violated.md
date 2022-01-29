@@ -4,7 +4,7 @@ description: ''
 published: true
 slug: 2007-12-my-human-rights-are-violated
 tags:
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: My human rights are violated!
 ---

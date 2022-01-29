@@ -8,7 +8,7 @@ tags:
 - python
 - jython
 - ironpython
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I want to talk to Jython and Iron Python developers
 ---

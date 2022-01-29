@@ -8,7 +8,7 @@ tags:
 - django
 - python
 - NASA
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Djangonaut Lunch in Crystal City
 ---

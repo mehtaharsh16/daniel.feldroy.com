@@ -5,7 +5,7 @@ published: true
 slug: 2007-10-top-5-design-tips-for-skinning-plone
 tags:
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Top 5 Design Tips for Skinning Plone
 ---

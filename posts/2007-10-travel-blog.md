@@ -4,7 +4,7 @@ description: ''
 published: true
 slug: 2007-10-travel-blog
 tags:
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Travel Blog!
 ---

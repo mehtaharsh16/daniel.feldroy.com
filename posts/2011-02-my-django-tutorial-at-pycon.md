@@ -8,7 +8,7 @@ tags:
 - geek celebrities
 - django
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: My Django tutorial at PyCon
 ---

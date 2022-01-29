@@ -5,7 +5,7 @@ published: true
 slug: 2008-11-subscribers-zope-3-style
 tags:
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Subscribers Zope 3 style
 ---

@@ -4,7 +4,7 @@ description: ''
 published: true
 slug: 2007-07-psuedo-code-to-real-code
 tags:
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Psuedo Code to Real Code
 ---

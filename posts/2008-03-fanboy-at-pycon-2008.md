@@ -5,7 +5,7 @@ published: true
 slug: 2008-03-fanboy-at-pycon-2008
 tags:
 - pycon
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: A fanboy at Pycon 2008
 ---

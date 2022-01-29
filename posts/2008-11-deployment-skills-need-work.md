@@ -5,7 +5,7 @@ published: true
 slug: 2008-11-deployment-skills-need-work
 tags:
 - buildout
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Deployment skills need work
 ---

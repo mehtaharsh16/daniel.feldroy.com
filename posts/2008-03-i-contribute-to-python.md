@@ -6,7 +6,7 @@ slug: 2008-03-i-contribute-to-python
 tags:
 - pycon
 - geek celebrities
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I contribute to Python
 ---

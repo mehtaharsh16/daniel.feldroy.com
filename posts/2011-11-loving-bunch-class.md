@@ -6,7 +6,7 @@ slug: 2011-11-loving-bunch-class
 tags:
 - geek celebrities
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Loving the bunch class
 ---

@@ -10,7 +10,7 @@ tags:
 - python
 - pinax
 - sprint
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Register for Pycon 2010 already!
 ---

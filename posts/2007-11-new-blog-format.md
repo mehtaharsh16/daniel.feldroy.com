@@ -5,7 +5,7 @@ published: true
 slug: 2007-11-new-blog-format
 tags:
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: New blog format
 ---

@@ -10,7 +10,7 @@ tags:
 - classes
 - training
 - cartwheel
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I teach Python and Django
 ---

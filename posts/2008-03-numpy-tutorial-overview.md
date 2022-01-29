@@ -6,7 +6,7 @@ slug: 2008-03-numpy-tutorial-overview
 tags:
 - pycon
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Numpy Tutorial overview
 ---

@@ -5,7 +5,7 @@ published: true
 slug: 2009-11-crashing-is-fun
 tags:
 - november
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Crashing is fun
 ---

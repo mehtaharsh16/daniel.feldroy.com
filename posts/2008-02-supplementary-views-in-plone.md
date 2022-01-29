@@ -5,7 +5,7 @@ published: true
 slug: 2008-02-supplementary-views-in-plone
 tags:
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Supplementary views in Plone
 ---

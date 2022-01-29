@@ -6,7 +6,7 @@ slug: 2009-05-coldfusion-and-deprecated-code
 tags:
 - rant
 - coldfusion
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: ColdFusion and deprecated code
 ---

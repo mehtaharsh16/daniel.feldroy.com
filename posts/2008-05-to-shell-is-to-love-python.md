@@ -5,7 +5,7 @@ published: true
 slug: 2008-05-to-shell-is-to-love-python
 tags:
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: To Shell is to love Python
 ---

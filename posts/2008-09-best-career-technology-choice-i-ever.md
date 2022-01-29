@@ -5,7 +5,7 @@ published: true
 slug: 2008-09-best-career-technology-choice-i-ever
 tags:
 - technology
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Best career technology choice I ever made besides learning python...
 ---

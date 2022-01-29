@@ -5,7 +5,7 @@ published: true
 slug: 2009-09-something-i-learned-at-djangocon
 tags:
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Something I learned at DjangoCon
 ---

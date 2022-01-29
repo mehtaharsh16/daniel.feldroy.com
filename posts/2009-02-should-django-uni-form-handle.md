@@ -6,7 +6,7 @@ slug: 2009-02-should-django-uni-form-handle
 tags:
 - django
 - pinax
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Should django-uni-form handle boilerplate HTML?
 ---

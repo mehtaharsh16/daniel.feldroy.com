@@ -7,7 +7,7 @@ tags:
 - pycon
 - geek celebrities
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Zed Shaw and me
 ---

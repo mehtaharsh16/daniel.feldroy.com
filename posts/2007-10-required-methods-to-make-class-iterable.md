@@ -4,7 +4,7 @@ description: ''
 published: true
 slug: 2007-10-required-methods-to-make-class-iterable
 tags:
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Required methods to make a class iterable
 ---

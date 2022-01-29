@@ -7,7 +7,7 @@ tags:
 - NASA science
 - rant
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Overview of NASA Science
 ---

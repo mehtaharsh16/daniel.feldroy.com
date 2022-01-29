@@ -6,7 +6,7 @@ slug: 2008-06-ruby-security-problems
 tags:
 - ruby
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Ruby Security Problems
 ---

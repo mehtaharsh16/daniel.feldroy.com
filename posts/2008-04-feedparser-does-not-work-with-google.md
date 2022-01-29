@@ -7,7 +7,7 @@ tags:
 - feedparser
 - python
 - GAPE
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Feedparser does not work with Google App Engine
 ---

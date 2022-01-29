@@ -8,7 +8,7 @@ tags:
 - geek celebrities
 - python
 - GAPE
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I'll get you next time, Wesley Chun!
 ---

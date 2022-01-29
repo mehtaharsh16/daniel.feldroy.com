@@ -7,7 +7,7 @@ tags:
 - rant
 - geek celebrities
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: 'What I would change in Plone: Generic Setup'
 ---

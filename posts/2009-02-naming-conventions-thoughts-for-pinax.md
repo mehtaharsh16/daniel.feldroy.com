@@ -8,7 +8,7 @@ tags:
 - plone
 - pinax
 - spacebook
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Naming conventions thoughts for Pinax and Django
 ---

@@ -6,7 +6,7 @@ slug: 2011-09-profiles-breaking-normalization
 tags:
 - django
 - django-profiles
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: 'Profiles: Breaking Normalization'
 ---

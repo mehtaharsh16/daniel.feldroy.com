@@ -11,7 +11,7 @@ tags:
 - GAPE
 - rss
 - wxpython
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: What I want in a feed aggregator
 ---

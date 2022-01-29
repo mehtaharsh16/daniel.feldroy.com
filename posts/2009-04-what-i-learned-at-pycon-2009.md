@@ -10,7 +10,7 @@ tags:
 - javascript
 - python
 - pinax
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: What I learned at Pycon 2009
 ---

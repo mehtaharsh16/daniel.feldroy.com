@@ -8,7 +8,7 @@ tags:
 - linux
 - python
 - mac os
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Funkload to be revisited!
 ---

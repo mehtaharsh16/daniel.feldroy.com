@@ -8,7 +8,7 @@ tags:
 - pycon
 - python
 - wsgi
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Pycon Wrapup
 ---

@@ -6,7 +6,7 @@ slug: 2008-10-day-1-of-2008-plone-conference
 tags:
 - plone conference
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Day 1 of the 2008 Plone Conference
 ---

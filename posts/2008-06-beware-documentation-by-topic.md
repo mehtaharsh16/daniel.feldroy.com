@@ -5,7 +5,7 @@ published: true
 slug: 2008-06-beware-documentation-by-topic
 tags:
 - grok
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Beware Documentation By Topic
 ---

@@ -9,7 +9,7 @@ tags:
 - atom
 - rss
 - wxpython
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Suggest to me a feed aggregator!
 ---

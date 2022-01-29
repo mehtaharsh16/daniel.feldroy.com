@@ -4,7 +4,7 @@ description: ''
 published: true
 slug: 2009-01-python-formatting-test
 tags:
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Python formatting test
 ---

@@ -5,7 +5,7 @@ published: true
 slug: 2010-05-code-highlighting-on-blogger
 tags:
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Code highlighting on blogger
 ---

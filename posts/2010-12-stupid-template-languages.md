@@ -11,7 +11,7 @@ tags:
 - python
 - xml
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Stupid Template Languages
 ---

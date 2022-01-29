@@ -5,7 +5,7 @@ published: true
 slug: 2008-07-wxpython-is-fun
 tags:
 - wxpython
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: wxPython is fun!
 ---

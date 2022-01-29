@@ -9,7 +9,7 @@ tags:
 - python
 - NASA
 - spacebook
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Looking for work?
 ---

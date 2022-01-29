@@ -11,7 +11,7 @@ tags:
 - python
 - google
 - django packages
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: PyCon 2011 Sprint Report
 ---

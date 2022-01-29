@@ -8,7 +8,7 @@ tags:
 - json
 - python
 - xml
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Getting piston forms to play nicely with JSON
 ---

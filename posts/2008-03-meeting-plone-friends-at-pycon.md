@@ -6,7 +6,7 @@ slug: 2008-03-meeting-plone-friends-at-pycon
 tags:
 - pycon
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Meeting Plone friends at Pycon
 ---

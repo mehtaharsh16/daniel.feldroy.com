@@ -7,7 +7,7 @@ tags:
 - django
 - pylons
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: The problem with comparing Pylons to Django
 ---

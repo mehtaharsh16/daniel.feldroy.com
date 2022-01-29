@@ -6,7 +6,7 @@ slug: 2011-05-python-http-requests-for-humans
 tags:
 - rant
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Python HTTP Requests for Humans
 ---

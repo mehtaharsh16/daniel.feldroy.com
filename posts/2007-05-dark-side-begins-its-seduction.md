@@ -8,7 +8,7 @@ tags:
 - python
 - ironpython
 - microsoft
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: The Dark Side begins its seduction...
 ---

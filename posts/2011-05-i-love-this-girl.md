@@ -7,7 +7,7 @@ tags:
 - pycon
 - family
 - personal
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I love this girl!
 ---

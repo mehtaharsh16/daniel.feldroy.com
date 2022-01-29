@@ -6,7 +6,7 @@ slug: 2011-05-couple-great-pycon-2011-talks
 tags:
 - pycon
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: A couple great Pycon 2011 Talks
 ---

@@ -5,7 +5,7 @@ published: true
 slug: 2008-03-first-side-consulting-project-hits
 tags:
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: First side consulting project hits the world!
 ---

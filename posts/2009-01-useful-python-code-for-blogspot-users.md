@@ -6,7 +6,7 @@ slug: 2009-01-useful-python-code-for-blogspot-users
 tags:
 - python
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Useful python code for blogspot users like me
 ---

@@ -5,7 +5,7 @@ published: true
 slug: 2008-02-my-zope-3-book-is-almost-here
 tags:
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: My Zope 3 book is almost here!
 ---

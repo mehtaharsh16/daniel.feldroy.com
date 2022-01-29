@@ -5,7 +5,7 @@ published: true
 slug: 2008-09-list-of-programming-languages-i-know
 tags:
 - technology
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: List of programming languages I know
 ---

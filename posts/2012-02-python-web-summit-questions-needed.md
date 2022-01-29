@@ -6,7 +6,7 @@ slug: 2012-02-python-web-summit-questions-needed
 tags:
 - pycon
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Python Web Summit Questions needed!
 ---

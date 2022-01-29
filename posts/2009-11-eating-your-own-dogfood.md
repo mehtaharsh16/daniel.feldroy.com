@@ -7,7 +7,7 @@ tags:
 - november
 - django
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Eating your own dogfood
 ---

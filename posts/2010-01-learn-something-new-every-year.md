@@ -10,7 +10,7 @@ tags:
 - plone
 - python
 - mac os
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Learn something new every year
 ---

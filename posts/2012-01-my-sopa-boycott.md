@@ -8,7 +8,7 @@ tags:
 - django
 - politics
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: My SOPA boycott
 ---

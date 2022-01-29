@@ -5,7 +5,7 @@ published: true
 slug: 2008-02-ditching-funkload
 tags:
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Ditching Funkload
 ---

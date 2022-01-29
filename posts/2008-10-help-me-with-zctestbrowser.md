@@ -6,7 +6,7 @@ slug: 2008-10-help-me-with-zctestbrowser
 tags:
 - plone conference
 - beautiful soup
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Help me with zc.testbrowser
 ---

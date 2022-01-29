@@ -5,7 +5,7 @@ published: true
 slug: 2008-09-some-ideas-for-open-source-plone
 tags:
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Some ideas for open source Plone Products
 ---

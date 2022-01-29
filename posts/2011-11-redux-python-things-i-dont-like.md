@@ -6,7 +6,7 @@ slug: 2011-11-redux-python-things-i-dont-like
 tags:
 - rant
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: 'Redux: Python Things I Don''t Like'
 ---

@@ -13,7 +13,7 @@ tags:
 - xml
 - zope
 - GAPE
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Announcing Garbaginator!
 ---

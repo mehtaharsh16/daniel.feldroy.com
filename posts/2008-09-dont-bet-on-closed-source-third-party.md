@@ -8,7 +8,7 @@ tags:
 - rant
 - linux
 - mac os
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Don't bet on closed source third party software!
 ---

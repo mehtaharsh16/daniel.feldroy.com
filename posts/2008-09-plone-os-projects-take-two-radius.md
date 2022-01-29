@@ -9,7 +9,7 @@ tags:
 - feedparser
 - plone
 - atom
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: 'Plone OS projects take two: Radius package and FeedFeeder package'
 ---

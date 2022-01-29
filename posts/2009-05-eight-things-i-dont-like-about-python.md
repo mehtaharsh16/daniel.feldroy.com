@@ -6,7 +6,7 @@ slug: 2009-05-eight-things-i-dont-like-about-python
 tags:
 - rant
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Eight things I don't like about python
 ---

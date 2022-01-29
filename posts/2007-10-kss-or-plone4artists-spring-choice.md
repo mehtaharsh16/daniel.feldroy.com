@@ -5,7 +5,7 @@ published: true
 slug: 2007-10-kss-or-plone4artists-spring-choice
 tags:
 - plone conference
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: KSS or Plone4Artists sprint choice
 ---

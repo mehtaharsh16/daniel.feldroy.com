@@ -6,7 +6,7 @@ slug: 2009-01-strangeness-on-planet-plone
 tags:
 - plone
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Strangeness on Planet Plone
 ---

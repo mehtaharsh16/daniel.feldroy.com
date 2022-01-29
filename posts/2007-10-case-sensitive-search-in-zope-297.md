@@ -6,7 +6,7 @@ slug: 2007-10-case-sensitive-search-in-zope-297
 tags:
 - python
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Case sensitive search in Zope 2.9.7
 ---

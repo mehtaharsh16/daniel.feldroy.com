@@ -10,7 +10,7 @@ tags:
 - plone
 - python
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Code I'll reuse
 ---

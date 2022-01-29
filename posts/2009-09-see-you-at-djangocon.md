@@ -6,7 +6,7 @@ slug: 2009-09-see-you-at-djangocon
 tags:
 - djangocon
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: See you at DjangoCon!
 ---

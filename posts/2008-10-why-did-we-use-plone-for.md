@@ -6,7 +6,7 @@ slug: 2008-10-why-did-we-use-plone-for
 tags:
 - NASA science
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Why did we use Plone for nasascience.nasa.gov?
 ---

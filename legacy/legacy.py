@@ -39,7 +39,7 @@ for key, value in posts.items():
     filename = filename.replace('/', '-')
     tags = [x['term'] for x in value.tags]
     tags = [x for x in tags if x != 'http://schemas.google.com/blogger/2008/kind#post']
-    tags.append('legacy')
+    tags.append('legacy-blogger')
     # breakpoint()
     metadata = {
         'date': value['published'],

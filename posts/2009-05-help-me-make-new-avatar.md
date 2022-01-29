@@ -6,7 +6,7 @@ slug: 2009-05-help-me-make-new-avatar
 tags:
 - holidays
 - personal
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Help me make a new Avatar!
 ---

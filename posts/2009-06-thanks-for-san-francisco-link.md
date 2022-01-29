@@ -5,7 +5,7 @@ published: true
 slug: 2009-06-thanks-for-san-francisco-link
 tags:
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Thanks for San Francisco Link
 ---

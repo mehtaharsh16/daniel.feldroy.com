@@ -6,7 +6,7 @@ slug: 2010-01-djangocon-2009-videos-are-up
 tags:
 - geek celebrities
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: DjangoCon 2009 videos are up!
 ---

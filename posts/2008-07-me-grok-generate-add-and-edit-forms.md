@@ -7,7 +7,7 @@ tags:
 - grok
 - python
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Me Grok generate Add and Edit forms!
 ---

@@ -8,7 +8,7 @@ tags:
 - django
 - review
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Picking a Django powered CMS
 ---

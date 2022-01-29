@@ -5,7 +5,7 @@ published: true
 slug: 2007-11-plone-lets-you-importexport-workflows
 tags:
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Plone lets you import/export workflows!
 ---

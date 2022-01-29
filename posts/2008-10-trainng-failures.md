@@ -5,7 +5,7 @@ published: true
 slug: 2008-10-trainng-failures
 tags:
 - rant
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Training failures
 ---

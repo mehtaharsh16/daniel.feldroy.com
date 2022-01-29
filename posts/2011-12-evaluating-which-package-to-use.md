@@ -6,7 +6,7 @@ slug: 2011-12-evaluating-which-package-to-use
 tags:
 - rant
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Evaluating which package to use
 ---

@@ -8,7 +8,7 @@ tags:
 - foss
 - pinax
 - spacebook
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Spacebook ITCD demo a success!
 ---

@@ -7,7 +7,7 @@ tags:
 - nova-django
 - django
 - pinax
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: NOVA-DUG April 29th summary
 ---

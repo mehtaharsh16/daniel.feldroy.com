@@ -6,7 +6,7 @@ slug: 2007-11-how-fast-can-i-convert-zope-3-app-to
 tags:
 - grok
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: How fast can I convert a Zope 3 app to Grok?
 ---

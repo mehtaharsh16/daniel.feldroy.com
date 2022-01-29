@@ -9,7 +9,7 @@ tags:
 - git
 - mac os
 - buildout
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: History of my most used shell commands
 ---

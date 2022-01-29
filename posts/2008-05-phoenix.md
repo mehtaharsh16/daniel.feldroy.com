@@ -5,7 +5,7 @@ published: true
 slug: 2008-05-phoenix
 tags:
 - NASA science
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Phoenix
 ---

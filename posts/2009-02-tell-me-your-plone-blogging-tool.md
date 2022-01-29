@@ -5,7 +5,7 @@ published: true
 slug: 2009-02-tell-me-your-plone-blogging-tool
 tags:
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Tell me your Plone blogging tool preferences
 ---

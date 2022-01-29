@@ -6,7 +6,7 @@ slug: 2007-11-pylons-vs-django
 tags:
 - django
 - pylons
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Pylons vs Django
 ---

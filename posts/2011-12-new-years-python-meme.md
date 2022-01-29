@@ -12,7 +12,7 @@ tags:
 - python
 - classes
 - django packages
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: "New Year\u2019s Python Meme"
 ---

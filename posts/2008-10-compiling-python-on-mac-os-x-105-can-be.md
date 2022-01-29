@@ -6,7 +6,7 @@ slug: 2008-10-compiling-python-on-mac-os-x-105-can-be
 tags:
 - python
 - mac os
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Compiling Python on Mac OS X 10.5 can be a pain
 ---

@@ -5,7 +5,7 @@ published: true
 slug: 2009-05-quitting-caffeine
 tags:
 - personal
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Quitting Caffeine
 ---

@@ -8,7 +8,7 @@ tags:
 - djangocon
 - django
 - django packages
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: DjangoCon 2010 report I
 ---

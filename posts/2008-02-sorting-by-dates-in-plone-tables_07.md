@@ -6,7 +6,7 @@ slug: 2008-02-sorting-by-dates-in-plone-tables_07
 tags:
 - javascript
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Sorting by dates in Plone tables
 ---

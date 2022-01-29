@@ -12,7 +12,7 @@ tags:
 - python
 - NASA
 - pinax
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Best DjangoCon 2009 Day Ever!
 ---

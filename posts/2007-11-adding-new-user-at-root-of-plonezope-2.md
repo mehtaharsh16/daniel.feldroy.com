@@ -6,7 +6,7 @@ slug: 2007-11-adding-new-user-at-root-of-plonezope-2
 tags:
 - plone
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Adding a new user at the root of Plone/Zope 2 programmatically
 ---

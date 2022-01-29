@@ -5,7 +5,7 @@ published: true
 slug: 2008-02-litigating-reality
 tags:
 - technology
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Litigating reality
 ---

@@ -6,7 +6,7 @@ slug: 2007-11-i-grok-zope-3
 tags:
 - grok
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I grok Zope 3!
 ---

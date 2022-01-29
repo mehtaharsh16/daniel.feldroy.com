@@ -5,7 +5,7 @@ published: true
 slug: 2009-12-there-was-day
 tags:
 - rant
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: There was a day...
 ---

@@ -9,7 +9,7 @@ tags:
 - python
 - training
 - australia
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Github is my resume
 ---

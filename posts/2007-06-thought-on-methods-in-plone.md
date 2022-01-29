@@ -6,7 +6,7 @@ slug: 2007-06-thought-on-methods-in-plone
 tags:
 - plone
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: A thought on methods in Plone
 ---

@@ -4,7 +4,7 @@ description: ''
 published: true
 slug: 2007-12-import-antigravity
 tags:
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: import antigravity
 ---

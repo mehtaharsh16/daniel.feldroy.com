@@ -6,7 +6,7 @@ slug: 2008-11-current-plan-for-feedfeeder-v2
 tags:
 - feedfeeder
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Current plan for FeedFeeder v2
 ---

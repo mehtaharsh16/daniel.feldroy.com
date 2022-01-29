@@ -8,7 +8,7 @@ tags:
 - python
 - zope
 - five
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: How not to build a view
 ---

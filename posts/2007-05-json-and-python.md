@@ -7,7 +7,7 @@ tags:
 - json
 - python
 - xml
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: JSON and Python
 ---

@@ -7,7 +7,7 @@ tags:
 - silverlight
 - ria
 - flex
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: RIA arguments
 ---

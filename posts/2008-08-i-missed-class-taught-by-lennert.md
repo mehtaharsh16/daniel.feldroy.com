@@ -9,7 +9,7 @@ tags:
 - plone
 - python
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: I missed a class taught by Lennert Regebro?
 ---

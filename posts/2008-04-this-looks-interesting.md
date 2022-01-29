@@ -7,7 +7,7 @@ tags:
 - django
 - python
 - google
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: This looks interesting...
 ---

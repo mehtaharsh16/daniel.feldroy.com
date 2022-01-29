@@ -8,7 +8,7 @@ tags:
 - feedfeeder
 - feedparser
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Morning brainstorm about FeedFeeder v2
 ---

@@ -5,7 +5,7 @@ published: true
 slug: 2008-05-genius-will-be-rewarded
 tags:
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Genius will be rewarded
 ---

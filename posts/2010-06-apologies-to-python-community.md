@@ -6,7 +6,7 @@ slug: 2010-06-apologies-to-python-community
 tags:
 - python
 - apology
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Apologies to the Python community
 ---

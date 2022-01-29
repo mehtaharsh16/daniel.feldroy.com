@@ -12,7 +12,7 @@ tags:
 - pinax
 - mac os
 - microsoft
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Finger method of judging graphic design
 ---

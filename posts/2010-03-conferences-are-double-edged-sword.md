@@ -6,7 +6,7 @@ slug: 2010-03-conferences-are-double-edged-sword
 tags:
 - pycon
 - rant
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Conferences are a double edged sword
 ---

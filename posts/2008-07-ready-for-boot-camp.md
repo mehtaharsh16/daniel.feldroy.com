@@ -8,7 +8,7 @@ tags:
 - plone
 - laptop
 - buildout
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Ready for boot camp!
 ---

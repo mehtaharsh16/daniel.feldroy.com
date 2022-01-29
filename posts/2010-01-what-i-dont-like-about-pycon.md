@@ -7,7 +7,7 @@ tags:
 - pycon
 - geek celebrities
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: What I don't like about Pycon
 ---

@@ -5,7 +5,7 @@ published: true
 slug: 2008-02-plone-3-drives-me-to-drink
 tags:
 - plone
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Plone 3 drives me to drink!
 ---

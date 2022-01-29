@@ -5,7 +5,7 @@ published: true
 slug: 2009-01-awesome-mac-command-line-trick-of-day
 tags:
 - mac os
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Awesome Mac command-line trick of the day
 ---

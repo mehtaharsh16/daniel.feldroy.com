@@ -7,7 +7,7 @@ tags:
 - django
 - python
 - blog
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: My blog is moved
 ---

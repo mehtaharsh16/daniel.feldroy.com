@@ -5,7 +5,7 @@ published: true
 slug: 2008-03-pycon-2008-travel-update
 tags:
 - pycon
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Pycon 2008 travel update
 ---

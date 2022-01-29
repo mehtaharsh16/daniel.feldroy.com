@@ -5,7 +5,7 @@ published: true
 slug: 2007-11-head-meets-desk
 tags:
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Head meets desk
 ---

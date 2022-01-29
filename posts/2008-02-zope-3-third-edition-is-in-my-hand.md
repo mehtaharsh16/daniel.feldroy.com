@@ -5,7 +5,7 @@ published: true
 slug: 2008-02-zope-3-third-edition-is-in-my-hand
 tags:
 - zope
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Zope 3 Third Edition is in my hand!
 ---

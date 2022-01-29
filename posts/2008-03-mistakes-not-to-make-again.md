@@ -5,7 +5,7 @@ published: true
 slug: 2008-03-mistakes-not-to-make-again
 tags:
 - pycon
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Mistakes not to make again
 ---

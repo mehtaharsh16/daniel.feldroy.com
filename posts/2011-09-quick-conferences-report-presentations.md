@@ -14,7 +14,7 @@ tags:
 - django packages
 - pyladies
 - australia
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: 'Quick conferences report: Presentations'
 ---

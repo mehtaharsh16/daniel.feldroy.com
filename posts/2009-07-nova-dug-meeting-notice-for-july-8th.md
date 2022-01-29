@@ -7,7 +7,7 @@ tags:
 - nova-django
 - django
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: NOVA-DUG meeting notice for July 8th
 ---

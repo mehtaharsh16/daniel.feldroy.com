@@ -7,7 +7,7 @@ tags:
 - rant
 - python
 - coldfusion
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: 'Reason #4293 why I''m happy to be out of ColdFusion'
 ---

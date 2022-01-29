@@ -6,7 +6,7 @@ slug: 2011-06-hollywood-hackathon-report
 tags:
 - python
 - pyladies
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Hollywood Hackathon Report
 ---

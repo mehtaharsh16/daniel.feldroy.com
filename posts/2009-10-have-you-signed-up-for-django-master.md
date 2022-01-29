@@ -6,7 +6,7 @@ slug: 2009-10-have-you-signed-up-for-django-master
 tags:
 - geek celebrities
 - django
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Have you signed up for the Django Master Class?
 ---

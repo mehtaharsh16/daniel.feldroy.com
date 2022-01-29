@@ -6,7 +6,7 @@ slug: 2010-05-steve-holden-giving-talk-on-python
 tags:
 - geek celebrities
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Steve Holden giving a talk on Python education
 ---

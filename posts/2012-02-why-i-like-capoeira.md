@@ -6,7 +6,7 @@ slug: 2012-02-why-i-like-capoeira
 tags:
 - friends
 - capoeira
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Why I like Capoeira
 ---

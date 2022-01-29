@@ -5,7 +5,7 @@ published: true
 slug: 2007-09-supersizing-youtube
 tags:
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Supersizing YouTube
 ---

@@ -6,7 +6,7 @@ slug: 2009-03-day-2-pycon-09-talks-im-attending
 tags:
 - pycon
 - python
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: Day 2 Pycon-09 talks I'm attending
 ---

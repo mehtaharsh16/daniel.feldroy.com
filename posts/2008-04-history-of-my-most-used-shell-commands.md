@@ -5,7 +5,7 @@ published: true
 slug: 2008-04-history-of-my-most-used-shell-commands
 tags:
 - mac os
-- legacy
+- legacy-blogger
 time_to_read: 5
 title: History of my most used shell commands
 ---
