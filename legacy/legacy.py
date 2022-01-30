@@ -1,8 +1,7 @@
 """
 TODOs
-1. Specify name of blog to help with filtering
-2. Figure out if looking for 'Template: pydanny' can be automated
-3. Find pure python way to convert HTML to markdown
+1. Figure out if looking for 'Template: pydanny' can be automated
+2. Find pure python way to convert HTML to markdown
 """
 
 import sys
@@ -21,6 +20,7 @@ def main(input_file: Path, output_dir: Path):
     raw_text = input_file.read_text()
     # parse the historical data
     data = feedparser.parse(raw_text)
+    breakpoint()
     posts = {}
     for entry in data.entries:
         try:
@@ -49,13 +49,16 @@ def main(input_file: Path, output_dir: Path):
     typer.secho(f"Writing {len(posts)} blogger posts to markdown files", fg=typer.colors.GREEN)
     with typer.progressbar(posts.items()) as posts_progress:
         for key, value in posts_progress:
+            # Get a MD filename from the original HTML URL
             filename = key.replace(".html", ".md")
-            filename = filename.replace("https://pydanny.blogspot.com/", "")
+            link = data['feed']['link'].replace('http', 'https')
+            filename = filename.replace(link, "")
             filename = filename.replace("/", "-")
+            # Get a list of tags
             tags = [x["term"] for x in value.tags]
             tags = [x for x in tags if x != "http://schemas.google.com/blogger/2008/kind#post"]
             tags.append("legacy-blogger")
-            metadata = {
+            frontmatter = {
                 "date": value["published"],
                 "published": True,
                 "slug": filename.replace(".md", ""),
@@ -65,11 +68,15 @@ def main(input_file: Path, output_dir: Path):
                 "description": "",
             }
             with open(f"{output_dir.joinpath(filename)}", "w") as f:
+                # Set the frontmatter
                 f.write("---\n")
-                f.write(yaml.dump(metadata))
+                f.write(yaml.dump(frontmatter))
                 f.write("---\n\n")
+                # Set a link to the original content
                 f.write(f"*This was originally posted on blogger [here]({key})*.\n\n")
+                # Write the HTML, TODO: consider converting to markdown
                 f.write(value["summary"])
+                # If any comments, add them
                 if value["comments"]:
                     f.write("\n\n---\n\n")            
                     f.write(
