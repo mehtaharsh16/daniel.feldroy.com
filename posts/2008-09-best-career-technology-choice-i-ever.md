@@ -10,9 +10,4 @@ time_to_read: 5
 title: Best career technology choice I ever made besides learning python...
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/09/best-career-technology-choice-i-ever.html)*.
-
-I refused to ever touch Crystal Reports.  I became the ugly, ranty developer and yelled and screamed rather than touch Crystal Reports.<br /><br />I don't even need to explain why this was such an awesome move on my part.<br /><br />My life is so much better for it.
-
----
-
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/09/best-career-technology-choice-i-ever.html)*.I refused to ever touch Crystal Reports.  I became the ugly, ranty developer and yelled and screamed rather than touch Crystal Reports.<br /><br />I don't even need to explain why this was such an awesome move on my part.<br /><br />My life is so much better for it.

@@ -58,8 +58,8 @@ for key, value in posts.items():
         f.write("---\n\n")
         f.write(f"*This was originally posted on blogger [here]({key})*.")
         f.write(value["summary"])
-        f.write("\n\n---\n\n")
         if value["comments"]:
+            f.write("\n\n---\n\n")            
             f.write(
                 f'## {len(value["comments"])} comments captured from [original post]({key}) on Blogger\n\n'
             )

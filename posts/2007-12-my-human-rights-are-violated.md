@@ -9,9 +9,4 @@ time_to_read: 5
 title: My human rights are violated!
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/12/my-human-rights-are-violated.html)*.
-
-The coffee machine at work is broken.  No caffeine.  No hot water for tea even!<br /><br />I'll have to either use the soda machine or run out for coffee.<br /><br />Totally unfair.
-
----
-
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/12/my-human-rights-are-violated.html)*.The coffee machine at work is broken.  No caffeine.  No hot water for tea even!<br /><br />I'll have to either use the soda machine or run out for coffee.<br /><br />Totally unfair.

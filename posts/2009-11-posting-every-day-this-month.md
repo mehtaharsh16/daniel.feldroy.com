@@ -11,9 +11,7 @@ time_to_read: 5
 title: Posting every day this month
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/11/posting-every-day-this-month.html)*.
-
-It is customary amongst some to post something on your blog every day of November. There is at least one site for this sort of thing (<a href="http://www.nablopomo.com/">http://www.nablopomo.com</a>). I think I'm going to try out this strange custom. So that means between now and November 30th each day will see some new content added to this blog.<br /><br />If you are doing the same thing (blogging each day this month), let me know and I'll link to your blog from here.<br /><br />So here is to 29 more blog entries!
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/11/posting-every-day-this-month.html)*.It is customary amongst some to post something on your blog every day of November. There is at least one site for this sort of thing (<a href="http://www.nablopomo.com/">http://www.nablopomo.com</a>). I think I'm going to try out this strange custom. So that means between now and November 30th each day will see some new content added to this blog.<br /><br />If you are doing the same thing (blogging each day this month), let me know and I'll link to your blog from here.<br /><br />So here is to 29 more blog entries!
 
 ---
 

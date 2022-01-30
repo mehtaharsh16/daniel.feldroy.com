@@ -13,9 +13,4 @@ time_to_read: 5
 title: Oops... forgot RSS feed
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/04/oops-forgot-rss-feed.html)*.
-
-Its not a big thing cause adding RSS feeds to Plone is painfully easy.  Nevertheless, it is amusing how <a href="http://nasascience.nasa.gov/">NASA Science</a> didn't have RSS feeds listed on the front page on launch.<br /><br />I think atom feeds are also planned.
-
----
-
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/04/oops-forgot-rss-feed.html)*.Its not a big thing cause adding RSS feeds to Plone is painfully easy.  Nevertheless, it is amusing how <a href="http://nasascience.nasa.gov/">NASA Science</a> didn't have RSS feeds listed on the front page on launch.<br /><br />I think atom feeds are also planned.

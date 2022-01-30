@@ -10,9 +10,4 @@ time_to_read: 5
 title: KSS or Plone4Artists sprint choice
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/10/kss-or-plone4artists-spring-choice.html)*.
-
-I'm interested in both.  I think I might do better at the KSS sprint because they really need a good set of tutorials and documentation.  But Plone4Artists would be good for me to do because I would get stronger on Interfaces and Subtypes, however, my ability to do them some good is limited by the fact that the HTML/CSS trick I want to do I haven't figured out how to do yet.<br /><br />Hrm...<br /><br />After some thought, I'm going to do the KSS sprint until I get to a point, then switch over.  I'll be able to take the skills from one sprint and bring it into the other group.
-
----
-
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/10/kss-or-plone4artists-spring-choice.html)*.I'm interested in both.  I think I might do better at the KSS sprint because they really need a good set of tutorials and documentation.  But Plone4Artists would be good for me to do because I would get stronger on Interfaces and Subtypes, however, my ability to do them some good is limited by the fact that the HTML/CSS trick I want to do I haven't figured out how to do yet.<br /><br />Hrm...<br /><br />After some thought, I'm going to do the KSS sprint until I get to a point, then switch over.  I'll be able to take the skills from one sprint and bring it into the other group.
