@@ -7,7 +7,7 @@ tags:
   - python3
   - django
   - cheatsheet
-  - djangopackages
+  - django packages
 time_to_read: 2
 title: How To Create Installable, Reusable Django Packages
 images: /images/django-package-470x246.png
