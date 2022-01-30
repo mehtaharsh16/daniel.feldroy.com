@@ -56,7 +56,7 @@ for key, value in posts.items():
         f.write("---\n")
         f.write(yaml.dump(metadata))
         f.write("---\n\n")
-        f.write(f"*This was originally posted on blogger [here]({key})*.")
+        f.write(f"*This was originally posted on blogger [here]({key})*.\n\n")
         f.write(value["summary"])
         if value["comments"]:
             f.write("\n\n---\n\n")            
