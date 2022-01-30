@@ -10,4 +10,6 @@ time_to_read: 5
 title: New Grok site!
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/01/new-grok-site.html)*.<a href="http://grok.zope.org/">http://grok.zope.org/</a><br /><br />Much better!
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/01/new-grok-site.html)*.
+
+<a href="http://grok.zope.org/">http://grok.zope.org/</a><br /><br />Much better!

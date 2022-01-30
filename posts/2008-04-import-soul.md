@@ -10,4 +10,6 @@ time_to_read: 5
 title: Import Soul
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/04/import-soul.html)*.<a href="http://xkcd.com/413/">http://xkcd.com/413/</a>
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/04/import-soul.html)*.
+
+<a href="http://xkcd.com/413/">http://xkcd.com/413/</a>

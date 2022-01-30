@@ -9,4 +9,6 @@ time_to_read: 5
 title: Handy code snippet
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/10/handy-code-snippet.html)*.[div content="structure provider:plone.leftcolumn"]
+*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/10/handy-code-snippet.html)*.
+
+[div content="structure provider:plone.leftcolumn"]
