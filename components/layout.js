@@ -7,6 +7,31 @@ import Link from 'next/link'
 const name = 'Daniel Roy Greenfeld'
 export const siteTitle = 'Daniel Roy Greenfeld'
 
+function TopLinks(){
+  return (
+    <p>
+      <Link href="/about">
+        <a>About</a>
+      </Link>{' '}|{' '}              
+      <Link href="/books">
+        <a>Books</a>
+      </Link>{' '}|{' '} 
+      <Link href="/tags">
+        <a>Categories</a>
+      </Link>{' '}|{' '}                                 
+      <Link href="/jobs">
+        <a>Jobs</a>
+      </Link>{' '}|{' '}              
+      <Link href="/news">
+        <a>News</a>
+      </Link>{' '}|{' '} 
+      <Link href="/writings">
+        <a>Writings</a>
+      </Link>      
+    </p>
+  )
+}
+
 export default function Layout({ children, home }) {
   const date = new Date();
   const copyright = `All rights reserved ${date.getFullYear()}, Daniel Roy Greenfeld`
@@ -61,21 +86,8 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            <p>Inside the head of Daniel Roy Greenfeld<br /></p>
-            <p>
-            <Link href="/news">
-                <a>News</a>
-              </Link>{' '}|{' '}                
-              <Link href="/about">
-                <a>About</a>
-              </Link>{' '}|{' '}
-              <Link href="/books">
-                <a>Books</a>
-              </Link>{' '}|{' '}      
-              <Link href="/jobs">
-                <a>Jobs</a>
-              </Link>
-            </p>
+            <p>Inside the head of Daniel Roy Greenfeld</p>
+            <TopLinks />
           </>
         ) : (
           <>
@@ -95,21 +107,8 @@ export default function Layout({ children, home }) {
               <Link href="/">
                 <a>{name}</a>
               </Link>
-            </h2>
-            <p>
-            <Link href="/news">
-                <a>News</a>
-              </Link>{' '}|{' '}              
-              <Link href="/about">
-                <a>About</a>
-              </Link>{' '}|{' '}
-              <Link href="/books">
-                <a>Books</a>
-              </Link>{' '}|{' '}                
-              <Link href="/jobs">
-                <a>Jobs</a>
-              </Link>
-            </p>
+            </h2> 
+            <TopLinks />
           </>
         )}
       </header>

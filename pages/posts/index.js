@@ -1,19 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import Date from '../components/date'
+import Layout, { siteTitle } from '../../components/layout'
+import utilStyles from '../../styles/utils.module.css'
+import Date from '../../components/date'
 
-import { getSortedPostsData } from '../lib/posts'
-import generateRssFeed from '../lib/rss'
+import { getSortedPostsData } from '../../lib/posts'
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData().slice(0,5)
+  const allPostsData = getSortedPostsData()
 
-  // render blog posts
-  await generateRssFeed('django');
-  await generateRssFeed('python');
-  await generateRssFeed('');
   return {
     props: {
       allPostsData
@@ -23,14 +18,14 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout home>
+    <Layout>
       <Head>
-        <title>Daniel Roy Greenfeld</title>
+        <title>Full archive of Daniel Roy Greenfeld</title>
         <meta
           name="description"
-          content="Inside the head of Daniel Roy Greenfeld"
+          content="Everything written for many years"
         />
-        <meta name="og:title" content="Daniel Roy Greenfeld" />
+        <meta name="og:title" content="Full archive of Daniel Roy Greenfeld" />
         <meta
           property="og:site_name"
           content="Daniel Roy Greenfeld"
@@ -49,9 +44,6 @@ export default function Home({ allPostsData }) {
         />
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>
-          Writings
-        </h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, description }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -76,9 +68,6 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-      <h2 className={utilStyles.headingLg}>
-        <Link href="/posts"><a>Full Archive →</a></Link>
-      </h2>
     </Layout>
   )
 }

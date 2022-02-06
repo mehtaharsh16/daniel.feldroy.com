@@ -5,12 +5,11 @@ published: true
 slug: eulogy-for-my-father-ted-greenfeld
 tags:
   - family
+  - obituary
 time_to_read: 10
 title: "Eulogy for My Father: Ted Greenfeld"
 type: post
 ---
-
-## Eulogy for my Father: Ted Greenfeld
 
 Throughout most of my life, I never knew one of the defining characteristics of my father, Ted Greenfeld. It wasn't until 2013 when he was 78 years old that he revealed this side to me. Dad was visiting me and Audrey in California. It was then that Dad first shared his poetry with me. I had just published my first book. I think that encouraged him to open up about his creative side.
 
