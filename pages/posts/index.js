@@ -16,7 +16,12 @@ export async function getStaticProps() {
   }
 }
 
+// function DisplayYear(currentYear, articleYear){}
+
 export default function Home({ allPostsData }) {
+  // let year = allPostsData[0]['date'].slice(0,4)
+  // year = parseInt(year, 10)
+  // console.log(year+1)
   return (
     <Layout>
       <Head>
@@ -30,8 +35,6 @@ export default function Home({ allPostsData }) {
           property="og:site_name"
           content="Daniel Roy Greenfeld"
         />
-
-
         <meta
           property="og:image"
           content="https://daniel.feldroy.com/images/profile.jpg"
@@ -47,6 +50,7 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, description }) => (
             <li className={utilStyles.listItem} key={id}>
+              {/* <h2 className={utilStyles.headingLg}>2022</h2> */}
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>

@@ -25,7 +25,7 @@ function TopLinks(){
       <Link href="/news">
         <a>News</a>
       </Link>{' '}|{' '} 
-      <Link href="/writings">
+      <Link href="/posts">
         <a>Writings</a>
       </Link>      
     </p>
