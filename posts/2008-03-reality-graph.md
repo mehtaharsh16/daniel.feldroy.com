@@ -4,7 +4,6 @@ description: ''
 published: true
 slug: 2008-03-reality-graph
 tags:
-- j2ee
 - graphviz
 - legacy-blogger
 time_to_read: 5

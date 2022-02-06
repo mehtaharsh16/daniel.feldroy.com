@@ -6,6 +6,7 @@ slug: 2007-09-can-i-be-bit-snarky-here
 tags:
 - python
 - legacy-blogger
+- foxpro
 time_to_read: 5
 title: Can I be a bit snarky here?
 ---

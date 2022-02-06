@@ -7,6 +7,7 @@ tags:
 - rant
 - coldfusion
 - legacy-blogger
+- foxpro
 time_to_read: 5
 title: ColdFusion and deprecated code
 ---

@@ -7,6 +7,7 @@ tags:
 - mongodb
 - sql
 - legacy-blogger
+- foxpro
 time_to_read: 5
 title: Normalization noitazilamroN
 ---

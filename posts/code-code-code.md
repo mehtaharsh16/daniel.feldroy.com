@@ -5,6 +5,7 @@ slug: code-code-code
 tags:
   - django
   - python
+  - foxpro
 time_to_read: 3
 title: Code, Code, Code
 image: /images/code-code-code.png
