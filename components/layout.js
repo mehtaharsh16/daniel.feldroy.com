@@ -12,22 +12,22 @@ function TopLinks(){
     <p>
       <Link href="/about">
         <a>About</a>
-      </Link>{' '}|{' '}              
+      </Link>{' '}|{' '}      
+      <Link href="/posts">
+        <a>Articles</a>
+      </Link>{' '}|{' '}                    
       <Link href="/books">
         <a>Books</a>
-      </Link>{' '}|{' '} 
-      <Link href="/tags">
-        <a>Categories</a>
-      </Link>{' '}|{' '}                                 
+      </Link>{' '}|{' '}                                  
       <Link href="/jobs">
         <a>Jobs</a>
       </Link>{' '}|{' '}              
       <Link href="/news">
         <a>News</a>
       </Link>{' '}|{' '} 
-      <Link href="/posts">
-        <a>Writings</a>
-      </Link>      
+      <Link href="/tags">
+        <a>Tags</a>
+      </Link>    
     </p>
   )
 }
