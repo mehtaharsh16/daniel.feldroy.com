@@ -17,7 +17,7 @@ This site is built with React and Next.js. In May of this year (2021) I needed t
 
 Individual articles are written in Markdown, are rendered into HTML, and then served out on a static site. 
 
-From 2008-ish to 2012 I wrote on blogger using HTML in a WYSIWYG editor - unpleasant for a coder like myself. From 2012-2018 my site was in RestructuredText (on Pelican). After that, I've been in Markdown on three engines now. You can read a loose history of my blogging efforts [here](http://127.0.0.1:3000/tags/blog).
+From 2008-ish to 2012 I wrote on blogger using HTML in a WYSIWYG editor - unpleasant for a coder like myself. From 2012-2018 my site was in RestructuredText (on Pelican). After that, I've been in Markdown on three engines now. You can read a loose history of my blogging efforts [here](/tags/blog).
 
 # What are the pros and cons of my blog?
 
