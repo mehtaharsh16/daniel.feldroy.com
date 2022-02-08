@@ -4,13 +4,7 @@ description: ''
 published: true
 slug: 2015-04-how-to-read-kindle-books-without-kindle
 tags:
-- Kindle Cloud Reader
-- Kindle Select Program
-- iPad
-- app
 - Kindle
-- Android
-- iPhone
 - legacy-danielroygreenfeld
 time_to_read: 5
 title: How to Read Kindle Books Without a Kindle Device
