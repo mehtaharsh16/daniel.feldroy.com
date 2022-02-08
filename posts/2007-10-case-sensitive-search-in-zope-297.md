@@ -13,4 +13,27 @@ title: Case sensitive search in Zope 2.9.7
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/10/case-sensitive-search-in-zope-297.html)*.
 
-I'm not 100% happy with this function, and I'm wondering if I'm doing too much work.  Especially waking up the object when the word object is not found in the object.Description attribute.  Is there a better way?<br /><br /><pre><span class="k">def</span><span class=""> </span><span class="nf">getWords</span><span class="p">(</span><span class="n">word</span><span class="p">):</span><span class=""><br />   </span><span class="n">pc</span><span class=""> </span><span class="o">=</span><span class=""> </span><span class="n">app</span><span class="o">.</span><span class="n">msrd</span><span class="o">.</span><span class="n">portal_catalog</span><span class=""><br />   </span><span class="n">results</span><span class=""> </span><span class="o">=</span><span class=""> </span><span class="p">[]</span><span class=""><br />   </span><span class="k">for</span><span class=""> </span><span class="n">brain</span><span class=""> </span><span class="ow">in</span><span class=""> </span><span class="n">pc</span><span class="p">(</span><span class="n">SearchableText</span><span class="o">=</span><span class="n">word</span><span class="p">):</span><span class=""><br />       </span><span class="k">if</span><span class=""> </span><span class="n">word</span><span class=""> </span><span class="ow">in</span><span class=""> </span><span class="n">brain</span><span class="o">.</span><span class="n">Description</span><span class="p">:</span><span class=""><br />           </span><span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">brain</span><span class="o">.</span><span class="n">getPath</span><span class="p">())</span><span class=""><br />           </span><span class="k">continue</span><span class=""><br />       </span><span class="k">try</span><span class="p">:</span><span class=""><br />           </span><span class="n">content</span><span class=""> </span><span class="o">=</span><span class=""> </span><span class="n">brain</span><span class="o">.</span><span class="n">getObject</span><span class="p">()</span><span class=""><br />           </span><span class="k">for</span><span class=""> </span><span class="n">field</span><span class=""> </span><span class="ow">in</span><span class=""> </span><span class="n">content</span><span class="o">.</span><span class="n">schema</span><span class="o">.</span><span class="n">fields</span><span class="p">():</span><span class=""><br />               </span><span class="n">name</span><span class=""> </span><span class="o">=</span><span class=""> </span><span class="n">field</span><span class="o">.</span><span class="n">__dict__</span><span class="p">[</span><span class="s">'__name__'</span><span class="p">]</span><span class=""><br />               </span><span class="k">if</span><span class=""> </span><span class="s">'body'</span><span class=""> </span><span class="ow">in</span><span class=""> </span><span class="n">name</span><span class=""> </span><span class="ow">or</span><span class=""> </span><span class="s">'Body'</span><span class=""> </span><span class="ow">in</span><span class=""> </span><span class="n">name</span><span class="p">:</span><span class=""><br />                   </span><span class="n">accessor</span><span class=""> </span><span class="o">=</span><span class=""> </span><span class="n">field</span><span class="o">.</span><span class="n">__dict__</span><span class="p">[</span><span class="s">'accessor'</span><span class="p">]</span><span class=""><br />                   </span><span class="n">text</span><span class=""> </span><span class="o">=</span><span class=""> </span><span class="n">content</span><span class="p">[</span><span class="n">accessor</span><span class="p">]()</span><span class=""><br />                   </span><span class="k">if</span><span class=""> </span><span class="n">word</span><span class=""> </span><span class="ow">in</span><span class=""> </span><span class="n">text</span><span class="p">:</span><span class=""><br />                       </span><span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">content</span><span class="o">.</span><span class="n">absolute_url</span><span class="p">())</span><span class=""><br />                       </span><span class="k">continue</span><span class=""><br />       </span><span class="k">except</span><span class="p">:</span><span class=""><br />           </span><span class="k">continue</span><span class=""><br />   </span><span class="k">return</span><span class=""> </span><span class="n">results</span></pre>
+I'm not 100% happy with this function, and I'm wondering if I'm doing too much work.  Especially waking up the object when the word "object" is not found in the `object.Description` attribute.  Is there a better way?
+
+```python
+def getWords(word):
+   pc = app.msrd.portal_catalog
+   results = []
+   for brain in pc(SearchableText=word):
+       if word in brain.Description:
+           results.append(brain.getPath())
+           continue
+       try:
+           content = brain.getObject()
+           for field in content.schema.fields():
+               name = field.dict['name']
+               if 'body' in name or 'Body' in name:
+                   accessor = field.dict['accessor']
+                   text = contentaccessor
+                   if word in text:
+                       results.append(content.absolute_url())
+                       continue
+       except:
+           continue
+   return results
+```
