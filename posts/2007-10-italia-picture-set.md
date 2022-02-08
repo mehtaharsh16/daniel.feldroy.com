@@ -4,7 +4,8 @@ description: ''
 published: true
 slug: 2007-10-italia-picture-set
 tags:
-- ploneconf2007
+- Ploneconf2007
+- Italy
 - legacy-dannygreenfeld
 time_to_read: 5
 title: Italia picture set

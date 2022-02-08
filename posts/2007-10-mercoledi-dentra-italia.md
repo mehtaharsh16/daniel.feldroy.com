@@ -4,7 +4,8 @@ description: ''
 published: true
 slug: 2007-10-mercoledi-dentra-italia
 tags:
-- ploneconf2007
+- Ploneconf2007
+- Italy
 - plone
 - legacy-dannygreenfeld
 time_to_read: 5

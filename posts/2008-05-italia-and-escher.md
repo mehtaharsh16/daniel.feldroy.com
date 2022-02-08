@@ -4,8 +4,8 @@ description: ''
 published: true
 slug: 2008-05-italia-and-escher
 tags:
-- ploneconf2007
-- italia
+- Ploneconf2007
+- Italy
 - legacy-dannygreenfeld
 time_to_read: 5
 title: Italia and Escher

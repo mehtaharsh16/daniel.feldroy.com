@@ -4,7 +4,8 @@ description: ''
 published: true
 slug: 2007-10-first-minutes-of-day
 tags:
-- ploneconf2007
+- Ploneconf2007
+- Italy
 - legacy-dannygreenfeld
 time_to_read: 5
 title: First minutes of the day

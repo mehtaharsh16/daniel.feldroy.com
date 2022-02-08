@@ -4,7 +4,8 @@ description: ''
 published: true
 slug: 2007-11-happy-thanksgiving
 tags:
-- ploneconf2007
+- Ploneconf2007
+- Italy
 - holidays
 - plone
 - legacy-dannygreenfeld
