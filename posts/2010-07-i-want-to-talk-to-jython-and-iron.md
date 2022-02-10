@@ -6,8 +6,6 @@ slug: 2010-07-i-want-to-talk-to-jython-and-iron
 tags:
 - django
 - python
-- jython
-- ironpython
 - legacy-blogger
 time_to_read: 5
 title: I want to talk to Jython and Iron Python developers

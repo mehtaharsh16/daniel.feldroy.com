@@ -10,7 +10,6 @@ tags:
 - windows
 - plone
 - pinax
-- ironpython
 - microsoft
 - legacy-blogger
 time_to_read: 5

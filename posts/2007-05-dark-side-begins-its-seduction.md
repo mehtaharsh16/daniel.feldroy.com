@@ -6,7 +6,6 @@ slug: 2007-05-dark-side-begins-its-seduction
 tags:
 - silverlight
 - python
-- ironpython
 - microsoft
 - legacy-blogger
 time_to_read: 5

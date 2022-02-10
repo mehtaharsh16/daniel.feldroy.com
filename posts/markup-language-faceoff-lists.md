@@ -7,7 +7,6 @@ tags:
   - LaTeX
   - RestructuredText
   - markdown
-  - faceoff
   - django
 time_to_read: 6
 title: "Markup Language Faceoff: Lists"
