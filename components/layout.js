@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
@@ -38,6 +39,11 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
+        <Script
+          strategy="afterInteractive"
+          data-domain="daniel.feldroy.com"
+          src="https://plausible.io/js/plausible.js" />
+
         <link
             href="/favicon/apple-touch-icon.png"
             rel="apple-touch-icon"
