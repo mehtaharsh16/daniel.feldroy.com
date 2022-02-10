@@ -24,6 +24,8 @@ What that description doesn't tell you is that I came up with the core concepts 
 
 Those tactics worked and I got hired. Not only that, but one [pithy phrase](https://www.vocabulary.com/dictionary/pithy) in particular I uttered during the interview became the backbone of my coding and working style.
 
+It was at NASA that I learned Python and started with Django. All because of that phrase. How cool is that?
+
 [My talk](https://2022.pythonwebconf.com/presentations/confessions-of-joe-developer) is about what I said, what it means, how I applied it, and how you can use it.
 
 See you at [Python Web Conf](https://2022.pythonwebconf.com)!
