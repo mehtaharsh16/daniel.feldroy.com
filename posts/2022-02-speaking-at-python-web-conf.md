@@ -7,11 +7,12 @@ tags:
 time_to_read: 2
 title: Speaking at Python Web Conf
 image: /images/PWC2022-daniel-roy-greenfeld.png
+description: My first public conference talk in three years
 ---
 
 During the week of March 21-25 at [Python Web Conf](https://2022.pythonwebconf.com) I'm giving my first public conference talk in three years. I'm both excited and apprehensive about returning to the speaker's podium.
 
-To me, public speaking is like a roller coaster ride. The climb up the first hill (or minute when it comes to speaking) is absolutely terrifying. Then as soon as the car accelerates (or I begin to speak), endorphins kick in. I go from struggling not to visibly tremble from fear to struggling not to shake with excitement.
+To me, public speaking is like a roller coaster ride. The climb up the first hill (or minute when it comes to speaking) is absolutely terrifying. Then as soon as the car accelerates (or I begin to speak), endorphins kick in. I go from struggling not to visibly tremble from fear to shaking with excitement.
 
 [![](/images/PWC2022-daniel-roy-greenfeld.png)](https://2022.pythonwebconf.com/presentations/confessions-of-joe-developer)
 
