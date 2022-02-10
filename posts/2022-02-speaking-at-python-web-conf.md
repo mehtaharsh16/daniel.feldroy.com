@@ -4,9 +4,9 @@ published: true
 tags:
   - python
   - django
+  - talk
 time_to_read: 2
 title: Speaking at Python Web Conf
-image: /images/PWC2022-daniel-roy-greenfeld.png
 description: My first public conference talk in three years
 ---
 
