@@ -6,7 +6,7 @@ tags:
   - advice
 time_to_read: 2
 title: My Boss Took My Mouse Away
-description: How I got hooked on keyboard shortcuts and why you should be hooked too
+description: A useful lesson taught to me at the outset of my career in an unnecessarily abusive way
 image: /images/mybosstookmykeyboardaway.png
 ---
 
