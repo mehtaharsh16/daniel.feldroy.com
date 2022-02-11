@@ -10,7 +10,9 @@ title: Speaking at Python Web Conf
 description: My first public conference talk in three years
 ---
 
-During the week of March 21-25 at [Python Web Conf](https://2022.pythonwebconf.com) I'm giving my first public conference talk in three years. I'm both excited and apprehensive about returning to the speaker's podium.
+During the week of March 21-25 at [Python Web Conf](https://2022.pythonwebconf.com) I'm giving my first public conference talk in three years. Use code **Speaker15@PWC2022** to get 15% off your ticket costs.
+
+I'm both excited and apprehensive about returning to the speaker's podium.
 
 To me, public speaking is like a roller coaster ride. The climb up the first hill (or minute when it comes to speaking) is absolutely terrifying. Then as soon as the car accelerates (or I begin to speak), endorphins kick in. I go from struggling not to visibly tremble from fear to shaking with excitement.
 
@@ -28,6 +30,6 @@ It was at NASA that I learned Python and started with Django. All because of tha
 
 [My talk](https://2022.pythonwebconf.com/presentations/confessions-of-joe-developer) is about what I said, what it means, how I applied it, and how you can use it.
 
-See you at [Python Web Conf](https://2022.pythonwebconf.com)!
+See you at [Python Web Conf](https://2022.pythonwebconf.com)! 
 
 [![](/images/2022.pythonwebconf.png)](https://2022.pythonwebconf.com)
