@@ -15,8 +15,8 @@ Audrey and I met in early 2010 and within days were in love. We were married in 
 
 For example:
 
-1. At some point in November of 2017 our time married was equal to the time we had been together.
-2. In September of 2021 our time married was twice as much as we knew each other.
+1. At some point in November of 2017 our time married was equal to the time we had been together
+2. In September of 2021 our time married was twice as much as we knew each other
 3. In July of 2025 we'll have been married for three times as long as we've known each other
 
 Here's the code:
