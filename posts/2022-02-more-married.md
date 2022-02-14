@@ -7,7 +7,7 @@ tags:
   - python
 time_to_read: 2
 title: More Married
-description: In honor of Valentine's Day, this calculates how long you've been married (or other types of relationships) in relation to how long you've known each other
+description: In honor of Valentine's Day, this script calculates how long you've been married (or other types of relationships) in relation to how long you've known each other
 image: /images/2022-02-14-hearts-a.png
 ---
 
