@@ -8,7 +8,7 @@ tags:
 time_to_read: 2
 title: More Married
 description: In honor of Valentine's Day, this calculates how long you've been married (or other types of relationships) in relation to how long you've known each other
-image: /images/2022-02-14-hearts.png
+image: /images/2022-02-14-hearts-a.png
 ---
 
 Audrey and I met in early 2010 and within days were in love. We were married in late 2013. This program calculates how much more we've been married than not married.
@@ -64,4 +64,4 @@ Results:
 
 Use this little script to impress the special person in your life!
 
-![](/images/2022-02-14-hearts.png)
+![](/images/2022-02-14-hearts-a.png)
