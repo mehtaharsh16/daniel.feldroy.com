@@ -1,18 +1,22 @@
-import Layout from '../components/layout'
+import Layout from "../components/layout";
 
 export const meta = {
-  title: 'News',
-  author: 'Daniel Roy Greenfeld'
-}
+  title: "News",
+  author: "Daniel Roy Greenfeld",
+};
 
 # News
 
 ## Febuary 2022
 
+### Febuary 14, 2022
+
+- Wrote [More Married](/posts/2022-02-more-married) in honor of Valentine's Day
+
 ### Febuary 11, 2022
 
 - Wrote [article](/posts/2022-02-my-boss-took-my-mouse-away) on how I was forced to learn keyboard shortcuts
-- Added count to top of [articles](/posts) 
+- Added count to top of [articles](/posts)
 
 ### Febuary 9, 2022
 
@@ -93,5 +97,6 @@ export const meta = {
 
 - Broadcasted [Code Code Code 01: Jack Linke and HTMX](https://www.youtube.com/watch?v=MJQ9E1iap2Y)
 
+export default ({ children }) => <Layout meta={meta}>{children}</Layout
 
-export default ({ children }) => <Layout meta={meta}>{children}</Layout>
+>
