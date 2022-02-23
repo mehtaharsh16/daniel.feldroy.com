@@ -1,27 +1,39 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import Date from '../components/date'
+import Head from "next/head";
+import Link from "next/link";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import Date from "../components/date";
 
-import { getSortedPostsData } from '../lib/posts'
-import generateRssFeed from '../lib/rss'
+import { getSortedPostsData } from "../lib/posts";
+import generateRssFeed from "../lib/rss";
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData().slice(0,5)
+  const allPostsData = getSortedPostsData();
+  const mostRecentPosts = allPostsData.slice(0, 3);
+
+  const topIds = [
+    "code-code-code",
+    "thirty-minute-rule",
+    "whats-the-best-thing-about-working-for-octopus-energy-part-1",
+    "i-married-audrey-roy",
+  ];
+  const topPosts = allPostsData.filter(
+    (post) => topIds.indexOf(post.id) !== -1
+  );
 
   // render blog posts
-  await generateRssFeed('django');
-  await generateRssFeed('python');
-  await generateRssFeed('');
+  await generateRssFeed("django");
+  await generateRssFeed("python");
+  await generateRssFeed("");
   return {
     props: {
-      allPostsData
-    }
-  }
+      mostRecentPosts,
+      topPosts,
+    },
+  };
 }
 
-export default function Home({ allPostsData }) {
+export default function Home({ mostRecentPosts, topPosts }) {
   return (
     <Layout home>
       <Head>
@@ -31,11 +43,7 @@ export default function Home({ allPostsData }) {
           content="Inside the head of Daniel Roy Greenfeld"
         />
         <meta name="og:title" content="Daniel Roy Greenfeld" />
-        <meta
-          property="og:site_name"
-          content="Daniel Roy Greenfeld"
-        />
-
+        <meta property="og:site_name" content="Daniel Roy Greenfeld" />
 
         <meta
           property="og:image"
@@ -49,26 +57,43 @@ export default function Home({ allPostsData }) {
         />
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>
-          Writings
-        </h2>
+        <h2 className={utilStyles.headingLg}>Writings</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title, description }) => (
+          {mostRecentPosts.map(({ id, date, title, description }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />
-              {description &&
-                (
-                  <>
-                    <small className={utilStyles.lightText}>
-                      {description}
-                    </small>
-                    <br />
-                  </>
-                )
-              }
+              {description && (
+                <>
+                  <small className={utilStyles.lightText}>{description}</small>
+                  <br />
+                </>
+              )}
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Top Articles</h2>
+        <ul className={utilStyles.list}>
+          {topPosts.map(({ id, date, title, description }) => (
+            <li className={utilStyles.listItem} key={id}>
+              <Link href={`/posts/${id}`}>
+                <a>{title}</a>
+              </Link>
+              <br />
+              {description && (
+                <>
+                  <small className={utilStyles.lightText}>{description}</small>
+                  <br />
+                </>
+              )}
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
@@ -77,8 +102,10 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <h2 className={utilStyles.headingLg}>
-        <Link href="/posts"><a>Full Archive →</a></Link>
+        <Link href="/posts">
+          <a>Full Archive →</a>
+        </Link>
       </h2>
     </Layout>
-  )
+  );
 }
