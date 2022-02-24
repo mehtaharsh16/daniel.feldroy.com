@@ -10,6 +10,7 @@ tags:
   - resolutions
 time_to_read: 1
 title: I Married Audrey Roy
+description: The story of one of the best days of my life.
 ---
 
 In a small, private family ceremony on December 27th, 2013 I exchanged

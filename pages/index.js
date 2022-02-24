@@ -57,7 +57,7 @@ export default function Home({ mostRecentPosts, topPosts }) {
         />
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Writings</h2>
+        <h2 className={utilStyles.headingLg}>Recent Writings</h2>
         <ul className={utilStyles.list}>
           {mostRecentPosts.map(({ id, date, title, description }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -80,7 +80,7 @@ export default function Home({ mostRecentPosts, topPosts }) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Top Articles</h2>
+        <h2 className={utilStyles.headingLg}>Popular Articles</h2>
         <ul className={utilStyles.list}>
           {topPosts.map(({ id, date, title, description }) => (
             <li className={utilStyles.listItem} key={id}>
