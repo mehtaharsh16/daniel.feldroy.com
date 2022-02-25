@@ -16,9 +16,9 @@ Five years later in 2012 I started writing on a static site generator. I always 
 
 This is the script I wrote to migrate 449 articles spread across three blogger accounts. It brought them in three batches:
 
-- pydanny.blogspot.com [See all 318 articles migrated](/tags/legacy-blogger)
-- dannygreenfeld.blogspot.com [See all 114 articles migrated](/tags/legacy-dannygreenfeld)
-- danielroygreenfeld.blogspot.com [See all 17 articles migrated](/tags/legacy-danielroygreenfeld)
+- [See all 318 articles migrated](/tags/legacy-blogger) from pydanny.blogspot.com
+- [See all 114 articles migrated](/tags/legacy-dannygreenfeld) from dannygreenfeld.blogspot.com
+- [See all 17 articles migrated](/tags/legacy-danielroygreenfeld) from danielroygreenfeld.blogspot.com
 
 The script does the following:
 
