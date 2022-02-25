@@ -14,9 +14,16 @@ I started writing blog posts on [Blogger](https://www.blogger.com/) in 2007. I d
 
 Five years later in 2012 I started writing on a static site generator. I always thought of bringing my old posts over but it was nearly 10 years before I did so.
 
-This is the script I wrote to migrate 449 articles spread across three blogger accounts. It does the following:
+This is the script I wrote to migrate 449 articles spread across three blogger accounts. It brought them in three batches:
 
-- Converts blogger XML to markdown. Most content kept as simple HTML rather than cast into commonmark
+- pydanny.blogspot.com [See all 318 articles migrated](/tags/legacy-blogger)
+- dannygreenfeld.blogspot.com [See all 114 articles migrated](/tags/legacy-dannygreenfeld)
+- danielroygreenfeld.blogspot.com [See all 17 articles migrated](/tags/legacy-danielroygreenfeld)
+
+The script does the following:
+
+- Converts blogger XML to markdown
+- Most content kept as simple HTML rather than cast into commonmark
 - Adds metadata as frontmatter in YAML format
 - Includes the Blogger comments so one doesn't lose old conversations
 
