@@ -619,6 +619,10 @@
     {
       "source": "/posts/what-is-the-best-thing-about-working-at-octopus-energy",
       "destination": "/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1"
+    },
+    {
+      "source": "/30-minute-rule",
+      "destination": "/posts/thirty-minute-rule"
     }
   ]
 }
