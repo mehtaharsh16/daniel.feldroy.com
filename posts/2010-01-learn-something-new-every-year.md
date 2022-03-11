@@ -1,20 +1,20 @@
 ---
-date: '2010-01-14T07:25:00.000-08:00'
-description: ''
+date: "2010-01-14T07:25:00.000-08:00"
+description: ""
 published: true
 slug: 2010-01-learn-something-new-every-year
 tags:
-- django
-- windows
-- linux
-- plone
-- python
-- mac os
-- legacy-blogger
+  - django
+  - Windows
+  - Linux
+  - plone
+  - python
+  - MacOS
+  - legacy-blogger
 time_to_read: 5
 title: Learn something new every year
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2010/01/learn-something-new-every-year.html)*.
+_This was originally posted on blogger [here](https://pydanny.blogspot.com/2010/01/learn-something-new-every-year.html)_.
 
 <div>As developers, we all make that pledge, don't we? Some of us learn new languages, new frameworks, new APIs, new methodologies. Rarely do we learn a new operating system.</div><div><br /></div><div>30 years ago I was using whatever they called the operating system on the <a href="http://en.wikipedia.org/wiki/Apple_II_series">Apple ][ series</a> of computers. 20 years ago I learned to use <a href="http://en.wikipedia.org/wiki/MS-DOS">MS-DOS</a>. 17 years ago I added <a href="http://en.wikipedia.org/wiki/Windows_3.1x">Windows 3.1</a> to that mix. 15 years ago I ran into <a href="http://en.wikipedia.org/wiki/Windows">Windows</a> 95 and the subsequent set of 98, 2000, Me, and XP. 10 years ago I started to play with <a href="http://en.wikipedia.org/wiki/Linux">Linux</a> and <a href="http://en.wikipedia.org/wiki/Unix">Unix</a>, mostly learning the simple shell commands needed to shuffle files around. 3 years ago I commenced working on <a href="http://en.wikipedia.org/wiki/Mac_OS_X">Mac OS X</a>. </div><div><br /></div><div>During my Windows 98 days I was forced in doing help desk and system administration work. I hated it. The pop-up menus were not intuitive. Documenting what you did was hence agony. I begged my job to make me a pure developer but they forced me to continue down the path of Windows administration. Eventually I left that job and became a pure developer.</div><div><br /></div><div>Over the years I got better at Unix and Linux. I even set up two servers for production use, one running <a href="http://en.wikipedia.org/wiki/Apache_HTTP_Server">Apache</a> 1.3.x around 2001 and and the other a whole bunch of <a href="http://en.wikipedia.org/wiki/JBOSS">JBOSS</a> stuff in 2003. Finding documentation was a pain, but the sense of logic compared to the chaos of windows pop-ups was a relief.  After that when I would touch Unix or Linux it was basic file management stuff and nothing sophisticated, and my beginner skills never got a chance to grow further.</div><div><br /></div><div>Flash forward to 2007 and beyond where I did serious <a href="http://python.org/">Python</a> development for <a href="http://plone.org/">Plone</a> and then <a href="http://djangoproject.com/">Django</a> applications. Development was on Mac OS X and production was Linux. My neophyte level skills no longer where quite enough. Our system administrator and other co-workers helped out or did the work but it limited and frustrated me. Nevertheless, the time to really bone up on Linux never happened.</div><div><br /></div><div>Well, this past week has been a crash course in ramping up my Linux skills. The next version of <a href="http://pydanny.blogspot.com/search/label/spacebook">SMD Spacebook</a> will be put into production as an <a href="http://en.wikipedia.org/wiki/RPM_Package_Manager">RPM</a>. Its been assigned my task to do it. This would involve a lot more in the way of Linux that what I was used to, since I needed to create an environment to run the RPM build commands, and that couldn't be our testing or production environments. That meant a chunk of setup and configuration of a lot of packages, and various proprietary bits and pieces in order to meet government and corporate requirements.</div><div><br /></div><div>I tried not to bug my co-workers too much except for when their documentation didn't quite explain everything, and then I added to their documentation. I'm still a beginner but I feel like I've finally gotten a chance to spread my wings in this arena a little bit and learn a lot.</div><div><br /></div><div>This will make it easier for me when I finally get around to getting this blog off <a href="http://www.blogger.com/">blogger</a> and into what will probably be <a href="http://github.com/montylounge/django-mingus">Django-Mingus</a>.</div>

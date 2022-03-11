@@ -3,6 +3,10 @@ date: "2022-03-11T22:20:50.52Z"
 published: true
 tags:
   - python
+  - conda
+  - MacOS
+  - Windows
+  - Linux
 time_to_read: 2
 title: Pip Installing Dependencies Into Conda Envs
 description: Because people think Conda is challenging to use or doesn't work with pip, when in truth it is easy and just works everywhere.
