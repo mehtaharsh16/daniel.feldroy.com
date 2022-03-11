@@ -6,7 +6,7 @@ tags:
 time_to_read: 2
 title: Pip Installing Dependencies Into Conda Envs
 description: Because people think Conda is challenging to use or doesn't work with pip, when in truth it is easy and just works everywhere.
-image: /images/conda_logo.svg.png
+image: /images/python-conda.png
 ---
 
 I prefer to use Conda because [once installed](https://docs.conda.io/en/latest/miniconda.html) it works essentially the same everywhere. Including Windows.
@@ -88,4 +88,5 @@ My classes focused more on teaching Python and Django rather than Docker. Docker
 
 Audrey uses pyenv and loves it. Taught people to use pyenv and pyenv-win.
 
-![Conda Logo](/images/conda_logo.svg)
+![Source: https://rna.colostate.edu/2020/lib/exe/detail.php?id=wiki%3Asoftwareinstall&media=wiki:python-conda.png](/images/python-conda.png)
+\_Source: https://rna.colostate.edu/2020/lib/exe/detail.php?id=wiki%3Asoftwareinstall&media=wiki:python-conda.png
