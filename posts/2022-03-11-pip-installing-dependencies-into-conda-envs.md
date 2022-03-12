@@ -84,7 +84,7 @@ Reasons:
 
 Yes. Conda was awesome when I used to teach. Conda is a universal installation system that works for everyone regardless of operating system. Once people got it installed we got to teaching instead of dealing with setup issues.
 
-## 4. What about Docker instead of Conda?
+### 4. What about Docker instead of Conda?
 
 My classes focused more on teaching Python and Django rather than Docker. Docker is a whole different world.
 
