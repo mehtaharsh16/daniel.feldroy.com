@@ -82,7 +82,7 @@ Reasons:
 
 ### 3. Did you ever teach classes with Conda?
 
-Yes. It was awesome when I used to teach. Conda is a universal installation system that works for everyone regardless of operating system. Once people got it installed we got to teaching instead of dealing with setup issues.
+Yes. Conda was awesome when I used to teach. Conda is a universal installation system that works for everyone regardless of operating system. Once people got it installed we got to teaching instead of dealing with setup issues.
 
 ## 4. What about Docker instead of Conda?
 
