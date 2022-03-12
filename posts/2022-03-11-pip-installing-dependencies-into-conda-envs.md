@@ -54,13 +54,13 @@ This prefixes the CLI shell with `(credible)`, exactly like `venv` or `virtualen
 
 ## Step 3: Install Dependencies Using Pip
 
-Just like many any other virtual environments for Python (Poetry and pipenv being the )
+Just like many any other virtual environments for Python, use pip to install/uninstall dependencies
 
 ```bash
 (credible) pip install typer
 ```
 
-That's right. I'm using pip to install packages in a conda env. Conda works great with pip. Has worked great with pip for years.
+That's right. I'm using pip to manage packages in a conda env. Conda works great with pip. Conda has worked great with pip for years.
 
 ---
 
