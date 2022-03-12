@@ -96,7 +96,7 @@ My classes focused more on teaching Python and Django rather than Docker. Docker
 
 Updates:
 
-- 2022-03-12: Changed to use `python -m pip` to ensure the dependency is installed on the right place. Suggested by David R. Pugh.
+- 2022-03-12 [Suggested by David R. Pugh](https://twitter.com/TheSandyCoder/status/1502577229607415808): Changed to use `python -m pip` to ensure the dependency is installed on the right place.
 
 ![Source: https://rna.colostate.edu/2020/lib/exe/detail.php?id=wiki%3Asoftwareinstall&media=wiki:python-conda.png](/images/python-conda.png)
 _[Source of Image](https://rna.colostate.edu/2020/lib/exe/detail.php?id=wiki%3Asoftwareinstall&media=wiki:python-conda.png)_
