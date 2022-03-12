@@ -57,7 +57,7 @@ This prefixes the CLI shell with `(credible)`, exactly like `venv` or `virtualen
 Just like many any other virtual environments for Python, use pip to install/uninstall dependencies
 
 ```bash
-(credible) pip install typer
+(credible) python -m pip install typer
 ```
 
 That's right. I'm using pip to manage packages in a conda env. Conda works great with pip. Conda has worked great with pip for years.
@@ -91,6 +91,12 @@ My classes focused more on teaching Python and Django rather than Docker. Docker
 ### 5. What does Audrey use?
 
 [Audrey](https://audrey.feldroy.com) uses pyenv and loves it. Taught people to use pyenv and pyenv-win.
+
+---
+
+Updates:
+
+ - 2022-03-12: Changed to use `python -m pip` to ensure the dependency is installed on the right place. Suggested by David R. Pugh.
 
 ![Source: https://rna.colostate.edu/2020/lib/exe/detail.php?id=wiki%3Asoftwareinstall&media=wiki:python-conda.png](/images/python-conda.png)
 _[Source of Image](https://rna.colostate.edu/2020/lib/exe/detail.php?id=wiki%3Asoftwareinstall&media=wiki:python-conda.png)_
