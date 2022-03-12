@@ -27,7 +27,7 @@ After agreeing to install some dependencies, it places them in an out-of-the way
 - `/Users/danny/opt/miniconda3/envs/`
 - `c:\Users\danielandaudrey\.conda\envs`
 
-I can get the list of current envs thus:
+Get the list of current envs:
 
 ```bash
 $ conda env list
