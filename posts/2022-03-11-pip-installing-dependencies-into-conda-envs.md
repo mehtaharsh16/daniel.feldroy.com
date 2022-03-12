@@ -90,7 +90,7 @@ My classes focused more on teaching Python and Django rather than Docker. Docker
 
 ### 5. What does Audrey use?
 
-Audrey uses pyenv and loves it. Taught people to use pyenv and pyenv-win.
+[Audrey](https://audrey.feldroy.com) uses pyenv and loves it. Taught people to use pyenv and pyenv-win.
 
 ![Source: https://rna.colostate.edu/2020/lib/exe/detail.php?id=wiki%3Asoftwareinstall&media=wiki:python-conda.png](/images/python-conda.png)
 _[Source of Image](https://rna.colostate.edu/2020/lib/exe/detail.php?id=wiki%3Asoftwareinstall&media=wiki:python-conda.png)_
