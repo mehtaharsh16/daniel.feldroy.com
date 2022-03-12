@@ -40,7 +40,7 @@ works                    /Users/drg/opt/miniconda3/envs/works
 everywhere               /Users/drg/opt/miniconda3/envs/everywhere
 ```
 
-## Step 2: Activate the Virtual Environment
+## Step 2: Activate a Virtual Environment
 
 ```bash
 conda activate credible
@@ -52,7 +52,7 @@ This prefixes the CLI shell with `(credible)`, exactly like `venv` or `virtualen
 (credible)
 ```
 
-## Step 3: Install Dependencies Using Pip
+## Step 3: Install Dependencies Using Pip Into a Conda Env
 
 Just like many any other virtual environments for Python, use pip to install/uninstall dependencies
 
