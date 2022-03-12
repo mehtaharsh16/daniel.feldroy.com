@@ -9,7 +9,7 @@ tags:
   - Linux
 time_to_read: 2
 title: Pip Installing Dependencies Into Conda Envs
-description: Because people think Conda is challenging to use or doesn't work with pip, when in truth it is easy and just works everywhere.
+description: People think Conda is challenging to use or doesn't work with pip, when in truth it is easy and just works everywhere.
 image: /images/python-conda.png
 ---
 
@@ -96,7 +96,7 @@ My classes focused more on teaching Python and Django rather than Docker. Docker
 
 Updates:
 
- - 2022-03-12: Changed to use `python -m pip` to ensure the dependency is installed on the right place. Suggested by David R. Pugh.
+- 2022-03-12: Changed to use `python -m pip` to ensure the dependency is installed on the right place. Suggested by David R. Pugh.
 
 ![Source: https://rna.colostate.edu/2020/lib/exe/detail.php?id=wiki%3Asoftwareinstall&media=wiki:python-conda.png](/images/python-conda.png)
 _[Source of Image](https://rna.colostate.edu/2020/lib/exe/detail.php?id=wiki%3Asoftwareinstall&media=wiki:python-conda.png)_
