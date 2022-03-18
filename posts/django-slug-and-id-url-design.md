@@ -6,8 +6,9 @@ slug: django-slug-and-id-url-design
 tags:
   - python
   - django
+  - forms
 time_to_read: 8
-title: Django Slug + ID URL Design 
+title: Django Slug + ID URL Design
 type: post
 ---
 
@@ -17,7 +18,7 @@ Let's break apart that URL:
 
 1. `feldroy` is my company name.
 2. `autodocumenting-makefiles` is the slug and it's based off the article title.
-3. `175b` is a hashed value that is either stored in an indexed character field or broken down by the router into a numeric primary key. 
+3. `175b` is a hashed value that is either stored in an indexed character field or broken down by the router into a numeric primary key.
 
 Here is another way of looking at their URL design:
 
@@ -29,7 +30,7 @@ Let's see how we can implement a simplified version of this technique using Djan
 
 # Our Version of the URL
 
-We're going with a simpler version of the **Dev.to** implementation. Our implmentation will the database primary key to ensure uniqueness instead of the hashed value relied on by **Dev.to**.  I think **Dev.to** uses an identifier because it's more easily remembered and/or they feel it makes for a more attractive URL. 
+We're going with a simpler version of the **Dev.to** implementation. Our implmentation will the database primary key to ensure uniqueness instead of the hashed value relied on by **Dev.to**. I think **Dev.to** uses an identifier because it's more easily remembered and/or they feel it makes for a more attractive URL.
 
 What **Dev.to** doesn't do is rely on it for security, as they know short hashes like this are easily broken.
 
@@ -43,7 +44,7 @@ Okay, now that we've determined our URL design, let's build it!
 
 Store the data!
 
-``` python
+```python
 # articles/models.py
 from django.conf import settings
 from django.db import models
@@ -55,7 +56,7 @@ class Article(models.Model):
     slug = models.CharField(_("Slug"),
         max_length=100,
         db_index=True)
-    author = models.ForeignKey(settings.AUTH_USER_MODEL, 
+    author = models.ForeignKey(settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE)
     # More fields...
 ```
@@ -64,7 +65,7 @@ class Article(models.Model):
 
 Collect and validate the data!
 
-``` python
+```python
 # articles/forms.py
 from django import forms
 
@@ -81,7 +82,7 @@ class ArticleForm(forms.ModelForm):
 
 Now that we have the model and form, let's build the views:
 
-``` python
+```python
 # articles/views.py
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -98,7 +99,7 @@ class ArticleCreateView(LoginRequiredMixin, CreateView):
     form_class = ArticleForm
 
     def form_valid(self, form):
-        # Save the data to an article object - 
+        # Save the data to an article object -
         #   this hasn't yet saved to the database.
         article = form.save(commit=False)
         article.slug = slugify(article.title)
@@ -106,7 +107,7 @@ class ArticleCreateView(LoginRequiredMixin, CreateView):
         # Save again - this time to the database
         article.save()
         return super().form_valid(form)
-  
+
 
 class ArticleUpdateView(LoginRequiredMixin, UpdateView):
     model = Article
@@ -127,12 +128,12 @@ class ArticleUpdateView(LoginRequiredMixin, UpdateView):
         # Update the slug if the title has changed.
         # If you allow this you might
         #     want to set up a redirect system
-        # If you don't want to figure that rediect, 
+        # If you don't want to figure that rediect,
         #    just delete this method.
         article = form.save(commit=False)
         article.slug = slugify(article.title)
         article.save()
-        return super().form_valid(form)        
+        return super().form_valid(form)
 
 
 class ArticleDetailView(DetailView):
@@ -143,14 +144,14 @@ class ArticleDetailView(DetailView):
             slug=self.kwargs['slug'],
             id=self.kwargs['pk'],
             author__username=self.kwargs['username']
-        )        
+        )
 ```
 
 ## The URLs
 
 Let's route this into our urls:
 
-```  python
+```python
 # articles/urls.py
 from django.urls import path
 
@@ -164,17 +165,17 @@ urlpatterns = [
     path(route='/<slug:username>/<slug:slug>-<int:pk>/edit/',
         view=views.ArticleUpdateView.as_view(),
         name='update',
-    ), 
+    ),
     path(route='/<slug:username>/<slug:slug>-<int:pk>/',
         view=views.ArticleDetailView.as_view(),
         name='create',
-    ),       
+    ),
 ]
 ```
 
 And in the project's root config, we add in this:
 
-``` python
+```python
 # config/urls.py or wherever you stick the project's root urls.py
 from django.conf.urls.static import static
 from django.contrib import admin
@@ -191,13 +192,10 @@ urlpatterns = [
 # There's certainly more URLs down here
 ```
 
-Add templates and there it is, a site that follows our implementation of the **Dev.to** URL design! 
+Add templates and there it is, a site that follows our implementation of the **Dev.to** URL design!
 
 ## Two Scoops of Django 3.x is out!
 
-We just released the alpha version of the first edition of our book, [Two Scoops of Django 3.x](https://www.feldroy.com/products/two-scoops-of-django-3-x). This updates the book to Django 3.0, 3.1, and when it's close to release, Django 3.2. All the code works in Python 3.8 and 3.9. You can see the new cover featured below along with myself and my wife/co-author, [Audrey](https://audrey.feldroy.com). 
+We just released the alpha version of the first edition of our book, [Two Scoops of Django 3.x](https://www.feldroy.com/products/two-scoops-of-django-3-x). This updates the book to Django 3.0, 3.1, and when it's close to release, Django 3.2. All the code works in Python 3.8 and 3.9. You can see the new cover featured below along with myself and my wife/co-author, [Audrey](https://audrey.feldroy.com).
 
 [![Image of Daniel and Audrey holding Two Scoops of Django 3.x](https://daniel.feldroy.com/images/tsd3.x-audrey-daniel.jpg)](https://www.feldroy.com/products/two-scoops-of-django-3-x)
-
-
-

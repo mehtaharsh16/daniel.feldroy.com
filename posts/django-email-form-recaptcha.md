@@ -1,14 +1,15 @@
 ---
-date: '2012-05-23'
+date: "2012-05-23"
 published: true
 slug: django-email-form-recaptcha
 tags:
-- python
-- django
-- howto
-- class-based-views
+  - python
+  - django
+  - forms
+  - howto
+  - class-based-views
 time_to_read: 2
-title: 'Django Class Based View: email form with CAPTCHA'
+title: "Django Class Based View: email form with CAPTCHA"
 ---
 
 [Yesterday I showed how to implement a simple email
@@ -21,31 +22,31 @@ content.
 This version requires `pip` installing the following into your
 `virtualenv`.
 
--   `pip install django-crispy-forms` so we can do Python driven
-    layouts.
--   `pip install django-floppyforms` so we get HTML5 elements for free.
--   `pip install django-recaptcha` to do the RECAPTCHA work.
+- `pip install django-crispy-forms` so we can do Python driven
+  layouts.
+- `pip install django-floppyforms` so we get HTML5 elements for free.
+- `pip install django-recaptcha` to do the RECAPTCHA work.
 
 Don't forget to add the app to your INSTALLED_APPS in settings.py:
 
-``` python
+```python
 INSTALLED_APPS += (
     'crispy_forms',
-    'floppyforms',    
+    'floppyforms',
     'captcha',
 )
 ```
 
 Generate your KEYs from the RECAPTCHA site and add them in settings.py:
 
-``` python
+```python
 RECAPTCHA_PUBLIC_KEY = '6LcVu9ESAAAAANVWwbM5-PLuLES94GQ2bIYmSNTG'
 RECAPTCHA_PRIVATE_KEY = '6LcVu9ESAAAAAGxz7aEIACWRa3CVnXN3mFd-cajP'
 ```
 
 In myapp.forms.py:
 
-``` python
+```python
 from captcha.fields import ReCaptchaField  # Only import different from yesterday
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Submit
@@ -67,7 +68,7 @@ class ContactForm(forms.Form):
 
 In myapp.views.py:
 
-``` python
+```python
 # Unchanged from yesterday. :-)
 from django.conf import settings
 from django.core.mail import send_mail
@@ -97,54 +98,45 @@ class ContactFormView(FormView):
 
 In `templates/myapp/email_form.html`:
 
-``` html
-{# Also unchanged from yesterday. :-)  #}
-{% extends 'base.html' %}
-{% load crispy_forms_tags %}
-
-{% block title %}Send an email{% endblock %}
-
-{% block content %}
-    <div class="row">
-        <div class="span6">
-            <h1>Send an email</h1>
-            {% crispy form form.helper %}
-        </div>
-    </div>
-{% endblock %}
-
-{% block extrajs %}
+```html
+{# Also unchanged from yesterday. :-) #} {% extends 'base.html' %} {% load
+crispy_forms_tags %} {% block title %}Send an email{% endblock %} {% block
+content %}
+<div class="row">
+  <div class="span6">
+    <h1>Send an email</h1>
+    {% crispy form form.helper %}
+  </div>
+</div>
+{% endblock %} {% block extrajs %}
 <script src="{{ STATIC_URL }}js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript">
-$(function() {
-    $('#id_name').focus()
-});
+  $(function () {
+    $("#id_name").focus();
+  });
 </script>
 {% endblock %}
 ```
 
-What I did
-==========
+# What I did
 
--   Using `pip` I installed three packages into my Python environment.
--   Added those three packages into the `INSTALLED_APPS` setting.
--   Set the RECAPTCHA keys for my site.
--   Modified the `forms.py` file from yesterday to include the RECAPTCHA
-    field.
--   Reduced spam content.
+- Using `pip` I installed three packages into my Python environment.
+- Added those three packages into the `INSTALLED_APPS` setting.
+- Set the RECAPTCHA keys for my site.
+- Modified the `forms.py` file from yesterday to include the RECAPTCHA
+  field.
+- Reduced spam content.
 
-What I could do
-===============
+# What I could do
 
--   Pin the app versions for a particular release. This is what you
-    should be doing in normal development and in production, but for a
-    blog entry I'm avoiding it because release numbers become quickly
-    dated.
--   Rather than change the `ContactForm` from yesterday, I could have
-    extended it via inheritance.
+- Pin the app versions for a particular release. This is what you
+  should be doing in normal development and in production, but for a
+  blog entry I'm avoiding it because release numbers become quickly
+  dated.
+- Rather than change the `ContactForm` from yesterday, I could have
+  extended it via inheritance.
 
-Want to learn more?
-===================
+# Want to learn more?
 
 Check out the Django book I co-wrote, [Two Scoops of Django: Best
 Practices for Django](https://www.feldroy.com/books/two-scoops-of-django-3-x)!

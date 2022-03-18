@@ -5,6 +5,7 @@ slug: casestudy-urls
 tags:
   - python
   - django
+  - forms
   - howto
   - hackathon
   - class-based-views

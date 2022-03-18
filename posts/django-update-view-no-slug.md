@@ -1,12 +1,12 @@
 ---
-date: '2012-07-28'
+date: "2012-07-28"
 published: true
 slug: django-update-view-no-slug
 tags:
-- python
-- django
-- howto
-- class-based-views
+  - python
+  - django
+  - howto
+  - class-based-views
 time_to_read: 2
 title: Django Update View Without Slug in the URL
 ---
@@ -30,11 +30,11 @@ provided a bunch of really useful utility methods in the django-braces
 library. Yeah, I could figure this stuff out on my own, but since those
 guys already did the hard work I might as well just lean on them.
 
-``` bash
+```bash
 pip install django-braces==0.1.3
 ```
 
-``` python
+```python
 # settings.py
 INSTALLED_APPS = (
 ...
@@ -49,7 +49,7 @@ Assuming a very simple profile Model and Form (which they weren't - but
 that's not what this post is about), this is how I implemented the
 view:
 
-``` python
+```python
 # profiles/views.py
 from django.views.generic import UpdateView
 
@@ -71,7 +71,7 @@ class ProfileUpdateView(LoginRequiredMixin, UpdateView):
 
 The URL pretty much wrote itself:
 
-``` python
+```python
 from django.conf.urls.defaults import patterns, url
 
 from profiles import views

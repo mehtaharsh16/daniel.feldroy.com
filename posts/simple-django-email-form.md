@@ -1,12 +1,13 @@
 ---
-date: '2012-05-22'
+date: "2012-05-22"
 published: true
 slug: simple-django-email-form
 tags:
-- python
-- django
-- howto
-- class-based-views
+  - python
+  - django
+  - forms
+  - howto
+  - class-based-views
 time_to_read: 1
 title: Simple Django email form using CBV
 ---
@@ -19,21 +20,21 @@ topic of a future blog post.
 This version requires the following packages `pip` installed into your
 `virtualenv`.
 
--   `django-crispy-forms` so we can do Python driven layouts.
--   `django-floppyforms` so we get HTML5 elements for free.
+- `django-crispy-forms` so we can do Python driven layouts.
+- `django-floppyforms` so we get HTML5 elements for free.
 
 They also need to be added to your list of `INSTALLED_APPS`:
 
-``` python
+```python
 INSTALLED_APPS += (
     'crispy_forms',
-    'floppyforms',        
+    'floppyforms',
 )
 ```
 
 In myapp.forms.py:
 
-``` python
+```python
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Submit
 import floppyforms as forms
@@ -53,7 +54,7 @@ class ContactForm(forms.Form):
 
 In myapp.views.py:
 
-``` python
+```python
 from django.conf import settings
 from django.core.mail import send_mail
 from django.views.generic import FormView
@@ -82,39 +83,31 @@ class ContactFormView(FormView):
 
 In templates/myapp/email_form.html:
 
-``` html
-{% extends 'base.html' %}
-{% load crispy_forms_tags %}
-
-{% block title %}Send an email{% endblock %}
-
-{% block content %}
-    <div class="row">
-        <div class="span6">
-            <h1>Send an email</h1>
-            {% crispy form form.helper %}
-        </div>
-    </div>
-{% endblock %}
-
-{% block extrajs %}
+```html
+{% extends 'base.html' %} {% load crispy_forms_tags %} {% block title %}Send an
+email{% endblock %} {% block content %}
+<div class="row">
+  <div class="span6">
+    <h1>Send an email</h1>
+    {% crispy form form.helper %}
+  </div>
+</div>
+{% endblock %} {% block extrajs %}
 <script src="{{ STATIC_URL }}js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript">
-$(function() {
-    $('#id_name').focus()
-});
+  $(function () {
+    $("#id_name").focus();
+  });
 </script>
 {% endblock %}
 ```
 
-Tomorrow's blog post
-=====================
+# Tomorrow's blog post
 
 In tomorrow's post I'll show how to add CAPTCHA into your project to
 help reduce spam messages.
 
-Want to learn more?
-===================
+# Want to learn more?
 
 Check out the Django book I co-wrote, [Two Scoops of Django: Best
 Practices for Django

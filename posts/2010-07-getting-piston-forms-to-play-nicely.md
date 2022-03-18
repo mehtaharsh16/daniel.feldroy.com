@@ -5,6 +5,7 @@ published: true
 slug: 2010-07-getting-piston-forms-to-play-nicely
 tags:
   - django
+  - forms
   - json
   - python
   - xml

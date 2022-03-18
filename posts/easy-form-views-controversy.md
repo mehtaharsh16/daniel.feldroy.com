@@ -1,12 +1,13 @@
 ---
-blogbook: 'True'
-date: '2013-05-10'
+blogbook: "True"
+date: "2013-05-10"
 published: true
 slug: easy-form-views-controversy
 tags:
-- python
-- django
-- howto
+  - python
+  - django
+  - forms
+  - howto
 time_to_read: 3
 title: The Easy Form Views Pattern Controversy
 ---
@@ -25,13 +26,12 @@ Usage](https://lanyrd.com/2011/djangocon-us/shbrd/) talk at DjangoCon
 using forms in Django function-based views by flattening the form
 handling code.
 
-How the Easy Form Views pattern works
-=====================================
+# How the Easy Form Views pattern works
 
 Normally, function-based views in Django that handle form processing
 look something like this:
 
-``` python
+```python
 def my_view(request, template_name="my_app/my_form.html"):
 
     if request.method == 'POST':
@@ -46,7 +46,7 @@ def my_view(request, template_name="my_app/my_form.html"):
 
 In contrast, the Easy Form Views pattern works like this:
 
-``` python
+```python
 def my_view(request, template_name="my_app/my_form.html"):
 
     form = MyForm(request.POST or None)
@@ -65,16 +65,15 @@ doing a simple boolean check on the `request.POST` dictionary.
 
 In other words:
 
--   If `request.POST` dictionary evaluates as `True`, then instantiate
-    the form bound with `request.POST`.
--   If `the request.POST` dictionary evaluates as `False`, then
-    instantiate an unbound form.
+- If `request.POST` dictionary evaluates as `True`, then instantiate
+  the form bound with `request.POST`.
+- If `the request.POST` dictionary evaluates as `False`, then
+  instantiate an unbound form.
 
 Great! Faster to write and shallower code! What could possibly be wrong
 with that?
 
-The Controversy
-===============
+# The Controversy
 
 Before you jump to convert all your function based forms to this
 pattern, consider the following argument raised against it by a good
@@ -98,8 +97,7 @@ the edge case, I didn't see the need. Yet when it comes down to it, the
 "Easy Forms" approach has an implicit assumption about the incoming
 object, which in Python terms is not a good thing.
 
-Getting bit by the Easy Form Views method
-=========================================
+# Getting bit by the Easy Form Views method
 
 Here's how it happens:
 
@@ -112,8 +110,7 @@ and POST methods work as expected.
 fails because request.POST is empty. HTTP GET and POST methods also work
 as expected.
 
-Conclusion
-==========
+# Conclusion
 
 Going forward, I prefer to use Django's class-based views or [Django
 Rest Framework](https://djangorestframework.com) which make the issue of
@@ -124,8 +121,8 @@ where you get bit".
 
 What I'm not going to do is rush to change existing views on existing
 projects. That's because personally I've yet to run into an actual
-problem with using this pattern. As they say, "*If it ain't broke,
-don't fix it.*" While I'm not saying my code isn't broken, I'm also
+problem with using this pattern. As they say, "_If it ain't broke,
+don't fix it._" While I'm not saying my code isn't broken, I'm also
 aware that 'fixing' things that aren't reporting errors is a
 dangerous path to tread.
 

@@ -1,10 +1,11 @@
 ---
-date: '2012-02-18'
+date: "2012-02-18"
 published: true
 slug: django-uni-form-end-of-life
 tags:
-- django
-- python
+  - django
+  - python
+  - forms
 time_to_read: 7
 title: django-uni-form end of life
 ---
@@ -30,7 +31,7 @@ template tag I could figure out.
 
 The python code in `uni_form/templatetags/uni_form.py`:
 
-``` python
+```python
 from django.template import Context, Template
 from django.template.loader import get_template
 from django import template
@@ -50,13 +51,13 @@ The template tag code was nearly exactly copy/pasted from the starter
 [Django docs on
 forms](https://docs.djangoproject.com/en/1.0/topics/forms/#looping-over-the-form-s-fields):
 
-``` django
+```django
 {% for field in form %}
     <div class="ctrlHolder {% if field.errors %}error{% endif %}">
         {% for error in field.errors %}
             <p class="errorField">
                 <strong>{{ error }}</strong>
-            </p>       
+            </p>
         {% endfor %}
         {{ field.label_tag }}
         {{ field }}
@@ -72,7 +73,7 @@ forms](https://docs.djangoproject.com/en/1.0/topics/forms/#looping-over-the-form
 
 Using it was trivial, you just wrote out:
 
-``` django
+```django
 {% load uni_form %}
 
 <form>
@@ -80,8 +81,7 @@ Using it was trivial, you just wrote out:
 </form>
 ```
 
-Days of django-uni-form
-=======================
+# Days of django-uni-form
 
 Leading up to PyCon 2009 James Tauber suggested some things that lead to
 the
@@ -130,8 +130,7 @@ was really time consuming. I tried to get others to become co-leads on
 the project, but invariably they didn't have time to do it. Note: If
 someone asks you to co-lead something, respond in 24 hours.
 
-Enter Miguel Araujo
-===================
+# Enter Miguel Araujo
 
 After PyCon 2011, when there was some unpleasant stress in my life, I
 woke up cranky one morning and mouthed off on twitter to this guy who
@@ -157,12 +156,13 @@ The only blip I saw with Miguel is my own fault of sometimes being too
 nice as a project leader when it comes to accepting pull requests. [I
 believe pull requests should be really
 atomic](https://django-uni-form.readthedocs.org/en/latest/contributing.html#how-to-get-your-pull-request-accepted)
+
 - for one thing and one thing only with support tests and documentation.
-Otherwise it becomes nigh impossible to incorporate them and these days
-I reject multi-purpose pull requests. One pull request in particular
-took a huge amount of debate and discussion to work in. I think after
-that Miguel is much better at being upfront at the beginning about
-rejecting pull requests with giant scopes.
+  Otherwise it becomes nigh impossible to incorporate them and these days
+  I reject multi-purpose pull requests. One pull request in particular
+  took a huge amount of debate and discussion to work in. I think after
+  that Miguel is much better at being upfront at the beginning about
+  rejecting pull requests with giant scopes.
 
 During all this I asked Miguel to take over the project, he accepted,
 and [I even blogged my announcement his role as project
@@ -178,8 +178,7 @@ During our research he uncovered at least one bug in Django and got an
 ancient bug closed. It was a great experience and I hope he'll
 co-present with me in the future.
 
-django-uni-form is dead, long live django-crispy-forms
-======================================================
+# django-uni-form is dead, long live django-crispy-forms
 
 The upside of django-uni-form is that it grew in features organically
 thanks to my own needs and general community effort. The downside of
@@ -196,7 +195,7 @@ one is mistaken:
 > **django-uni-form is deprecated. Use django-crispy-forms**
 
 Miguel asked if he could start the project anew, under a different name.
-We both had been uncomfortable with the name *django-uni-form* for some
+We both had been uncomfortable with the name _django-uni-form_ for some
 time, especially since it had almost nothing to do with Uni-form
 anymore. In fact, I often using template overrides to avoid the Uni-form
 HTML layout - the most common alternative being [Twitter
