@@ -75,7 +75,7 @@ with that?
 
 # The Controversy
 
-Before you jump to convert all your function based forms to this
+Before you jump to convert all your function-based form views to this
 pattern, consider the following argument raised against it by a good
 friend:
 
