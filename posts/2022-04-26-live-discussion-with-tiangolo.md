@@ -15,3 +15,13 @@ image: /images/code-code-code-02.png
 On April 26th I had a live discussion with [Sebastián Ramírez](https://tiangolo.com/), creator of FastAPI, Typer, SQL Model, and more.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8IJkSs9Dvjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+LINKS:
+
+- https://tiangolo.com
+- https://fastapi.tiangolo.com
+- https://typer.tiangolo.com
+- https://sqlmodel.tiangolo.com
+- https://forethought.ai/
+- https://forethought.ai/careers/
+- https://octopusenergy.com/careers
