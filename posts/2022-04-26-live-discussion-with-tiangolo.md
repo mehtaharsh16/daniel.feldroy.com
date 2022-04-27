@@ -18,10 +18,10 @@ On April 26th I had a live discussion with [Sebastián Ramírez](https://tiangol
 
 LINKS:
 
-- https://tiangolo.com
-- https://fastapi.tiangolo.com
-- https://typer.tiangolo.com
-- https://sqlmodel.tiangolo.com
-- https://forethought.ai/
-- https://forethought.ai/careers/
-- https://octopusenergy.com/careers
+- [tiangolo.com](https://tiangolo.com)
+- [fastapi.tiangolo.com](https://fastapi.tiangolo.com)
+- [typer.tiangolo.com](https://typer.tiangolo.com)
+- [sqlmodel.tiangolo.com](https://sqlmodel.tiangolo.com)
+- [forethought.ai/](https://forethought.ai/)
+- [forethought.ai/careers/](https://forethought.ai/careers/)
+- [octopusenergy.com/careers](https://octopusenergy.com/careers)
