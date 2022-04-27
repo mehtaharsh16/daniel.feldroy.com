@@ -14,7 +14,9 @@ image: /images/code-code-code-02.png
 
 On April 26th I had a live discussion with [Sebastián Ramírez](https://tiangolo.com/), creator of FastAPI, Typer, SQL Model, and more.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8IJkSs9Dvjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+To watch the video cleck [here](https://www.youtube.com/watch?v=8IJkSs9Dvjo) or on the image below.
+
+[![Live Discussion with Sebastián Ramírez (Tiangolo)](/images/code-code-code-02.png)](https://www.youtube.com/watch?v=8IJkSs9Dvjo)
 
 LINKS:
 
