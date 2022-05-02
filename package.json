@@ -12,7 +12,6 @@
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^11.1.0",
     "@observablehq/runtime": "4",
-    "@pydanny/fitness": "https://api.observablehq.com/@pydanny/fitness.tgz?v=3",
     "blog": "^1.0.0",
     "date-fns": "^2.21.3",
     "feed": "^4.2.2",
