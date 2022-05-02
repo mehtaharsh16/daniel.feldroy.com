@@ -358,6 +358,10 @@
     d3-dsv "^2.0.0"
     d3-require "^1.2.4"
 
+"@pydanny/fitness@https://api.observablehq.com/@pydanny/fitness.tgz?v=3":
+  version "89.0.0"
+  resolved "https://api.observablehq.com/@pydanny/fitness.tgz?v=3#79c4b71fb2da059675d23c669689e3811344000b"
+
 "@types/hast@^2.0.0":
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/@types/hast/-/hast-2.3.4.tgz#8aa5ef92c117d20d974a82bdfb6a648b08c0bafc"
