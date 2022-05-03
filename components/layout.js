@@ -1,48 +1,53 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
 
-const name = 'Daniel Roy Greenfeld'
-export const siteTitle = 'Daniel Roy Greenfeld'
+const name = "Daniel Roy Greenfeld";
+export const siteTitle = "Daniel Roy Greenfeld";
 
-function TopLinks(){
+function TopLinks() {
   return (
     <p>
       <Link href="/about">
         <a>About</a>
-      </Link>{' '}|{' '}      
+      </Link>{" "}
+      |{" "}
       <Link href="/posts">
         <a>Articles</a>
-      </Link>{' '}|{' '}                    
+      </Link>{" "}
+      |{" "}
       <Link href="/books">
         <a>Books</a>
-      </Link>{' '}|{' '}                                  
+      </Link>{" "}
+      |{" "}
       <Link href="/jobs">
         <a>Jobs</a>
-      </Link>{' '}|{' '}              
+      </Link>{" "}
+      |{" "}
       <Link href="/news">
         <a>News</a>
-      </Link>{' '}|{' '} 
+      </Link>{" "}
+      |{" "}
       <Link href="/tags">
         <a>Tags</a>
-      </Link>    
+      </Link>
     </p>
-  )
+  );
 }
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, meta = {} }) {
   const date = new Date();
-  const copyright = `All rights reserved ${date.getFullYear()}, Daniel Roy Greenfeld`
+  const copyright = `All rights reserved ${date.getFullYear()}, Daniel Roy Greenfeld`;
   return (
     <div className={styles.container}>
       <Head>
         <link
-            href="/favicon/apple-touch-icon.png"
-            rel="apple-touch-icon"
-            sizes="180x180"
-          />
+          href="/favicon/apple-touch-icon.png"
+          rel="apple-touch-icon"
+          sizes="180x180"
+        />
         <link
           href="/favicon/favicon-32x32.png"
           rel="icon"
@@ -61,18 +66,45 @@ export default function Layout({ children, home }) {
           href="/favicon/safari-pinned-tab.svg"
           rel="mask-icon"
         />
-        <title>Daniel Roy Greenfeld</title>
+        <title>{meta.title ? meta.title : "Daniel Roy Greenfeld"}</title>
         <meta
-            content="Inside the head of Daniel Roy Greenfeld"
-            name="description"
-          />
-        <meta
-          property="og:site_name"
-          content="Daniel Roy Greenfeld"
+          content={
+            meta.description
+              ? meta.description
+              : "Inside the head of Daniel Roy Greenfeld"
+          }
+          name="description"
         />
+        <meta property="og:site_name" content="Daniel Roy Greenfeld" />
         <meta name="twitter:site" content="@pydanny" />
         <meta name="twitter:creator" content="@pydanny" />
-        <meta name="twitter:title" content="Daniel Roy Greenfeld" />
+        <meta
+          name="twitter:title"
+          content={meta.title ? meta.title : "Daniel Roy Greenfeld"}
+        />
+        {meta.image ? (
+          <>
+            <meta
+              property="og:image"
+              content={`https://daniel.feldroy.com${meta.image}`}
+            />
+            <meta
+              name="twitter:image"
+              content={`https://daniel.feldroy.com${meta.image}`}
+            />
+          </>
+        ) : (
+          <>
+            <meta
+              property="og:image"
+              content="https://daniel.feldroy.com/images/profile.jpg"
+            />
+            <meta
+              name="twitter:image"
+              content="https://daniel.feldroy.com/images/profile.jpg"
+            />
+          </>
+        )}
       </Head>
       <header className={styles.header}>
         {home ? (
@@ -107,7 +139,7 @@ export default function Layout({ children, home }) {
               <Link href="/">
                 <a>{name}</a>
               </Link>
-            </h2> 
+            </h2>
             <TopLinks />
           </>
         )}
@@ -124,10 +156,8 @@ export default function Layout({ children, home }) {
         <p>
           <a href="/feeds/atom.xml">Atom Feed</a>
         </p>
-        <p>
-          {copyright}
-        </p>
+        <p>{copyright}</p>
       </footer>
     </div>
-  )
+  );
 }
