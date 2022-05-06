@@ -1,53 +1,35 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Layout, { siteTitle } from '../../components/layout'
-import utilStyles from '../../styles/utils.module.css'
-import Date from '../../components/date'
+import Link from "next/link";
+import Layout, { siteTitle } from "../../components/layout";
+import utilStyles from "../../styles/utils.module.css";
+import MyDate from "../../components/date";
 
-import { getSortedPostsData } from '../../lib/posts'
+import { getSortedPostsData } from "../../lib/posts";
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData();
 
   return {
     props: {
-      allPostsData
-    }
-  }
+      allPostsData,
+    },
+  };
 }
 
-// function DisplayYear(currentYear, articleYear){}
-
 export default function Home({ allPostsData }) {
-  // let year = allPostsData[0]['date'].slice(0,4)
-  // year = parseInt(year, 10)
-  // console.log(year+1)
+  const yearsBlogging = new Date().getFullYear() - 2007;
+  const meta = {
+    title: "Full archive of Daniel Roy Greenfeld",
+    description: `Everything written by Daniel Roy Greenfeld for the past ${yearsBlogging} years`,
+  };
+
   return (
-    <Layout>
-      <Head>
-        <title>Full archive of Daniel Roy Greenfeld</title>
-        <meta
-          name="description"
-          content="Everything written for many years"
-        />
-        <meta name="og:title" content="Full archive of Daniel Roy Greenfeld" />
-        <meta
-          property="og:site_name"
-          content="Daniel Roy Greenfeld"
-        />
-        <meta
-          property="og:image"
-          content="https://daniel.feldroy.com/images/profile.jpg"
-        />
-        {/* Twitter card tags */}
-        <meta name="twitter:title" content="Daniel Roy Greenfeld" />
-        <meta
-          name="twitter:image"
-          content="https://daniel.feldroy.com/images/profile.jpg"
-        />
-      </Head>
+    <Layout meta={meta}>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h1>All Articles ({allPostsData.length})</h1>
+        <p>
+          Everything written by Daniel Roy Greenfeld for the past{" "}
+          {yearsBlogging} years
+        </p>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, description }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -56,23 +38,19 @@ export default function Home({ allPostsData }) {
                 <a>{title}</a>
               </Link>
               <br />
-              {description &&
-                (
-                  <>
-                    <small className={utilStyles.lightText}>
-                      {description}
-                    </small>
-                    <br />
-                  </>
-                )
-              }
+              {description && (
+                <>
+                  <small className={utilStyles.lightText}>{description}</small>
+                  <br />
+                </>
+              )}
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                <MyDate dateString={date} />
               </small>
             </li>
           ))}
         </ul>
       </section>
     </Layout>
-  )
+  );
 }

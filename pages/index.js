@@ -1,8 +1,7 @@
-import Head from "next/head";
 import Link from "next/link";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
-import Date from "../components/date";
+import MyDate from "../components/date";
 
 import { getSortedPostsData } from "../lib/posts";
 import generateRssFeed from "../lib/rss";
@@ -36,26 +35,6 @@ export async function getStaticProps() {
 export default function Home({ mostRecentPosts, topPosts }) {
   return (
     <Layout home>
-      <Head>
-        <title>Daniel Roy Greenfeld</title>
-        <meta
-          name="description"
-          content="Inside the head of Daniel Roy Greenfeld"
-        />
-        <meta name="og:title" content="Daniel Roy Greenfeld" />
-        <meta property="og:site_name" content="Daniel Roy Greenfeld" />
-
-        <meta
-          property="og:image"
-          content="https://daniel.feldroy.com/images/profile.jpg"
-        />
-        {/* Twitter card tags */}
-        <meta name="twitter:title" content="Daniel Roy Greenfeld" />
-        <meta
-          name="twitter:image"
-          content="https://daniel.feldroy.com/images/profile.jpg"
-        />
-      </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Recent Writings</h2>
         <ul className={utilStyles.list}>
@@ -72,7 +51,7 @@ export default function Home({ mostRecentPosts, topPosts }) {
                 </>
               )}
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                <MyDate dateString={date} />
               </small>
             </li>
           ))}
@@ -95,7 +74,7 @@ export default function Home({ mostRecentPosts, topPosts }) {
                 </>
               )}
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                <MyDate dateString={date} />
               </small>
             </li>
           ))}

@@ -6,27 +6,27 @@ slug: adding-metadata-to-pdfs
 tags:
   - python
   - pdf
-  - book  
+  - book
   - django
   - twoscoops
-  - django-crash-course  
+  - django-crash-course
 time_to_read: 3
 title: Adding Metadata to PDFs
 type: post
 ---
 
-For both [our books](https://www.feldroy.com) we're using a new process to render the PDFs. Unfortunately, until just a few days ago that process didn't include the cover. Instead, covers were inserted manually using Adobe Acrobat. 
+For both [our books](https://www.feldroy.com) we're using a new process to render the PDFs. Unfortunately, until just a few days ago that process didn't include the cover. Instead, covers were inserted manually using Adobe Acrobat.
 
 While that manual process worked, [it came with predictable consequences](https://github.com/roygreenfeld/django-crash-course/issues/132).
 
 ## Merging the PDFs
 
-This part was easy and found in any number of blog articles and Stack Overflow answers. 
+This part was easy and found in any number of blog articles and Stack Overflow answers.
 
 - Step 1: Install [pypdf2](https://pypi.org/project/PyPDF2/)
 - Step 2: Write a script as seen below
 
-``` python
+```python
 from PyPDF2 import PdfFileMerger
 
 now = datetime.now()
@@ -42,7 +42,7 @@ for pdf in pdfs:
     merger.append(pdf)
 
 merger.write("releases/beta-20200226.pdf")
-merger.close()    
+merger.close()
 ```
 
 It was at this point that we discovered that our new file, `releases/beta-20200226.pdf`, was missing most of the metadata. Oh no!
@@ -53,7 +53,7 @@ According to the PyPDF2 docs, [adding metadata is very straight-forward](https:/
 
 ```python
 merger.addMetadata({
-    "Title": "Django Crash Course",  
+    "Title": "Django Crash Course",
     "Authors": 'Daniel Roy Greenfeld, Audrey Roy Greenfeld',
     "Description": "Covers Python 3.8 and Django 3.x",
     "ContentCreator": "Two Scoops Press",
@@ -66,11 +66,11 @@ The PDF built! Yeah! Time to open it up and see the results!
 
 Alas, no metadata showed up.
 
-Then I spent a long time with trial-and-error trying to get the metadata to show up properly. While there are lots of Python-related articles on **extracting** metadata using PyPDF2, I struggled to find anything that explained how to add metadata.  
+Then I spent a long time with trial-and-error trying to get the metadata to show up properly. While there are lots of Python-related articles on **extracting** metadata using PyPDF2, I struggled to find anything that explained how to add metadata.
 
 ## Doing My Homework
 
-After a bunch of research (googling, stack overlow-ing, and visiting forums) I found a wonderful book on O'Reilly called [PDF Explained](https://www.oreilly.com/library/view/pdf-explained/9781449321581/) by John Whitington. Much credit to John Whitington, he's a good writer and very knowledgable on the topic of PDF. 
+After a bunch of research (googling, stack overlow-ing, and visiting forums) I found a wonderful book on O'Reilly called [PDF Explained](https://www.oreilly.com/library/view/pdf-explained/9781449321581/) by John Whitington. Much credit to John Whitington, he's a good writer and very knowledgable on the topic of PDF.
 
 For my purposes, the two critical sections were found in Chapter 4 of PDF Explained:
 
@@ -80,7 +80,7 @@ For my purposes, the two critical sections were found in Chapter 4 of PDF Explai
 Based off what I read, I established the following rules:
 
 - Every metadata field name had to be prefixed with `/`
-- Stick to the metadata names found in chapter 4 
+- Stick to the metadata names found in chapter 4
 - Follow the date format supplied in chapter 4
 
 ## Writing the Code!
@@ -88,7 +88,7 @@ Based off what I read, I established the following rules:
 Now armed with my rules I returned to the code. This is what I came up with:
 
 ```python
-from datetime import datetime
+from datetime import MyDatetime
 from PyPDF2 import PdfFileMerger
 
 pdfs = [

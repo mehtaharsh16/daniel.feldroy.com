@@ -1,25 +1,21 @@
-import utilStyles from '../styles/utils.module.css'
-
+import utilStyles from "../styles/utils.module.css";
 
 export default function Listing({ id, description, date }) {
   return (
-<li className={utilStyles.listItem} key={id}>
-<Link href={`/posts/${id}`}>
-  <a>{title}</a>
-</Link>
-<br />
-{description &&
-  (
-    <>
-      <small className={utilStyles.lightText}>
-        {description}
-      </small>
+    <li className={utilStyles.listItem} key={id}>
+      <Link href={`/posts/${id}`}>
+        <a>{title}</a>
+      </Link>
       <br />
-    </>
-  )
+      {description && (
+        <>
+          <small className={utilStyles.lightText}>{description}</small>
+          <br />
+        </>
+      )}
+      <small className={utilStyles.lightText}>
+        <MyDate dateString={date} />
+      </small>
+    </li>
+  );
 }
-<small className={utilStyles.lightText}>
-  <Date dateString={date} />
-</small>
-</li>
-  )}

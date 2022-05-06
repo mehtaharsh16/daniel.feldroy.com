@@ -1,44 +1,42 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Layout from '../../components/layout'
-import utilStyles from '../../styles/utils.module.css'
-import Date from '../../components/date'
+import Link from "next/link";
+import Layout from "../../components/layout";
+import utilStyles from "../../styles/utils.module.css";
+import MyDate from "../../components/date";
 
-import { getAllTags, getSortedPostsByTagData } from '../../lib/tags'
+import { getAllTags, getSortedPostsByTagData } from "../../lib/tags";
 
 export async function getStaticProps({ params }) {
-  const allTagsData = getSortedPostsByTagData(params.id)
+  const allTagsData = getSortedPostsByTagData(params.id);
   return {
     props: {
       allTagsData,
-      tag: params.id
-    }
-  }
+      tag: params.id,
+    },
+  };
 }
 
 export async function getStaticPaths() {
-  let paths = []
-  for (const path of getAllTags()){
-    paths.push({params: {id: path.id}})
+  let paths = [];
+  for (const path of getAllTags()) {
+    paths.push({ params: { id: path.id } });
   }
   return {
     paths,
-    fallback: false
-  }
+    fallback: false,
+  };
 }
 
-
-
-
 export default function Home({ allTagsData, tag }) {
-  const prettyTag = `${tag[0].toUpperCase()}${tag.slice(1)}`
+  const prettyTag = `${tag[0].toUpperCase()}${tag.slice(1)}`;
+  const meta = {
+    title: `${prettyTag} Articles (${allTagsData.length})`,
+  };
   return (
-    <Layout>
-      <Head>
-        <title>{prettyTag} Articles ({allTagsData.length})</title>
-      </Head>
+    <Layout meta={meta}>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>{prettyTag} Articles  ({allTagsData.length})</h2>
+        <h2 className={utilStyles.headingLg}>
+          {prettyTag} Articles ({allTagsData.length})
+        </h2>
         <ul className={utilStyles.list}>
           {allTagsData.map(({ id, date, title, description }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -46,23 +44,19 @@ export default function Home({ allTagsData, tag }) {
                 <a>{title}</a>
               </Link>
               <br />
-              {description &&
-                (
-                  <>
-                    <small className={utilStyles.lightText}>
-                      {description}
-                    </small>
-                    <br />
-                  </>
-                )
-              }
+              {description && (
+                <>
+                  <small className={utilStyles.lightText}>{description}</small>
+                  <br />
+                </>
+              )}
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                <MyDate dateString={date} />
               </small>
             </li>
           ))}
         </ul>
       </section>
     </Layout>
-  )
+  );
 }

@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
@@ -7,39 +6,13 @@ import Layout from "../../components/layout";
 import utilStyles from "../../styles/utils.module.css";
 
 export default function TechBooks() {
+  const meta = {
+    title: "Tech Books",
+    description: "With Audrey, I co-write dairy-themed technical books.",
+    og_url: "https://daniel.feldroy.com/books/tech",
+  };
   return (
-    <Layout>
-      <Head>
-        <title>Tech Books</title>
-        <meta name="description" content="Technical books I have co-written" />
-        <meta property="og:title" content="Technical books I have co-written" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="
-          https://daniel.feldroy.com/books/tech"
-        />
-        <meta
-          name="og:description"
-          content="With Audrey, I co-write dairy-themed technical books."
-        />
-        <meta
-          name="twitter:description"
-          content="With Audrey, I co-write dairy-themed technical books."
-        />
-        <meta
-          name="twitter:title"
-          content="With Audrey, I co-write dairy-themed technical books."
-        />
-        <meta
-          property="og:image"
-          content="https://daniel.feldroy.com/images/profile.jpg"
-        />
-        <meta
-          name="twitter:image"
-          content="https://daniel.feldroy.com/images/profile.jpg"
-        />
-      </Head>
+    <Layout meta={meta}>
       <article>
         <div className={utilStyles.backToHome}>
           <Link href="/books">
