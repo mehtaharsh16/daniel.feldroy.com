@@ -12,7 +12,7 @@ twitter_image: /aaronco/logo.png
 
 Aaron & Company was a plumbing supplies firm started by my great-grandfather about 100 years ago. And now it is being sold. Unlike the rest of my family I have almost no memories of the business, but being able to talk about it was always a point of pride. Today, with it existing for just 15 days more, I wish I had spent more time there as a teenager and adult.
 
-The firm was more than just a business. My great-grandfather and his sons took are of their workers. They all get good pay, full benefits, and everyone's opinion is respected. These are good values many companies refuse to even consider, or if they want to match them, struggle to do so. Yet Aaron and Company has done it for decades.
+The firm was more than just a business. My great-grandfather and his sons took care of their workers. They all get good pay, full benefits, and everyone's opinion is respected. These are good values many companies refuse to even consider, or if they want to match them, struggle to do so. Yet Aaron and Company has done it for decades.
 
 # The Notification
 
