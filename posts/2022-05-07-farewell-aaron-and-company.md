@@ -5,7 +5,7 @@ tags:
   - family
 time_to_read: 10
 title: Farewell to Aaron & Company
-description: Aaron & Company was a plumbing supplies firm started by my great-grandfather about 100 years ago. And now it is being sold.
+description: Aaron & Company was a plumbing supplies firm started by my great-grandfather over 100 years ago and incorporated in 1932. And now it is being sold.
 image: /aaronco/logo.png
 twitter_image: /aaronco/logo.png
 ---
@@ -13,6 +13,8 @@ twitter_image: /aaronco/logo.png
 Aaron & Company was a plumbing supplies firm started by my great-grandfather about 100 years ago. And now it is being sold. Unlike the rest of my family I have almost no memories of the business, but being able to talk about it was always a point of pride. Today, with it existing for just 15 days more, I wish I had spent more time there as a teenager and adult.
 
 The firm was more than just a business. My great-grandfather started the company, but his son progressively took care of their workers. For decades they all got good pay, full benefits, and everyone's opinion was respected. These are good values many companies refuse to even consider, or if they want to match them, struggle to do so. Yet Aaron and Company has done it for decades.
+
+They also were selling solar equipment in the late 1970s, if not sooner. Considering my career mission of addressing climate change, I find that really awesome.
 
 Note: As more stories and photos emerge I'll be expanding this article.
 
