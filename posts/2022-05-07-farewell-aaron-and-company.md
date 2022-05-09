@@ -64,4 +64,4 @@ _The HQ marked by the arrow opened in 1950 and closed when Johnson & Johnson bou
 
 ![](/aaronco/aeriel-new-bruinswick-no-arrow.png)
 
-_Another aeriel shot, but no arrow. What's striking is the massive gas container in the upper left of the neighborhood, something that was common in the older era for cities all over the world._
+_Another aeriel shot, but no arrow. What's striking is the massive town gas container in the upper left of the neighborhood, something that was common in the older era for cities all over the world._
