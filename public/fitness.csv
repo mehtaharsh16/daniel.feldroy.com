@@ -1,4 +1,4 @@
-Pretty,Date,Weight,Pushups,Squats,VR, Bicycling
+Date,ExactDate,Weight,Pushups,Squats,VR,Bicycling
 9,2022-05-09,193.8,0,0,0,0
 8,2022-05-08,193.8,100,0,0,030
 7,2022-05-07,193.8,0,050,0,0
@@ -7,4 +7,4 @@ Pretty,Date,Weight,Pushups,Squats,VR, Bicycling
 4,2022-05-04,192.8,0,0,0,0
 3,2022-05-03,192.8,100,0,0,0
 2,2022-05-02,193,0,0,030,0
-1,2022-05-01,194,100,0,0,0
+May 1,2022-05-01,194,100,0,0,0
