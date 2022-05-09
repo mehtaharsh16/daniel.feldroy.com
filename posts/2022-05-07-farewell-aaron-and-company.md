@@ -14,7 +14,7 @@ Aaron & Company was a plumbing supplies firm started by my great-grandfather abo
 
 The firm was more than just a business. My great-grandfather started the company, but his son progressively took care of their workers. For decades they all got good pay, full benefits, and everyone's opinion was respected. These are good values many companies refuse to even consider, or if they want to match them, struggle to do so. Yet Aaron and Company has done it for decades.
 
-They also were selling solar equipment in the late 1970s, if not sooner. Considering my career mission of addressing climate change, I find that really awesome.
+They also were selling solar equipment in the late 1970s, if not sooner. Considering my [career mission of addressing climate change](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1), I find that really awesome.
 
 Note: As more stories and photos emerge I'll be expanding this article.
 
