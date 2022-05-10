@@ -8,7 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@audreyr/stained-glass-bouquet": "https://api.observablehq.com/@audreyr/stained-glass-bouquet.tgz?v=3",
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^11.1.0",
     "@observablehq/runtime": "4",

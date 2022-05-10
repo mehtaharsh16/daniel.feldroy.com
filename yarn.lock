@@ -2,10 +2,6 @@
 # yarn lockfile v1
 
 
-"@audreyr/stained-glass-bouquet@https://api.observablehq.com/@audreyr/stained-glass-bouquet.tgz?v=3":
-  version "663.0.0"
-  resolved "https://api.observablehq.com/@audreyr/stained-glass-bouquet.tgz?v=3#737cd54ceaedd34811ac6ee4d0a77a00febed315"
-
 "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.14.5":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.14.5.tgz#23b08d740e83f49c5e59945fbf1b43e80bbf4edb"
@@ -357,10 +353,6 @@
   dependencies:
     d3-dsv "^2.0.0"
     d3-require "^1.2.4"
-
-"@pydanny/fitness@https://api.observablehq.com/@pydanny/fitness.tgz?v=3":
-  version "89.0.0"
-  resolved "https://api.observablehq.com/@pydanny/fitness.tgz?v=3#79c4b71fb2da059675d23c669689e3811344000b"
 
 "@types/hast@^2.0.0":
   version "2.3.4"
