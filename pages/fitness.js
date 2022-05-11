@@ -15,11 +15,15 @@ export default function Fitness() {
 
   useEffect(() => {
     if (data === undefined) return;
+
+    let maxWeight = data.map((x) => x.Weight);
+    maxWeight = Math.max(...maxWeight);
+
     const chart = Plot.plot({
       marginRight: 100,
       y: {
         grid: true,
-        domain: [0, 200],
+        domain: [0, maxWeight + 10],
       },
       marks: [
         // Weght
