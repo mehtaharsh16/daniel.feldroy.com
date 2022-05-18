@@ -70,7 +70,8 @@ class ProfileForm(forms.ModelForm):
     """ Email validation form authored by Daniel Greenfeld """
 
     def clean_email(self):
-        """ Custom email clean method to make sure the user doesn't use the same email as someone else"""
+        """ Custom email clean method to make sure the user doesn't
+        use the same email as someone else"""
         email = self.cleaned_data.get("email", "").strip()
         if User.objects.filter(email=email).exclude(username=self.instance.user.username):
             self._errors["email"] = self.error_class(["%s is already in use in the system" % email])
