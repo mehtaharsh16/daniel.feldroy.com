@@ -1,6 +1,5 @@
 ---
 date: "2011-09-23T09:49:00.000-07:00"
-description: ""
 published: true
 slug: 2011-09-profiles-breaking-normalization
 tags:
@@ -8,7 +7,7 @@ tags:
   - legacy-blogger
 time_to_read: 5
 title: "Profiles: Breaking Normalization"
-description: How my Django profile models looked over 10 years ago.
+description: "How my Django profile models looked over 10 years ago."
 ---
 
 _This was originally posted on blogger [here](https://pydanny.blogspot.com/2011/09/profiles-breaking-normalization.html)_.
