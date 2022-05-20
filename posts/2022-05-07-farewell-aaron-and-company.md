@@ -3,6 +3,7 @@ date: "2022-05-07T22:20:50.52Z"
 published: true
 tags:
   - family
+  - climate-change
 time_to_read: 10
 title: Farewell to Aaron & Company
 description: Aaron & Company was a plumbing supplies firm started by my great-grandfather over 100 years ago and incorporated in 1932. And now it is being sold.
