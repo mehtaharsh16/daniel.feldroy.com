@@ -102,6 +102,11 @@ export default function Fitness() {
   return (
     <Layout>
       <h2 className={utilStyles.headingLg}>Fitness</h2>
+      <p>
+        <i>
+          Can't see any charts? You might need to allow JavaScript on this page.
+        </i>
+      </p>
       <p>May, 2022</p>
       <header className="App-header" ref={headerRef}></header>
     </Layout>
