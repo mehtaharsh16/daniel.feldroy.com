@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import MyDate from "../../components/date";
 import utilStyles from "../../styles/utils.module.css";
@@ -32,7 +31,7 @@ export default function Post({ postData }) {
     og_url: `https://daniel.feldroy.com/posts/${postData.id}`,
   };
   return (
-    <Layout meta={meta}>
+    <>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
@@ -50,6 +49,6 @@ export default function Post({ postData }) {
           ))}
         </section>
       </article>
-    </Layout>
+    </>
   );
 }

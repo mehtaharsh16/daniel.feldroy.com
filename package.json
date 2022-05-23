@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@markdoc/markdoc": "^0.1.2",
+    "@markdoc/next.js": "^0.1.4",
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^11.1.0",
     "@observablehq/plot": "^0.4.3",

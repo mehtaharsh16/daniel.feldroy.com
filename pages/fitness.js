@@ -1,7 +1,6 @@
 import * as Plot from "@observablehq/plot";
 import * as d3 from "d3";
 import { useEffect, useRef, useState } from "react";
-import Layout from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 
 export default function Fitness() {
@@ -100,7 +99,7 @@ export default function Fitness() {
   }, [data]);
 
   return (
-    <Layout>
+    <>
       <h2 className={utilStyles.headingLg}>Fitness</h2>
       <p>
         <i>
@@ -109,6 +108,6 @@ export default function Fitness() {
       </p>
       <p>May, 2022</p>
       <header className="App-header" ref={headerRef}></header>
-    </Layout>
+    </>
   );
 }
