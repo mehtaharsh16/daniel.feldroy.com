@@ -4,14 +4,19 @@ import Link from "next/link";
 import Layout from "../../components/layout";
 import utilStyles from "../../styles/utils.module.css";
 
-export default function FictionBooks() {
-  const meta = {
-    title: "Daniel's Fiction Books",
-    description: "Fiction books I have written or co-authored",
-    og_url: "https://daniel.feldroy.com/books/fiction",
+export async function getStaticProps() {
+  return {
+    props: {
+      title: "Daniel's Fiction Books",
+      description: "Fiction books I have written or co-authored",
+      og_url: "https://daniel.feldroy.com/books/fiction",
+    },
   };
+}
+
+export default function FictionBooks() {
   return (
-    <Layout meta={meta}>
+    <>
       <article>
         <div className={utilStyles.backToHome}>
           <Link href="/books">
@@ -74,6 +79,6 @@ export default function FictionBooks() {
           </li>
         </ul>
       </article>
-    </Layout>
+    </>
   );
 }

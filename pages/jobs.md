@@ -1,20 +1,14 @@
-import Layout from "../components/layout";
-
-export const meta = {
-  title: "Jobs at daniel.feldroy.com",
-  description:
-    "These are employers who I can confirm are good to work for, who take care of their people. They are lead by people with a strong sense of ethics and try to do good for the world. To be more succinct: these are places I would consider working.",
-  author: "Daniel Roy Greenfeld",
-  // image: "/images/2022_KrakenV2_stacked_Transparent.png"
-};
+---
+title: "Jobs at daniel.feldroy.com"
+description: "These are employers who I can confirm are good to work for, who take care of their people. They are lead by people with a strong sense of ethics and try to do good for the world. To be more succinct: these are places I would consider working."
+author: "Daniel Roy Greenfeld"
+---
 
 # Jobs
 
 These are employers who I can confirm are good to work for, who take care of their people. They are lead by people with a strong sense of ethics and try to do good for the world. To be more succinct: these are places I would consider working.
 
-<h2 id="#octopus-energy">
-  <a href="https://octopusenergy.com/careers">Octopus Energy</a>
-</h2>
+## [#](#octopus-energy) [Octopus Energy](https://octopusenergy.com/careers) {% #octopus-energy %}
 
 This is my employer, providing renewable energy and fighting against climate change. How awesome is that? We do Python on the backend, React on the frontend, and host on AWS. [Read why I love working here](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1). We have positions open all over the planet:
 
@@ -33,22 +27,14 @@ The segment I work on is Kraken Technologies. Check out the awesome new logo and
 
 [![](/images/2022_KrakenV2_stacked_Transparent.png)](https://octopusenergy.group/kraken-technologies)
 
-<h2 id="anaconda">
-  <a href="https://www.anaconda.com/careers">Anaconda</a>
-</h2>
+## [#](#anaconda) [Anaconda](https://www.anaconda.com/careers) {% #anaconda %}
 
 If you care about data and open source, you can't go wrong working for Anaconda. They take care of their people and their customer base is in large part the entire Python community. Based in Austin, Texas, USA but allows remote work from pretty much anywhere.
 
-<h2 id="labcodes">
-  <a href="https://labcodes.com.br/careers">Labcodes</a>
-</h2>
+## [#](#labcodes) [Labcodes](https://labcodes.com.br/careers)
 
 Another consultancy who does right by their people and does no harm to the world. Based in Recife, Brazil but allows remote work from pretty much anywhere.
 
-<h2 id="six-feet-up">
-  <a href="https://sixfeetup.com/company/careers">Six Feet Up</a>
-</h2>{" "}
+## [#](six-feet-up) [Six Feet Up](https://sixfeetup.com/company/careers)
 
 I appreciate the pledge they make to treat staff in a humane way and use their talents to help the world. Based in Indiana, USA but allows remote work from pretty much anywhere.
-
-export default ({ children }) => <Layout meta={meta}>{children}</Layout>;

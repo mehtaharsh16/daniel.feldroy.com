@@ -1,11 +1,8 @@
-import Layout from "../components/layout";
-
-export const meta = {
-  title: "News",
-  description:
-    "This is a place for quick personal updates as well as a changelog for the site",
-  author: "Daniel Roy Greenfeld",
-};
+---
+title: "News"
+description: "This is a place for quick personal updates as well as a changelog for the site"
+author: "Daniel Roy Greenfeld"
+---
 
 # News
 
@@ -179,5 +176,3 @@ export const meta = {
 ### December 13, 2021
 
 - Broadcasted [Code Code Code 01: Jack Linke and HTMX](https://www.youtube.com/watch?v=MJQ9E1iap2Y)
-
-export default ({ children }) => <Layout meta={meta}>{children}</Layout>;

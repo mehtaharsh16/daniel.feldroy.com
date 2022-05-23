@@ -1,10 +1,8 @@
-import Layout from "../components/layout";
-
-export const meta = {
-  title: "About Daniel Roy Greenfeld",
-  description: "A little bit of background about Daniel Roy Greenfeld",
-  author: "Daniel Roy Greenfeld",
-};
+---
+title: "About Daniel Roy Greenfeld"
+description: "A little bit of background about Daniel Roy Greenfeld"
+author: "Daniel Roy Greenfeld"
+---
 
 # About Me
 
@@ -25,7 +23,3 @@ The source code is on [github](https://github.com/pydanny/daniel.feldroy.com).
 ## What about pydanny.com?
 
 That site redirects here. The reason for that is while I'm a huge fan of the Python programming language, there are other languages that I like just as much. To be forever tied to one language felt limiting, hence why I moved the site to daniel.feldroy.com and stopped using "pydanny" so much.
-
-export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
-
->

@@ -5,14 +5,19 @@ import Link from "next/link";
 import Layout from "../../components/layout";
 import utilStyles from "../../styles/utils.module.css";
 
-export default function TechBooks() {
-  const meta = {
-    title: "Tech Books",
-    description: "With Audrey, I co-write dairy-themed technical books.",
-    og_url: "https://daniel.feldroy.com/books/tech",
+export async function getStaticProps() {
+  return {
+    props: {
+      title: "Tech Books",
+      description: "With Audrey, I co-write dairy-themed technical books.",
+      og_url: "https://daniel.feldroy.com/books/tech",
+    },
   };
+}
+
+export default function TechBooks() {
   return (
-    <Layout meta={meta}>
+    <>
       <article>
         <div className={utilStyles.backToHome}>
           <Link href="/books">
@@ -73,6 +78,6 @@ export default function TechBooks() {
           strategy="afterInteractive"
         ></Script>
       </article>
-    </Layout>
+    </>
   );
 }

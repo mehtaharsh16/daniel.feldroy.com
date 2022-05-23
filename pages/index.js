@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import MyDate from "../components/date";
 
@@ -34,7 +33,7 @@ export async function getStaticProps() {
 
 export default function Home({ mostRecentPosts, topPosts }) {
   return (
-    <Layout home>
+    <>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Recent Writings</h2>
         <ul className={utilStyles.list}>
@@ -85,6 +84,6 @@ export default function Home({ mostRecentPosts, topPosts }) {
           <a>Full Archive →</a>
         </Link>
       </h2>
-    </Layout>
+    </>
   );
 }
