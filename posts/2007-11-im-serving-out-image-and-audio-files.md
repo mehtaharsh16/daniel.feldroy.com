@@ -27,4 +27,4 @@ I'm serving out image and audio files from Zope 3 for my Captcha application. Si
   permission="zope.Public" />
 ```
 
-<br /><span style="font-weight: bold;">Update 2007/11/14</span>: Looks like the object those things reside in need to have <span style="color: rgb(153, 0, 0);">zope.Public</span> declared for it as well. I'm not sure I like that approach, and I'm wondering if I'm just not '<span style="font-style: italic;">getting</span>' something about Zope 3 security.
+**Update 2007/11/14**: Looks like the object those things reside in need to have `zope.Public` declared for it as well. I'm not sure I like that approach, and I'm wondering if I'm just not getting something about Zope 3 security.
