@@ -1,15 +1,17 @@
 ---
-date: '2008-01-09T11:49:00.000-08:00'
-description: ''
+date: "2008-01-09T11:49:00.000-08:00"
+description: ""
 published: true
 slug: 2008-01-python-is-programming-language-of-2007
 tags:
-- python
-- legacy-blogger
+  - python
+  - legacy-blogger
 time_to_read: 5
 title: Python is the programming language of 2007!
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/01/python-is-programming-language-of-2007.html)*.
+_This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/01/python-is-programming-language-of-2007.html)_.
 
-<a href="http://www.tiobe.com/index.htm?tiobe_index">http://www.tiobe.com/index.htm?tiobe_index</a><br /><br />Yeah, one can argue that this is meaningless, but its the sort of thing both IT managers, CIOs, and developers look at.  And it makes me happy!
+[http://www.tiobe.com/index.htm?tiobe_index](http://www.tiobe.com/index.htm?tiobe_index)
+
+Yeah, one can argue that this is meaningless, but its the sort of thing both IT managers, CIOs, and developers look at. And it makes me happy!
