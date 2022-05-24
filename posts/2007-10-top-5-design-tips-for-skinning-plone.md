@@ -1,15 +1,133 @@
 ---
-date: '2007-10-10T01:50:00.001-07:00'
-description: ''
+date: "2007-10-10T01:50:00.001-07:00"
+description: ""
 published: true
 slug: 2007-10-top-5-design-tips-for-skinning-plone
 tags:
-- plone
-- legacy-blogger
+  - plone
+  - legacy-blogger
 time_to_read: 5
 title: Top 5 Design Tips for Skinning Plone
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/10/top-5-design-tips-for-skinning-plone.html)*.
+_This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/10/top-5-design-tips-for-skinning-plone.html)_.
 
-=================<br />Tip 5 - Centered Design<br />=================<br />- Fixed width<br />#visual-portal-wrapper {<br />width: 980px;<br />margin-left:auto;<br />margin-right:auto;<br />}<br /><br />- Liquid Design<br />#visual-portal-wrapper {<br />width: 980px;<br />margin-left:20%;<br />margin-right:20%;<br />}<br /><br />=================<br />Tip 4 -  integration of IE<br />=================<br />- put all stuff in IEFixes.css<br />- Write styles for IE7 first<br />- Then hack your styles for other IE version<br />- portal top is top part of Plone<br />- For IE6 and lower hack:<br />// Below is IE7 , Firefox, and Safari<br />#portal-top {<br />background: blue;<br /><br />}<br />// below is IE6 version<br />html #portal-top {<br />background:red;<br />}<br />- easy to use<br />- almost no chance of breakage<br />=================<br />Tip 3 - Styles alterations<br />=================<br />- different sections styling<br />- site root<br />  - news: blue<br />  - products:orange<br />  - events: yellow;<br />  - about:green<br />how:<br />body.section-news {<br />background-color: blue;<br />}<br />body.section-products {<br />background-color: orange;<br />}<br />// This is auto-written and any_custom_view could be working_group.pt<br />body.template-any_custom_view {<br />background-color: spotted duck;<br />}<br />// example<br />body.template-working_group_view.pt {<br />background-color: spotted duck;<br />}<br />=================<br />Tip 2 - Drop down menus<br />=================<br />- Suckerfish for Plone 2.5.x<br />  - Accessible<br />  - valid CSS<br />  - Obvious and clean XHTML<br />- Plone Dropdowns is for Plone 3.x<br />  - webcouturier.dropdownmenu<br />  - Build it out in folder items and use a heirarchy<br />  - Autobuilds via Plone 3 into portal tabs<br />  - Uses INavtreeStrategy<br />  - Uses SitemapQueryBuilder()<br />    - Can change the depth of the navtree via sitemap properties<br /><br />=================<br />Tip 1 - Rounded Corners<br />=================<br />- Cornerstone of designer's minds<br />- pure CSS solution<br />  - Initial nifty corners<br />  - Too ugly XHTML<br />  - No hooks in Plone<br />  - People don't like dealing with CSS if they have to change images<br />- Images based solutions<br />  - Sliding doors - often used for rounding corners<br />  - Adam Kalsey technique<br />    - Plone has XHTML hooks in portlets for this<br />    - pretty simple css<br />    - Most of the cases use nested HTML elements<br />    - Fixed set of images for the corners<br />- JS + CSS solution<br />  - The most flexible<br />  - Doesn't require nested elements in HTML<br />  - Does not require additional CSS<br />  - Potential Solutions<br />    - Nifty Corners Cube (Javascript Library<br />      - First doesn not work with borders and background images<br />    - JQuery corners<br />      - Requires jquery and does not work with Safari<br />    - CurvyCorners library (recommended)<br />      - Supports most modern browsers<br />      - Works with borders<br />      - Works with background images<br />      - Supports antialiased corners<br />      - Cons:<br />          - Some problems when background images are used and box has different colors<br />    - Does not work well when used with multiple boxes<br />     - collective.roundedcorners<br />       - On presenter's laptop<br />       - Normal Plone Package/Product<br />       - Uses a mix of Javascript + CSS<br />       - Raw, and will be released hopefully soon
+# Tip 5 - Centered Design
+
+```css
+/* Fixed width */
+#visual-portal-wrapper {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Liquid Design */
+#visual-portal-wrapper {
+  width: 980px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+```
+
+# Tip 4 - integration of IE
+
+- put all stuff in IEFixes.css
+- Write styles for IE7 first
+- Then hack your styles for other IE version
+- portal top is top part of Plone
+- For IE6 and lower hack:
+
+```css
+/* Below is IE7 , Firefox, and Safari */
+#portal-top {
+  background: blue;
+}
+/* below is IE6 version */
+html #portal-top {
+  background: red;
+}
+```
+
+- easy to use
+- almost no chance of breakage
+
+# Tip 3 - Styles alterations
+
+- different sections styling
+- site root
+- news: blue
+- products:orange
+- events: yellow;
+- about:green
+  how:
+
+```css
+body.section-news {
+  background-color: blue;
+}
+body.section-products {
+  background-color: orange;
+}
+/* This is auto-written and any_custom_view
+could be working_group.pt */
+body.template-any_custom_view {
+  background-color: spotted duck;
+}
+/* example */
+body.template-working_group_view.pt {
+  background-color: spotted duck;
+}
+```
+
+# Tip 2 - Drop down menus
+
+- Suckerfish for Plone 2.5.x
+- Accessible
+- valid CSS
+- Obvious and clean XHTML
+- Plone Dropdowns is for Plone 3.x
+- webcouturier.dropdownmenu
+- Build it out in folder items and use a heirarchy
+- Autobuilds via Plone 3 into portal tabs
+- Uses INavtreeStrategy
+- Uses SitemapQueryBuilder()
+- Can change the depth of the navtree via sitemap properties
+
+# Tip 1 - Rounded Corners
+
+- Cornerstone of designer's minds
+- pure CSS solution
+- Initial nifty corners
+- Too ugly XHTML
+- No hooks in Plone
+- People don't like dealing with CSS if they have to change images
+- Images based solutions
+- Sliding doors - often used for rounding corners
+- Adam Kalsey technique
+- Plone has XHTML hooks in portlets for this
+- pretty simple css
+- Most of the cases use nested HTML elements
+- Fixed set of images for the corners
+- JS + CSS solution
+- The most flexible
+- Doesn't require nested elements in HTML
+- Does not require additional CSS
+- Potential Solutions
+- Nifty Corners Cube (Javascript Library
+- First doesn not work with borders and background images
+- JQuery corners
+- Requires jquery and does not work with Safari
+- CurvyCorners library (recommended)
+- Supports most modern browsers
+- Works with borders
+- Works with background images
+- Supports antialiased corners
+- Cons:
+- Some problems when background images are used and box has different colors
+- Does not work well when used with multiple boxes
+- collective.roundedcorners
+- On presenter's laptop
+- Normal Plone Package/Product
+- Uses a mix of Javascript + CSS
+- Raw, and will be released hopefully soon
