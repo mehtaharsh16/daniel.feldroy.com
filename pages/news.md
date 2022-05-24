@@ -8,6 +8,17 @@ author: "Daniel Roy Greenfeld"
 
 ## May 2022
 
+### May 24, 2022
+
+- Several HTML/MD pages converted to pure MD to better support markdoc
+- Removed last lingering MDX dependencies
+
+### May 23, 2022
+
+- All MDX pages converted to markdoc
+- Refactored Layout usage across site
+- Replaced `meta` hack with proper use of `getStaticProps`
+
 ### May 17, 2022
 
 - Add Kraken Tech logo to the jobs page
