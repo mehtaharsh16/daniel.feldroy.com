@@ -12,4 +12,28 @@ title: History of my most used shell commands
 
 _This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/04/history-of-my-most-used-shell-commands.html)_.
 
-Courtesy of <a href="http://bruynooghe.blogspot.com/2008/04/shell-history.html">me -&gt; flub</a>:<br /><br />history | awk '{a[$2]++ } END{for(i in a){print a[i] " " i}}'|sort -rn |head -n 20<br />107 svn<br />101 cd<br />101 ./bin/instance<br />58 ls<br />37 python<br />26 mate<br />16 grep<br />11 rm<br />8 ssh<br />4 ipython<br />4 easy_install<br />3 sqlite3<br />2 sudo<br />2 pwd<br />2 mkdir<br />2 history<br />2 django-admin.py<br />2 django-admin<br />2 ./bin/instance1<br />1 wget
+Courtesy of [me -> flub](https://bruynooghe.blogspot.com/2008/04/shell-history.html):
+
+```
+history | awk '{a[$2]++ } END{for(i in a){print a[i] " " i}}'|sort -rn |head -n 20
+107 svn
+101 cd
+101 ./bin/instance
+58 ls
+37 python
+26 mate
+16 grep
+11 rm
+8 ssh
+4 ipython
+4 easy_install
+3 sqlite3
+2 sudo
+2 pwd
+2 mkdir
+2 history
+2 django-admin.py
+2 django-admin
+2 ./bin/instance1
+1 wget
+```
