@@ -13,4 +13,8 @@ title: Quick Firefox 3 review
 
 *This was originally posted on blogger [here](https://dannygreenfeld.blogspot.com/2008/06/quick-firefox-3-review.html)*.
 
-Firefox 3 rocks. Its super fast and as of several days of running it, very stable.  All sites show up just fine.  I heard there may be a problem on Hotmail, but who uses that garbage anyway when you have gmail?<br /><br />So please, family and friends who use IE, convert away.  No time has been better.<br /><br /><a href="http://getfirefox.com">Get FireFox here!</a>
+Firefox 3 rocks. Its super fast and as of several days of running it, very stable.  All sites show up just fine.  I heard there may be a problem on Hotmail, but who uses that garbage anyway when you have gmail?
+
+So please, family and friends who use IE, convert away.  No time has been better.
+
+[Get FireFox here!](https://getfirefox.com)

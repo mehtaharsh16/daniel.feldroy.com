@@ -15,4 +15,6 @@ title: NOVA-DUG scheduling
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/08/nova-dug-scheduling.html)*.
 
-I need to post about NOVA-DUG more frequently, no?<br /><br />NOVA-DUG is postponed until next week (August 19th). I'm working with Eric Houghman of the Nature Conservancy to work out a formal long-term calendar. More this evening.
+I need to post about NOVA-DUG more frequently, no?
+
+NOVA-DUG is postponed until next week (August 19th). I'm working with Eric Houghman of the Nature Conservancy to work out a formal long-term calendar. More this evening.

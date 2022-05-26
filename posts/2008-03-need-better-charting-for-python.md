@@ -22,4 +22,4 @@ Of course, if I were more adept at manipulating graphics, I would cook this up m
 
 **yacitus said on 2008-04-16**
 
-Have a look at [http://the.taoofmac.com/space/Visualization](http://the.taoofmac.com/space/Visualization).
+Have a look at [https://the.taoofmac.com/space/Visualization](https://the.taoofmac.com/space/Visualization).

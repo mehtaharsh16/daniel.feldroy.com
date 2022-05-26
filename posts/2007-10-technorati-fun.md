@@ -13,4 +13,4 @@ title: Technorati Fun
 
 *This was originally posted on blogger [here](https://dannygreenfeld.blogspot.com/2007/10/technorati-fun.html)*.
 
-<a href="http://technorati.com/claim/gjnrqzktw" rel="me">Technorati Profile</a>
+[Technorati Profile](https://technorati.com/claim/gjnrqzktw)

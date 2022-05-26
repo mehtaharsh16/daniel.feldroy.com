@@ -124,7 +124,7 @@ def main(
             tags = [
                 x
                 for x in tags
-                if x != "http://schemas.google.com/blogger/2008/kind#post"
+                if x != "https://schemas.google.com/blogger/2008/kind#post"
             ]
             # Add the tag option to list of tags
             tags.append(tag)

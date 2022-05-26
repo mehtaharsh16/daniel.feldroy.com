@@ -98,5 +98,5 @@ Today: March 17th, 2014
 
 What Matt Croydon says:
 
-<blockquote class="twitter-tweet" lang="en"><p>Celebrate the life of <a href="https://twitter.com/malcolmt">@malcolmt</a> today: be nice to someone, help someone learn something, and push some code. Tomorrow: repeat.</p>&mdash; Matt Croydon (@mc) <a href="https://twitter.com/mc/statuses/314013575406571520">March 19, 2013</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>Celebrate the life of [@malcolmt](https://twitter.com/malcolmt) today: be nice to someone, help someone learn something, and push some code. Tomorrow: repeat.</p>&mdash; Matt Croydon (@mc) [March 19, 2013](https://twitter.com/mc/statuses/314013575406571520)</blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

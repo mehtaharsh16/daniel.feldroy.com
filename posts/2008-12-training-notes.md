@@ -13,4 +13,15 @@ title: Training notes
 
 *This was originally posted on blogger [here](https://dannygreenfeld.blogspot.com/2008/12/training-notes.html)*.
 
-<ul><li>Fixed my diet. No more junk food or snacks!<br /></li><li>Next week I start my weight lifting regimen in earnest.</li><li>Side kicks looking sharper.</li><li>Round kicks at face level with power.</li><li>Really working to launch all kicks from the balls of my feet.</li><li>Need to get light gloves for bag work. Can't afford sore hands during my day job.</li><li>Six months from about right now!<br /></li></ul>
+
+
+- Fixed my diet. No more junk food or snacks!
+
+- Next week I start my weight lifting regimen in earnest.
+- Side kicks looking sharper.
+- Round kicks at face level with power.
+- Really working to launch all kicks from the balls of my feet.
+- Need to get light gloves for bag work. Can't afford sore hands during my day job.
+- Six months from about right now!
+
+

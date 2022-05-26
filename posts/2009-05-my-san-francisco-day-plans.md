@@ -11,7 +11,15 @@ title: My San Francisco Day Plans
 
 *This was originally posted on blogger [here](https://dannygreenfeld.blogspot.com/2009/05/my-san-francisco-day-plans.html)*.
 
-1. Visit my friend Daryl Spitzer in Palo Alto for lunch at VMWare.<br />2. Rent a bike at fisherman's wharf and go mountain biking on the trails of Angelo island in the bay.<br />3. Rent a bike at fisherman's wharf and go road biking through the hills of the Marin Headlands.<br />4. Spend some time at Fisherman's wharf since I'll be there for the bikes anyway.<br />5. Go to the Exploratorium<br />6. Go to the SFMOMA<br />7. Rent a cheap hotel room somewhere and then wake up at dawn to watch the sun rise over Golden Gate or something.<br />8. See Alcatraz.<br />9. See giant trees in Muir Forest.
+1. Visit my friend Daryl Spitzer in Palo Alto for lunch at VMWare.
+2. Rent a bike at fisherman's wharf and go mountain biking on the trails of Angelo island in the bay.
+3. Rent a bike at fisherman's wharf and go road biking through the hills of the Marin Headlands.
+4. Spend some time at Fisherman's wharf since I'll be there for the bikes anyway.
+5. Go to the Exploratorium
+6. Go to the SFMOMA
+7. Rent a cheap hotel room somewhere and then wake up at dawn to watch the sun rise over Golden Gate or something.
+8. See Alcatraz.
+9. See giant trees in Muir Forest.
 
 ---
 

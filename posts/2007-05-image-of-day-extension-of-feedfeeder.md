@@ -20,7 +20,7 @@ _This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/
 
 # Introduction
 
-For a huge work project I was asked to extend [FeedFeeder](http://plone.org/products/feedfeeder) so we could have an image of the day type. I like FeedFeeder and this would give me the chance to speed up on Five and Zope 3. I was so excited! Five turned out to be lots of fun and not that hard to learn. Zope 3 Products looked like tons of fun, sort of like Plone products on steroids or J2EE done right.
+For a huge work project I was asked to extend [FeedFeeder](https://plone.org/products/feedfeeder) so we could have an image of the day type. I like FeedFeeder and this would give me the chance to speed up on Five and Zope 3. I was so excited! Five turned out to be lots of fun and not that hard to learn. Zope 3 Products looked like tons of fun, sort of like Plone products on steroids or J2EE done right.
 
 And yet the effort turned into an exercise of frustration. Why?
 

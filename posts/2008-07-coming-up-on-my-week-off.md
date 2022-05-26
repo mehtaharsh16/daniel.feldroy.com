@@ -14,7 +14,15 @@ title: Coming up on my week off!
 
 *This was originally posted on blogger [here](https://dannygreenfeld.blogspot.com/2008/07/coming-up-on-my-week-off.html)*.
 
-Training this week has been interesting.  I know about 80% of the material<br /><br />What sucks of course is a last minute work problem that is about 50-75% my own fault which might force me to work over this weekend.<br /><br />Anyway, the fatigue issue is cured.  More body minerals like sodium, calcium, and potassium have been helping.  So has this week where I've not been working out so much, about 25% of normal. My body feels rather recovered now.<br /><br />I cook for a gathering tomorrow night at a friend's house.  I'm thinking fried rice with grilled chinese sausage.  We'll see.<br /><br />Monday I lead my first bike ride!  I'm going from my gym to the Smithsonian metro.  Its going to be a small group, but future rides will be bigger since they'll be scheduled for the weekend.
+Training this week has been interesting.  I know about 80% of the material
+
+What sucks of course is a last minute work problem that is about 50-75% my own fault which might force me to work over this weekend.
+
+Anyway, the fatigue issue is cured.  More body minerals like sodium, calcium, and potassium have been helping.  So has this week where I've not been working out so much, about 25% of normal. My body feels rather recovered now.
+
+I cook for a gathering tomorrow night at a friend's house.  I'm thinking fried rice with grilled chinese sausage.  We'll see.
+
+Monday I lead my first bike ride!  I'm going from my gym to the Smithsonian metro.  Its going to be a small group, but future rides will be bigger since they'll be scheduled for the weekend.
 
 ---
 
@@ -22,5 +30,13 @@ Training this week has been interesting.  I know about 80% of the material<br />
 
 **Unknown said on 2008-07-21**
 
-Hi Danny,<br /><br />Have fun on your week off -<br /><br />And a very "Happy 39th Birthday!"<br /><br />Love,<br /><br />Dad
+Hi Danny,
+
+Have fun on your week off -
+
+And a very "Happy 39th Birthday!"
+
+Love,
+
+Dad
 

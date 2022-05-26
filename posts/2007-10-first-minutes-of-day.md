@@ -21,4 +21,4 @@ Anyway, I'm pretty much ready. Now I just wait. I am teaching at the gym for two
 
 Enough melancholy! I'm off to Italy today!
 
-Pictures will be at my flickr account here: [http://www.flickr.com/photos/pydanny/](http://www.flickr.com/photos/pydanny/)
+Pictures will be at my flickr account here: [https://www.flickr.com/photos/pydanny/](https://www.flickr.com/photos/pydanny/)

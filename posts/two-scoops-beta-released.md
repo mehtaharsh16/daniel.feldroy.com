@@ -34,7 +34,7 @@ enough those who gave us their insights.
 
 [![Beta launch image for TSD 1.5](/images/tsd15-beta.png)](https://roygreenfeld.com/products/two-scoops-of-django-1-5/)
 
-<a name="features"></a>
+[None](None)
 What is different about the beta release?
 =========================================
 

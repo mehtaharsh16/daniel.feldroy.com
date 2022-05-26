@@ -17,6 +17,6 @@ _This was originally posted on blogger [here](https://dannygreenfeld.blogspot.co
 
 Thanks to being ill, I only spent about an hour or so being a tourist in Italy. I did take lots of pictures, so if you want to see some of what I saw, you can go here:
 
-[http://www.flickr.com/photos/pydanny/tags/tourist/](http://www.flickr.com/photos/pydanny/tags/tourist/)
+[https://www.flickr.com/photos/pydanny/tags/tourist/](https://www.flickr.com/photos/pydanny/tags/tourist/)
 
 I would have taken more interior shots but the lighting was bad so many shots did not come out well. If only my pictures of the brass door had come out well! Sorry everyone!

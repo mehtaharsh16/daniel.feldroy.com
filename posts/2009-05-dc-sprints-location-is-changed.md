@@ -18,4 +18,10 @@ title: DC Sprints location is changed!
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/05/dc-sprints-location-is-changed.html)*.
 
-Cosi seemed great. Decent food, internet, pleasant seating.<br /><br />Except they blocked the really useful ports. SSH, Git, you name it.<br /><br />So we have switched to the Arlington Central Library, just two blocks away.<br /><br /><a href="http://www.arlingtonva.us/departments/Libraries/about/LibrariesAboutCentral.aspx" rel="nofollow"><span>http://www.arlingtonva.us/departments/Libraries/about/LibrariesAboutCentral.aspx</span></a>
+Cosi seemed great. Decent food, internet, pleasant seating.
+
+Except they blocked the really useful ports. SSH, Git, you name it.
+
+So we have switched to the Arlington Central Library, just two blocks away.
+
+[https://www.arlingtonva.us/departments/Libraries/about/LibrariesAboutCentral.aspx](https://www.arlingtonva.us/departments/Libraries/about/LibrariesAboutCentral.aspx)

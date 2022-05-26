@@ -16,4 +16,11 @@ title: Day 3 Pycon-09 talks I'm attending
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/03/day-3-pycon-09-talks-im-attending.html)*.
 
-<ul><li>How AlterWay releases web applications using zc.buildout.</li><li>A winning combination: Plone as a CMS, your favorite Python web framework as a frontend</li><li>Using Sphinx and Doctests to provide Robust Documentation</li><li>Designing a web framework: Django's design decisions</li></ul>I also plan to attend NASA BOF at 4 p.m and likely the odd Django and Pinax BOF that springs up.
+
+
+- How AlterWay releases web applications using zc.buildout.
+- A winning combination: Plone as a CMS, your favorite Python web framework as a frontend
+- Using Sphinx and Doctests to provide Robust Documentation
+- Designing a web framework: Django's design decisions
+
+I also plan to attend NASA BOF at 4 p.m and likely the odd Django and Pinax BOF that springs up.

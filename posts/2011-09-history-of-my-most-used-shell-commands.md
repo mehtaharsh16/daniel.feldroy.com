@@ -14,7 +14,31 @@ title: History of my most used shell commands
 
 _This was originally posted on blogger [here](https://pydanny.blogspot.com/2011/09/history-of-my-most-used-shell-commands.html)_.
 
-<a href="http://pydanny.blogspot.com/2008/04/history-of-my-most-used-shell-commands.html">I ran this a few years back</a>&nbsp;and I'm running it again today.<br /><br />What is interesting is that compared to the older history, <a href="http://git-scm.org/">git</a> has replaced svn, <a href="http://pypi.python.org/pypi/pip">pip</a> has replaced easy_install, and <a href="http://pypi.python.org/pypi/virtualenv">virtualenv</a> has now completely subsumed buildout. Oh, how the mighty have fallen!<br /><pre class="prettyprint">$ history | awk '{a[$2]++ } END{for(i in a){print a[i] " " i}}'|sort -rn |head -n 20<br /><br />209 git<br />123 python<br />34 ls<br />31 mate<br />18 cd<br />14 pwd<br />9 hg<br />8 touch<br />7 rm<br />6 cp<br />5 pip<br />5 mv<br />5 django-admin.py<br />4 mkvirtualenv<br />3 mysql<br />3 mkdir<br />3 bash<br />2 deactivate<br />2 add2virtualenv<br />1 workon</pre>
+[I ran this a few years back](https://pydanny.blogspot.com/2008/04/history-of-my-most-used-shell-commands.html)&nbsp;and I'm running it again today.
+
+What is interesting is that compared to the older history, [git](https://git-scm.org/) has replaced svn, [pip](https://pypi.python.org/pypi/pip) has replaced easy_install, and [virtualenv](https://pypi.python.org/pypi/virtualenv) has now completely subsumed buildout. Oh, how the mighty have fallen!
+<pre class="prettyprint">$ history | awk '{a[$2]++ } END{for(i in a){print a[i] " " i}}'|sort -rn |head -n 20
+
+209 git
+123 python
+34 ls
+31 mate
+18 cd
+14 pwd
+9 hg
+8 touch
+7 rm
+6 cp
+5 pip
+5 mv
+5 django-admin.py
+4 mkvirtualenv
+3 mysql
+3 mkdir
+3 bash
+2 deactivate
+2 add2virtualenv
+1 workon</pre>
 
 ---
 
@@ -22,16 +46,47 @@ _This was originally posted on blogger [here](https://pydanny.blogspot.com/2011/
 
 **Brent O'Connor said on 2011-09-14**
 
-Here is mine currently... :)<br /><br />78 ls<br />73 git<br />72 cd<br />35 vagrant<br />25 deactivate<br />21 workon<br />20 sudo<br />17 e<br />15 mkvirtualenv<br />14 fab<br />13 django-admin.py<br />13 cat<br />11 runserver<br />11 ex<br />9 rm<br />9 pip<br />6 ./bin/craigslist_import.py<br />5 grep<br />5 cdvirtualenv<br />4 ssh
+Here is mine currently... :)
+
+78 ls
+73 git
+72 cd
+35 vagrant
+25 deactivate
+21 workon
+20 sudo
+17 e
+15 mkvirtualenv
+14 fab
+13 django-admin.py
+13 cat
+11 runserver
+11 ex
+9 rm
+9 pip
+6 ./bin/craigslist_import.py
+5 grep
+5 cdvirtualenv
+4 ssh
 
 **Dougal said on 2011-09-15**
 
-If you add this to your .profile/bash_rc you can make the results more interesting.<br /><br />export HISTSIZE=50000<br /><br />My bash history then goes back until at least the start of this year. Very handy if you want to search for something and I've not noticed a slowdown (even of running the history command).
+If you add this to your .profile/bash_rc you can make the results more interesting.
+
+export HISTSIZE=50000
+
+My bash history then goes back until at least the start of this year. Very handy if you want to search for something and I've not noticed a slowdown (even of running the history command).
 
 **Reinout van Rees said on 2011-09-15**
 
-So you got rid of buildout, he? :-) How do you deal with the recipes that you're now missing? Or didn't you use them? I use buildout to generate my apache config, just to name an example, and to set up my django project.<br /><br />I <i>assume</i> you also used some of those recipes. How do you handle such tasks now?
+So you got rid of buildout, he? :-) How do you deal with the recipes that you're now missing? Or didn't you use them? I use buildout to generate my apache config, just to name an example, and to set up my django project.
+
+I <i>assume</i> you also used some of those recipes. How do you handle such tasks now?
 
 **pydanny said on 2011-09-15**
 
-@Reinout - The final buildout project I was on got converted to pip/virtualenv + either apt or homebrew depending on who was developing it. The consensus has been to use native tools to build environments and that designers and developers find buildout cumbersome, kind of undocumented, and hard to debug. <br /><br />And I stand by that statement. I think buildout grew from a straightforward Python package management system and into something else that tried to be kind of like Chef or Puppet but purely focused on Python. <br /><br />I need to blog my thoughts about it. :P
+@Reinout - The final buildout project I was on got converted to pip/virtualenv + either apt or homebrew depending on who was developing it. The consensus has been to use native tools to build environments and that designers and developers find buildout cumbersome, kind of undocumented, and hard to debug. 
+
+And I stand by that statement. I think buildout grew from a straightforward Python package management system and into something else that tried to be kind of like Chef or Puppet but purely focused on Python. 
+
+I need to blog my thoughts about it. :P

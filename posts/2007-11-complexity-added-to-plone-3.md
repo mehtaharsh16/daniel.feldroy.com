@@ -12,4 +12,4 @@ title: Complexity added to Plone 3
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2007/11/complexity-added-to-plone-3.html)*.
 
-Mikko Ohtamaa raises some <a href="http://blog.redinnovation.com/2007/11/26/could-it-be-possible-to-make-viewlets-simple-again/">good points about the problems with adding viewlets in Plone 3</a>.  It is too complex.  Design patterns are good, but they can capture your focus and make you do lots more work than you need, and not just necessarily up front.
+Mikko Ohtamaa raises some [good points about the problems with adding viewlets in Plone 3](https://blog.redinnovation.com/2007/11/26/could-it-be-possible-to-make-viewlets-simple-again/).  It is too complex.  Design patterns are good, but they can capture your focus and make you do lots more work than you need, and not just necessarily up front.

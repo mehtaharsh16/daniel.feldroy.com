@@ -14,7 +14,16 @@ title: Another reason to dislike P.F. Changs
 
 *This was originally posted on blogger [here](https://dannygreenfeld.blogspot.com/2008/08/another-reason-to-dislike-pf-changs.html)*.
 
-I dislike them.  The quick and dirty:<br /><ul><li>Decor that seems to make certain that even mildly busy times are noisy.  You are shouting at the people next to you</li><li>Mediocre Chinese-American cuisine made from mediocre ingredients</li><li>Not cheap</li></ul>So if that isn't enough, here is another reason:<br /><br /><a href="http://www.menshealth.com/eatthis/20-Worst-Foods/8_Worst_Chinese_Entree.php">http://www.menshealth.com/eatthis/20-Worst-Foods/8_Worst_Chinese_Entree.php</a>
+I dislike them.  The quick and dirty:
+
+
+- Decor that seems to make certain that even mildly busy times are noisy.  You are shouting at the people next to you
+- Mediocre Chinese-American cuisine made from mediocre ingredients
+- Not cheap
+
+So if that isn't enough, here is another reason:
+
+[https://www.menshealth.com/eatthis/20-Worst-Foods/8_Worst_Chinese_Entree.php](https://www.menshealth.com/eatthis/20-Worst-Foods/8_Worst_Chinese_Entree.php)
 
 ---
 

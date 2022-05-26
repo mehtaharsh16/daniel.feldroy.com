@@ -11,4 +11,8 @@ title: Python formatting test
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/01/python-formatting-test.html)*.
 
-<pre class="py" name="code"><br />def my_function(text):<br />  print text<br />  return text.lower()<br /></pre>
+<pre class="py" name="code">
+def my_function(text):
+  print text
+  return text.lower()
+</pre>

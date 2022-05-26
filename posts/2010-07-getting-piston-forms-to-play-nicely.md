@@ -16,7 +16,20 @@ title: Getting piston forms to play nicely with JSON
 
 _This was originally posted on blogger [here](https://pydanny.blogspot.com/2010/07/getting-piston-forms-to-play-nicely.html)_.
 
-<blockquote><b>Critical Update 2012/05/10!!!</b> <br /><b>Critical Update 2012/05/10!!!</b> <br /><b>Critical Update 2012/05/10!!!</b> <br /><br />Except for a critical security patch,&nbsp;<a href="htts://bitbucket.org/jespern/django-piston/wiki/Home">django-piston</a> has been unsupported for over 10 years. That is an eternity, and the number of forks to address multiple issues is cause for alarm. Also, the original author has left the project. Because of that, in it's place at this time I recommend <a href="https://pypi.python.org/pypi/django-tastypie">django-tastypie</a>. It is <a href="https://github.com/toastdriven/django-tastypie/commits/master">up-to-date</a>, has <a href="https://django-tastypie.readthedocs.org/">very good documentation</a>, <a href="https://django-tastypie.readthedocs.org/en/latest/authentication_authorization.html#oauthauthentication">supports OAUTH</a>, and scored second place in the Django Packages thunderdome (it got nearly 3x as many points!). Another tool to consider is <a href="https://django-rest-framework.readthedocs.org/">Django Rest Framework</a>, which is as good as django-tastypie but lacks the OAUTH support.</blockquote><br /><b>Back to the existing blog post...</b><br /><br />A commonly used tool by <a href="https://djangopeople.com/">Djangonauts</a> is <a href="https://bitbucket.org/jespern/django-piston/wiki/Home">django-piston</a>, which is designed to make building a <a href="https://en.wikipedia.org/wiki/REST">REST</a> API easier. It even works with <a href="https://djangoproject.com/">Django</a> forms to provide easily written PUT/POST validation, which should be pretty darn nice. Unfortunately,&nbsp;if you go with django-piston forms validation it doesn't accomodate the JSON (or XML or YAML) requests and if validation fails it responds in HTML. Even more unfortunate, making validation accept and return JSON with&nbsp;PUT/POST requests is not documented.<br /><br /><i>While one could argue that it is documented in the django-piston docstrings, in my opinion that is not sufficient.</i><br /><br />Fortunately while working on a project for <a href="https://www.revsys.com/">Revolution Systems</a> we worked out a solution:<br /><br />
+<blockquote><b>Critical Update 2012/05/10!!!</b> 
+<b>Critical Update 2012/05/10!!!</b> 
+<b>Critical Update 2012/05/10!!!</b> 
+
+Except for a critical security patch,&nbsp;[django-piston](htts://bitbucket.org/jespern/django-piston/wiki/Home) has been unsupported for over 10 years. That is an eternity, and the number of forks to address multiple issues is cause for alarm. Also, the original author has left the project. Because of that, in it's place at this time I recommend [django-tastypie](https://pypi.python.org/pypi/django-tastypie). It is [up-to-date](https://github.com/toastdriven/django-tastypie/commits/master), has [very good documentation](https://django-tastypie.readthedocs.org/), [supports OAUTH](https://django-tastypie.readthedocs.org/en/latest/authentication_authorization.html#oauthauthentication), and scored second place in the Django Packages thunderdome (it got nearly 3x as many points!). Another tool to consider is [Django Rest Framework](https://django-rest-framework.readthedocs.org/), which is as good as django-tastypie but lacks the OAUTH support.</blockquote>
+<b>Back to the existing blog post...</b>
+
+A commonly used tool by [Djangonauts](https://djangopeople.com/) is [django-piston](https://bitbucket.org/jespern/django-piston/wiki/Home), which is designed to make building a [REST](https://en.wikipedia.org/wiki/REST) API easier. It even works with [Django](https://djangoproject.com/) forms to provide easily written PUT/POST validation, which should be pretty darn nice. Unfortunately,&nbsp;if you go with django-piston forms validation it doesn't accomodate the JSON (or XML or YAML) requests and if validation fails it responds in HTML. Even more unfortunate, making validation accept and return JSON with&nbsp;PUT/POST requests is not documented.
+
+<i>While one could argue that it is documented in the django-piston docstrings, in my opinion that is not sufficient.</i>
+
+Fortunately while working on a project for [Revolution Systems](https://www.revsys.com/) we worked out a solution:
+
+
 
 ```python
 """
@@ -135,7 +148,9 @@ urlpatterns = patterns('',
 
 ```
 
-Of course, this assumes you are mapping Create/Read/Update/Delete (<a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a>) actions to your API.<br /><br />I'm interested to see other solutions people have used to handle this in django-piston, and what suggestions people have that could improve on the examples I'm supplying here.
+Of course, this assumes you are mapping Create/Read/Update/Delete ([CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)) actions to your API.
+
+I'm interested to see other solutions people have used to handle this in django-piston, and what suggestions people have that could improve on the examples I'm supplying here.
 
 ---
 
@@ -147,7 +162,9 @@ Nice. I created an XML mimer for piston so that it could receive XML in the same
 
 **pydanny said on 2010-07-17**
 
-@Tom,<br /><br />Do you have the non-patch version of the code?
+@Tom,
+
+Do you have the non-patch version of the code?
 
 **Ryan Blunden said on 2011-02-08**
 
@@ -159,7 +176,15 @@ hey, thanks to for setting clear that piston is not developed anymore, that real
 
 **pydanny said on 2012-10-06**
 
-Marty,<br /><br />If you have problems with the tastypie documentation, might I suggest you do one of the following:<br /><br />1. Submit a ticket to github.com/toastdriven/django-tastypie/issues and specify where you feel there are specific areas of weakness.<br /><br />2. If you figure it out, submit it as a pull request to django-tastypie.<br /><br />Also, there is a MongoEngine wrapper someone wrote for tastypie that you can find at https://www.djangopackages.com/packages/p/django-tastypie-mongoengine/. If MongoDB isn't your nonrel database, then at least you can use that as a baseline for your own implementation.
+Marty,
+
+If you have problems with the tastypie documentation, might I suggest you do one of the following:
+
+1. Submit a ticket to github.com/toastdriven/django-tastypie/issues and specify where you feel there are specific areas of weakness.
+
+2. If you figure it out, submit it as a pull request to django-tastypie.
+
+Also, there is a MongoEngine wrapper someone wrote for tastypie that you can find at https://www.djangopackages.com/packages/p/django-tastypie-mongoengine/. If MongoDB isn't your nonrel database, then at least you can use that as a baseline for your own implementation.
 
 ```
 

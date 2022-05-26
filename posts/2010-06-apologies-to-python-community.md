@@ -21,7 +21,9 @@ Apparently planet python is pulling all content off this blog to its RSS feed. W
 
 **Doug Napoleone said on 2010-06-29**
 
-Great, now I need to add your RSS feed to my reader directly ;-)<br /><br />The bun on buzz was more than worth it ;-)
+Great, now I need to add your RSS feed to my reader directly ;-)
+
+The bun on buzz was more than worth it ;-)
 
 **Pixy Misa said on 2010-06-29**
 

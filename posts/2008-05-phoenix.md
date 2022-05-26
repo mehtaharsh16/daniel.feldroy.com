@@ -12,4 +12,8 @@ title: Phoenix
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/05/phoenix.html)*.
 
-Don't forget, I work for the people who made this happen!<br /><br /><a href="http://nasascience.nasa.gov/missions/phoenix">http://nasascience.nasa.gov/missions/phoenix</a><br /><a href="http://www.nasa.gov/mission_pages/phoenix/main/">http://www.nasa.gov/mission_pages/phoenix/main/</a><br /><a href="http://apod.nasa.gov/apod/ap080525m.html">http://apod.nasa.gov/apod/ap080525m.html</a>
+Don't forget, I work for the people who made this happen!
+
+[https://nasascience.nasa.gov/missions/phoenix](https://nasascience.nasa.gov/missions/phoenix)
+[https://www.nasa.gov/mission_pages/phoenix/main/](https://www.nasa.gov/mission_pages/phoenix/main/)
+[https://apod.nasa.gov/apod/ap080525m.html](https://apod.nasa.gov/apod/ap080525m.html)

@@ -14,4 +14,6 @@ title: My blog is moved
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2012/02/my-blog-is-moved.html)*.
 
-From now on I'll be blogging from <a href="http://pydanny.com/">http://pydanny.com</a>.<br /><br />See you there!
+From now on I'll be blogging from [https://pydanny.com](https://pydanny.com/).
+
+See you there!

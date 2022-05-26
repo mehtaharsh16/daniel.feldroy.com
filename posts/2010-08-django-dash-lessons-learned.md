@@ -15,7 +15,36 @@ title: Django Dash Lessons Learned
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2010/08/django-dash-lessons-learned.html)*.
 
-Our experience with <a href="http://djangodash.com/">Django Dash 2010</a> was that it was an wonderful exercise in classic <a href="http://djangoproject.com/">Django</a> development, <a href="http://en.wikipedia.org/wiki/Cowboy_coding">cowboy/cowgirl coding</a>, and drinking copious amounts of <a href="http://en.wikipedia.org/wiki/Caffeine">caffeinated</a> beverages. The result, <a href="http://djangopackages.com/">Django Packages</a>, is something we are happy with, are&nbsp;continuing&nbsp;to improve, and hope will improve the community.<br /><br /><b>Lesson: Fixtures are a must</b><br /><br />Django gives you this amazing <a href="http://docs.djangoproject.com/en/dev/ref/contrib/admin/">Admin control panel</a>. As soon as you get your models in place and are entering test data, start creating fixtures. For the dash we named them initial_data.json and loaded them into the individual app directories. This meant that every time we blew away the database we got a reload with records in place. Sometimes this means you have to hand-edit <a href="http://en.wikipedia.org/wiki/JSON">JSON</a> (or <a href="http://en.wikipedia.org/wiki/YAML">YAML</a> if you swing that way), but the alternative is to waste time re-entering the same data again and again. Don't forget to change the names of your test fixtures before you launch!<br /><br />From the command-line how to save a fixture pydanny-style:<br /><br /><pre class="prettyprint lang-bsh">./manage.py dumpdata package &gt; apps/packages/fixtures/initial_data.json</pre><br />One nice thing about fixtures is that when you do have the time/need, you can use them to help you write tests. And it makes development easier for contributors.<br /><br /><b>Lesson: Research ahead of time</b><br /><br />In the days before the contest, we researched to see if our target repos (<a href="http://github.com/">Github</a>, ;<a href="http://bitbucket.org/">BitBucket</a>, and&nbsp;<a href="http://code.google.com/">Google Project Hosting</a>) each had an API and a python library to speak to that API. Github has both an API and python library, Bitbucket has an API but no library. And as far as we can tell, Google Project Hosting lacks both API and library (<i>someone please tell me I'm wrong about Google Project Hosting lacking an API</i>).<br /><br />This meant that when we commenced coding we knew which code base to work with - we weren't trying to look up this or that random package.<br /><br />We did the same thing for rendering charts.<br /><br /><b>Lesson: Get it working then optimize</b><br /><br />Looking at some of the code makes us wince a bit.&nbsp;<i>But we got it working.</i>&nbsp;Now we can go back and do some code cleanup, maybe use an&nbsp;<a href="http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454" style="color: #b4445c;">XML parser instead of regex</a>&nbsp;to try to scrape content from PyPI, and generally feel better about ourselves.<br /><br /><b>Lesson: Plan out system architecture in advance</b><br /><br />In retrospect it was really amusing, but the night of launch the site was serving via the Django runserver command. We were so dead tired and neither of us are crack system administrators that we did what we had to do to score the contest launch point. The next day <a href="http://audreyr.posterous.com//">Audrey</a> got the site running under<a href="http://httpd.apache.org/">Apache</a>, and next week we'll be giving someone else system access to increase reliability. Next year for the contest we'll probably use&nbsp;<a href="http://djangopackages.com/grids/g/webserver/">something like this</a>&nbsp;or get&nbsp;<a href="http://en.wikipedia.org/wiki/Continuous_integration" style="color: #b4445c;">continuous integration</a>&nbsp;running in the first hour.<br /><br /><b>Lesson: Don't be afraid to chat with others after the contest starts</b><br /><br />Share your ideas, selected packages and frameworks with your competitors. The break from coding helps clear the mind and they might counter with a better idea/package/framework you can use.
+Our experience with [Django Dash 2010](https://djangodash.com/) was that it was an wonderful exercise in classic [Django](https://djangoproject.com/) development, [cowboy/cowgirl coding](https://en.wikipedia.org/wiki/Cowboy_coding), and drinking copious amounts of [caffeinated](https://en.wikipedia.org/wiki/Caffeine) beverages. The result, [Django Packages](https://djangopackages.com/), is something we are happy with, are&nbsp;continuing&nbsp;to improve, and hope will improve the community.
+
+<b>Lesson: Fixtures are a must</b>
+
+Django gives you this amazing [Admin control panel](https://docs.djangoproject.com/en/dev/ref/contrib/admin/). As soon as you get your models in place and are entering test data, start creating fixtures. For the dash we named them initial_data.json and loaded them into the individual app directories. This meant that every time we blew away the database we got a reload with records in place. Sometimes this means you have to hand-edit [JSON](https://en.wikipedia.org/wiki/JSON) (or [YAML](https://en.wikipedia.org/wiki/YAML) if you swing that way), but the alternative is to waste time re-entering the same data again and again. Don't forget to change the names of your test fixtures before you launch!
+
+From the command-line how to save a fixture pydanny-style:
+
+<pre class="prettyprint lang-bsh">./manage.py dumpdata package &gt; apps/packages/fixtures/initial_data.json</pre>
+One nice thing about fixtures is that when you do have the time/need, you can use them to help you write tests. And it makes development easier for contributors.
+
+<b>Lesson: Research ahead of time</b>
+
+In the days before the contest, we researched to see if our target repos ([Github](https://github.com/), ;[BitBucket](https://bitbucket.org/), and&nbsp;[Google Project Hosting](https://code.google.com/)) each had an API and a python library to speak to that API. Github has both an API and python library, Bitbucket has an API but no library. And as far as we can tell, Google Project Hosting lacks both API and library (<i>someone please tell me I'm wrong about Google Project Hosting lacking an API</i>).
+
+This meant that when we commenced coding we knew which code base to work with - we weren't trying to look up this or that random package.
+
+We did the same thing for rendering charts.
+
+<b>Lesson: Get it working then optimize</b>
+
+Looking at some of the code makes us wince a bit.&nbsp;<i>But we got it working.</i>&nbsp;Now we can go back and do some code cleanup, maybe use an&nbsp;[XML parser instead of regex](https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454)&nbsp;to try to scrape content from PyPI, and generally feel better about ourselves.
+
+<b>Lesson: Plan out system architecture in advance</b>
+
+In retrospect it was really amusing, but the night of launch the site was serving via the Django runserver command. We were so dead tired and neither of us are crack system administrators that we did what we had to do to score the contest launch point. The next day [Audrey](https://audreyr.posterous.com//) got the site running under[Apache](https://httpd.apache.org/), and next week we'll be giving someone else system access to increase reliability. Next year for the contest we'll probably use&nbsp;[something like this](https://djangopackages.com/grids/g/webserver/)&nbsp;or get&nbsp;[continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)&nbsp;running in the first hour.
+
+<b>Lesson: Don't be afraid to chat with others after the contest starts</b>
+
+Share your ideas, selected packages and frameworks with your competitors. The break from coding helps clear the mind and they might counter with a better idea/package/framework you can use.
 
 ---
 
@@ -23,11 +52,19 @@ Our experience with <a href="http://djangodash.com/">Django Dash 2010</a> was th
 
 **dartdog said on 2010-08-21**
 
-Very nice post with some good detail. I need to get comfy with Fixtures asap, for upgrading my Mingus site... so many little pieces to track,, <br /><b> </b><br />Great project! congratulations to both of you.
+Very nice post with some good detail. I need to get comfy with Fixtures asap, for upgrading my Mingus site... so many little pieces to track,, 
+<b> </b>
+Great project! congratulations to both of you.
 
 **Alex said on 2010-08-21**
 
-Lesson: Get it working then optimize<br /><br /><br />Lesson: Plan out system architecture in advance<br /><br /><br />Bit of a contradiction, don't you think ;)
+Lesson: Get it working then optimize
+
+
+Lesson: Plan out system architecture in advance
+
+
+Bit of a contradiction, don't you think ;)
 
 **pydanny said on 2010-08-22**
 

@@ -6,7 +6,7 @@ import typer
 from bs4 import BeautifulSoup
 
 
-def main(input_file: Path):
+def clean(input_file: Path):
     typer.secho(f"Opening '{input_file}'", fg=typer.colors.GREEN)
     text = input_file.read_text()
 
@@ -44,6 +44,17 @@ def main(input_file: Path):
     text = text.replace('<span style="font-weight: bold;">note</span>', '**Note**:')
     
     input_file.write_text(text)
+
+def main(input_file: Path, all: bool=False):
+    if all == True:
+        typer.secho(f"Going through all files!", fg=typer.colors.GREEN)    
+
+        p = Path('.')
+        for input_file in p.glob('posts/*.md'):
+            clean(input_file)
+    else:
+        clean(input_file)
+
 
 if __name__ == "__main__":
     typer.run(main)

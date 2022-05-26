@@ -12,6 +12,6 @@ title: New Grok site!
 
 _This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/01/new-grok-site.html)_.
 
-[http://grok.zope.org/](http://grok.zope.org/)
+[https://grok.zope.org/](https://grok.zope.org/)
 
 Much better!

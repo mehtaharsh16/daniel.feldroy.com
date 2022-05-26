@@ -9,4 +9,6 @@ time_to_read: 5
 title: Power went out, but the writing went on!
 ---
 
-Thanks to torrential Los Angeles rains, last night the electricity was out for most of the evening. So my wife and I went to a dark cocktail bar until 1 AM in the morning. We brought laptops and while I pounded out two more chapters she did a bunch of photo editing.<br /><br />When you gotta write, you gotta write!
+Thanks to torrential Los Angeles rains, last night the electricity was out for most of the evening. So my wife and I went to a dark cocktail bar until 1 AM in the morning. We brought laptops and while I pounded out two more chapters she did a bunch of photo editing.
+
+When you gotta write, you gotta write!

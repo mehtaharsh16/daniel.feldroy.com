@@ -15,4 +15,14 @@ title: Northern Virginia Django Users Group lives!
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/04/northern-virginia-django-users-group.html)*.
 
-Our acronym is NOVA-DUG.<br /><br />We have a google group here: <a href="http://groups.google.com/group/NOVA-DUG">http://groups.google.com/group/NOVA-DUG</a><br /><br />Me and my co-worker <a href="http://elephantangelchild.blogspot.com/">Katie Cunningham</a>, are the co-owners of the group. We insist on ownership because we know exactly what we want out of the group.<br /><ul><li>It has to meet on a night we can easily attend and that night is invariably Wednesday.</li><li>It has to meet at a location we both can get to easily.</li></ul>See you around.
+Our acronym is NOVA-DUG.
+
+We have a google group here: [https://groups.google.com/group/NOVA-DUG](https://groups.google.com/group/NOVA-DUG)
+
+Me and my co-worker [Katie Cunningham](https://elephantangelchild.blogspot.com/), are the co-owners of the group. We insist on ownership because we know exactly what we want out of the group.
+
+
+- It has to meet on a night we can easily attend and that night is invariably Wednesday.
+- It has to meet at a location we both can get to easily.
+
+See you around.

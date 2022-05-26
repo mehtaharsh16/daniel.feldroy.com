@@ -14,7 +14,11 @@ title: Reserve your low pycon price today!
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2010/01/reserve-your-low-pycon-price-today.html)*.
 
-<a href="http://jessenoller.com/">Jesse Noller</a> made it so that you could lock in the early bird price for Pycon 2010 today.<div><br /></div><div>So hurry up and <a href="https://us.pycon.org/2010/register/">register</a>!</div><div><br /></div><div>HURRY UP!!!</div><div><br /></div><div><br /></div>
+[Jesse Noller](https://jessenoller.com/) made it so that you could lock in the early bird price for Pycon 2010 today.<div>
+</div><div>So hurry up and [register](https://us.pycon.org/2010/register/)!</div><div>
+</div><div>HURRY UP!!!</div><div>
+</div><div>
+</div>
 
 ---
 

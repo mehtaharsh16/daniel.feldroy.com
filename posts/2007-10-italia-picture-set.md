@@ -13,4 +13,4 @@ title: Italia picture set
 
 *This was originally posted on blogger [here](https://dannygreenfeld.blogspot.com/2007/10/italia-picture-set.html)*.
 
-<a href="http://www.flickr.com/photos/pydanny/sets/72157602311904156/">http://www.flickr.com/photos/pydanny/sets/72157602311904156/</a>
+[https://www.flickr.com/photos/pydanny/sets/72157602311904156/](https://www.flickr.com/photos/pydanny/sets/72157602311904156/)

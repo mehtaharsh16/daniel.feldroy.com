@@ -12,4 +12,4 @@ title: Import Soul
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/04/import-soul.html)*.
 
-<a href="http://xkcd.com/413/">http://xkcd.com/413/</a>
+[https://xkcd.com/413/](https://xkcd.com/413/)

@@ -13,7 +13,13 @@ title: My saturday class plans for 2009
 
 *This was originally posted on blogger [here](https://dannygreenfeld.blogspot.com/2008/12/my-saturday-class-plans-for-2009.html)*.
 
-After running the same sort of Saturday class for several years I've decided to stir things up.  Much as I like the current way of doing things, I have new goals in 2009 for myself and students.  New planned schedule:<br /><br /><span style="font-weight: bold;">10:00 AM to 11:00 AM Forms class</span> (open to all students)<br />This will be the practice of TKD forms and the individual elements which make up movements in the forms.  So we'll go over not just the pattern of the form, but also practice proper stances, how to do the hand techniques correctly, as well as interpretation of what the movements of the forms mean.<br /><br /><span style="font-weight: bold;">10:45 AM to Noon Striking class</span> (open to all students)<br />This will be about heavy contact striking.  The first fifteen minutes will be a warm-up led by a teen/adult black belt student for which forms class participants will be exempt.  The majority of the class will involve work against heavy bags, kicking shields, and punching targets with footwork and general strength training mixed in.
+After running the same sort of Saturday class for several years I've decided to stir things up.  Much as I like the current way of doing things, I have new goals in 2009 for myself and students.  New planned schedule:
+
+<span style="font-weight: bold;">10:00 AM to 11:00 AM Forms class</span> (open to all students)
+This will be the practice of TKD forms and the individual elements which make up movements in the forms.  So we'll go over not just the pattern of the form, but also practice proper stances, how to do the hand techniques correctly, as well as interpretation of what the movements of the forms mean.
+
+<span style="font-weight: bold;">10:45 AM to Noon Striking class</span> (open to all students)
+This will be about heavy contact striking.  The first fifteen minutes will be a warm-up led by a teen/adult black belt student for which forms class participants will be exempt.  The majority of the class will involve work against heavy bags, kicking shields, and punching targets with footwork and general strength training mixed in.
 
 ---
 

@@ -9,4 +9,4 @@ time_to_read: 5
 title: Siege has 8 chapters!
 ---
 
-At the rate I'm writing chapters for <a href="https://www.wattpad.com/story/95032418-siege">Siege</a>, the book will have over 50,000 words by the end of this month. That's like Nanowrimo, but for January. Perhaps this is Januwrimo?
+At the rate I'm writing chapters for [Siege](https://www.wattpad.com/story/95032418-siege), the book will have over 50,000 words by the end of this month. That's like Nanowrimo, but for January. Perhaps this is Januwrimo?

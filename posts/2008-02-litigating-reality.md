@@ -12,6 +12,6 @@ title: Litigating reality
 
 _This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/02/litigating-reality.html)_.
 
-[en.wikipedia.org/wiki/Indiana_Pi_Bill](http://en.wikipedia.org/wiki/Indiana_Pi_Bill)
+[en.wikipedia.org/wiki/Indiana_Pi_Bill](https://en.wikipedia.org/wiki/Indiana_Pi_Bill)
 
 Funny

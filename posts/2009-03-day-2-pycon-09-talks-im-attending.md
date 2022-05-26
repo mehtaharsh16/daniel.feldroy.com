@@ -13,4 +13,14 @@ title: Day 2 Pycon-09 talks I'm attending
 
 *This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/03/day-2-pycon-09-talks-im-attending.html)*.
 
-My sinister session plan:<br /><ol><li>The State of Django</li><li>Pinax</li><li>State of TurboGears</li><li>ORM</li><li>Google App Engine</li><li>Plone in the cloud</li><li>Topics of Interest</li></ol>
+My sinister session plan:
+
+
+1. The State of Django
+- Pinax
+- State of TurboGears
+- ORM
+- Google App Engine
+- Plone in the cloud
+- Topics of Interest
+

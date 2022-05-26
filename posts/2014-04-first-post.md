@@ -9,4 +9,6 @@ time_to_read: 5
 title: First Post
 ---
 
-Hi and welcome the blog of Daniel Roy Greenfeld, fantasy and science fiction author. This blog will be where I chronicle my experimentations with writing.<br /><br /><a href="http://1.bp.blogspot.com/-4lrjFMu6sMI/VRXy4Gw4CYI/AAAAAAAAExc/POYHX6xFtUc/s1600/portrait.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="http://1.bp.blogspot.com/-4lrjFMu6sMI/VRXy4Gw4CYI/AAAAAAAAExc/POYHX6xFtUc/s1600/portrait.jpg" width="640" /></a>
+Hi and welcome the blog of Daniel Roy Greenfeld, fantasy and science fiction author. This blog will be where I chronicle my experimentations with writing.
+
+<a href="https://1.bp.blogspot.com/-4lrjFMu6sMI/VRXy4Gw4CYI/AAAAAAAAExc/POYHX6xFtUc/s1600/portrait.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="https://1.bp.blogspot.com/-4lrjFMu6sMI/VRXy4Gw4CYI/AAAAAAAAExc/POYHX6xFtUc/s1600/portrait.jpg" width="640" /></a>
