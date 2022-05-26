@@ -14,4 +14,8 @@ title: Flooding sucks
 
 *This was originally posted on blogger [here](https://dannygreenfeld.blogspot.com/2008/05/flooding-sucks.html)*.
 
-Rain.  Mislabeled breaker that turned off our sump pump.  Ankle deep water in my basement.<br /><br />That was mother's day.<br /><br />And I forgot to call my mom.  She ain't happy.
+Rain.  Mislabeled breaker that turned off our sump pump.  Ankle deep water in my basement.
+
+That was mother's day.
+
+And I forgot to call my mom.  She ain't happy.
