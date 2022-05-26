@@ -22,4 +22,4 @@ The second task is to do some work with portlets. We can get by with some static
 
 While committing to SVN I got distracted and made a mistake. Then I reinstalled the project to make sure I hadn't broken anything else. All looked good. That ate up another 30 minutes but it was a good thing to check.
 
-So then I decided to test it out. And you know what? I can't get the addForm or editForm to work - you know the bits powered by zope.formlib. Instead I get a 404 error when I try and add my portlet.link portlet. I've banged my head a bit, since doing this in Zope 3 was a snap. Yet this Plone 3 portlet has been annoying. This looks to be so simple and I know I'll curse myself later for how obvious it must really, actually be.
+So then I decided to test it out. And you know what? I can't get the addForm or editForm to work - you know the bits powered by `zope.formlib`. Instead I get a 404 error when I try and add my portlet.link portlet. I've banged my head a bit, since doing this in Zope 3 was a snap. Yet this Plone 3 portlet has been annoying. This looks to be so simple and I know I'll curse myself later for how obvious it must really, actually be.
