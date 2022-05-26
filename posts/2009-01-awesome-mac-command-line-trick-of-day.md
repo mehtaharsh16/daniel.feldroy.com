@@ -12,5 +12,10 @@ title: Awesome Mac command-line trick of the day
 
 _This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/01/awesome-mac-command-line-trick-of-day.html)_.
 
-<span class="entry-content">From the command line:
-</span><span class="entry-content"><blockquote>echo "blah" | pbcopy</blockquote></span><span class="entry-content">Which copies 'blah' into your clipboard. Courtesy of </span>[Philipp von Weitershausen.](https://worldcookery.com/)
+From the command line:
+
+```bash
+echo "blah" | pbcopy
+```
+
+Which copies 'blah' into your clipboard. Courtesy of [Philipp von Weitershausen.](https://worldcookery.com/)

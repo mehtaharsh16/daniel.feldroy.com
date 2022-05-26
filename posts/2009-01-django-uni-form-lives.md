@@ -1,17 +1,17 @@
 ---
-date: '2009-01-12T09:58:00.004-08:00'
-description: ''
+date: "2009-01-12T09:58:00.004-08:00"
+description: ""
 published: true
 slug: 2009-01-django-uni-form-lives
 tags:
-- django
-- pinax
-- legacy-blogger
+  - django
+  - pinax
+  - legacy-blogger
 time_to_read: 5
 title: django-uni-form lives!
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/01/django-uni-form-lives.html)*.
+_This was originally posted on blogger [here](https://pydanny.blogspot.com/2009/01/django-uni-form-lives.html)_.
 
 [Django Uni-Form](https://github.com/pydanny/django-uni-form/) is my answer to a problem with the Django forms API in that they do not play so well in the arena of the disability access. The default view uses tables which is not disabled friendly. Other views build forms as paragraphs or lists, neither which is optimal for attractive display of HTML forms.
 
@@ -23,17 +23,13 @@ Anyway, after a bit of setup, you do an easy modification of the form templates 
 
 Some final notes and comparisons:
 
-
 1. Time to get a basic version running was about 45 minutes.
-- Time to get the styling working was about 1 hour (mostly a stupid mistake on my part).
-- I'm hoping the Pinax project will incorporate my efforts!  ;)
-- The Django docs were very clear on everything I needed to do. I did not have to leave [https://docs.djangoproject.com](https://docs.djangoproject.com/) to accomplish my chosen task. I cannot stress enough that this is something I really enjoy about Django.
+2. Time to get the styling working was about 1 hour (mostly a stupid mistake on my part).
+3. I'm hoping the Pinax project will incorporate my efforts! ;)
+4. The Django docs were very clear on everything I needed to do. I did not have to leave [https://docs.djangoproject.com](https://docs.djangoproject.com/) to accomplish my chosen task. I cannot stress enough that this is something I really enjoy about Django.
+5. This was fun and easy.
 
-- This was fun and easy.
-
-
-
-<b>Edit on 7/15/2010</b>: Changed the link to django-uni-form on github.
+**Edit on 7/15/2010**: Changed the link to django-uni-form on github.
 
 ---
 
@@ -42,4 +38,3 @@ Some final notes and comparisons:
 **pydanny said on 2010-07-15**
 
 John, please use the github version, not the google code version!
-
