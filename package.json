@@ -11,6 +11,7 @@
     "@markdoc/markdoc": "^0.1.2",
     "@markdoc/next.js": "^0.1.4",
     "@observablehq/plot": "^0.4.3",
+    "@svgdotjs/svg.js": "^3.1.2",
     "blog": "^1.0.0",
     "d3": "^7.4.4",
     "date-fns": "^2.21.3",

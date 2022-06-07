@@ -20,6 +20,7 @@ This is my employer, providing renewable energy and fighting against climate cha
 - [🇳🇿 New Zealand](https://jobs.lever.co/octoenergy?department=Octopus%20Energy%20New%20Zealand%20%F0%9F%87%B3%F0%9F%87%BF)
 - [🇸🇬 Singapore](https://jobs.lever.co/octoenergy/f513ab58-877b-45a6-8ec6-955ef11eeb61)
 - [🇪🇸 Spain](https://jobs.lever.co/octoenergy?department=Octopus%20Energy%20Spain%20%F0%9F%87%AA%F0%9F%87%B8)
+- [🇹🇷 Turkey](https://jobs.lever.co/octoenergy/74e131bf-ec93-4aed-a2ad-3ecb2a6356e4)
 - [🇬🇧 UK](https://octopus.energy/kraken-tech-careers/)
 - [🇺🇸 USA (mostly in Houston, TX)](https://octopusenergy.com/careers)
 
