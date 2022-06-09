@@ -6,6 +6,12 @@ author: "Daniel Roy Greenfeld"
 
 # News
 
+## June 2022
+
+### June 8, 2022
+
+- Simplify fitness charts
+
 ## May 2022
 
 ### May 24, 2022

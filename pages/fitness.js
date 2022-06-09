@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import utilStyles from "../styles/utils.module.css";
 
 export default function Fitness() {
+  const weightRef = useRef();
   const headerRef = useRef();
   const [data, setData] = useState();
   const xLabel = "Date";
@@ -15,14 +16,15 @@ export default function Fitness() {
   useEffect(() => {
     if (data === undefined) return;
 
-    let maxWeight = data.map((x) => x.Weight);
-    maxWeight = Math.max(...maxWeight);
+    const weights = data.map((x) => x.Weight);
+    const maxWeight = Math.max(...weights);
+    const minWeight = Math.min(...weights);
 
     const chart = Plot.plot({
       marginRight: 100,
       y: {
         grid: true,
-        domain: [0, maxWeight + 10],
+        domain: [minWeight - 1, maxWeight + 1],
       },
       marks: [
         // Weght
@@ -39,62 +41,10 @@ export default function Fitness() {
           text: [". Weight"],
           textAnchor: "start",
         }),
-        // Pushups
-        Plot.line(data, {
-          x: xLabel,
-          y: "Pushups",
-          stroke: "green",
-          marker: "circle",
-        }),
-        Plot.text(data.slice(0, 1), {
-          x: xLabel,
-          y: "Pushups",
-          text: [". Pushups"],
-          textAnchor: "start",
-        }),
-        // Squats
-        Plot.line(data, {
-          x: xLabel,
-          y: "Squats",
-          stroke: "blue",
-          marker: "circle",
-        }),
-        Plot.text(data.slice(0, 1), {
-          x: xLabel,
-          y: "Squats",
-          text: [". Squats"],
-          textAnchor: "start",
-        }),
-        // VR
-        Plot.line(data, {
-          x: xLabel,
-          y: "VR",
-          stroke: "purple",
-          marker: "circle",
-        }),
-        Plot.text(data.slice(0, 1), {
-          x: xLabel,
-          y: "VR",
-          text: [". VR"],
-          textAnchor: "start",
-        }),
-        // Bicycle
-        Plot.line(data, {
-          x: xLabel,
-          y: "Bicycling",
-          stroke: "red",
-          marker: "circle",
-        }),
-        Plot.text(data.slice(0, 1), {
-          x: xLabel,
-          y: "Bicycling",
-          text: [". Bicycling"],
-          textAnchor: "start",
-        }),
       ],
     });
 
-    headerRef.current.append(chart);
+    weightRef.current.append(chart);
     return () => chart.remove();
   }, [data]);
 
@@ -106,8 +56,17 @@ export default function Fitness() {
           Can't see any charts? You might need to allow JavaScript on this page.
         </i>
       </p>
-      <p>May, 2022</p>
-      <header className="App-header" ref={headerRef}></header>
+      <h3 className={utilStyles.headingLg}>Weight Chart</h3>
+      <header className="App-header" ref={weightRef}></header>
+      <h3 className={utilStyles.headingLg}>Activities to be charted</h3>
+      <ul>
+        <li>Pull ups</li>
+        <li>Push ups</li>
+        <li>Squats</li>
+        <li>Swimming</li>
+        <li>VR</li>
+        <li>Cycling</li>
+      </ul>
     </>
   );
 }
