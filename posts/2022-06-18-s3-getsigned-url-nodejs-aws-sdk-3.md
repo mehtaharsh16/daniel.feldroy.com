@@ -15,7 +15,7 @@ An easy-to-find copy/pastable reference for creating pre-signed URLs for getting
 
 # Background
 
-Maybe there's a reference in the docs that provides an easy-to-use documentation of the AWS SDK v3 method for creating pre-signed URLs using Node (or TypeScript). Alas, after 45 minutes of googling, stack overflowing, and other searching I couldn't find it. Yes, the docs had examples, but they weren't copy/pastable for lazy/productive coders like myself. Perhaps I need to improve my search skills? I managed to solve it, but that took more effort than I expected.
+Maybe there's a reference in the docs that provides an easy-to-use documentation of the AWS SDK v3 method for creating pre-signed URLs using Node (or TypeScript). Alas, after 45 minutes of googling, stack overflowing, and other searching I couldn't find it. Yes, [the docs had examples](https://aws.amazon.com/blogs/developer/generate-presigned-url-modular-aws-sdk-javascript), but they weren't copy/pastable for lazy/productive coders like myself. Perhaps I need to improve my search skills? I managed to solve it, but that took more effort than I expected.
 
 For what it is worth, I hope the maintainers of the Node.js AWS SDK v3 add a copy/pastable version somewhere more obvious. The official docs will show up in searches before this article.
 
@@ -69,8 +69,7 @@ export default getSignedFileUrl;
 import getFileUrl from "/lib/s3FileFetch";
 
 async function returnThumbnail(thumbnail_key) {
-  const thumbnail = await getFileUrl(thumbnail_key, "my_bucket", 3600);
-  return thumbnail;
+  return await getFileUrl(thumbnail_key, "my_bucket", 3600);
 }
 ```
 
