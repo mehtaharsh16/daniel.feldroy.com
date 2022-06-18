@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 
 export default function Fitness() {
   const weightRef = useRef();
-  const headerRef = useRef();
+  const excerciseRef = useRef();
   const [data, setData] = useState();
   const xLabel = "Date";
 
@@ -15,12 +15,14 @@ export default function Fitness() {
 
   useEffect(() => {
     if (data === undefined) return;
+    const dataset = data.slice(0, 10);
+    const dataset2 = data.slice(0, 10);
 
-    const weights = data.map((x) => x.Weight);
+    const weights = dataset.map((x) => x.Weight);
     const maxWeight = Math.max(...weights);
     const minWeight = Math.min(...weights);
 
-    const chart = Plot.plot({
+    const chart1 = Plot.plot({
       marginRight: 100,
       y: {
         grid: true,
@@ -28,14 +30,14 @@ export default function Fitness() {
       },
       marks: [
         // Weght
-        Plot.line(data, {
+        Plot.line(dataset, {
           x: xLabel,
           y: "Weight",
           stroke: "red",
           strokeWidth: 3,
           marker: "circle",
         }),
-        Plot.text(data.slice(0, 1), {
+        Plot.text(dataset.slice(0, 1), {
           x: xLabel,
           y: "Weight",
           text: [". Weight"],
@@ -44,7 +46,32 @@ export default function Fitness() {
       ],
     });
 
-    weightRef.current.append(chart);
+    const chart2 = Plot.plot({
+      marginRight: 100,
+      y: {
+        grid: true,
+        domain: [0, 10],
+      },
+      marks: [
+        // Weght
+        Plot.line(dataset2, {
+          x: xLabel,
+          y: "PullUps",
+          stroke: "red",
+          strokeWidth: 3,
+          marker: "circle",
+        }),
+        Plot.text(dataset2.slice(0, 1), {
+          x: xLabel,
+          y: "PullUps",
+          text: [". Pull Ups"],
+          textAnchor: "start",
+        }),
+      ],
+    });
+
+    weightRef.current.append(chart1);
+    excerciseRef.current.append(chart2);
     return () => chart.remove();
   }, [data]);
 
@@ -59,6 +86,8 @@ export default function Fitness() {
       <h3 className={utilStyles.headingLg}>Weight Chart</h3>
       <header className="App-header" ref={weightRef}></header>
       <h3 className={utilStyles.headingLg}>Activities to be charted</h3>
+
+      <header className="App-header" ref={excerciseRef}></header>
       <ul>
         <li>Pull ups</li>
         <li>Push ups</li>
