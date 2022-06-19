@@ -80,4 +80,4 @@ This works but I'm certain it can be improved. If you have any suggestions on ho
 
 # Updates
 
-- 2022-06-19: Moved configuration and instantiation of `s3` object out of the function thanks to a suggestion by Jake Patrick.
+- 2022-06-19: Moved configuration and instantiation of `s3` object out of the function thanks to a suggestion by [Jake Patrick](https://github.com/defy93).
