@@ -36,19 +36,20 @@ I encapsulated my solution in a function in `s3FileFetch.js` so I could use it a
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { S3Client, GetObjectCommand } from "@aws-sdk/client-s3";
 
+// Create the config obj with credentials
+// Always use environment variables or config files
+// Don't hardcode your keys into code
+const config = {
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  },
+  region: "us-west-2",
+};
+// Instantiate a new s3 client
+const client = new S3Client(config);
+
 async function getSignedFileUrl(fileName, bucket, expiresIn) {
-  // Create the config obj with credentials
-  // Always use environment variables or config files
-  // Don't hardcode your keys into code
-  const config = {
-    credentials: {
-      accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-    },
-    region: "us-west-2",
-  };
-  // Instantiate a new s3 client
-  const client = new S3Client(config);
   // Instantiate the GetObject command,
   // a.k.a. specific the bucket and key
   const command = new GetObjectCommand({
@@ -76,3 +77,7 @@ async function returnThumbnail(thumbnail_key) {
 # Any Suggestions?
 
 This works but I'm certain it can be improved. If you have any suggestions on how to do this action better, let me know in social media or email!
+
+# Updates
+
+- 2022-06-19: Moved configuration and instantiation of `s3` object out of the function thanks to a suggestion by Jake Patrick.
