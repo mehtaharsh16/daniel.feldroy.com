@@ -29,6 +29,7 @@ export default function Post({ postData }) {
     title: postData.title,
     description: postData.description,
     image: postData.image,
+    twitter_image: postData.twitter_image,
     og_url: `https://daniel.feldroy.com/posts/${postData.id}`,
   };
   return (
@@ -63,7 +64,6 @@ export default function Post({ postData }) {
           name="twitter:title"
           content={meta.title ? meta.title : "Daniel Roy Greenfeld"}
         />
-        twitter:image
         {meta.image ? (
           <>
             <meta
