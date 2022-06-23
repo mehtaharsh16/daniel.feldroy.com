@@ -171,6 +171,7 @@ export default function Layout({ children, home, meta = {} }) {
       )}
       <footer className={styles.footer}>
         <p>
+          <a href="https://twitter.com/pydanny">Twitter</a> |{" "}
           <a href="/feeds/atom.xml">Atom Feed</a>
         </p>
         <p>{copyright}</p>
