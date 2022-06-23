@@ -54,6 +54,10 @@ Then politely admit you don't know the answer. Gently steer the person to others
 
 Gently guide the person to others who can help them, or to online help methods. Or suggest a time when you will have time to answer their questions.
 
+### Does it have to be thirty minutes?
+
+Adjust the duration to best suit your team. A common variation is to increase it to 60 minutes.
+
 ![Sitting at my first computer](/images/6933443849_51316a7cb7.jpg)
 
 _Sitting at my first computer._
@@ -63,3 +67,4 @@ _Sitting at my first computer._
 **Edits**
 
 - Grammar correction thanks to Vadym Khodak
+- Mention that it's okay to change the duration of the rule
