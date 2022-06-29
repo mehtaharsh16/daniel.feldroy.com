@@ -8,7 +8,9 @@ author: "Daniel Roy Greenfeld"
 
 These are employers who I can confirm are good to work for, who take care of their people. They are lead by people with a strong sense of ethics and try to do good for the world. To be more succinct: these are places I would consider working.
 
-## [#](#octopus-energy) [Octopus Energy](https://octopusenergy.com/careers) {% #octopus-energy %}
+Employers that focus in particular on decarbonization and other aspects of climate change are listed first, and get Earth emoji (🌎🌍🌏) by their name.
+
+## [#](#octopus-energy) [Octopus Energy](https://octopusenergy.com/careers) {% #octopus-energy %} 🌎🌍🌏
 
 This is my employer, providing renewable energy and fighting against climate change. How awesome is that? We do Python on the backend, React on the frontend, and host on AWS. [Read why I love working here](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1). We have positions open all over the planet:
 
@@ -26,7 +28,11 @@ This is my employer, providing renewable energy and fighting against climate cha
 
 The segment I work on is Kraken Technologies. Check out the awesome new logo and click on it to learn more about what I'm building!
 
-[![](/images/2022_KrakenV2_stacked_Transparent.png)](https://octopusenergy.group/kraken-technologies)
+[![](/images/2022_KrakenV2_stacked_Transparent.png)](https://octopusenergy.group/kraken-technologies) {% .jobImage %}
+
+## [#](six-feet-up) [Six Feet Up](https://sixfeetup.com/company/careers) 🌎🌍🌏
+
+I appreciate the pledge they make to treat staff in a humane way and use their talents to help the world. They are repositioning themselves to support decarbonization and other positive aspects of fighting climate change. Based in Indiana, USA but allows remote work from pretty much anywhere.
 
 ## [#](#anaconda) [Anaconda](https://www.anaconda.com/careers) {% #anaconda %}
 
@@ -35,7 +41,3 @@ If you care about data and open source, you can't go wrong working for Anaconda.
 ## [#](#labcodes) [Labcodes](https://labcodes.com.br/careers)
 
 Another consultancy who does right by their people and does no harm to the world. Based in Recife, Brazil but allows remote work from pretty much anywhere.
-
-## [#](six-feet-up) [Six Feet Up](https://sixfeetup.com/company/careers)
-
-I appreciate the pledge they make to treat staff in a humane way and use their talents to help the world. Based in Indiana, USA but allows remote work from pretty much anywhere.
