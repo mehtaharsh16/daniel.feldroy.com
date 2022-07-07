@@ -30,14 +30,14 @@ The segment I work on is Kraken Technologies. Check out the awesome new logo and
 
 [![](/images/2022_KrakenV2_stacked_Transparent.png)](https://octopusenergy.group/kraken-technologies) {% .jobImage %}
 
-## [#](six-feet-up) [Six Feet Up](https://sixfeetup.com/company/careers) 🌎🌍🌏
+## [##](six-feet-up) [Six Feet Up](https://sixfeetup.com/company/careers) 🌎🌍🌏
 
 I appreciate the pledge they make to treat staff in a humane way and use their talents to help the world. They are repositioning themselves to support decarbonization and other positive aspects of fighting climate change. Based in Indiana, USA but allows remote work from pretty much anywhere.
 
-## [#](#anaconda) [Anaconda](https://www.anaconda.com/careers) {% #anaconda %}
+## [##](#anaconda) [Anaconda](https://www.anaconda.com/careers) {% #anaconda %}
 
 If you care about data and open source, you can't go wrong working for Anaconda. They take care of their people and their customer base is in large part the entire Python community. Based in Austin, Texas, USA but allows remote work from pretty much anywhere.
 
-## [#](#labcodes) [Labcodes](https://labcodes.com.br/careers)
+## [##](#labcodes) [Labcodes](https://labcodes.com.br/careers)
 
 Another consultancy who does right by their people and does no harm to the world. Based in Recife, Brazil but allows remote work from pretty much anywhere.
