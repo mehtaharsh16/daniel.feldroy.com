@@ -10,9 +10,13 @@ These are employers who I can confirm are good to work for, who take care of the
 
 Employers that focus in particular on decarbonization and other aspects of climate change are listed first, and get Earth emoji (🌎🌍🌏) by their name.
 
-## [#](#octopus-energy) [Octopus Energy](https://octopusenergy.com/careers) {% #octopus-energy %} 🌎🌍🌏
+## [#](#octopus-energy) [Octopus Energy / Kraken Technologies](https://octopusenergy.com/careers) {% #octopus-energy %} 🌎🌍🌏
 
-This is my employer, providing renewable energy and fighting against climate change. How awesome is that? We do Python on the backend, React on the frontend, and host on AWS. [Read why I love working here](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1). We have positions open all over the planet:
+This is my employer, providing renewable energy and fighting against climate change. How awesome is that?Inside of Octopus Energy, I work for the Kraken Tech group, which focuses on delivering solutions of Octopus Energy and licensees.
+
+[![](/images/2022_KrakenV2_stacked_Transparent.png)](https://octopusenergy.group/kraken-technologies) {% .jobImage %}
+
+We do Python on the backend, React on the frontend, and host on AWS. [Read why I love working here](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1). We have positions open all over the planet:
 
 - [🇦🇺 Australia](https://jobs.lever.co/octoenergy?department=Octopus%20Energy%20Australia%20%F0%9F%87%A6%F0%9F%87%BA)
 - [🇩🇪 Germany](https://www.octopusenergy.de/karriere)
@@ -26,17 +30,27 @@ This is my employer, providing renewable energy and fighting against climate cha
 - [🇬🇧 UK](https://octopus.energy/kraken-tech-careers/)
 - [🇺🇸 USA (mostly in Houston, TX)](https://octopusenergy.com/careers)
 
-The segment I work on is Kraken Technologies. Check out the awesome new logo and click on it to learn more about what I'm building!
+---
 
-[![](/images/2022_KrakenV2_stacked_Transparent.png)](https://octopusenergy.group/kraken-technologies) {% .jobImage %}
+[![](/images/SFU-Logo.png)](https://sixfeetup.com/company/careers) {% .jobImage %} 🌎🌍🌏 {% #six-feet-up %}
 
-## [#](#six-feet-up) [Six Feet Up](https://sixfeetup.com/company/careers) 🌎🌍🌏 {% #six-feet-up %}
+[#](#six-feet-up) [Six Feet Up](https://sixfeetup.com/company/careers)
 
-I appreciate the pledge they make to treat staff in a humane way and use their talents to help the world. They are repositioning themselves to support decarbonization and other positive aspects of fighting climate change. Based in Indiana, USA but allows remote work from pretty much anywhere.
+I appreciate the pledge they make to treat staff in a humane way and use their talents to help the world. They are repositioning themselves to support decarbonization and other positive aspects of fighting climate change.
+
+In fact, Six Feet Up has a formal initiative they call [IMPACTFUL](https://sixfeetup.com/company/our-mission#objective) that is inspirational. More organizations should choose to take positive action in this manner.
+
+[![](/images/SFU-impact.png)](https://sixfeetup.com/company/our-mission#objective) {% .jobImage %}
+
+Six Feet Up is based in Indiana, USA but allows [remote work](https://sixfeetup.com/company/careers) from pretty much anywhere.
+
+---
 
 ## [#](#anaconda) [Anaconda](https://www.anaconda.com/careers) {% #anaconda %}
 
 If you care about data and open source, you can't go wrong working for Anaconda. They take care of their people and their customer base is in large part the entire Python community. Based in Austin, Texas, USA but allows remote work from pretty much anywhere.
+
+---
 
 ## [#](#labcodes) [Labcodes](https://labcodes.com.br/careers) {% #labcodes %}
 
