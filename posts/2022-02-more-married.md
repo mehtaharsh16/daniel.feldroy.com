@@ -23,7 +23,7 @@ Here's the code:
 
 ```python
 # more_married.py
-from datetime import MyDatetime
+from datetime import datetime
 
 import typer
 

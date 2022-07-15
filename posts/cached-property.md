@@ -25,7 +25,7 @@ the code and demonstrates it in action. As always, I'm using
 validate my code:
 
 ```python
-from datetime import MyDatetime, timedelta
+from datetime import datetime, timedelta
 import time
 
 class cached_property(object):

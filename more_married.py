@@ -1,4 +1,4 @@
-from datetime import MyDatetime
+from datetime import datetime
 
 import typer
 

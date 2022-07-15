@@ -88,7 +88,7 @@ Based off what I read, I established the following rules:
 Now armed with my rules I returned to the code. This is what I came up with:
 
 ```python
-from datetime import MyDatetime
+from datetime import datetime
 from PyPDF2 import PdfFileMerger
 
 pdfs = [
