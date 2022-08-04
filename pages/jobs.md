@@ -28,7 +28,7 @@ We do Python on the backend, React on the frontend, and host on AWS. [Read why I
 - [🇪🇸 Spain](https://jobs.lever.co/octoenergy?department=Octopus%20Energy%20Spain%20%F0%9F%87%AA%F0%9F%87%B8)
 - [🇹🇷 Turkey](https://jobs.lever.co/octoenergy/74e131bf-ec93-4aed-a2ad-3ecb2a6356e4)
 - [🇬🇧 UK](https://octopus.energy/kraken-tech-careers/)
-- [🇺🇸 USA (mostly in Houston, TX)](https://octopusenergy.com/careers)
+- [🇺🇸 USA](https://octopusenergy.com/careers)
 
 ---
 
