@@ -16,7 +16,7 @@ This is my employer, providing renewable energy and fighting against climate cha
 
 [![](/images/2022_KrakenV2_stacked_Transparent.png)](https://octopusenergy.group/kraken-technologies) {% .jobImage %}
 
-We do Python on the backend, React on the frontend, and host on AWS. [Read why I love working here](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1). We have positions open all over the planet:
+We do Python on the backend, React on the frontend, and host on AWS. [Read why I love working here](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1). We have positions open all over the planet. Sorry, we're only hiring from these countries, but this list is growing rapidly!
 
 - [🇦🇺 Australia](https://jobs.lever.co/octoenergy?department=Octopus%20Energy%20Australia%20%F0%9F%87%A6%F0%9F%87%BA)
 - [🇩🇪 Germany](https://www.octopusenergy.de/karriere)
