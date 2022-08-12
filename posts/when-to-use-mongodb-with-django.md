@@ -112,7 +112,7 @@ Some people will argue that third-party tools like Djongo create easy-to-use bri
 
 All you have to worry about is the odd edge case, right?
 
-Unfortunately, it's the edge cases that are the problem. Edge cases can make it impossible to proceed further without problematic hackery. I know this is the case because I've gone down this path myself.
+Unfortunately, it's the edge cases that are the problem. Edge cases can make it impossible to proceed further without problematic hackery. I know this is true as I've gone down this path myself.
 
 Complicating things is that if maintenance on a Django/MongoDB bridge package stops, what then? The Django ecosystem is [littered with dead Django/MongoDB connectors](https://djangopackages.org/search/?q=mongo).
 
