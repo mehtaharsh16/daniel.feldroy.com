@@ -8,6 +8,14 @@ author: "Daniel Roy Greenfeld"
 
 ## June 2022
 
+### August 12, 2022
+
+- Updated [When to Use MongoDB with Django](/posts/when-to-use-mongodb-with-django) to include section discussing Django/MongoDB bridges
+
+### June 18, 2022
+
+- Added [Getting s3 pre-signed URLS using the Node.js AWS SDK v3](/posts/2022-06-18-s3-getsigned-url-nodejs-aws-sdk-3)
+
 ### June 8, 2022
 
 - Simplify fitness charts
