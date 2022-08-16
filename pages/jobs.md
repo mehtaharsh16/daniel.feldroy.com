@@ -12,23 +12,13 @@ Employers that focus in particular on decarbonization and other aspects of clima
 
 ## [#](#octopus-energy) [Octopus Energy / Kraken Technologies](https://octopusenergy.com/careers) {% #octopus-energy %} 🌎🌍🌏
 
-This is my employer, providing renewable energy and fighting against climate change. How awesome is that?Inside of Octopus Energy, I work for the Kraken Tech group, which focuses on delivering solutions of Octopus Energy and licensees.
+This is my employer, providing renewable energy and fighting against climate change. How awesome is that? Inside of Octopus Energy group, I work for the Kraken Tech corporation, which focuses on delivering energy retail solutions for Octopus Energy and licensees.
 
 [![](/images/2022_KrakenV2_stacked_Transparent.png)](https://octopusenergy.group/kraken-technologies) {% .jobImage %}
 
-We do Python on the backend, React on the frontend, and host on AWS. [Read why I love working here](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1). We have positions open all over the planet. Sorry, we're only hiring from these countries, but this list is growing rapidly!
+We do Python on the backend, React on the frontend, and host on AWS. [Read why I love working here](/posts/whats-the-best-thing-about-working-for-octopus-energy-part-1). We have positions [open all over the planet](https://octopus.energy/careers/join-us).
 
-- [🇦🇺 Australia](https://jobs.lever.co/octoenergy?department=Octopus%20Energy%20Australia%20%F0%9F%87%A6%F0%9F%87%BA)
-- [🇩🇪 Germany](https://www.octopusenergy.de/karriere)
-- [🇫🇷 France](https://jobs.lever.co/octoenergy?location=Paris%2C%20FR)
-- [🇮🇹 Italy](https://jobs.lever.co/octoenergy?location=Milan%2C%20IT)
-- [🇯🇵 Japan](https://jobs.lever.co/octoenergy?department=Kraken%20Technologies%20Japan%20%2F%20%E5%8B%A4%E5%8B%99%E5%9C%B0%EF%BC%9A%E6%9D%B1%E4%BA%AC%20%20%F0%9F%87%AF%F0%9F%87%B5)
-- [🇳🇿 New Zealand](https://jobs.lever.co/octoenergy?department=Octopus%20Energy%20New%20Zealand%20%F0%9F%87%B3%F0%9F%87%BF)
-- [🇸🇬 Singapore](https://jobs.lever.co/octoenergy/f513ab58-877b-45a6-8ec6-955ef11eeb61)
-- [🇪🇸 Spain](https://jobs.lever.co/octoenergy?department=Octopus%20Energy%20Spain%20%F0%9F%87%AA%F0%9F%87%B8)
-- [🇹🇷 Turkey](https://jobs.lever.co/octoenergy/74e131bf-ec93-4aed-a2ad-3ecb2a6356e4)
-- [🇬🇧 UK](https://octopus.energy/kraken-tech-careers/)
-- [🇺🇸 USA](https://octopusenergy.com/careers)
+Sorry, we're only hiring from the countries listed on our [open roles page](https://octopus.energy/careers/join-us). However, we're expanding and if your country isn't listed yet, stay tuned because it might be soon
 
 ---
 

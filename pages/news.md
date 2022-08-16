@@ -6,11 +6,17 @@ author: "Daniel Roy Greenfeld"
 
 # News
 
-## June 2022
+#3 August 2022
+
+### August 16, 2022
+
+- Updated the [Jobs](/jobs) page to link to the Octopus Energy [open roles page](https://octopus.energy/careers/join-us)
 
 ### August 12, 2022
 
 - Updated [When to Use MongoDB with Django](/posts/when-to-use-mongodb-with-django) to include section discussing Django/MongoDB bridges
+
+## June 2022
 
 ### June 18, 2022
 
