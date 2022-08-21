@@ -160,8 +160,8 @@ answer than the official one of 'Do this instead!'
 
 ---
 
-The reference book I co-authored with [Audrey Roy
-Greenfeld](https://audrey.roygreenfeld.com) on Django best practices,
-[Two Scoops of Django
-1.8](https://roygreenfeld.com/products/two-scoops-of-django-1-8), is
-now available in both print paperback and PDF formats.
+# 2022 Post Script
+
+In the years since I wrote this article it and my person have been accused of having a [Stockhom Syndrome](https://en.wikipedia.org/wiki/Stockholm_syndrome)-like bias for what might be a shortcoming in Python. Perhaps that is the truth.
+
+In any case, as of Python 3.10 there's a [PEP 634: Structural Pattern Matching](https://docs.python.org/3/whatsnew/3.10.html#pep-634-structural-pattern-matching) in Python, which is Python's feature-rich implementation of switch/case.

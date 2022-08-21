@@ -6,7 +6,11 @@ author: "Daniel Roy Greenfeld"
 
 # News
 
-#3 August 2022
+## August 2022
+
+### August 21, 2022
+
+- Added Post Script and removed link to old version of Two Scoop of Django in the [Why Doesn't Python Have Switch/Case?](/posts/why-doesnt-python-have-switch-case) article
 
 ### August 16, 2022
 
