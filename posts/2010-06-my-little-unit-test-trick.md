@@ -1,16 +1,16 @@
 ---
-date: '2010-06-08T17:29:00.000-07:00'
-description: ''
+date: "2010-06-08T17:29:00.000-07:00"
+description: ""
 published: true
 slug: 2010-06-my-little-unit-test-trick
 tags:
-- python
-- legacy-blogger
+  - python
+  - legacy-blogger
 time_to_read: 5
 title: My little unit test trick
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2010/06/my-little-unit-test-trick.html)*.
+_This was originally posted on blogger [here](https://pydanny.blogspot.com/2010/06/my-little-unit-test-trick.html)_.
 
 This is an oldie but a goodie.
 
@@ -20,19 +20,21 @@ However, sometimes when your unit tests get sophisticated it can be a pain to in
 
 So as soon as things get the least bit complicated I simply start using the Python help() function and [pdb](https://docs.python.org/library/pdb.html) library inside my test code. For example:
 
-<pre class="prettyprint lang-py">class MyTests(unittest):
+```python
+class MyTests(unittest):
     def test_pretending_to_be_complex(self):
         ...
         complex_object = really_complex_actions()
         ...
-        
+
         # help demonstration
         help(complex_object)
 
         # PDB example cause everyone loves that too.
-        import pdb        
+        import pdb
         pdb.set_trace()
-</pre>
+```
+
 So what does this give you? Well, the <b>help()</b> function acts here <b>exactly</b> the same way it does from the Python shell. It stops the code processing and lets you do introspection. pdb lets you step through things with joy.
 
 Try it out!
@@ -49,7 +51,7 @@ I've read through this a few times, and I'm embarrassed to admit that I don't un
 
 **EOL (Eric O LEBIGOT) said on 2010-06-09**
 
-Thank you so much for sharing!  Interesting and useful.
+Thank you so much for sharing! Interesting and useful.
 
 **Brandon Craig Rhodes said on 2010-06-09**
 
@@ -61,7 +63,7 @@ Eric Florenzano: Try it with a simple example. Create a simple unittest and stic
 
 **Gary Robinson said on 2010-06-09**
 
-To tell the truth, I don't see the utility of calling help() before calling pdb.set_trace() in your example. I insert set_trace() calls into my test scripts all the time when I'm debugging. 
+To tell the truth, I don't see the utility of calling help() before calling pdb.set_trace() in your example. I insert set_trace() calls into my test scripts all the time when I'm debugging.
 
 I use it not only for stepping but also for examining variables. If I want to see the docstring for a particular object when I'm in pdb, I can do !help(object).
 
@@ -84,4 +86,3 @@ Drop this in your code:
     import ipdb;ipdb.set_trace()
 
 And you'll get the fancy IPython-enchanced debugger even in the middle of a nose test run.
-
