@@ -1,9 +1,9 @@
 ---
-date: '2014-07-15'
+date: "2014-07-15"
 published: true
 slug: building-maintaining-scaling-projects
 tags:
-- nasa
+  - NASA
 time_to_read: 0
 title: Building, Maintaining and Scaling Projects
 ---

@@ -1,13 +1,13 @@
 ---
-date: '2014-12-21T17:30:00.000-08:00'
-description: ''
+date: "2014-12-21T17:30:00.000-08:00"
+description: ""
 published: true
 slug: 2014-12-going-off-grid
 tags:
-- Vacation
-- Wife
-- Philippines
-- legacy-danielroygreenfeld
+  - vacation
+  - Wife
+  - Philippines
+  - legacy-danielroygreenfeld
 time_to_read: 5
 title: Going off the grid
 ---

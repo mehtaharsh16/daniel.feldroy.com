@@ -5,7 +5,7 @@ slug: pycon-philippines-day-1
 tags:
   - python
   - django
-  - philippines
+  - Philippines
   - pycon
 time_to_read: 5
 title: PyCon Philippines 2012 Day 1

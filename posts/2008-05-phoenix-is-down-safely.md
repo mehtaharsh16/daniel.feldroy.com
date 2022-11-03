@@ -6,7 +6,7 @@ slug: 2008-05-phoenix-is-down-safely
 tags:
   - work
   - space exploration
-  - nasa
+  - NASA
   - legacy-dannygreenfeld
 time_to_read: 5
 title: Phoenix is down safely!

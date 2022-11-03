@@ -5,7 +5,7 @@ slug: announcing-pycon-philippines
 tags:
   - python
   - django
-  - philippines
+  - Philippines
   - pycon
 time_to_read: 1
 title: Announcing PyCon Philippines!

@@ -5,10 +5,10 @@ published: true
 slug: 2008-04-so-what-did-i-do-on-website
 tags:
   - work
-  - nasa science project
+  - NASA science
   - plone
   - python
-  - nasa
+  - NASA
   - legacy-dannygreenfeld
 time_to_read: 5
 title: So what did I do on the website?

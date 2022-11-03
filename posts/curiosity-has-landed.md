@@ -1,11 +1,11 @@
 ---
-date: '2012-08-06'
+date: "2012-08-06"
 published: true
 slug: curiosity-has-landed
 tags:
-- nasa
-- python
-- django
+  - NASA
+  - python
+  - django
 time_to_read: 1
 title: Curiosity has landed!
 ---
@@ -31,8 +31,7 @@ As someone who grew up in the 1970s, and someone who is proud to have
 worked at [NASA](https://www.nasa.gov) for over 5 years, this is my
 American dream.
 
-Going Forward
-=============
+# Going Forward
 
 Curiosity is about to do amazing things and will tell a story to us that
 we'll never forget.

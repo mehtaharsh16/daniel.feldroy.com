@@ -6,6 +6,12 @@ author: "Daniel Roy Greenfeld"
 
 # News
 
+## November 2022
+
+### November 3, 2022
+
+- Changed fitness link to point to BJJ school
+
 ## August 2022
 
 ### August 21, 2022

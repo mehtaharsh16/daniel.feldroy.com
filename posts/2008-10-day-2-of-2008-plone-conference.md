@@ -1,31 +1,29 @@
 ---
-date: '2008-10-11T06:59:00.003-07:00'
-description: ''
+date: "2008-10-11T06:59:00.003-07:00"
+description: ""
 published: true
 slug: 2008-10-day-2-of-2008-plone-conference
 tags:
-- plone conference
-- plone
-- legacy-blogger
+  - plone conference
+  - plone
+  - legacy-blogger
 time_to_read: 5
 title: Day 2 of the 2008 Plone Conference
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/10/day-2-of-2008-plone-conference.html)*.
+_This was originally posted on blogger [here](https://pydanny.blogspot.com/2008/10/day-2-of-2008-plone-conference.html)_.
 
-I was very rested by the time I arrived.  I had slept well.
+I was very rested by the time I arrived. I had slept well.
 
 <span style="font-weight: bold;">So you want to be a consultant by panel</span>
 
 No, I'm not looking to leave NASA these days. However, I do some side consulting, and even in my day job there are good project control lessons you can learn from the consulting crowd. For example, ideas on recruiting, customer relations, and how to handle billing when you need time to boost skills. There were 5 plone board members in the panel, and much wisdom was shared. Plone board members there:
 
-
--     Nate Atune
--     Gaer Baekholt
--     Calvin Hendryx-Parker
--     Jon Stahl
--     Matt Hamilton
-
+- Nate Aune
+- Gaer Baekholt
+- Calvin Hendryx-Parker
+- Jon Stahl
+- Matt Hamilton
 
 <span style="font-weight: bold;">What makes a great development team by Mike Robinson</span>
 
@@ -43,8 +41,7 @@ He wants to do it with a chainsaw and make Plone more approachable from a develo
 
 Plone has a number of embarressments, with issues ranging from rich media support to import/export problems with the database. It is hard to learn and skinning is a challenge. He thanked Lennart for pointing out what Zope did wrong, and how developers expect things to be easy.
 
-Wants to revamp much for Plone 4.  Some quick bullets:
-
+Wants to revamp much for Plone 4. Some quick bullets:
 
 - Follow the guiding lights shown by some of the other Python web frameworks.
 - Make learning follow a constant set of humps, not huge ones followed by a plateau followed by an insurmountable wall.
@@ -54,7 +51,7 @@ Wants to revamp much for Plone 4.  Some quick bullets:
 
 <span style="font-weight: bold;">NASA Science case study by Katie Cunningham and Daniel Greenfeld</span>
 
-Yes!  I helped present!
+Yes! I helped present!
 
 So we presented and apparently did very well. We had a few luminaries in the room, including a couple Plone board members. I think we nailed all the points we wanted to make, which was a very awesome thing to do. We plan to send the slides off to Alex Clark shortly so we can have them on line for everyone to see.
 
@@ -66,8 +63,7 @@ Two more hours of the awesome Mike Robinson ended the day for me. He gave a rock
 
 <span style="font-weight: bold;">General Socializing</span>
 
-Where to begin? I had great fun with so many incredibly awesome people.  The quick and dirty list:
-
+Where to begin? I had great fun with so many incredibly awesome people. The quick and dirty list:
 
 - Vernon Chapman
 - Tarek Zaide
