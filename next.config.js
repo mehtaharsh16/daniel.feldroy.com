@@ -1,5 +1,5 @@
 const withMarkdoc = require("@markdoc/next.js");
 
 module.exports = withMarkdoc({ schemaPath: "markdoc/" })({
-  pageExtensions: ["js", "jsx", "md"],
+  pageExtensions: ["js", "jsx", "mdoc"],
 });
