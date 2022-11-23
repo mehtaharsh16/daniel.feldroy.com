@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Metatags from "./metatags";
 
 const name = "Daniel Roy Greenfeld";
 export const siteTitle = "Daniel Roy Greenfeld";
@@ -66,63 +67,8 @@ export default function Layout({ children, home, meta = {} }) {
           href="/favicon/safari-pinned-tab.svg"
           rel="mask-icon"
         />
-        <title>{meta.title ? meta.title : "Daniel Roy Greenfeld"}</title>
-        <meta
-          content={
-            meta.description
-              ? meta.description
-              : "Inside the head of Daniel Roy Greenfeld"
-          }
-          name="description"
-        />
-        <meta
-          content={
-            meta.description
-              ? meta.description
-              : "Inside the head of Daniel Roy Greenfeld"
-          }
-          name="twitter:description"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Daniel Roy Greenfeld" />
-        <meta
-          property="og:url"
-          content={meta.og_url ? meta.og_url : "https://daniel.feldroy.com"}
-        />
-        <meta name="twitter:site" content="@pydanny" />
-        <meta name="twitter:creator" content="@pydanny" />
-        <meta
-          name="twitter:title"
-          content={meta.title ? meta.title : "Daniel Roy Greenfeld"}
-        />
-        twitter:image
-        {meta.image ? (
-          <>
-            <meta
-              property="og:image"
-              content={`https://daniel.feldroy.com${meta.image}`}
-            />
-          </>
-        ) : (
-          <>
-            <meta
-              property="og:image"
-              content="https://daniel.feldroy.com/images/profile.jpg"
-            />
-          </>
-        )}
-        {meta.twitter_image ? (
-          <meta
-            name="twitter:image"
-            content={`https://daniel.feldroy.com${meta.twitter_image}`}
-          />
-        ) : (
-          <meta
-            name="twitter:image"
-            content="https://daniel.feldroy.com/images/profile.jpg"
-          />
-        )}
       </Head>
+      <Metatags meta={meta} />
       <header className={styles.header}>
         {home ? (
           <>

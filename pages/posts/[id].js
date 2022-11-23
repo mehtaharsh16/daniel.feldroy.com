@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Head from "next/head";
+import Metatags from "../../components/metatags";
 
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import MyDate from "../../components/date";
@@ -34,63 +34,7 @@ export default function Post({ postData }) {
   };
   return (
     <>
-      <Head>
-        <title>{meta.title ? meta.title : "Daniel Roy Greenfeld"}</title>
-        <meta
-          content={
-            meta.description
-              ? meta.description
-              : "Inside the head of Daniel Roy Greenfeld"
-          }
-          name="description"
-        />
-        <meta
-          content={
-            meta.description
-              ? meta.description
-              : "Inside the head of Daniel Roy Greenfeld"
-          }
-          name="twitter:description"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Daniel Roy Greenfeld" />
-        <meta
-          property="og:url"
-          content={meta.og_url ? meta.og_url : "https://daniel.feldroy.com"}
-        />
-        <meta name="twitter:site" content="@pydanny" />
-        <meta name="twitter:creator" content="@pydanny" />
-        <meta
-          name="twitter:title"
-          content={meta.title ? meta.title : "Daniel Roy Greenfeld"}
-        />
-        {meta.image ? (
-          <>
-            <meta
-              property="og:image"
-              content={`https://daniel.feldroy.com${meta.image}`}
-            />
-          </>
-        ) : (
-          <>
-            <meta
-              property="og:image"
-              content="https://daniel.feldroy.com/images/profile.jpg"
-            />
-          </>
-        )}
-        {meta.twitter_image ? (
-          <meta
-            name="twitter:image"
-            content={`https://daniel.feldroy.com${meta.twitter_image}`}
-          />
-        ) : (
-          <meta
-            name="twitter:image"
-            content="https://daniel.feldroy.com/images/profile.jpg"
-          />
-        )}
-      </Head>
+      <Metatags meta={meta} />
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
