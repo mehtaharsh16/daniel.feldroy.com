@@ -71,7 +71,7 @@ _AKA climate change is a poor person's problem_
 
 Just like an automobile can't stop instantaneously the planet can't reverse its direction instantaneously. I can afford to pay for my house's heating and cooling or to move somewhere better, but already the [increased cost of fossil fuels is hurting those less fortunate](https://www.cnn.com/2022/11/18/success/home-heating-prices). It's only going to get worse, and we need to acknowledge that, fix the problems, and move on. If we act now, then we can reverse the course of climate change, although we may not see a meaningful change in decades.
 
-Some want us to despair, to give up. They want us to think since it's not going to be fixed, we shouldn't try to decarbonize. To buy into more production of an industry that ejects carbon into our atmosphere. They have over a hundred years of experience marketing their product to us, politicians, and bankers. All in order making a profit off our misery.
+Some want us to despair, to give up. They want us to think since it's not going to be fixed, we shouldn't try to decarbonize. To buy into more production of an industry that ejects carbon into our atmosphere. This industry has over a hundred years of experience marketing their product to us, politicians, and bankers. All in order making a profit off our misery.
 
 I'm not falling for the despair they want us to feel, and neither should you. As I said, we need to acknowledge the challenges we face, meet them head-on, and address them.
 
