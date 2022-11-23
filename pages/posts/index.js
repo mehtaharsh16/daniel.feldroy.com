@@ -6,7 +6,7 @@ import { getSortedPostsData } from "../../lib/posts";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
-  const yearsBlogging = new Date().getFullYear() - 2007;
+  const yearsBlogging = new Date().getFullYear() - 2005;
 
   return {
     props: {
