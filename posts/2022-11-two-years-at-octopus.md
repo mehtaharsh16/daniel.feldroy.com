@@ -10,6 +10,7 @@ title: Two Years at Octopus Energy Group
 description: Various thoughts about working for a for-profit business with a mission of saving the planet.
 image: /images/octopus-share.jpg
 twitter_image: /images/octopus-share.jpg
+og_url: https://daniel.feldroy.com/posts/2022-11-two-years-at-octopus
 ---
 
 Various things I've been thinking about as I finish my second year working for an [Octopus Energy Group](https://octopusenergy.group/) [subsidiary](https://octopusenergy.group/kraken-technologies).
