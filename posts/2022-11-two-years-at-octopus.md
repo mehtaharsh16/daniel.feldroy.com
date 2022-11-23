@@ -83,7 +83,7 @@ I invite anyone who is reading this to join me on my mission of saving the plane
 
 Please understand that we can only hire in countries in which we sell retail energy. So if a role isn't listed for the country in which you reside, we probably can't hire you. I didn't make this rule, I disagree with it, but I do have to abide by it.
 
-If for whatever reason you can't get a job with Octopus, apply to work at somewhere else into decarbonization. Let me know where you go and I'll celebrate your joining our shared mission.
+If for whatever reason you can't get a job with Octopus, [apply to work at somewhere else into decarbonization](https://climatebase.org/). Let me know where you go and I'll celebrate your joining our shared mission.
 
 I'll be upfront that if you want to make the biggest bucks possible in tech, travel a lot, and fly outside of economy class, go work for a [FAANG company](https://en.wikipedia.org/wiki/Big_Tech#FAANG) or a fintech. Sure, our stock options are decent, but working to make billionaires richer means you'll probably make more and fly in a better class. On the other hand, we're making the planet better for our descendants, which to me is much more important than helping a billionaire score another billion.
 
