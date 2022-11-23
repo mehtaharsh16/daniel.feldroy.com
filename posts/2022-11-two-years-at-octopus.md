@@ -17,7 +17,7 @@ Various things I've been thinking about as I finish my second year working for a
 
 # Capitalism as a driving force
 
-I believe that capitalism has been for the last 300 years or so a potent force toward driving action and development, especially within market economies. While this history is colored with examples of behaviors harming subsidiary regions during the colonial period of Western expansion, there's no denying the impact and dynamism of capitalism on humanity.
+I believe that capitalism has been for the last 300 years or so a potent force toward driving action and development, especially within market economies. While history is colored with examples of behaviors harming subsidiary regions during the colonial period of Western expansion, there's no denying the impact and dynamism of capitalism on humanity.
 
 To be succinct, for better or worse, capitalism makes things happen.
 
