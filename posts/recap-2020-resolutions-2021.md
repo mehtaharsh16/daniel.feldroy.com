@@ -9,6 +9,8 @@ tags:
   - uma
   - audrey
   - resolutions
+  - octopus
+  - climate-change
 time_to_read: 5
 title: Recap of 2020 and Resolutions for 2021
 type: post
