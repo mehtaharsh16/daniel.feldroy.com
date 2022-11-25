@@ -1,19 +1,18 @@
 ---
-date: '2012-02-15T23:12:00.000-08:00'
-description: ''
+date: "2012-02-15T23:12:00.000-08:00"
+description: "An attempt made long ago to create a podcast"
 published: true
 slug: 2012-02-silicon-beach-hackercast
 tags:
-- django
-- sbhackercast
-- audreyr
-- python
-- legacy-blogger
+  - django
+  - audrey
+  - python
+  - legacy-blogger
 time_to_read: 5
 title: Silicon Beach Hackercast
 ---
 
-*This was originally posted on blogger [here](https://pydanny.blogspot.com/2012/02/silicon-beach-hackercast.html)*.
+_This was originally posted on blogger [here](https://pydanny.blogspot.com/2012/02/silicon-beach-hackercast.html)_.
 
 Near the end of January of 2012 I was at the [10th Southern California Linux Exposition](https://www.socallinuxexpo.org/scale10x/) (SCALE 10X). I gave an [Intro to Python talk](https://speakerdeck.com/u/pydanny/p/intro-to-python), helped man the awesome [Python](https://python.org) booth, and hung out with a lot of awesome people. One of those awesome people I got to spend time with was [Andrew Cholakian](https://www.andrewvc.com/), a Ruby and Clojure developer, and the organizer of [LA Hacker News](https://www.meetup.com/Los-Angeles-Hacker-News/). We've been meaning to do something together, and at the conference we decided to do a broadcast together.
 
@@ -27,7 +26,6 @@ Jump forward a few weeks and Andrew came over to our place in the San Fernando V
 - New clients asking you to complete the ‘last 10%’
 - A rant about job titles
 - Why is clojure blowing up?
-
 
 <h3>Links</h3>
 
