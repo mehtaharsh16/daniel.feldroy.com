@@ -81,7 +81,7 @@ And that's another reason I'm at Octopus Energy. We're pragmatic and positive, a
 
 I invite anyone who is reading this to join me on my mission of saving the planet. The careers page is [here](https://octopusenergy.com/careers).
 
-Please understand that we can only hire in countries in which we sell retail energy. So if a role isn't listed for the country in which you reside, we probably can't hire you. I didn't make this rule, I disagree with it, but I do have to abide by it.
+Please understand that we usually can only hire in countries in which we have a legal entity. So if a role isn't listed for the country in which you reside, we probably can't hire you. I didn't make this rule, I disagree with it, but I do have to abide by it.
 
 If for whatever reason you can't get a job with Octopus, [apply to work at somewhere else into decarbonization](https://climatebase.org/). Let me know where you go and I'll celebrate your joining our shared mission.
 
@@ -94,5 +94,9 @@ Thank you to everyone at Octopus that I've worked with over the past two years. 
 So here's to another year of lots of silly mollusc references!
 
 _These opinions are my own, and don't necessarily reflect the policy or opinions of Octopus Energy Group or any of its subsidiaries._
+
+# Updates
+
+- 2022-11-25: On hiring, changed from that we only hire in places where we retail electricity to where we have a legal entity. Also, specified that it's unlikely rather than impossible. Thanks to James Eddison for the clarifications of policy
 
 ![Octopus Energy Logo](/images/octopus-share.jpg)
