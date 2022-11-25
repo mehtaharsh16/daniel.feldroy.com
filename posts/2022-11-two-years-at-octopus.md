@@ -97,6 +97,6 @@ _These opinions are my own, and don't necessarily reflect the policy or opinions
 
 # Updates
 
-- 2022-11-25: On hiring, changed from that we only hire in places where we retail electricity to where we have a legal entity. Also, specified that it's unlikely rather than impossible. Thanks to James Eddison for the clarifications of policy
+- 2022-11-25: On hiring, changed from that we only hire in places where we retail electricity to where we have a legal entity. Also, specified that it's unlikely rather than impossible. Thanks to James Eddison for the clarifications on policy
 
 ![Octopus Energy Logo](/images/octopus-share.jpg)
