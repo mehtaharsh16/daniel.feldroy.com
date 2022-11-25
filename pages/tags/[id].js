@@ -2,6 +2,7 @@ import Link from "next/link";
 import Layout from "../../components/layout";
 import utilStyles from "../../styles/utils.module.css";
 import MyDate from "../../components/date";
+import Metatags from "../../components/metatags";
 
 import { getAllTags, getSortedPostsByTagData } from "../../lib/tags";
 
@@ -32,7 +33,8 @@ export default function Home({ allTagsData, tag }) {
     title: `${prettyTag} Articles (${allTagsData.length})`,
   };
   return (
-    <Layout meta={meta}>
+    <>
+      <Metatags meta={meta} />
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>
           {prettyTag} Articles ({allTagsData.length})
@@ -57,6 +59,6 @@ export default function Home({ allTagsData, tag }) {
           ))}
         </ul>
       </section>
-    </Layout>
+    </>
   );
 }
