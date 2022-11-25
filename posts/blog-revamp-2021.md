@@ -1,15 +1,16 @@
 ---
-date: '2021-05-23'
+date: "2021-05-23"
 tags:
-- blog
-- nextjs
-- react
-- vercel
-- til
+  - blog
+  - nextjs
+  - react
+  - vercel
+  - til
+published: true
 title: Blog Revamp 2021
 ---
 
-Today my wife Audrey and I dug in and learned some of the tools chosen by the [Octopus Energy](https://octopusenergy.com) frontend team. One of our efforts turned into redoing this blog. 
+Today my wife Audrey and I dug in and learned some of the tools chosen by the [Octopus Energy](https://octopusenergy.com) frontend team. One of our efforts turned into redoing this blog.
 
 ## Tools
 
@@ -17,15 +18,15 @@ Here's my quick review of the tools we learned
 
 ### React
 
-React has really, really improved in the past six years.  When it first launched I tried it out and disliked it. Eventually I embraced VueJS. The tooling and docs for React have really improved, the need for tribal knowledge is gone (a similar problem existed for Django until we wrote Two Scoops of Django).
+React has really, really improved in the past six years. When it first launched I tried it out and disliked it. Eventually I embraced VueJS. The tooling and docs for React have really improved, the need for tribal knowledge is gone (a similar problem existed for Django until we wrote Two Scoops of Django).
 
 ### Next.js
 
-[Next.js](https://nextjs.org/) is lovely. I’m 100% sold now. Before I just planned to go along with the flow, but now I’m a total Next JS convert. Everything about is elegant, doing just enough to be useful but not so much that it gets in the way. 
+[Next.js](https://nextjs.org/) is lovely. I’m 100% sold now. Before I just planned to go along with the flow, but now I’m a total Next JS convert. Everything about is elegant, doing just enough to be useful but not so much that it gets in the way.
 
 ### Vercel
 
-[Vercel](https://vercel.com/) is decent, certainly a lot better than pushing to S3 then bouncing cloudfront! For what it's worth, I’ve used Netlify since near it's launch and can make it do amazing tricks. Plus the [Netlify's new collaborative deploy previews](https://www.netlify.com/blog/2021/05/19/next-generation-deploy-previews-plus-netlify-acquires-featurepeek/) are out of this world. However, the challenge with Netlify is that its documentation of critical components such as `netlify.toml` and environment variable precedence could use improvement. In comparison, [Vercel’s documentation is really good](https://vercel.com/docs). While I can’t do everything in Vercel that I can do with Netlify (yet) , the docs alone justify using it. 
+[Vercel](https://vercel.com/) is decent, certainly a lot better than pushing to S3 then bouncing cloudfront! For what it's worth, I’ve used Netlify since near it's launch and can make it do amazing tricks. Plus the [Netlify's new collaborative deploy previews](https://www.netlify.com/blog/2021/05/19/next-generation-deploy-previews-plus-netlify-acquires-featurepeek/) are out of this world. However, the challenge with Netlify is that its documentation of critical components such as `netlify.toml` and environment variable precedence could use improvement. In comparison, [Vercel’s documentation is really good](https://vercel.com/docs). While I can’t do everything in Vercel that I can do with Netlify (yet) , the docs alone justify using it.
 
 ### Summary of Tools
 

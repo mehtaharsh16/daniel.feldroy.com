@@ -8,6 +8,7 @@ tags:
   - flask
   - blog
 time_to_read: 4
+published: true
 title: Writing A New Blog Engine
 ---
 
