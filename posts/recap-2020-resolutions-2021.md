@@ -14,6 +14,8 @@ tags:
 time_to_read: 5
 title: Recap of 2020 and Resolutions for 2021
 type: post
+image: /images/uma-2020.png
+twitter_image: /images/uma-2020.png
 ---
 
 # Recap of 2020
