@@ -31,6 +31,7 @@ export default function Home({ allTagsData, tag }) {
   const prettyTag = `${tag[0].toUpperCase()}${tag.slice(1)}`;
   const meta = {
     title: `${prettyTag} Articles (${allTagsData.length})`,
+    og_url: `https://daniel.feldroy.com/tags/${tag}`,
   };
   return (
     <>
