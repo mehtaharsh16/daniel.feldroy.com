@@ -20,11 +20,13 @@ export default function Home({ allTagsData }) {
         <h2 className={utilStyles.headingLg}>Tags</h2>
         <p className={utilStyles.listItem}>
           {allTagsData.map(({ id, value }) => (
-            <Link key={id} href={`/tags/${id}`}>
-              <a>
-                {id} ({value}){" "}
-              </a>
-            </Link>
+            <>
+              <Link key={id} href={`/tags/${id}`}>
+                <a>
+                  {id} ({value})
+                </a>
+              </Link>{" "}
+            </>
           ))}
         </p>
       </section>
