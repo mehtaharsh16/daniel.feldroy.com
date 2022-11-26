@@ -67,4 +67,4 @@ Or this when using the Mac:
 ]
 ```
 
-Now you can use the keyboard to change terminals in VS Code.
+Now you can use the keyboard commands of Apple+UpArrow and Apple+DownArrow to switch terminals in VS Code.
