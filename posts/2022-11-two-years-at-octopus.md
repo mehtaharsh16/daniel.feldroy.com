@@ -81,7 +81,7 @@ And that's another reason I'm at Octopus Energy. We're pragmatic and positive, a
 
 I invite anyone who is reading this to join me on my mission of saving the planet. The careers page is [here](https://octopusenergy.com/careers).
 
-Please understand that we usually can only hire in countries in which we have a legal entity. So if a role isn't listed for the country in which you reside, we probably can't hire you. I didn't make this rule, I disagree with it, but I do have to abide by it.
+Please understand that we usually can only hire in countries in which we have a legal entity. So if a role isn't listed for the country in which you reside, we probably can't hire you.
 
 If for whatever reason you can't get a job with Octopus, [apply to work at somewhere else into decarbonization](https://climatebase.org/). Let me know where you go and I'll celebrate your joining our shared mission.
 
