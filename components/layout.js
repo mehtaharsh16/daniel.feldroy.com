@@ -86,24 +86,30 @@ export default function Layout({ children, home, meta = {} }) {
           </>
         ) : (
           <>
-            <Link href="/">
-              <a>
-                <Image
-                  priority
-                  src="/images/profile.jpg"
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a>{name}</a>
-              </Link>
-            </h2>
-            <TopLinks />
+            {meta.notoplinks ? (
+              <></>
+            ) : (
+              <>
+                <Link href="/">
+                  <a>
+                    <Image
+                      priority
+                      src="/images/profile.jpg"
+                      className={utilStyles.borderCircle}
+                      height={108}
+                      width={108}
+                      alt={name}
+                    />
+                  </a>
+                </Link>
+                <h2 className={utilStyles.headingLg}>
+                  <Link href="/">
+                    <a>{name}</a>
+                  </Link>
+                </h2>
+                <TopLinks />
+              </>
+            )}
           </>
         )}
       </header>
