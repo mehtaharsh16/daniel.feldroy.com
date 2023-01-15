@@ -15,7 +15,7 @@ og_url: https://daniel.feldroy.com/posts/2023-01-practice-python-web-projects
 
 I firmly believe that substantial improvement in any skill can only be achieved through [practice](https://daniel.feldroy.com/posts/code-code-code). With that in mind, I have compiled a list of projects I have built over the years to practice my skills with web frameworks. I hope that these projects, which have proven effective for me in learning frameworks, will also assist you in your growth.
 
-These projects are framework-agnostic and can be implemented using Django, Flask, FastAPI, or any other framework of your choice. While some projects may be better suited for certain frameworks, all of them provide valuable practice. All of these projects can be completed using either the default frontend templating system or a frontend framework like React or Vue.
+These projects are framework-agnostic and can be implemented using [Django](https://djangoproject.com), [Flask](https://flask.palletsprojects.com/), [FastAPI](https://fastapi.tiangolo.com/), or any other framework of your choice. While some projects may be better suited for certain frameworks, all of them provide valuable practice. All of these projects can be completed using either the default frontend templating system or a frontend framework like React or Vue.
 
 # The Projects
 
