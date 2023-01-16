@@ -15,7 +15,9 @@ tags:
   - cookiecutter
 time_to_read: 5
 title: "Cookiecutter: Project Templates Made Easy"
+description: Cookiecutter makes creating and maintaining project templates easy and intuitive.
 image: /images/cookiecutter_medium.png
+og_url: https://daniel.feldroy.com/posts/cookie-project-templates-made-easy
 ---
 
 Yesterday, Jeff Knupp wrote an amazing how-to article called "[Open
