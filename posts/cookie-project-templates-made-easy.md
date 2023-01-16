@@ -15,6 +15,7 @@ tags:
   - cookiecutter
 time_to_read: 5
 title: "Cookiecutter: Project Templates Made Easy"
+image: /images/cookiecutter_medium.png
 ---
 
 Yesterday, Jeff Knupp wrote an amazing how-to article called "[Open
