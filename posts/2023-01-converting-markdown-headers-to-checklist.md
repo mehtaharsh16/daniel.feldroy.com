@@ -15,7 +15,7 @@ type: post
 image: /images/superhero-markdown-checklist.png
 ---
 
-For those times when you write out a long markdown document that you want to convert to a checklist. A future modification will be to link to the original GitHub or Notion headers so that you can click on the checklist item and jump to the original content.
+For those times when you write out a long markdown document that you want to convert to a checklist.
 
 # Converting Markdown Headers to Checklist
 
