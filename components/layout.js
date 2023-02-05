@@ -12,27 +12,27 @@ function TopLinks() {
   return (
     <p>
       <Link href="/about">
-        <a>About</a>
+        About
       </Link>{" "}
       |{" "}
       <Link href="/posts">
-        <a>Articles</a>
+        Articles
       </Link>{" "}
       |{" "}
       <Link href="/books">
-        <a>Books</a>
+        Books
       </Link>{" "}
       |{" "}
       <Link href="/jobs">
-        <a>Jobs</a>
+        Jobs
       </Link>{" "}
       |{" "}
       <Link href="/news">
-        <a>News</a>
+        News
       </Link>{" "}
       |{" "}
       <Link href="/tags">
-        <a>Tags</a>
+        Tags
       </Link>
     </p>
   );
@@ -91,20 +91,20 @@ export default function Layout({ children, home, meta = {} }) {
             ) : (
               <>
                 <Link href="/">
-                  <a>
-                    <Image
-                      priority
-                      src="/images/profile.jpg"
-                      className={utilStyles.borderCircle}
-                      height={108}
-                      width={108}
-                      alt={name}
-                    />
-                  </a>
+
+                  <Image
+                    priority
+                    src="/images/profile.jpg"
+                    className={utilStyles.borderCircle}
+                    height={108}
+                    width={108}
+                    alt={name}
+                  />
+
                 </Link>
                 <h2 className={utilStyles.headingLg}>
                   <Link href="/">
-                    <a>{name}</a>
+                    {name}
                   </Link>
                 </h2>
                 <TopLinks />
@@ -117,7 +117,7 @@ export default function Layout({ children, home, meta = {} }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            ← Back to home
           </Link>
         </div>
       )}

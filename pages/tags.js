@@ -14,22 +14,19 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allTagsData }) {
-  return (
-    <>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Tags</h2>
-        <p className={utilStyles.listItem}>
-          {allTagsData.map(({ id, value }) => (
-            <>
-              <Link key={id} href={`/tags/${id}`}>
-                <a>
-                  {id} ({value})
-                </a>
-              </Link>{" "}
-            </>
-          ))}
-        </p>
-      </section>
-    </>
-  );
+  return <>
+    <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <h2 className={utilStyles.headingLg}>Tags</h2>
+      <p className={utilStyles.listItem}>
+        {allTagsData.map(({ id, value }) => (
+          <>
+            <Link key={id} href={`/tags/${id}`}>
+
+              {id}({value})
+            </Link>{" "}
+          </>
+        ))}
+      </p>
+    </section>
+  </>;
 }

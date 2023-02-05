@@ -32,26 +32,24 @@ export default function Post({ postData }) {
     twitter_image: postData.twitter_image,
     og_url: `https://daniel.feldroy.com/posts/${postData.id}`,
   };
-  return (
-    <>
-      <Metatags meta={meta} />
-      <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
-          <MyDate dateString={postData.date} />
-        </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        <section>
-          <hr />
-          Tags:
-          {postData.tags.map((tag) => (
-            <span key={tag}>
-              {" "}
-              <Link href={`/tags/${tag}`}>{tag}</Link>
-            </span>
-          ))}
-        </section>
-      </article>
-    </>
-  );
+  return <>
+    <Metatags meta={meta} />
+    <article>
+      <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+      <div className={utilStyles.lightText}>
+        <MyDate dateString={postData.date} />
+      </div>
+      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <section>
+        <hr />
+        Tags:
+        {postData.tags.map((tag) => (
+          <span key={tag}>
+            {" "}
+            <Link href={`/tags/${tag}`} legacyBehavior>{tag}</Link>
+          </span>
+        ))}
+      </section>
+    </article>
+  </>;
 }

@@ -34,48 +34,46 @@ export default function Home({ allPostsData, yearsBlogging }) {
     miniSearch.addAll(allPostsData);
     postsData = miniSearch.search(q);
   }
-  return (
-    <>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        {q === "" && (
-          <>
-            <h1>All Articles ({allPostsData.length})</h1>
-            <p>
-              Everything written by Daniel Roy Greenfeld for the past{" "}
-              {yearsBlogging} years
-            </p>
-          </>
-        )}
+  return <>
+    <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      {q === "" && (
+        <>
+          <h1>All Articles ({allPostsData.length})</h1>
+          <p>
+            Everything written by Daniel Roy Greenfeld for the past{" "}
+            {yearsBlogging} years
+          </p>
+        </>
+      )}
 
-        {q !== "" && (
-          <>
-            <h1>
-              {postsData.length} articles on "{router.query.q}"
-            </h1>
-          </>
-        )}
+      {q !== "" && (
+        <>
+          <h1>
+            {postsData.length} articles on "{router.query.q}"
+          </h1>
+        </>
+      )}
 
-        <ul className={utilStyles.list}>
-          {postsData.map(({ id, date, title, description }) => (
-            <li className={utilStyles.listItem} key={id}>
-              {/* <h2 className={utilStyles.headingLg}>2022</h2> */}
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              {description && (
-                <>
-                  <small className={utilStyles.lightText}>{description}</small>
-                  <br />
-                </>
-              )}
-              <small className={utilStyles.lightText}>
-                <MyDate dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
-    </>
-  );
+      <ul className={utilStyles.list}>
+        {postsData.map(({ id, date, title, description }) => (
+          <li className={utilStyles.listItem} key={id}>
+            {/* <h2 className={utilStyles.headingLg}>2022</h2> */}
+            <Link href={`/posts/${id}`}>
+              {title}
+            </Link>
+            <br />
+            {description && (
+              <>
+                <small className={utilStyles.lightText}>{description}</small>
+                <br />
+              </>
+            )}
+            <small className={utilStyles.lightText}>
+              <MyDate dateString={date} />
+            </small>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </>;
 }

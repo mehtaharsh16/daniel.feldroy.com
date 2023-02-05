@@ -32,58 +32,56 @@ export async function getStaticProps() {
 }
 
 export default function Home({ mostRecentPosts, topPosts }) {
-  return (
-    <>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Recent Writings</h2>
-        <ul className={utilStyles.list}>
-          {mostRecentPosts.map(({ id, date, title, description }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              {description && (
-                <>
-                  <small className={utilStyles.lightText}>{description}</small>
-                  <br />
-                </>
-              )}
-              <small className={utilStyles.lightText}>
-                <MyDate dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
+  return <>
+    <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <h2 className={utilStyles.headingLg}>Recent Writings</h2>
+      <ul className={utilStyles.list}>
+        {mostRecentPosts.map(({ id, date, title, description }) => (
+          <li className={utilStyles.listItem} key={id}>
+            <Link href={`/posts/${id}`}>
+              {title}
+            </Link>
+            <br />
+            {description && (
+              <>
+                <small className={utilStyles.lightText}>{description}</small>
+                <br />
+              </>
+            )}
+            <small className={utilStyles.lightText}>
+              <MyDate dateString={date} />
+            </small>
+          </li>
+        ))}
+      </ul>
+    </section>
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Popular Articles</h2>
-        <ul className={utilStyles.list}>
-          {topPosts.map(({ id, date, title, description }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              {description && (
-                <>
-                  <small className={utilStyles.lightText}>{description}</small>
-                  <br />
-                </>
-              )}
-              <small className={utilStyles.lightText}>
-                <MyDate dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
-      <h2 className={utilStyles.headingLg}>
-        <Link href="/posts">
-          <a>Full Archive →</a>
-        </Link>
-      </h2>
-    </>
-  );
+    <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <h2 className={utilStyles.headingLg}>Popular Articles</h2>
+      <ul className={utilStyles.list}>
+        {topPosts.map(({ id, date, title, description }) => (
+          <li className={utilStyles.listItem} key={id}>
+            <Link href={`/posts/${id}`}>
+              {title}
+            </Link>
+            <br />
+            {description && (
+              <>
+                <small className={utilStyles.lightText}>{description}</small>
+                <br />
+              </>
+            )}
+            <small className={utilStyles.lightText}>
+              <MyDate dateString={date} />
+            </small>
+          </li>
+        ))}
+      </ul>
+    </section>
+    <h2 className={utilStyles.headingLg}>
+      <Link href="/posts">
+        Full Archive →
+      </Link>
+    </h2>
+  </>;
 }

@@ -82,7 +82,7 @@ export default function Story({ postData }) {
       <article>
         <div className={utilStyles.backToHome}>
           <Link href="/stories">
-            <a>← Back to stories</a>
+            ← Back to stories
           </Link>
         </div>
 
