@@ -10,6 +10,10 @@ tags:
   - forms
 time_to_read: 2
 title: Adding Django form instance attributes
+description: "Sometimes in the `clean()`, `clean_FOO` or `save()` methods of a Django
+form, you need to have additional form instance attributes available.  A
+sample case for this is having `user_id` available. This is a simple
+example of how to do it in Class-Based Views."
 ---
 
 Sometimes in the `clean()`, `clean_FOO` or `save()` methods of a Django

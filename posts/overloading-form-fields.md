@@ -1,18 +1,19 @@
 ---
-blogbook: 'True'
+blogbook: "True"
 date: 2013-3-27
 published: true
 slug: overloading-form-fields
 tags:
-- python
-- django
-- forms
+  - python
+  - django
+  - forms
 time_to_read: 3
 title: Overloading Django Form Fields
+description: "How to overload Django form fields in an extensible way."
 ---
 
 One of the patterns we get positive feedback for mentioning in our
-[book](https://roygreenfeld.com/products/two-scoops-of-django-1-5/) is **overloading form fields**.
+[book](https://www.feldroy.com/books/two-scoops-of-django-3-x) is **overloading form fields**.
 
 The problem this pattern handles is the use case of when we have a model
 with a field(s) that allows for blank values, how do we force users to
@@ -20,7 +21,7 @@ enter values?
 
 For example, assuming the following model:
 
-``` python
+```python
 # myapp/models.py
 from django.db import models
 
@@ -37,7 +38,7 @@ without modifying the database?
 
 This is the way I used to do it:
 
-``` python
+```python
 # myapp/forms.py
 from django import forms
 
@@ -62,15 +63,14 @@ parlance, it violates the principal of Don't Repeat Yourself
 ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)) and is
 fertile ground for introducing bugs.
 
-`MyModelForm` has a bug!
-========================
+# `MyModelForm` has a bug!
 
 Can you spot the bug?
 
 The code example below illuminates where I purposefully/gleefully placed
 an error:
 
-``` python
+```python
 class MyModel(models.Model):
 
     # 50 character database field
@@ -94,14 +94,13 @@ Can you spot the second bug? ;-)
 
 How do we fix this?
 
-A Better Way
-============
+# A Better Way
 
 In instantiated Django forms, fields are kept in a dict-like object.
 Which means, instead of writing forms in a way that duplicates the
 model, a better way is to explicitly modify only what we want to modify:
 
-``` python
+```python
 from django import forms
 
 from .models import MyModel
@@ -120,14 +119,13 @@ class MyModelForm(forms.ModelForm):
         model = MyModel
 ```
 
-Other field attributes
-----------------------
+## Other field attributes
 
 This isn't just limited to the `required` attribute. It can also be
 applied to `help_text`, `label`, `choices`, `widgets`, or any other form
 field attribute:
 
-``` python
+```python
 from django import forms
 
 from .models import MyModel
@@ -144,12 +142,11 @@ class MyModelForm(forms.ModelForm):
         model = MyModel
 ```
 
-Try it with Inheritance!
-------------------------
+## Try it with Inheritance!
 
 We can even do this with inheritance:
 
-``` python
+```python
 from django import forms
 
 class BaseEmailForm(forms.Form):
@@ -172,8 +169,7 @@ class ContactForm(BaseEmailForm):
         self.fields['email2'].help_text = "We want to be sure!"
 ```
 
-Summary
-=======
+# Summary
 
 From the perspective of general software development, it's always a
 good thing to avoid repeating yourself. This might seem like as much or

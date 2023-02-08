@@ -1,14 +1,15 @@
 ---
-blogbook: 'True'
+blogbook: "True"
 date: 2013-6-13
 published: true
 slug: core-concepts-django-modelforms
 tags:
-- python
-- django
-- forms
+  - python
+  - django
+  - forms
 time_to_read: 8
 title: Core Concepts of Django ModelForms
+description: "The concepts behind Django's model forms can be boiled down to six items."
 ---
 
 In my opinion, the concepts behind Django's model forms can be listed
@@ -18,20 +19,19 @@ are the topic of this blog post, while the two of these that were
 forms](/core-concepts-django-forms.html) are at
 bottom of my list.
 
--   **ModelForms render Model fields as HTML.**
--   **ModelForms select validators based off of Model field
-    definitions.**
--   **ModelForms don't have to display/change all available fields.**
--   **ModelForms save dictionaries to SQL tables.**
--   Forms are "just" Python constructs. (covered previous)
--   Forms validate Python dictionaries. (covered previous)
+- **ModelForms render Model fields as HTML.**
+- **ModelForms select validators based off of Model field
+  definitions.**
+- **ModelForms don't have to display/change all available fields.**
+- **ModelForms save dictionaries to SQL tables.**
+- Forms are "just" Python constructs. (covered previous)
+- Forms validate Python dictionaries. (covered previous)
 
-ModelForms render Model fields as HTML.
-=======================================
+# ModelForms render Model fields as HTML.
 
 If I create a Django model:
 
-``` python
+```python
 # myapp/models.py
 from django.db import models
 
@@ -42,7 +42,7 @@ class MyModel(models.Model):
 
 Then attach it to a ModelForm:
 
-``` python
+```python
 # myapp/forms.py
 from django import forms
 
@@ -58,7 +58,7 @@ class MyModelForm(forms.ModelForm):
 I can render it in a template, or for better clarity in this post, the
 Python REPL:
 
-``` python
+```python
 >>> from myapp.forms import MyModelForm
 >>> mf = MyModelForm()
 >>> mf
@@ -68,15 +68,14 @@ Python REPL:
 <td><input id="id_title" name="title" maxlength="100" type="text" /></td></tr>
 ```
 
-ModelForms select validators based off of Model field definitions.
-==================================================================
+# ModelForms select validators based off of Model field definitions.
 
 One of the nice things about Django is that its forms library protects
 your models. It does this by assigning one or more of Django's many
 built-in validators to the form fields it generates, and using them to
 check incoming data. Let's dive in:
 
-``` python
+```python
 >>> from myapp.forms import MyModelForm
 >>> mf = MyModelForm()
 >>> mf
@@ -99,7 +98,7 @@ title field to require at least 20 characters) one way to do it is by
 overriding the field definition in the ModelForm class's `__init__`
 method. That's a mouthful, so I'll just demonstrate in code:
 
-``` python
+```python
 # myapp/forms.py
 from django import forms
 from django.core.validators import MinLengthValidator
@@ -109,7 +108,7 @@ from .models import MyModel
 class MyModelForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
-        super(MyModelForm, self).__init__(*args, **kwargs)     
+        super(MyModelForm, self).__init__(*args, **kwargs)
         self.fields["title"].min_length = 20
         self.fields["title"].validators.append(MinLengthValidator)
 
@@ -121,7 +120,7 @@ class MyModelForm(forms.ModelForm):
 If we stop/start the shell, we now see some new elements added to the
 form object:
 
-``` python
+```python
 >>> # Don't forget to stop/start the Django shell!
 >>> from myapp.forms import MyModelForm
 >>> mf = MyModelForm()
@@ -144,7 +143,7 @@ There are other ways to override the title field validators. The easiest
 but not necessarily the best way is to replicate the ModelForm
 definition of the field in the form like so:
 
-``` python
+```python
 # myapp/forms.py
 from django import forms
 
@@ -165,13 +164,12 @@ more of the details and problems of this approach in my previous blog
 post at [Overloading Django Form
 Fields](/overloading-form-fields.html).
 
-ModelForms don't have to display/change all available fields.
-==============================================================
+# ModelForms don't have to display/change all available fields.
 
 Before we dive into this section, let's increase our model to have two
 fields as shown below:
 
-``` python
+```python
 # myapp/models.py
 from django.db import models
 
@@ -186,7 +184,7 @@ slugs on existing content, otherwise URLs will be broken. In this case,
 we rely on the `fields` attribute of `ModelForm.Meta` to make it so we
 only display what we want to display:
 
-``` python
+```python
 # myapp/forms.py
 from django import forms
 
@@ -202,8 +200,7 @@ class MyModelForm(forms.ModelForm):
 
 Easy!
 
-But what about ModelForm.Meta.excludes?
----------------------------------------
+## But what about ModelForm.Meta.excludes?
 
 We advocate strongly against using `ModelForm.Meta.excludes`.
 
@@ -211,8 +208,8 @@ In fact, when we were writing [Two Scoops of
 Django](https://feldroy.com/products/two-scoops-of-django-1-5) the majority of our technical
 reviewers as well as our security reviewer fervently insisted that we
 advocate against use of `ModelForm.Meta.excludes`. We provide numerous
-warnings about it's usage, and go in-depth as to why in *section
-21.12*. For reference, Django's own documentation is now including a
+warnings about it's usage, and go in-depth as to why in _section
+21.12_. For reference, Django's own documentation is now including a
 rather mild warning (no warning box) on the subject at [selecting the
 fields to
 use](https://docs.djangoproject.com/en/dev/topics/forms/modelforms/#modelforms-selecting-fields).
@@ -228,12 +225,11 @@ cause.
 
 Do yourself a favor and stay away from `ModelForm.Meta.excludes`.
 
-ModelForms save dictionaries to SQL tables
-==========================================
+# ModelForms save dictionaries to SQL tables
 
 In my [previous post of Django
 forms](/core-concepts-django-forms.html) I covered
-*forms validate dictionaries*. Well, ModelForms do the same thing AND
+_forms validate dictionaries_. Well, ModelForms do the same thing AND
 give us the power to save that validated dictionary to SQL tables. We
 don't even need to involve web pages!
 
@@ -248,7 +244,7 @@ generating a timestamp to demonstrate how we can modify the model data
 before it's saved, and we'll base all three examples off the model and
 ModelForm combination listed below.
 
-``` python
+```python
 # myapp/models.py
 from django.db import models
 
@@ -259,7 +255,7 @@ class MyModel(models.Model):
     timestamp = models.DateTimeField()
 ```
 
-``` python
+```python
 # myapp/forms.py
 from django import Forms
 
@@ -276,13 +272,12 @@ class MyModel(forms.ModelForm):
 
 And now to our three examples!
 
-Example #1 Web Page
---------------------
+## Example #1 Web Page
 
 This should look pretty familiar to many Django developers. it's the
 traditional Django view pattern of processing simple model forms.
 
-``` python
+```python
 # myapp/views.py
 from django.core.shortcuts import render, redirect
 from django import forms
@@ -309,8 +304,7 @@ def add_model(request):
     return render(request, "my_template.html", {'form': form})
 ```
 
-Example #2 API/JSON
---------------------
+## Example #2 API/JSON
 
 In this example, we're validating the output of a RESTful API before
 letting it touch our database. It's critical that such APIs are not
@@ -319,7 +313,7 @@ mistakes! Also, even internally within a project it's really important
 to validate all data coming from different databases. And Django makes
 it easy!
 
-``` python
+```python
 # myapp/api/reitz.py
 from django.utils import timezone
 
@@ -351,8 +345,7 @@ def fetch_reitz_data(target_url):
     raise ReitzApiException(response.status_code)
 ```
 
-Example #3 CSV Import
-----------------------
+## Example #3 CSV Import
 
 I'll admit my mistake again: I've written my own validation tools to
 handle data coming from CSVs and Excel documents into Django projects.
@@ -360,7 +353,7 @@ My validation scripts always seem fragile, and they are. What I'm doing
 going forward is I'm leaning on form libraries to do the hard work of
 validating data and saving it to models.
 
-``` python
+```python
 import csv
 
 from django.utils import timezone
@@ -388,8 +381,7 @@ def import_csv(filename):
     return records_added, errors
 ```
 
-Closing Thoughts
-================
+# Closing Thoughts
 
 I can think of three things:
 

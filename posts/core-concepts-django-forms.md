@@ -10,23 +10,24 @@ tags:
 - class-based-views
 time_to_read: 3
 title: Core Concepts of Django Forms
+description: Tthe concepts behind Django's non-model forms can be
+listed in just three items.
 ---
 
 In my opinion, the concepts behind Django's non-model forms can be
 listed in just three (3) bullets:
 
--   Forms render HTML.
--   Forms are "just" Python constructs.
--   Forms validate dictionaries (Python's Key/Value structure).
+- Forms render HTML.
+- Forms are "just" Python constructs.
+- Forms validate dictionaries (Python's Key/Value structure).
 
 Let's dig in!
 
-Forms render HTML.
-==================
+# Forms render HTML.
 
 If I construct a Django form:
 
-``` python
+```python
 # myapp/forms.py
 from django import forms
 
@@ -38,7 +39,7 @@ class MyForm(forms.Form):
 I can render it in a template, or for better clarity in this post, the
 Python REPL:
 
-``` python
+```python
 >>> from myapp.forms import MyForm
 >>> f = MyForm()
 >>> f
@@ -51,14 +52,13 @@ Python REPL:
 You can even see this done with initial values in the Django docs:
 <https://docs.djangoproject.com/en/1.5/ref/forms/api/#django.forms.Form.initial>
 
-Forms are "just" Python constructs.
-=====================================
+# Forms are "just" Python constructs.
 
 I believe it was [Alex](https://twitter.com/alex_gaynor)
 [Gaynor](https://alexgaynor.net/) who said back in 2008 that Django forms
 were "just" Python constructs. He's right:
 
-``` python
+```python
 >>> from myapp.forms import MyForm
 >>> # class
 >>> MyForm
@@ -85,7 +85,7 @@ We don't have to stop in just the `forms.py` module. You can also
 modify forms in views (either the classic `views.py` module or in
 whatever API library you might be using):
 
-``` python
+```python
 from django import forms
 from django.shortcuts import redirect
 from django.views.generic import FormView
@@ -121,8 +121,7 @@ should carefully tread. It's always good to remember that simplicity is
 best and that the goal isn't to just write code, but to write
 maintainable code.
 
-Forms validate dictionaries.
-============================
+# Forms validate dictionaries.
 
 One of the primary functions of any HTTP-friendly form libraries is
 validating dictionary-like data objects. HTTP query strings are
@@ -135,7 +134,7 @@ During it's request/response cycle Django converts `HTTP POST` (and
 merely an extended Django dictionary. See the comments in the code
 example below for proof:
 
-``` python
+```python
 import logging
 
 from django.http import HttpResponse
@@ -153,7 +152,7 @@ def my_form_view(request):
     logging.debug(
         # logs True because QueryDict is a dictionary
         issubclass(QueryDict, dict)
-    )      
+    )
 
     return HttpResponse()
 ```
@@ -162,7 +161,7 @@ This is all fine and good, but what does it mean for developers trying
 to solve problems? Well, it means that Django forms serve quite handily
 as a means for validation of dictionaries:
 
-``` python
+```python
 >>> from myapp.forms import MyForm
 >>> good_form = MyForm({"title": "Two Scoops of Django"})
 >>> good_form.is_valid()
@@ -180,15 +179,14 @@ The power of this can't be understated. In fact, I'll be exploring
 this particular facet of Django forms more in at least one upcoming blog
 post.
 
-Epilogue
-========
+# Epilogue
 
 ModelForms adds at least three more bullets...
 
--   ModelForms render Model fields as HTML
--   ModelForms automatically choose validators based off of Model field
-    definitions.
--   ModelForms save dictionaries to SQL tables.
+- ModelForms render Model fields as HTML
+- ModelForms automatically choose validators based off of Model field
+  definitions.
+- ModelForms save dictionaries to SQL tables.
 
 ... and I touch on them in [my post on
 ModelForms](/core-concepts-django-modelforms.html).
