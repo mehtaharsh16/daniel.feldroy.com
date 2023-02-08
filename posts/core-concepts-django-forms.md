@@ -10,8 +10,8 @@ tags:
 - class-based-views
 time_to_read: 3
 title: Core Concepts of Django Forms
-description: Tthe concepts behind Django's non-model forms can be
-listed in just three items.
+description: "The concepts behind Django's non-model forms can be
+listed in just three items."
 ---
 
 In my opinion, the concepts behind Django's non-model forms can be
