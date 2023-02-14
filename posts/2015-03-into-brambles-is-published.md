@@ -1,13 +1,13 @@
 ---
-date: '2015-03-28T13:15:00.000-07:00'
-description: ''
+date: "2015-03-28T13:15:00.000-07:00"
+description: "Wherin I discuss my first fiction book."
 published: true
 slug: 2015-03-into-brambles-is-published
 tags:
-- The Brambles
-- writings
-- Wife
-- legacy-danielroygreenfeld
+  - The Brambles
+  - writings
+  - Wife
+  - legacy-danielroygreenfeld
 time_to_read: 5
 title: Into the Brambles is Published!
 ---
@@ -18,9 +18,9 @@ As of today, it's available [in Kindle format on Amazon](https://mybook.to/itb).
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://mybook.to/itb" style="margin-left: auto; margin-right: auto;"><img border="0" height="640" src="https://2.bp.blogspot.com/-NjCON1KCzzQ/VRbF3SZiCBI/AAAAAAAAEyk/yjNWHae1FmM/s1600/itb-521x833.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">The cover of <i>Into the Brambles!</i></td></tr></tbody></table>
 
-<i>The world was ancient, scarred from a thousand wars between gods, immortals, and heroes. Old grudges have faded but are not forgotten. 
+<i>The world was ancient, scarred from a thousand wars between gods, immortals, and heroes. Old grudges have faded but are not forgotten.
 
-At the end of a so-called ‘age of peace’, two great nations of immortals march against each other, with humanity caught in the middle. In this world of conflict, three very different individuals are thrust into the face of danger. 
+At the end of a so-called ‘age of peace’, two great nations of immortals march against each other, with humanity caught in the middle. In this world of conflict, three very different individuals are thrust into the face of danger.
 
 Here a young man is marched off to war, a noble woman takes charge of her own destiny, and in the depths of the Haunted Lands a dark king is born. Their fates will shake the foundations of the universe.</i>
 
@@ -36,13 +36,12 @@ If you would like to buy my book, you can do so on [Amazon](https://mybook.to/it
 
 ---
 
-## 2 comments captured from [original post](https://www.danielroygreenfeld.com/2015/03/into-brambles-is-published.html) on Blogger
+## 2 comments captured from [original post](https://daniel.feldroy.com/posts/2015-03-into-brambles-is-published) on Blogger
 
 **Annanda Sousa said on 2015-03-29**
 
-I already bought my copy .  Eager to start reading. :)
+I already bought my copy . Eager to start reading. :)
 
 **pydanny said on 2015-03-29**
 
 Annanda, so good to hear from you again. I'm nervously awaiting your opinion about my book. :P
-
