@@ -73,7 +73,14 @@ git checkout main
 git pull
 git checkout my-updated-branch
 git rebase main my-updated-branch
+git push --force
 ```
+
+# Updating an older commit
+
+You've done some coding on your branch and now you want to update an older commit. [This article](https://tech.serhatteker.com/post/2020-09/changing-old-git-commit-messages/) covers the process.
+
+The only change I make is to NOT specify the branch in the ` git push --force`.
 
 # Delete all local merged branches
 
